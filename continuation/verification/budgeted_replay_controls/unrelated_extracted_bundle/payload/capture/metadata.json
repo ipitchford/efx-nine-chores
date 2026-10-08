@@ -1,0 +1,8 @@
+{
+  "variables": [
+    "x"
+  ],
+  "true_atom": 1,
+  "assertions": 2,
+  "input_sha256": "3a077b246c1313abad44dc9a472aecd158a2ef1c84ad5a9fb09c1b8928ef0f2b"
+}

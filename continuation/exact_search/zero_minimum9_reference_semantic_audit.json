@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "created_at_utc": "2026-10-07T21:48:57.294677+00:00",
+  "m": 9,
+  "input": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/zero_minimum9_reference_strict.smt2",
+  "input_sha256": "65b0e3d6b2f234a6391db058771b8597a7bdd6feb003813ddc88630843ceab5b",
+  "matrices": 10,
+  "canonical_strict_matrices": 9,
+  "surjective_allocation_comparisons": 181500,
+  "empty_bundle_allocations_checked": 15330,
+  "complete_matrix_allocation_pairs": 196830,
+  "mismatches": 0,
+  "maximum_checked_int64_product_bound": 1497195,
+  "reference_scaling": "exact common-denominator integer arithmetic",
+  "literal_checker": "/workspace/scratch/5abf44ff3fd9/economics_problem2/src/efx_exact.py",
+  "literal_checker_sha256": "bda6f30b04551e8c9d68b95b6149b48e0c40a666c83f450c142f2aac2cbf0c31",
+  "efx_counts": [
+    {
+      "label": "tied_positive_off_minimum_control",
+      "literal_efx_count": 1680,
+      "strict_domain_checked": false
+    },
+    {
+      "label": "canonical_generic_0",
+      "literal_efx_count": 250,
+      "strict_domain_checked": true
+    },
+    {
+      "label": "canonical_generic_1",
+      "literal_efx_count": 344,
+      "strict_domain_checked": true
+    },
+    {
+      "label": "canonical_generic_2",
+      "literal_efx_count": 303,
+      "strict_domain_checked": true
+    },
+    {
+      "label": "canonical_generic_3",
+      "literal_efx_count": 303,
+      "strict_domain_checked": true
+    },
+    {
+      "label": "canonical_generic_4",
+      "literal_efx_count": 260,
+      "strict_domain_checked": true
+    },
+    {
+      "label": "canonical_generic_5",
+      "literal_efx_count": 253,
+      "strict_domain_checked": true
+    },
+    {
+      "label": "canonical_generic_6",
+      "literal_efx_count": 264,
+      "strict_domain_checked": true
+    },
+    {
+      "label": "canonical_generic_7",
+      "literal_efx_count": 378,
+      "strict_domain_checked": true
+    },
+    {
+      "label": "canonical_generic_8",
+      "literal_efx_count": 202,
+      "strict_domain_checked": true
+    }
+  ],
+  "elapsed_seconds": 4.322461140000087,
+  "scope": "Finite encoder audit, not a universal proof or a solver verdict."
+}

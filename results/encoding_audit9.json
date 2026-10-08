@@ -1,0 +1,29 @@
+{
+  "m": 9,
+  "matrices": 16,
+  "allocations_per_matrix": 18150,
+  "matrix_allocation_pairs": 290400,
+  "disagreements": 0,
+  "efx_counts_surjective": [
+    18150,
+    1680,
+    338,
+    309,
+    406,
+    230,
+    351,
+    319,
+    287,
+    252,
+    324,
+    340,
+    417,
+    269,
+    242,
+    339
+  ],
+  "zero_trim_mutation_detected": true,
+  "uniform_expected": 1680,
+  "elapsed_s": 5.365472319000219,
+  "scope": "finite semantic checks; not a formal encoder proof or universal existence proof"
+}

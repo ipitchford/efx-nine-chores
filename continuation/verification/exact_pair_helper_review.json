@@ -1,0 +1,39 @@
+{
+  "status": "PASS_EXACT_MAPPING_INTERFACE_AND_INPUT_CONTROLS_NO_CENSUS_REPLAY",
+  "time_utc": "2026-10-07T21:35:50.784572+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "elapsed_seconds": 0.003460582000116119,
+  "peak_rss_kib": 10496,
+  "source_sha256": "7be739c63dd577805569fa03e41633c21f67e5c67d6ca5bdfdb2eb068c566413",
+  "checker_sha256": "288607fc42e9027e53d36b2634df9e7e8cbd9270b18efabb18628b3ad1eda1e2",
+  "basis_identities_checked": 9,
+  "gap_to_domain_indices": [
+    0,
+    1,
+    9,
+    8,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "in_memory_certificate_fixture": {
+    "file": "continuation/verification/row_regions_frozen_20261007/regions/compressed_00000.json",
+    "sha256": "96fcd3a2d5f391b5b748eeb13431b58c173dd2100dbe2e01e592e266ed8dfddf",
+    "status": "PASS",
+    "core_allocations": 2,
+    "exhaustive_failure_branches": 4,
+    "other_region_inequalities": 26,
+    "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+  },
+  "invalid_inputs_rejected": [
+    "floating_entry",
+    "missing_row",
+    "zero_entry"
+  ],
+  "generic_sign_argument": "For integral rows and q in {-1,0,1}^9, |q.d| <= 3280 < 3281 preserves every nonzero old sign. Balanced ternary uniqueness removes zero signs with an unpinned coefficient; positivity handles vectors supported only at the pinned coordinate.",
+  "branch_argument": "Componentwise impossible atoms are handled separately. Otherwise normalize the second atom weight to one and intersect the exact lower/upper constraints for a nonnegative first weight; the resulting combination is nonpositive in every positive gap.",
+  "previous_sample_receipt_sha256": "264cfa69d4c561ea11b11d7555469493b3c484cabeea5b1f5b999b77e8d24aa3",
+  "scope": "Full helper source and mathematical arguments reviewed. Nine basis identities, one direct in-memory certificate, one generic transform and three input guards were checked. The recorded 500-pair/census sampling was not repeated, and exhaustive census certification is not claimed."
+}

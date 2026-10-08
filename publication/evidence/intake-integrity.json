@@ -1,0 +1,12 @@
+{
+  "status": "PASS_ALL_ARCHIVE_PAYLOAD_HASHES_AND_CRCS",
+  "archive": "/Users/admin/Library/Mobile Documents/com~apple~CloudDocs/0temp/economics-problem-2-reproducibility.zip",
+  "archive_bytes": 76054806,
+  "archive_sha256": "bb2a81c70b23296e164c3948411cfa56d91e7948469bc678ac46dab3fbd4d61f",
+  "payload_files_checked": 3391,
+  "archive_entries_checked": 3393,
+  "uncompressed_payload_bytes": 522901511,
+  "complete_nine_proof_index_bound": true,
+  "crc_verified_for_every_entry": true,
+  "completed_at_utc": "2026-10-08T08:30:24.448726+00:00"
+}

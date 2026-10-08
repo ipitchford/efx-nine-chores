@@ -1,0 +1,13 @@
+{
+  "out": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/prefix_regions_bounded1",
+  "deadline": 600.0,
+  "check_timeout": 60,
+  "oracle_timeout": 30,
+  "arith": 2,
+  "max_steps": 5000,
+  "memory_mib": 1800,
+  "resume": true,
+  "fixed_minima": true,
+  "restricted_ninth": true,
+  "bounded_representative": true
+}

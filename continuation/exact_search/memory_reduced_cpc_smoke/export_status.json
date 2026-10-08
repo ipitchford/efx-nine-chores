@@ -1,0 +1,1 @@
+{"phase": "serializing_full_proof", "format": "cpc", "input_sha256": "3a077b246c1313abad44dc9a472aecd158a2ef1c84ad5a9fb09c1b8928ef0f2b", "memory_limitation": "proofToString materializes one complete Python string; output encoding is chunked."}

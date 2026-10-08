@@ -1,0 +1,19 @@
+{
+  "status": "child_completed",
+  "returncode": 0,
+  "utc": "2026-10-08T00:01:21.502921+00:00",
+  "elapsed": 216.78838739999992,
+  "inputs_unchanged": true,
+  "generation_status": "COMPLETE_EXACT_MULTIPLIER_CANDIDATES",
+  "exact_candidates": 78994,
+  "methods": {
+    "direct_pair": 914,
+    "rationalized_lp": 78080
+  },
+  "certificate_readback": {
+    "records": 78994,
+    "sha256": "36e1fdee1247fa8f8543ee5b58817dc013af3414a5ed4c4045504b1e97be5431",
+    "matches_manifest": true
+  },
+  "scope": "Multiplier producer completion only. The independent arithmetic and RUP checks establish acceptance."
+}

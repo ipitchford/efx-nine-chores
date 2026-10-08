@@ -1,0 +1,23 @@
+{
+  "updated_at_utc": "2026-10-08T00:31:40.611997+00:00",
+  "main_target": "Complete zero-inclusive EFX for arbitrary nonnegative additive three-agent nine-chore costs.",
+  "main_target_status": "PROVED_BY_WRITTEN_REDUCTION_AND_INDEPENDENT_EXACT_COMPUTATIONAL_CERTIFICATE",
+  "main_certificate": "continuation/verification/zero9_complete_lra_certificate.json",
+  "main_release_binding": "continuation/verification/nine_release_index.json",
+  "main_input_sha256": "65b0e3d6b2f234a6391db058771b8597a7bdd6feb003813ddc88630843ceab5b",
+  "eight_baseline_certificate": "continuation/verification/zero8_complete_lra_certificate.json",
+  "baseline": "Ordinary eight-chore existence; alternative checked seven/eight chain over the cited KMS six-chore theorem.",
+  "no_prescribed_agent_strengthening_required": true,
+  "all_19683_allocations_covered": true,
+  "all_nonnegative_real_costs_covered": true,
+  "proof_assistant_formalization": false,
+  "external_publication_performed": false,
+  "strongest_separate_integer_representative_bounds": {
+    "one_zero_per_row": 2566,
+    "positive_common_minimum_one": 5132
+  },
+  "finite_integer_grid_used_by_main_refutation": false,
+  "historical_regional_searches_used_as_main_premises": false,
+  "constructive_finder": "src/solve_efx9.py",
+  "historical_attempts": "docs/CONTINUATION_STATUS.json"
+}

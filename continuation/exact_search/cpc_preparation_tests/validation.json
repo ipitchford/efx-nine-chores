@@ -1,0 +1,9 @@
+{
+  "status": "PASS_SYNTHETIC_IO_AND_FAILURE_INJECTION",
+  "real_solver_invoked": false,
+  "chunked_output_bytes": 2097205,
+  "bad_wrapper_rejected": true,
+  "verdict_survived_injected_getProof_memory_error": true,
+  "input_hash_bound": true,
+  "runner_sha256": "8966edc2521b9f2f5ab64776e5cdaf07eb52682770e03e3258c38b40ed9afa12"
+}

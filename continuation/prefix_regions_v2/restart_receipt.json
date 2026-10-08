@@ -1,0 +1,6 @@
+{
+  "status": "interrupted_after_checkpoint",
+  "exit_code": 130,
+  "reason": "fix row minima and use proven restricted ninth-column domain",
+  "completed_regions": 300
+}

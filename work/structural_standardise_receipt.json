@@ -1,0 +1,32 @@
+[
+  {
+    "original": "economics_problem2/work/structural_designated_m6.smt2",
+    "original_sha256": "6ea1feef52f79b4f2daa3a0ffa56090d71e3d5e7b361197b7f98b51fffd57071",
+    "portable": "economics_problem2/work/structural_designated_m6.standard.smt2",
+    "portable_sha256": "bf24e50713175ad01e2d15d51fe78121e5df0412cb7c5c6f445e56337350c4b2",
+    "unary_additions_eliminated": 1704,
+    "assertions_verified": 755,
+    "verification": "Every corresponding assertion has identical Z3-simplified AST; only unary addition identity and set-logic declaration change",
+    "result": "PASS"
+  },
+  {
+    "original": "economics_problem2/work/structural_designated_reduced_m7_seed0.smt2",
+    "original_sha256": "bb5916ce9cce57f540cb3e886fdb4935d0c2a8442a39549d240aa971472a4fd6",
+    "portable": "economics_problem2/work/structural_designated_reduced_m7_seed0.standard.smt2",
+    "portable_sha256": "662a176b1db574f79025586c78a1a3a835b445a85662aa365d6411b0763cda3d",
+    "unary_additions_eliminated": 3906,
+    "assertions_verified": 1847,
+    "verification": "Every corresponding assertion has identical Z3-simplified AST; only unary addition identity and set-logic declaration change",
+    "result": "PASS"
+  },
+  {
+    "original": "economics_problem2/work/structural_designated_reduced_m8_seed0.smt2",
+    "original_sha256": "06ef061e2419eef202a95c2728a318734b0b71db003b94ba842e5a5fa1e99c29",
+    "portable": "economics_problem2/work/structural_designated_reduced_m8_seed0.standard.smt2",
+    "portable_sha256": "c3fab8ad858b7b67a6699be9ddf1442b79b12a11d46ce547f9afd88893477875",
+    "unary_additions_eliminated": 9072,
+    "assertions_verified": 5843,
+    "verification": "Every corresponding assertion has identical Z3-simplified AST; only unary addition identity and set-logic declaration change",
+    "result": "PASS"
+  }
+]

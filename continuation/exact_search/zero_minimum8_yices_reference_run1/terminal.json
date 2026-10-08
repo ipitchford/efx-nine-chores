@@ -1,0 +1,13 @@
+{
+  "status": "child_completed",
+  "returncode": 0,
+  "solver_verdict": "unknown",
+  "elapsed": 45.13561501799995,
+  "utc": "2026-10-07T22:25:39.555218+00:00",
+  "input_sha256": "20d56e8ecd4bfad40ad5c7786c7865442c9961569dabb9e1a8dfe415b584c08f",
+  "input_unchanged": true,
+  "submitted_sha256": "20d56e8ecd4bfad40ad5c7786c7865442c9961569dabb9e1a8dfe415b584c08f",
+  "stdout_sha256": "e9461e7af97379d42f28092d9d44c57a1f9f4ac2c367f3257a2c58db93eb7065",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "scope": "Independent solver corroboration only; no proof certificate was produced."
+}

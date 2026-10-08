@@ -1,0 +1,28 @@
+{
+  "status": "prepared_no_solver_call",
+  "created_at_utc": "2026-10-07T21:48:52.913175+00:00",
+  "m": 9,
+  "input": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/zero_minimum9_reference_strict.smt2",
+  "input_sha256": "65b0e3d6b2f234a6391db058771b8597a7bdd6feb003813ddc88630843ceab5b",
+  "input_bytes": 11182371,
+  "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/results/root9_pruned.smt2",
+  "source_sha256": "9f8f4cb07528ce39e6eff07420cfde8069d2cf40899a7f088c87f1a4195a8776",
+  "fixed_minima": 0,
+  "fixed_reference_cost": 1,
+  "reference_columns": [
+    1,
+    0,
+    0
+  ],
+  "free_real_variables": 21,
+  "assertions": 18177,
+  "domain_assertions": 27,
+  "allocation_clauses": 18150,
+  "source_domain_exactly_verified": true,
+  "all_allocation_clauses_exactly_substituted": true,
+  "serialized_roundtrip_all_assertions": "PASS",
+  "row_total_constraints": false,
+  "zero_cost_owned_chore_deletions_included": true,
+  "reduction_note": "zero_minimum_reduction.md",
+  "elapsed_seconds": 13.114434559000074
+}

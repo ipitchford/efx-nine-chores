@@ -1,0 +1,24 @@
+{
+  "status": "UNTRUSTED_PRODUCER_OUTPUT_AWAITING_INDEPENDENT_CHECK",
+  "created_at_utc": "2026-10-07T22:48:28.727754+00:00",
+  "input_sha256": "20d56e8ecd4bfad40ad5c7786c7865442c9961569dabb9e1a8dfe415b584c08f",
+  "capture_files": {
+    "input_clauses.jsonl": "68c791fbde70c64b7f8d123c35ec42dcec9ea594d751cbc877af4c57dbb09e1f",
+    "theory_clauses.jsonl": "2a5318bdf0d59ff9061ad3ccefc7cb70b18a58e2648d80b3f5331579064f673d",
+    "receipt.json": "032a6334b4f9c834f63aa6f88fd3f9cbf3d8d7e64ee5fa5fd870bc2f544c6867",
+    "atoms.jsonl": "f5057a3dc1864b0e4a8edfe24f4fd36758c86052165ac687d7f0c711c1a44813",
+    "metadata.json": "17cf2521cbc5a0e6c6032507690b81bdb4caabecedec948ede7c75949bd0bbf1",
+    "rup_clauses.jsonl": "9341c377b80c78f3fe7644f8e65635989156f62e81a4aedee08cbd2071b705be"
+  },
+  "producer_cpp_sha256": "59428a09db63de097195fd1dd0d9e9fac3f29594a57ab0b7013d9ca41103c1d2",
+  "producer_binary_sha256": "cca04e116603431347558d12fbbf3f0179341e9c1868fc3f43ba94a7a56d2fdf",
+  "configuration_sha256": "a6e20427addcd6c7c0b0ead80f0818a27db6e8ccaa15926b972c7e94d6934ba3",
+  "supervisor_terminal_sha256": "3e66c7072d276a047943314651529216f47ae91374d52c81b2a5befc8c8733c0",
+  "outputs": {
+    "selected_input_indices.json": "9917e1d75696ac753f6cef0bd619c0d86020772b25b06a87bb4fd0a43cb11728",
+    "producer_result.json": "59f985cdd8352117eb70fb4188d84b8b6e0bfb87b933c6e5110d8ffd5ee4d660",
+    "trimmed_trace.jsonl": "1a15a1764549d398d0938420e095cb04c80746b03864c85fce2b0085e9d29eac",
+    "selected_theory_indices.json": "32b17e58a35dd4a7f17119ccca9f0634991ad18b37d3b4807daa71f5e5287844"
+  },
+  "independent_certificate_complete": false
+}

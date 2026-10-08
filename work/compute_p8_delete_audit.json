@@ -1,0 +1,275 @@
+{
+  "records": [
+    {
+      "source": "economics_problem2/work/compute_rank_0_1/last_model.json",
+      "deleted_chore": 0,
+      "EFX_allocations": 14,
+      "designated_EF_counts": [
+        7,
+        8,
+        12
+      ]
+    },
+    {
+      "source": "economics_problem2/work/compute_rank_0_1/last_model.json",
+      "deleted_chore": 1,
+      "EFX_allocations": 14,
+      "designated_EF_counts": [
+        7,
+        7,
+        10
+      ]
+    },
+    {
+      "source": "economics_problem2/work/compute_rank_0_1/last_model.json",
+      "deleted_chore": 2,
+      "EFX_allocations": 11,
+      "designated_EF_counts": [
+        9,
+        7,
+        8
+      ]
+    },
+    {
+      "source": "economics_problem2/work/compute_rank_0_1/last_model.json",
+      "deleted_chore": 3,
+      "EFX_allocations": 12,
+      "designated_EF_counts": [
+        7,
+        8,
+        7
+      ]
+    },
+    {
+      "source": "economics_problem2/work/compute_rank_0_1/last_model.json",
+      "deleted_chore": 4,
+      "EFX_allocations": 16,
+      "designated_EF_counts": [
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "source": "economics_problem2/work/compute_rank_0_1/last_model.json",
+      "deleted_chore": 5,
+      "EFX_allocations": 16,
+      "designated_EF_counts": [
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "source": "economics_problem2/work/compute_rank_0_1/last_model.json",
+      "deleted_chore": 6,
+      "EFX_allocations": 23,
+      "designated_EF_counts": [
+        12,
+        12,
+        13
+      ]
+    },
+    {
+      "source": "economics_problem2/work/compute_rank_0_1/last_model.json",
+      "deleted_chore": 7,
+      "EFX_allocations": 27,
+      "designated_EF_counts": [
+        16,
+        19,
+        18
+      ]
+    },
+    {
+      "source": "economics_problem2/work/compute_rank_0_1/last_model.json",
+      "deleted_chore": 8,
+      "EFX_allocations": 34,
+      "designated_EF_counts": [
+        19,
+        27,
+        22
+      ]
+    },
+    {
+      "source": "economics_problem2/work/compute_cegis_a/last_model.json",
+      "deleted_chore": 0,
+      "EFX_allocations": 26,
+      "designated_EF_counts": [
+        20,
+        19,
+        17
+      ]
+    },
+    {
+      "source": "economics_problem2/work/compute_cegis_a/last_model.json",
+      "deleted_chore": 1,
+      "EFX_allocations": 26,
+      "designated_EF_counts": [
+        21,
+        19,
+        18
+      ]
+    },
+    {
+      "source": "economics_problem2/work/compute_cegis_a/last_model.json",
+      "deleted_chore": 2,
+      "EFX_allocations": 19,
+      "designated_EF_counts": [
+        17,
+        10,
+        8
+      ]
+    },
+    {
+      "source": "economics_problem2/work/compute_cegis_a/last_model.json",
+      "deleted_chore": 3,
+      "EFX_allocations": 22,
+      "designated_EF_counts": [
+        16,
+        18,
+        14
+      ]
+    },
+    {
+      "source": "economics_problem2/work/compute_cegis_a/last_model.json",
+      "deleted_chore": 4,
+      "EFX_allocations": 46,
+      "designated_EF_counts": [
+        44,
+        36,
+        36
+      ]
+    },
+    {
+      "source": "economics_problem2/work/compute_cegis_a/last_model.json",
+      "deleted_chore": 5,
+      "EFX_allocations": 12,
+      "designated_EF_counts": [
+        9,
+        9,
+        2
+      ]
+    },
+    {
+      "source": "economics_problem2/work/compute_cegis_a/last_model.json",
+      "deleted_chore": 6,
+      "EFX_allocations": 51,
+      "designated_EF_counts": [
+        40,
+        39,
+        18
+      ]
+    },
+    {
+      "source": "economics_problem2/work/compute_cegis_a/last_model.json",
+      "deleted_chore": 7,
+      "EFX_allocations": 31,
+      "designated_EF_counts": [
+        21,
+        24,
+        14
+      ]
+    },
+    {
+      "source": "economics_problem2/work/compute_cegis_a/last_model.json",
+      "deleted_chore": 8,
+      "EFX_allocations": 36,
+      "designated_EF_counts": [
+        25,
+        33,
+        10
+      ]
+    },
+    {
+      "source": "economics_problem2/work/compute_cegis_unit/last_model.json",
+      "deleted_chore": 0,
+      "EFX_allocations": 22,
+      "designated_EF_counts": [
+        13,
+        20,
+        17
+      ]
+    },
+    {
+      "source": "economics_problem2/work/compute_cegis_unit/last_model.json",
+      "deleted_chore": 1,
+      "EFX_allocations": 14,
+      "designated_EF_counts": [
+        14,
+        7,
+        10
+      ]
+    },
+    {
+      "source": "economics_problem2/work/compute_cegis_unit/last_model.json",
+      "deleted_chore": 2,
+      "EFX_allocations": 10,
+      "designated_EF_counts": [
+        10,
+        4,
+        6
+      ]
+    },
+    {
+      "source": "economics_problem2/work/compute_cegis_unit/last_model.json",
+      "deleted_chore": 3,
+      "EFX_allocations": 17,
+      "designated_EF_counts": [
+        17,
+        8,
+        12
+      ]
+    },
+    {
+      "source": "economics_problem2/work/compute_cegis_unit/last_model.json",
+      "deleted_chore": 4,
+      "EFX_allocations": 60,
+      "designated_EF_counts": [
+        60,
+        44,
+        44
+      ]
+    },
+    {
+      "source": "economics_problem2/work/compute_cegis_unit/last_model.json",
+      "deleted_chore": 5,
+      "EFX_allocations": 57,
+      "designated_EF_counts": [
+        55,
+        36,
+        40
+      ]
+    },
+    {
+      "source": "economics_problem2/work/compute_cegis_unit/last_model.json",
+      "deleted_chore": 6,
+      "EFX_allocations": 49,
+      "designated_EF_counts": [
+        47,
+        31,
+        35
+      ]
+    },
+    {
+      "source": "economics_problem2/work/compute_cegis_unit/last_model.json",
+      "deleted_chore": 7,
+      "EFX_allocations": 36,
+      "designated_EF_counts": [
+        32,
+        16,
+        30
+      ]
+    },
+    {
+      "source": "economics_problem2/work/compute_cegis_unit/last_model.json",
+      "deleted_chore": 8,
+      "EFX_allocations": 29,
+      "designated_EF_counts": [
+        29,
+        18,
+        22
+      ]
+    }
+  ],
+  "failures": []
+}

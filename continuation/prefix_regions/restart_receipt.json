@@ -1,0 +1,6 @@
+{
+  "status": "interrupted_after_checkpoint",
+  "exit_code": 130,
+  "reason": "upgrade exact region compression and independent certificate replay",
+  "completed_regions": 166
+}

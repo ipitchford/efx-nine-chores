@@ -1,0 +1,12 @@
+{
+  "status": "AUTHORIZED_EARLY_STOP_FOR_SOURCE_CACHE_SUCCESSOR_NOT_TIMEOUT_OR_VERDICT",
+  "utc": "2026-10-07T23:50:21.529676+00:00",
+  "tool_session": 79598,
+  "tool_exit_code": 130,
+  "sealed_checkpoint": "zero9_v6_sealed_after_switch1/candidate_justifications.jsonl",
+  "sealed_records": 49312,
+  "sealed_sha256": "27cca7b43b9f5312fb4c9f388759569332e13cbcc7a8a49f91ebca4d11b28733",
+  "extends_pre_stop_snapshot": true,
+  "refutation_obtained": false,
+  "reason": "Source-only closure cache calibrated and independently checked; resume all sealed v6 candidates under v7."
+}

@@ -1,0 +1,9 @@
+{
+  "status": "interrupted_without_solver_verdict",
+  "observed_utc": "2026-10-07T21:25:51.378965+00:00",
+  "observation": "write_stdin rejected previously live session52480 as Unknown process id; no result.json exists",
+  "last_completed_step": 1700,
+  "completed_region_files": 1701,
+  "prior_startup_record": "run_20261007T204846Z.json",
+  "no_timeout_or_unsat_inferred": true
+}

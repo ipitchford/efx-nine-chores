@@ -1,0 +1,9 @@
+{
+  "status": "initial_preparation_check_repaired",
+  "recorded_at_utc": "2026-10-07T21:08:55.841052+00:00",
+  "issue": "Direct AST identity differs between a rational literal built as RealVal and the SMT parser representation of the same literal as a constant division.",
+  "first_example_expected_and_actual_smt": "(<= (/ 1.0 2401.0) (- 1.0 0.0))",
+  "exact_simplified_ast_comparison": "PASS on the diagnostic mismatch",
+  "repair": "Use exact simplification for the serialization identity check, and explicitly parse division by a nonzero rational constant in the independent affine scaling audit.",
+  "solver_call_performed": false
+}

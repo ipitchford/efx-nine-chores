@@ -1,0 +1,26 @@
+{
+  "solver": "cvc5-1.4.1",
+  "input": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/cpc_preparation_tests/synthetic_input.smt2",
+  "input_sha256": "c30cf2183af22e2b31989887f728a42f1a7b182b4074207ed3c432dc9e5fdfbf",
+  "logic": "QF_LRA",
+  "logic_declaration_injected": false,
+  "address_space_limit_mib": null,
+  "options": {
+    "produce-proofs": "true",
+    "check-proofs": "true",
+    "proof-granularity": "dsl-rewrite",
+    "tlimit-per": "1000"
+  },
+  "command_counts": {},
+  "assertions": 0,
+  "parsed_assertions_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+  "result": "unsat",
+  "reason_unknown": null,
+  "parse_s": 0.000149,
+  "check_s": 1e-06,
+  "proofs_checked_internally": true,
+  "independent_proof_check": "pending",
+  "proofs": [],
+  "phase": "solver_verdict",
+  "proof_export": "not_started"
+}

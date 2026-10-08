@@ -1,0 +1,16 @@
+{
+  "status": "REJECTED_INCOMPLETE_FARKAS_COVERAGE_AND_PRODUCER_HASH_MISMATCH",
+  "certificate": "continuation/exact_search/zero8_selected_farkas_run1/artifacts/arithmetic_certificates.jsonl",
+  "actual_certificate_sha256": "ff7bfefedf53565b95c517920ffdd066b3e893a397d97c21bcb866dc766024e9",
+  "producer_claimed_certificate_sha256": "20a3c7601083ae38b83baf8c203aa1c45aabec2b2b33a10f7638557e1ad86812",
+  "preparation_sha256": "e64f4ef6c665a308b37bd737cda0e049ca2870fc683b1c9d8ea89ad96dfdd9a6",
+  "selected_indices_sha256": "32b17e58a35dd4a7f17119ccca9f0634991ad18b37d3b4807daa71f5e5287844",
+  "actual_certificates": 27400,
+  "required_certificates": 27637,
+  "missing_certificates": 237,
+  "missing_indices_file": "continuation/verification/zero8_missing_farkas_indices.json",
+  "all_present_arithmetic_identities_passed_before_final_coverage_rejection": true,
+  "complete_certificate_accepted": false,
+  "original_files_modified": false,
+  "completed_at_utc": "2026-10-07T22:50:20.752755+00:00"
+}

@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite the exact candidate version and retain its assurance qualifications."
+title: "Nine chores for three agents: complete EFX existence with an exact computational certificate"
+authors:
+  - name: Anonymous
+version: 1.1.0-candidate
+date-released: 2026-10-08
+doi: 10.5281/zenodo.23234194
+license: CC0-1.0
+repository-code: https://github.com/ipitchford/efx-nine-chores

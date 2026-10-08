@@ -1,0 +1,13 @@
+{
+  "version": "1.1.0-candidate",
+  "claims": [
+    {
+      "id": "efx-nine-chores-existence",
+      "statement": "Every instance of three agents and exactly nine indivisible chores with nonnegative additive real costs admits a complete EFX allocation, including deletion of zero-cost owned chores.",
+      "location": "paper/manuscript.pdf, Theorem 1",
+      "evidence": ["written reductions", "exact rational arithmetic certificates", "Boolean RUP refutation"],
+      "assurance": "Internal replay with semantic audit; unrefereed candidate, not formally verified or externally reproduced.",
+      "exclusions": ["arbitrary chore count", "empirical preferences", "strategyproofness", "efficient general allocation algorithm"]
+    }
+  ]
+}

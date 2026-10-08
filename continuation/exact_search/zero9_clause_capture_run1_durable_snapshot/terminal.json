@@ -1,0 +1,59 @@
+{
+  "status": "RAW_TERMINAL_SNAPSHOT_RECORDED_INDEPENDENT_CHECK_REQUIRED",
+  "completed_at_utc": "2026-10-07T22:55:49.900644+00:00",
+  "iterations": 46,
+  "capture_snapshot": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/zero9_clause_capture_run1_durable_snapshot/capture",
+  "observations": {
+    "assumptions.jsonl": {
+      "bytes": 1942162,
+      "sha256": "d5e2b8565c02cec9c906d6eab0220103369a320a4879f0d73ff01a38f7d052e4",
+      "lines": 17785
+    },
+    "atoms.jsonl": {
+      "bytes": 1408282,
+      "sha256": "07363e1475cf95ef9e66060e9030b0541f95150dab0aada68aea11236b7a5592",
+      "lines": 18066
+    },
+    "input_clauses.jsonl": {
+      "bytes": 1890621,
+      "sha256": "435f7af9909281ca31fa3d5a646e4caa5bb53fb36bc993895d6f5b6f20317c66",
+      "lines": 18178
+    },
+    "metadata.json": {
+      "bytes": 424,
+      "sha256": "ebe323468831b34d5fbc30e110bf3d8124d98c97eb0f21ccfbd586c12dc9e97b",
+      "lines": 28
+    },
+    "receipt.json": {
+      "bytes": 1737,
+      "sha256": "53cb13091ced3b9799c7a88a67f457e373697340150e254f3bef98a8fa2b3ff8",
+      "lines": 51
+    },
+    "rup_clauses.jsonl": {
+      "bytes": 136642201,
+      "sha256": "e0629aea22cf72414681e99a2e71057c197715ea6b05ecb33ee4784b7be27aa6",
+      "lines": 2480762
+    },
+    "theory_clauses.jsonl": {
+      "bytes": 138842335,
+      "sha256": "76ed7b45fe3cebe508563b9719dad6dd4893f61a5313b32dd2d4a0784dff38be",
+      "lines": 3234215
+    }
+  },
+  "recorded_hashes_match": {
+    "input_clauses.jsonl": true,
+    "theory_clauses.jsonl": true,
+    "atoms.jsonl": true,
+    "assumptions.jsonl": true,
+    "rup_clauses.jsonl": true
+  },
+  "count_matches": {
+    "atoms": true,
+    "original_input_records": true,
+    "theory_records": true
+  },
+  "all_observed_counts_and_recorded_hashes_match": true,
+  "original_files_content_modified": false,
+  "independent_completeness_checked": false,
+  "note": "Raw observations only; solver verdict and producer counters are not proof premises."
+}

@@ -1,0 +1,19 @@
+{
+  "status": "restart_prepared",
+  "created_utc": "2026-10-07T21:08:06.913360+00:00",
+  "reason": "Exact generic sampled models and on-demand independently certified robust pairs",
+  "source_runs": [
+    "row_elimination_seeded",
+    "row_elimination_compressed",
+    "row_elimination_resumed1",
+    "row_elimination_resumed2"
+  ],
+  "expected_source_regions": 889,
+  "robust_single_seeds": 3238,
+  "static_pair_seeds": 1048,
+  "on_demand_pair_candidates": 2113668,
+  "generic_scale": 3281,
+  "memory_mib": 1450,
+  "seconds": 1200,
+  "monitoring": "Atomically updated heartbeat.json plus authoritative history and completed region files"
+}

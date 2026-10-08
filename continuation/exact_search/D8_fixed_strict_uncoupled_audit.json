@@ -1,0 +1,85 @@
+{
+  "status": "PASS",
+  "input_sha256": "2d0b7a3dbe1ae88f46b1413e7fc17af5c53ca734ccd0b2ecf67fa8d5498fe17c",
+  "source_sha256": "700a33e91a5ba54c777ee18a720f72c6e2537139be843902093b0eef01e5f1d0",
+  "matrices": 13,
+  "allocation_clause_comparisons": 75348,
+  "complete_allocations_checked": 85293,
+  "empty_bundle_allocations_verified_bad": 9945,
+  "source_vs_normalized_mismatches": 0,
+  "normalized_vs_literal_mismatches": 0,
+  "literal_positive_row_scaling_mismatches": 0,
+  "all_generic_domain_samples_verified": true,
+  "designated_ef_to_efx_mutation_detected": true,
+  "zero_deletion_mutation_detected": true,
+  "allocation_counts": [
+    {
+      "sample": "uniform_one",
+      "designated_ef_efx_allocations": 560,
+      "ordinary_efx_allocations": 1680
+    },
+    {
+      "sample": "generic_row_scaled_0",
+      "designated_ef_efx_allocations": 82,
+      "ordinary_efx_allocations": 111
+    },
+    {
+      "sample": "generic_row_scaled_1",
+      "designated_ef_efx_allocations": 79,
+      "ordinary_efx_allocations": 84
+    },
+    {
+      "sample": "generic_row_scaled_2",
+      "designated_ef_efx_allocations": 150,
+      "ordinary_efx_allocations": 158
+    },
+    {
+      "sample": "generic_row_scaled_3",
+      "designated_ef_efx_allocations": 92,
+      "ordinary_efx_allocations": 111
+    },
+    {
+      "sample": "generic_row_scaled_4",
+      "designated_ef_efx_allocations": 103,
+      "ordinary_efx_allocations": 115
+    },
+    {
+      "sample": "generic_row_scaled_5",
+      "designated_ef_efx_allocations": 134,
+      "ordinary_efx_allocations": 136
+    },
+    {
+      "sample": "generic_row_scaled_6",
+      "designated_ef_efx_allocations": 133,
+      "ordinary_efx_allocations": 143
+    },
+    {
+      "sample": "generic_row_scaled_7",
+      "designated_ef_efx_allocations": 134,
+      "ordinary_efx_allocations": 145
+    },
+    {
+      "sample": "generic_row_scaled_8",
+      "designated_ef_efx_allocations": 92,
+      "ordinary_efx_allocations": 120
+    },
+    {
+      "sample": "generic_row_scaled_9",
+      "designated_ef_efx_allocations": 76,
+      "ordinary_efx_allocations": 106
+    },
+    {
+      "sample": "previous_one_witness_candidate",
+      "designated_ef_efx_allocations": 1,
+      "ordinary_efx_allocations": 25
+    },
+    {
+      "sample": "previous_three_witness_candidate",
+      "designated_ef_efx_allocations": 3,
+      "ordinary_efx_allocations": 38
+    }
+  ],
+  "elapsed_seconds": 8.502405244000329,
+  "max_rss_kib": 98932,
+  "scope": "finite independent formula-semantic audit; no target solve and no UNSAT proof"
+}

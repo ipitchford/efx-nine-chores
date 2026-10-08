@@ -1,0 +1,51 @@
+{
+  "status": "unsat",
+  "started_at_utc": "2026-10-07T22:37:35.991221+00:00",
+  "input": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/zero_minimum8_reference_strict.smt2",
+  "input_sha256": "20d56e8ecd4bfad40ad5c7786c7865442c9961569dabb9e1a8dfe415b584c08f",
+  "solver": "z3-5.1.0",
+  "solver_timeout_seconds": 60,
+  "address_space_cap_mib": 900,
+  "native_proof_retention": false,
+  "independent_certificate_status": "pending",
+  "declared_variables": 18,
+  "check_started_at_utc": "2026-10-07T22:37:37.685489+00:00",
+  "setup_seconds": 1.6937160749985196,
+  "solver_verdict": "unsat",
+  "check_seconds": 51.5098664090001,
+  "finished_at_utc": "2026-10-07T22:38:29.195873+00:00",
+  "elapsed_seconds": 53.2041191870012,
+  "max_rss_kib": 121920,
+  "event_counts": {
+    "assumption": 11073,
+    "smt": 497314,
+    "del": 244751,
+    "rup": 189184
+  },
+  "unique_atoms": 5746,
+  "unique_theory_clauses": 248984,
+  "unmatched_assumption_clauses": 0,
+  "callback_errors": [],
+  "files": {
+    "input_clauses.jsonl": {
+      "sha256": "5cd171ad245dd83493853ed1055d5a37adec85c182a880c3bb96d584f213d280",
+      "bytes": 387325
+    },
+    "theory_clauses.jsonl": {
+      "sha256": "2a5318bdf0d59ff9061ad3ccefc7cb70b18a58e2648d80b3f5331579064f673d",
+      "bytes": 9307828
+    },
+    "atoms.jsonl": {
+      "sha256": "74b5ee971205c77e4abf7a21b5dcca5a305a3b2398639e99ec34461787aa5a96",
+      "bytes": 386503
+    },
+    "assumptions.jsonl": {
+      "sha256": "4c484b69d44b01800f7894d988090468d5f561c52a3e23eca7261edcd3b10334",
+      "bytes": 533935
+    },
+    "rup_clauses.jsonl": {
+      "sha256": "9341c377b80c78f3fe7644f8e65635989156f62e81a4aedee08cbd2071b705be",
+      "bytes": 8046111
+    }
+  }
+}

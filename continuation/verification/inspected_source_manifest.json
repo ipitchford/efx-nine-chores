@@ -1,0 +1,41 @@
+{
+  "timestamp_utc": "2026-10-07T20:33:07.436713+00:00",
+  "files": [
+    {
+      "file": "continuation/prefix_cegis.py",
+      "sha256": "2e21fddaf59d587bd61f04cf6849f5cea8d9d19516a77601231798c682b1a8a9"
+    },
+    {
+      "file": "continuation/extension_geometry/extension_oracle.py",
+      "sha256": "63c3d799914a1ac46e7c991dece32c328cbbe13c3618a8d676705a324851c224"
+    },
+    {
+      "file": "continuation/extension_geometry/verify_extension_certificate.py",
+      "sha256": "a5a10ce23c48f4d003a081b6d725eda482ca125b4ba2386f999688a88a686538"
+    },
+    {
+      "file": "continuation/extension_geometry/extension_method.md",
+      "sha256": "af5c1f83699d3e5c139967f62b8d6523a22022f6c88639c7319193a43c55438c"
+    },
+    {
+      "file": "continuation/exact_search/finite_integer_bound.md",
+      "sha256": "3e613cf9fd0de74351e861db15908da79e23313f4408133b7b10a3f9ec8a1d51"
+    },
+    {
+      "file": "continuation/certify_row_cores.py",
+      "sha256": "d7dc94b46c2e01d96689f862d59e59faecd3bd4a6975ae9e6d173b9de88b1e39"
+    },
+    {
+      "file": "continuation/verify_row_cores.py",
+      "sha256": "288607fc42e9027e53d36b2634df9e7e8cbd9270b18efabb18628b3ad1eda1e2"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_cegis.py",
+      "sha256": "bf3b0dd3ab57f2d3caf090b99ef8034e7aa1c88b0841021e0a57d5d98f9b3cd8"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_proof.md",
+      "sha256": "0d4f6cae8665d9e1eb9449124ab470cb904fc24910cb145ddaf82608e37a6f82"
+    }
+  ]
+}

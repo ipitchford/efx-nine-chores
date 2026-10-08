@@ -1,0 +1,1357 @@
+{
+  "directories": [
+    "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_batch_smoke",
+    "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_compressed",
+    "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_generic_pairs",
+    "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_generic_pairs_minimized",
+    "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed1",
+    "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2",
+    "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_seeded",
+    "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_short1",
+    "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_short1_minimized"
+  ],
+  "source_region_files": 1467,
+  "unique_cores": 1382,
+  "distinct_source_cores": 1465,
+  "subsumed_sources": [
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_compressed/regions/00030.json",
+      "source_core_allocation_ids": [
+        3442,
+        3538,
+        6435
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_compressed/regions/00031.json",
+      "retained_core_allocation_ids": [
+        3442,
+        3538
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_compressed/regions/00053.json",
+      "source_core_allocation_ids": [
+        534,
+        3502,
+        3538
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00064.json",
+      "retained_core_allocation_ids": [
+        534,
+        3538
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_compressed/regions/00102.json",
+      "source_core_allocation_ids": [
+        569,
+        3443,
+        10731,
+        12189
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_generic_pairs/regions/00128.json",
+      "retained_core_allocation_ids": [
+        569,
+        3443
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_compressed/regions/00107.json",
+      "source_core_allocation_ids": [
+        569,
+        3443,
+        17088,
+        19270
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_generic_pairs/regions/00128.json",
+      "retained_core_allocation_ids": [
+        569,
+        3443
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_compressed/regions/00108.json",
+      "source_core_allocation_ids": [
+        569,
+        3443,
+        10731,
+        17088
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_generic_pairs/regions/00128.json",
+      "retained_core_allocation_ids": [
+        569,
+        3443
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_compressed/regions/00113.json",
+      "source_core_allocation_ids": [
+        10046,
+        12737,
+        19270
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00319.json",
+      "retained_core_allocation_ids": [
+        10046,
+        19270
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_compressed/regions/00142.json",
+      "source_core_allocation_ids": [
+        312,
+        3345,
+        3502
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_compressed/regions/00143.json",
+      "retained_core_allocation_ids": [
+        312,
+        3502
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_compressed/regions/00169.json",
+      "source_core_allocation_ids": [
+        573,
+        6212,
+        10527,
+        10729,
+        12710,
+        12737,
+        19244,
+        19262
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_compressed/regions/00171.json",
+      "retained_core_allocation_ids": [
+        573,
+        6212,
+        10729,
+        12710,
+        12737,
+        19244,
+        19262
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_compressed/regions/00178.json",
+      "source_core_allocation_ids": [
+        3443,
+        4062,
+        6212
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_compressed/regions/00179.json",
+      "retained_core_allocation_ids": [
+        3443,
+        4062
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_compressed/regions/00184.json",
+      "source_core_allocation_ids": [
+        621,
+        3469,
+        10029,
+        10137,
+        16555
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_generic_pairs/regions/00060.json",
+      "retained_core_allocation_ids": [
+        621,
+        3469
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_compressed/regions/00185.json",
+      "source_core_allocation_ids": [
+        621,
+        10029,
+        10137,
+        16555
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_compressed/regions/00187.json",
+      "retained_core_allocation_ids": [
+        621,
+        16555
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_compressed/regions/00188.json",
+      "source_core_allocation_ids": [
+        588,
+        9997,
+        16558
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00071.json",
+      "retained_core_allocation_ids": [
+        588,
+        9997
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_compressed/regions/00189.json",
+      "source_core_allocation_ids": [
+        2034,
+        10723,
+        17284
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00183.json",
+      "retained_core_allocation_ids": [
+        2034,
+        10723
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_compressed/regions/00209.json",
+      "source_core_allocation_ids": [
+        3376,
+        3381,
+        6154
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_compressed/regions/00211.json",
+      "retained_core_allocation_ids": [
+        3376,
+        6154
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_compressed/regions/00228.json",
+      "source_core_allocation_ids": [
+        2601,
+        10511,
+        12698,
+        16343,
+        17069,
+        17079
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_compressed/regions/00229.json",
+      "retained_core_allocation_ids": [
+        2601,
+        10511,
+        12698,
+        16343,
+        17069
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_generic_pairs/regions/00203.json",
+      "source_core_allocation_ids": [
+        4213,
+        9274,
+        9994,
+        10729
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_generic_pairs_minimized/regions/00203.json",
+      "retained_core_allocation_ids": [
+        4213,
+        9274,
+        9994
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_generic_pairs/regions/00205.json",
+      "source_core_allocation_ids": [
+        588,
+        2026,
+        4170,
+        4174,
+        4213,
+        9274,
+        10008
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_generic_pairs_minimized/regions/00205.json",
+      "retained_core_allocation_ids": [
+        4213,
+        9274,
+        10008
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_generic_pairs/regions/00206.json",
+      "source_core_allocation_ids": [
+        2775,
+        7822,
+        10008,
+        10729
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_generic_pairs_minimized/regions/00206.json",
+      "retained_core_allocation_ids": [
+        2775,
+        7822,
+        10008
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_generic_pairs/regions/00207.json",
+      "source_core_allocation_ids": [
+        1296,
+        2764,
+        2775,
+        3796,
+        8177,
+        10008,
+        10729,
+        12533,
+        12549,
+        13699,
+        14418
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_generic_pairs_minimized/regions/00207.json",
+      "retained_core_allocation_ids": [
+        1296,
+        2775,
+        8177,
+        10729
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_generic_pairs/regions/00209.json",
+      "source_core_allocation_ids": [
+        5670,
+        10729,
+        15835,
+        19223
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_generic_pairs_minimized/regions/00209.json",
+      "retained_core_allocation_ids": [
+        5670,
+        15835,
+        19223
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_generic_pairs/regions/00217.json",
+      "source_core_allocation_ids": [
+        675,
+        4174,
+        9976,
+        10129,
+        10773,
+        15835
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_generic_pairs_minimized/regions/00217.json",
+      "retained_core_allocation_ids": [
+        10129,
+        10773,
+        15835
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_generic_pairs/regions/00218.json",
+      "source_core_allocation_ids": [
+        675,
+        4174,
+        6361,
+        6367,
+        9274,
+        9976,
+        12960
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_generic_pairs_minimized/regions/00218.json",
+      "retained_core_allocation_ids": [
+        9274,
+        9976,
+        12960
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_generic_pairs/regions/00219.json",
+      "source_core_allocation_ids": [
+        4174,
+        5670,
+        9274,
+        9976
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_generic_pairs_minimized/regions/00219.json",
+      "retained_core_allocation_ids": [
+        5670,
+        9274,
+        9976
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed1/regions/00012.json",
+      "source_core_allocation_ids": [
+        4004,
+        10062,
+        17072,
+        17115
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed1/regions/00013.json",
+      "retained_core_allocation_ids": [
+        4004,
+        10062,
+        17072
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed1/regions/00024.json",
+      "source_core_allocation_ids": [
+        3469,
+        4221,
+        10729
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_short1/regions/00317.json",
+      "retained_core_allocation_ids": [
+        4221,
+        10729
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed1/regions/00053.json",
+      "source_core_allocation_ids": [
+        3593,
+        9994,
+        13560,
+        16555
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed1/regions/00054.json",
+      "retained_core_allocation_ids": [
+        9994,
+        13560,
+        16555
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00003.json",
+      "source_core_allocation_ids": [
+        414,
+        3445,
+        3451,
+        9995,
+        9997,
+        10135,
+        10723,
+        12181
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_short1/regions/00237.json",
+      "retained_core_allocation_ids": [
+        414,
+        3451
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00006.json",
+      "source_core_allocation_ids": [
+        414,
+        9995,
+        10000,
+        10723
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_short1/regions/00144.json",
+      "retained_core_allocation_ids": [
+        414,
+        10000
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00034.json",
+      "source_core_allocation_ids": [
+        3443,
+        7130,
+        10731,
+        17088
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00035.json",
+      "retained_core_allocation_ids": [
+        3443,
+        7130,
+        10731
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00037.json",
+      "source_core_allocation_ids": [
+        569,
+        3443,
+        10731
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_generic_pairs/regions/00128.json",
+      "retained_core_allocation_ids": [
+        569,
+        3443
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00048.json",
+      "source_core_allocation_ids": [
+        578,
+        10029,
+        16556
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00050.json",
+      "retained_core_allocation_ids": [
+        578,
+        16556
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00063.json",
+      "source_core_allocation_ids": [
+        534,
+        3538,
+        19256
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00064.json",
+      "retained_core_allocation_ids": [
+        534,
+        3538
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00078.json",
+      "source_core_allocation_ids": [
+        432,
+        6128,
+        19244,
+        19248,
+        19259
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_generic_pairs/regions/00067.json",
+      "retained_core_allocation_ids": [
+        432,
+        6128
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00081.json",
+      "source_core_allocation_ids": [
+        4074,
+        6201,
+        10527
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00295.json",
+      "retained_core_allocation_ids": [
+        4074,
+        10527
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00086.json",
+      "source_core_allocation_ids": [
+        3238,
+        3340,
+        3345,
+        19311
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00087.json",
+      "retained_core_allocation_ids": [
+        3238,
+        3340,
+        3345
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00089.json",
+      "source_core_allocation_ids": [
+        378,
+        6182,
+        12698,
+        19298,
+        19302
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_generic_pairs/regions/00187.json",
+      "retained_core_allocation_ids": [
+        378,
+        6182
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00111.json",
+      "source_core_allocation_ids": [
+        408,
+        10027,
+        16561,
+        19256
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_short1/regions/00137.json",
+      "retained_core_allocation_ids": [
+        408,
+        16561
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00113.json",
+      "source_core_allocation_ids": [
+        414,
+        3451,
+        3592,
+        10009,
+        16561,
+        17072
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_short1/regions/00237.json",
+      "retained_core_allocation_ids": [
+        414,
+        3451
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00119.json",
+      "source_core_allocation_ids": [
+        594,
+        3451,
+        3592,
+        9994
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00123.json",
+      "retained_core_allocation_ids": [
+        594,
+        3451
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00120.json",
+      "source_core_allocation_ids": [
+        3451,
+        3501,
+        3592
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00122.json",
+      "retained_core_allocation_ids": [
+        3451,
+        3501
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00121.json",
+      "source_core_allocation_ids": [
+        594,
+        3451,
+        3592
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00123.json",
+      "retained_core_allocation_ids": [
+        594,
+        3451
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00165.json",
+      "source_core_allocation_ids": [
+        408,
+        9997,
+        10027,
+        10135,
+        10729,
+        16561
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_short1/regions/00137.json",
+      "retained_core_allocation_ids": [
+        408,
+        16561
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00178.json",
+      "source_core_allocation_ids": [
+        1842,
+        4231,
+        10726
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00179.json",
+      "retained_core_allocation_ids": [
+        1842,
+        4231
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00205.json",
+      "source_core_allocation_ids": [
+        7146,
+        9995,
+        9997,
+        10723,
+        12181,
+        16555
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00206.json",
+      "retained_core_allocation_ids": [
+        7146,
+        9995,
+        9997,
+        10723,
+        16555
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00211.json",
+      "source_core_allocation_ids": [
+        2052,
+        10723,
+        17284
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_short1/regions/00265.json",
+      "retained_core_allocation_ids": [
+        2052,
+        10723
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00228.json",
+      "source_core_allocation_ids": [
+        406,
+        17088,
+        18546,
+        19258,
+        19275
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00392.json",
+      "retained_core_allocation_ids": [
+        406,
+        17088,
+        19275
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00232.json",
+      "source_core_allocation_ids": [
+        414,
+        9997,
+        10723,
+        12181,
+        16555
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_short1/regions/00239.json",
+      "retained_core_allocation_ids": [
+        414,
+        16555
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00233.json",
+      "source_core_allocation_ids": [
+        432,
+        10029,
+        16555
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00235.json",
+      "retained_core_allocation_ids": [
+        432,
+        16555
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00246.json",
+      "source_core_allocation_ids": [
+        573,
+        6152,
+        17084,
+        19244,
+        19270
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00247.json",
+      "retained_core_allocation_ids": [
+        573,
+        6152,
+        19244,
+        19270
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00262.json",
+      "source_core_allocation_ids": [
+        6411,
+        6418,
+        10740
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00263.json",
+      "retained_core_allocation_ids": [
+        6418,
+        10740
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00265.json",
+      "source_core_allocation_ids": [
+        1884,
+        4306,
+        10738
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00307.json",
+      "retained_core_allocation_ids": [
+        1884,
+        10738
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00266.json",
+      "source_core_allocation_ids": [
+        2046,
+        4306,
+        10738
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_short1/regions/00052.json",
+      "retained_core_allocation_ids": [
+        2046,
+        10738
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00270.json",
+      "source_core_allocation_ids": [
+        4306,
+        6493,
+        8694,
+        10864,
+        10866
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_short1/regions/00238.json",
+      "retained_core_allocation_ids": [
+        4306,
+        8694
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00271.json",
+      "source_core_allocation_ids": [
+        4306,
+        8694,
+        10864,
+        10866
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_short1/regions/00238.json",
+      "retained_core_allocation_ids": [
+        4306,
+        8694
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00315.json",
+      "source_core_allocation_ids": [
+        424,
+        6128,
+        12697
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00317.json",
+      "retained_core_allocation_ids": [
+        424,
+        12697
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00316.json",
+      "source_core_allocation_ids": [
+        424,
+        12697,
+        19248
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00317.json",
+      "retained_core_allocation_ids": [
+        424,
+        12697
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00331.json",
+      "source_core_allocation_ids": [
+        450,
+        3154,
+        3460,
+        4824,
+        9681
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_short1/regions/00284.json",
+      "retained_core_allocation_ids": [
+        450,
+        3460
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00373.json",
+      "source_core_allocation_ids": [
+        621,
+        3469,
+        3577,
+        5689,
+        10027,
+        10029,
+        10738
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_generic_pairs/regions/00060.json",
+      "retained_core_allocation_ids": [
+        621,
+        3469
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00374.json",
+      "source_core_allocation_ids": [
+        585,
+        3451,
+        3577,
+        9995,
+        9997,
+        10723,
+        12181
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_generic_pairs/regions/00151.json",
+      "retained_core_allocation_ids": [
+        585,
+        3451
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00377.json",
+      "source_core_allocation_ids": [
+        423,
+        3577,
+        16555
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00382.json",
+      "retained_core_allocation_ids": [
+        423,
+        16555
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00378.json",
+      "source_core_allocation_ids": [
+        423,
+        10137,
+        16555
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00382.json",
+      "retained_core_allocation_ids": [
+        423,
+        16555
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00379.json",
+      "source_core_allocation_ids": [
+        2052,
+        10135,
+        16555
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00380.json",
+      "retained_core_allocation_ids": [
+        2052,
+        16555
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00381.json",
+      "source_core_allocation_ids": [
+        423,
+        10135,
+        16555
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00382.json",
+      "retained_core_allocation_ids": [
+        423,
+        16555
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00393.json",
+      "source_core_allocation_ids": [
+        408,
+        10002,
+        19256
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00394.json",
+      "retained_core_allocation_ids": [
+        408,
+        10002
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00397.json",
+      "source_core_allocation_ids": [
+        1872,
+        3995,
+        17072
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00399.json",
+      "retained_core_allocation_ids": [
+        1872,
+        17072
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00398.json",
+      "source_core_allocation_ids": [
+        1872,
+        3994,
+        17072
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00399.json",
+      "retained_core_allocation_ids": [
+        1872,
+        17072
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00431.json",
+      "source_core_allocation_ids": [
+        17190,
+        19266,
+        19302
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00432.json",
+      "retained_core_allocation_ids": [
+        17190,
+        19266
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_seeded/regions/00075.json",
+      "source_core_allocation_ids": [
+        569,
+        3443,
+        6212,
+        17088,
+        19272
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_generic_pairs/regions/00128.json",
+      "retained_core_allocation_ids": [
+        569,
+        3443
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_seeded/regions/00090.json",
+      "source_core_allocation_ids": [
+        3507,
+        3538,
+        10000
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_seeded/regions/00091.json",
+      "retained_core_allocation_ids": [
+        3538,
+        10000
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_seeded/regions/00092.json",
+      "source_core_allocation_ids": [
+        4248,
+        6211,
+        16561
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_compressed/regions/00001.json",
+      "retained_core_allocation_ids": [
+        4248,
+        16561
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_short1/regions/00056.json",
+      "source_core_allocation_ids": [
+        468,
+        684,
+        4306,
+        10723,
+        12915,
+        12961,
+        12963
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_short1_minimized/regions/00056.json",
+      "retained_core_allocation_ids": [
+        684,
+        10723,
+        12915,
+        12963
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_short1/regions/00203.json",
+      "source_core_allocation_ids": [
+        888,
+        4903,
+        9994,
+        12597,
+        16606
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_short1_minimized/regions/00203.json",
+      "retained_core_allocation_ids": [
+        4903,
+        12597,
+        16606
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_short1/regions/00204.json",
+      "source_core_allocation_ids": [
+        884,
+        9994,
+        11463,
+        12597,
+        16606
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_short1_minimized/regions/00204.json",
+      "retained_core_allocation_ids": [
+        11463,
+        12597,
+        16606
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_short1/regions/00205.json",
+      "source_core_allocation_ids": [
+        528,
+        9994,
+        10045,
+        12597,
+        12915,
+        16606
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_short1_minimized/regions/00205.json",
+      "retained_core_allocation_ids": [
+        528,
+        10045,
+        12597
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_short1/regions/00206.json",
+      "source_core_allocation_ids": [
+        525,
+        528,
+        9994,
+        10045,
+        12597,
+        16967,
+        19154
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_short1_minimized/regions/00207.json",
+      "retained_core_allocation_ids": [
+        525,
+        10045,
+        12597
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_short1/regions/00207.json",
+      "source_core_allocation_ids": [
+        525,
+        528,
+        9994,
+        10045,
+        10360,
+        12593,
+        12597,
+        16967
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_short1_minimized/regions/00207.json",
+      "retained_core_allocation_ids": [
+        525,
+        10045,
+        12597
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_short1/regions/00208.json",
+      "source_core_allocation_ids": [
+        528,
+        9994,
+        10045,
+        12547,
+        12549,
+        12597,
+        16560
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_short1_minimized/regions/00205.json",
+      "retained_core_allocation_ids": [
+        528,
+        10045,
+        12597
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_short1/regions/00209.json",
+      "source_core_allocation_ids": [
+        528,
+        2715,
+        9994,
+        10045,
+        12547,
+        12597
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_short1_minimized/regions/00205.json",
+      "retained_core_allocation_ids": [
+        528,
+        10045,
+        12597
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_short1/regions/00210.json",
+      "source_core_allocation_ids": [
+        528,
+        3122,
+        9994,
+        10045,
+        12597,
+        12915
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_short1_minimized/regions/00205.json",
+      "retained_core_allocation_ids": [
+        528,
+        10045,
+        12597
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_short1/regions/00233.json",
+      "source_core_allocation_ids": [
+        3451,
+        3578,
+        3622,
+        9409,
+        9423
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_short1_minimized/regions/00233.json",
+      "retained_core_allocation_ids": [
+        3578,
+        9409,
+        9423
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_short1/regions/00234.json",
+      "source_core_allocation_ids": [
+        3451,
+        3578,
+        3580,
+        4306,
+        7236,
+        14512
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_short1_minimized/regions/00234.json",
+      "retained_core_allocation_ids": [
+        3578,
+        7236,
+        14512
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_short1/regions/00274.json",
+      "source_core_allocation_ids": [
+        402,
+        2086,
+        4267,
+        6264,
+        10911
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_short1_minimized/regions/00274.json",
+      "retained_core_allocation_ids": [
+        402,
+        2086,
+        6264,
+        10911
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_short1/regions/00285.json",
+      "source_core_allocation_ids": [
+        3154,
+        3537,
+        4239,
+        7088,
+        7096,
+        8986
+      ],
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_short1_minimized/regions/00285.json",
+      "retained_core_allocation_ids": [
+        3154,
+        3537,
+        7096
+      ],
+      "implication": "Every retained allocation occurs in the omitted core; its sufficient region contains the omitted region."
+    }
+  ],
+  "duplicate_sources": [
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_short1_minimized/regions/00208.json",
+      "duplicate_of": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_short1_minimized/regions/00205.json",
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_short1_minimized/regions/00205.json"
+    },
+    {
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_short1_minimized/regions/00286.json",
+      "duplicate_of": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_short1/regions/00286.json",
+      "retained_source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_short1/regions/00286.json"
+    }
+  ]
+}

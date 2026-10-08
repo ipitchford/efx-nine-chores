@@ -1,0 +1,22 @@
+{
+  "status": "PASS_COMPLETE_LRA_REPLAY_AFTER_RELOCATION",
+  "fixture_scope": "Tiny synthetic arithmetic/Boolean proof; not an economics result",
+  "all_three_independent_stages_executed": true,
+  "mixed_relative_and_absolute_explicit_paths_accepted": true,
+  "original_location_deleted_before_replay": true,
+  "historical_absolute_input_path_unavailable_and_preserved": "/deliberately/absent/original/evidence-release/input.smt2",
+  "historical_path_not_required_for_checking": true,
+  "solver_invoked": false,
+  "large_certificates_replayed": false,
+  "fixture_input_sha256": "3a077b246c1313abad44dc9a472aecd158a2ef1c84ad5a9fb09c1b8928ef0f2b",
+  "fixture_complete_receipt_sha256": "cd8163d79b5fc692a1490e0b2cecec94f770f2d43c1e02a600a69952575fd63b",
+  "checker_sources_sha256": {
+    "lra_certificate_common.py": "7f490f5ba6ba51d8c363566124100d90de91523fd2777686915ad1ece19d8bf4",
+    "check_lra_capture.py": "cb30ac1c4ea59bea092f0141073cf685899389033867098ae1205198b98d9308",
+    "check_lra_rup.py": "7ece388b1466370bef950df80a2fe042611d2482b85d254360fbe25270c8041c",
+    "check_lra_farkas.py": "5a7b69a284a7bceef7a00236fe7d868e8da29d70a7964ba4044e0109cd97b840",
+    "check_lra_certificate.py": "87fa105d6f970cc27c1f4025bdc28282d63750e410532211961d840d7aa77fd0"
+  },
+  "relocation_test_source_sha256": "ce99046782b06602a8bfd367a6b3b5dd0c1485988fe25171dd4cbe0a053e0fb8",
+  "completed_at_utc": "2026-10-07T22:55:19.439292+00:00"
+}

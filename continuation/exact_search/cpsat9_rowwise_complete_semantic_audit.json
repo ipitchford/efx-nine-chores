@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "m": 9,
+  "search_bound": 11585,
+  "matrices": 9,
+  "cp_proto_vs_literal_comparisons": 163350,
+  "empty_bundle_allocations_verified_bad": 13797,
+  "complete_allocation_pairs": 177147,
+  "mismatches": 0,
+  "old_common_minimum_cp_comparisons": 0,
+  "old_common_minimum_cp_model": null,
+  "old_common_minimum_cp_sha256": null,
+  "counts": [
+    {
+      "sample": "uniform",
+      "efx_allocations": 1680
+    },
+    {
+      "sample": "common_minimum_0",
+      "efx_allocations": 229
+    },
+    {
+      "sample": "common_minimum_1",
+      "efx_allocations": 305
+    },
+    {
+      "sample": "common_minimum_2",
+      "efx_allocations": 293
+    },
+    {
+      "sample": "common_minimum_3",
+      "efx_allocations": 264
+    },
+    {
+      "sample": "independent_minima_0",
+      "efx_allocations": 281
+    },
+    {
+      "sample": "independent_minima_1",
+      "efx_allocations": 371
+    },
+    {
+      "sample": "independent_minima_2",
+      "efx_allocations": 340
+    },
+    {
+      "sample": "independent_minima_3",
+      "efx_allocations": 290
+    }
+  ],
+  "scope": "Finite independent audit of actual CP proto allocation predicates; no proof of UNSAT."
+}

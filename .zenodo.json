@@ -1,0 +1,13 @@
+{
+  "title": "Nine chores for three agents",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "description": "An unrefereed mathematical candidate establishing complete EFX allocation for three agents and exactly nine indivisible chores with nonnegative additive real costs, including zero-cost deletions. Written reductions are combined with exact arithmetic and Boolean refutation certificates. The archive includes internal fresh replays, adversarial controls, a substantive agent-readable index, and explicit assurance limits. Internal certificate replay is not external peer review, independent reproduction, or formal verification of the complete theorem.",
+  "creators": [{"name": "Anonymous"}],
+  "version": "1.1.0-candidate",
+  "publication_date": "2026-10-08",
+  "license": "cc-zero",
+  "keywords": ["fair division", "chores", "EFX", "exact certificates"],
+  "notes": "Original prose and data: CC0-1.0. Original code: MIT. Third-party terms retained; see LICENSES.md.",
+  "related_identifiers": [{"identifier": "https://github.com/ipitchford/efx-nine-chores", "relation": "isSupplementTo", "scheme": "url"}]
+}

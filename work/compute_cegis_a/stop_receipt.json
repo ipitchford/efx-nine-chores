@@ -1,0 +1,16 @@
+{
+  "status": "INTERRUPTED_WITHOUT_CONCLUSION",
+  "reason": "Reallocated slower sum-normalised CEGIS worker to complete row-0 rank branching; no UNSAT or counterexample obtained.",
+  "utc": "2026-10-07T17:59:25.993952+00:00",
+  "last_completed_iteration": {
+    "iteration": 6,
+    "status": "sat",
+    "clauses": 1716,
+    "check_seconds": 4.868902743000035,
+    "elapsed_seconds": 225.01800700200056,
+    "efx_allocations": 57,
+    "max_integer": 20486,
+    "newly_added": 57
+  },
+  "exec_session_exit_code": 130
+}

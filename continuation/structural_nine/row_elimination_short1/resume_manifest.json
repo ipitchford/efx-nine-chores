@@ -1,0 +1,12 @@
+{
+  "directories": [
+    "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_compressed",
+    "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_generic_pairs",
+    "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed1",
+    "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2",
+    "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_seeded"
+  ],
+  "source_region_files": 1115,
+  "unique_cores": 1115,
+  "duplicate_sources": []
+}

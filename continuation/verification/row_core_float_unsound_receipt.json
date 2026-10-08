@@ -1,0 +1,21 @@
+{
+  "verifier_receipt": {
+    "status": "PASS",
+    "core_allocations": 1,
+    "exhaustive_failure_branches": 14,
+    "other_region_inequalities": 0,
+    "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+  },
+  "witness_first_row": [
+    1,
+    2,
+    3,
+    9,
+    8,
+    7,
+    6,
+    5,
+    4
+  ],
+  "maximum_strict_failure": 31
+}

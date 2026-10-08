@@ -1,0 +1,9 @@
+{
+  "date": "2026-10-08",
+  "manuscript": "paper/manuscript.pdf",
+  "pdfSha256": "cabcd34d36e0182a809fbf458a878f349169dcbec6f20bc97b71a1acca87b532",
+  "pages": 11,
+  "textCheck": "pdf_tex_preflight: zero raw TeX findings",
+  "visualCheck": "All eleven pages inspected in three contact sheets: equations, tables, title and references readable; no clipping. No missing glyph/overfull warnings after repair.",
+  "scope": "Presentation QA is not proof."
+}

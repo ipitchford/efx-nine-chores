@@ -1,0 +1,171 @@
+{
+  "status": "PASS_MATHEMATICAL_REVIEW_OF_GATED_PRIVATE_DRAFT",
+  "main_independent_certificate_complete": false,
+  "reviewed_files_sha256": {
+    "docs/release_manuscript_template.md": "8aee4916823e9cc7f89dac83b901a893f2dc1da4bdd98503275cbd1b72efc9ea",
+    "docs/prospective_release_template.md": "8191ed950786160a2702d1163b551241ad967cbd06f6f16fe54b4c646421ebf9",
+    "src/build_release_report.py": "bc04394d008aca1646315c2cee6ffcbff036f5b78fd8593002662ac94c194ba0",
+    "examples/costs9.json": "e2273dee254bc6281c1e1bce514f928828e7b53ae60491d1be1cde744c51692c",
+    "continuation/verification/release_manuscript_review.md": "98127e2a10af77fb991af71f66ccec95aa9e4f2dad2429ac8842eb78f8214c44",
+    "continuation/verification/zero9_end_to_end_binding.json": "4a672120db0a2a9ea92b3f795a20e5851350bdce6ec287126dab0fac846ac7ba",
+    "continuation/verification/primitive_cramer_bound_audit.json": "e32ddd51a5f7251f8f80e30c726cd959547750d25672403da7dd1ccd3c7d6cda"
+  },
+  "insertion_cycle_and_path_cases_reviewed": true,
+  "empty_bundles_and_zero_deletions_reviewed": true,
+  "formula_counts_and_pruning_match_audited_input": true,
+  "finite_bound_and_positive_lift_reviewed": true,
+  "ordinary_baseline_and_alternative_chain_reviewed": true,
+  "worked_example_literal_checks": [
+    {
+      "agent": 1,
+      "deleted_chore": 1,
+      "other_agent": 2,
+      "lhs": 6,
+      "rhs": 10,
+      "slack": 4
+    },
+    {
+      "agent": 1,
+      "deleted_chore": 1,
+      "other_agent": 3,
+      "lhs": 6,
+      "rhs": 6,
+      "slack": 0
+    },
+    {
+      "agent": 1,
+      "deleted_chore": 2,
+      "other_agent": 2,
+      "lhs": 5,
+      "rhs": 10,
+      "slack": 5
+    },
+    {
+      "agent": 1,
+      "deleted_chore": 2,
+      "other_agent": 3,
+      "lhs": 5,
+      "rhs": 6,
+      "slack": 1
+    },
+    {
+      "agent": 1,
+      "deleted_chore": 3,
+      "other_agent": 2,
+      "lhs": 4,
+      "rhs": 10,
+      "slack": 6
+    },
+    {
+      "agent": 1,
+      "deleted_chore": 3,
+      "other_agent": 3,
+      "lhs": 4,
+      "rhs": 6,
+      "slack": 2
+    },
+    {
+      "agent": 1,
+      "deleted_chore": 8,
+      "other_agent": 2,
+      "lhs": 4,
+      "rhs": 10,
+      "slack": 6
+    },
+    {
+      "agent": 1,
+      "deleted_chore": 8,
+      "other_agent": 3,
+      "lhs": 4,
+      "rhs": 6,
+      "slack": 2
+    },
+    {
+      "agent": 1,
+      "deleted_chore": 9,
+      "other_agent": 2,
+      "lhs": 5,
+      "rhs": 10,
+      "slack": 5
+    },
+    {
+      "agent": 1,
+      "deleted_chore": 9,
+      "other_agent": 3,
+      "lhs": 5,
+      "rhs": 6,
+      "slack": 1
+    },
+    {
+      "agent": 2,
+      "deleted_chore": 4,
+      "other_agent": 1,
+      "lhs": 3,
+      "rhs": 6,
+      "slack": 3
+    },
+    {
+      "agent": 2,
+      "deleted_chore": 4,
+      "other_agent": 3,
+      "lhs": 3,
+      "rhs": 10,
+      "slack": 7
+    },
+    {
+      "agent": 2,
+      "deleted_chore": 5,
+      "other_agent": 1,
+      "lhs": 3,
+      "rhs": 6,
+      "slack": 3
+    },
+    {
+      "agent": 2,
+      "deleted_chore": 5,
+      "other_agent": 3,
+      "lhs": 3,
+      "rhs": 10,
+      "slack": 7
+    },
+    {
+      "agent": 3,
+      "deleted_chore": 6,
+      "other_agent": 1,
+      "lhs": 1,
+      "rhs": 11,
+      "slack": 10
+    },
+    {
+      "agent": 3,
+      "deleted_chore": 6,
+      "other_agent": 2,
+      "lhs": 1,
+      "rhs": 8,
+      "slack": 7
+    },
+    {
+      "agent": 3,
+      "deleted_chore": 7,
+      "other_agent": 1,
+      "lhs": 1,
+      "rhs": 11,
+      "slack": 10
+    },
+    {
+      "agent": 3,
+      "deleted_chore": 7,
+      "other_agent": 2,
+      "lhs": 1,
+      "rhs": 8,
+      "slack": 7
+    }
+  ],
+  "final_release_still_requires_complete_nine_certificate": true,
+  "recommendations": [
+    "Clarify that the general representative bound does not require distinct zero columns.",
+    "Validate all compact release-index file hashes before final packaging."
+  ],
+  "historical_receipts_modified": false,
+  "completed_at_utc": "2026-10-07T23:11:13.035986+00:00"
+}

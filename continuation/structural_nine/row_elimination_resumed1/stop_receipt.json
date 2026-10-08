@@ -1,0 +1,9 @@
+{
+  "status": "cleanly_stopped",
+  "reason": "Add all 1,048 exact pair seeds while preserving completed regions",
+  "completed_utc": "2026-10-07T20:48:45.119429+00:00",
+  "completed_regions": 57,
+  "termination": "requested_stop",
+  "seconds": 130.31103016999987,
+  "outer_sha256": "1d8cab928ed5564aa844a6d1f82157ae7fadd9ea55312f28419cef3ddecfb068"
+}

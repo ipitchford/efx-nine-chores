@@ -1,0 +1,23 @@
+[
+  {
+    "inspected_local_name": "sources/zhang_2609_10585v2.pdf",
+    "url": "https://arxiv.org/pdf/2609.10585v2",
+    "bytes": 499431,
+    "sha256": "aa629aed52eccff915d57a32c3bb6fc445e3a2263d0d03de84c9da67ca8e395d",
+    "included_in_archive": false
+  },
+  {
+    "inspected_local_name": "sources/kms_2305_04168.pdf",
+    "url": "https://arxiv.org/pdf/2305.04168",
+    "bytes": 443291,
+    "sha256": "6b7cb91112ce406267edc86620c2b9246f033f903cb8cb1a0dc4ee0727c50f8f",
+    "included_in_archive": false
+  },
+  {
+    "role": "User-provided shortlist containing Problem 2",
+    "bytes": 20549,
+    "sha256": "89f25ac895f257b9fae4cda88cb3808fda2420d1ffd701d980c86c99fbcf379a",
+    "included_in_archive": false,
+    "scope_restatement": "target.yaml and docs/research_report.md"
+  }
+]

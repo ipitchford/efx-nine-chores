@@ -1,0 +1,30 @@
+{
+  "status": "DERIVED_CAPTURE_STATIC_RECONSTRUCTION_NOT_A_SOLVER_RUN",
+  "finished_at_utc": "2026-10-07T22:46:16.185995+00:00",
+  "input_sha256": "20d56e8ecd4bfad40ad5c7786c7865442c9961569dabb9e1a8dfe415b584c08f",
+  "callback_errors": [],
+  "unique_atoms": 5746,
+  "unique_theory_clauses": 248984,
+  "files": {
+    "input_clauses.jsonl": {
+      "sha256": "68c791fbde70c64b7f8d123c35ec42dcec9ea594d751cbc877af4c57dbb09e1f",
+      "bytes": 526520
+    },
+    "theory_clauses.jsonl": {
+      "sha256": "2a5318bdf0d59ff9061ad3ccefc7cb70b18a58e2648d80b3f5331579064f673d",
+      "bytes": 9307828
+    },
+    "atoms.jsonl": {
+      "sha256": "f5057a3dc1864b0e4a8edfe24f4fd36758c86052165ac687d7f0c711c1a44813",
+      "bytes": 408012
+    },
+    "rup_clauses.jsonl": {
+      "sha256": "9341c377b80c78f3fe7644f8e65635989156f62e81a4aedee08cbd2071b705be",
+      "bytes": 8046111
+    }
+  },
+  "independent_certificate_status": "pending",
+  "solver_called": false,
+  "original_capture": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/zero8_clause_capture_run3/capture",
+  "original_receipt_sha256": "88237c8e500a1e7e8a477d7505ad28b39c7565a49d98bcb7f0979d52b54a55a4"
+}

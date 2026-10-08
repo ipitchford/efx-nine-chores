@@ -1,0 +1,69 @@
+{
+  "result": "PASS",
+  "solver_used_for_search": false,
+  "evaluation_library": "Z3 5.1.0",
+  "scope": "Finite allocation-clause equivalence audit with independent literal EFX+EF predicate; not a universal encoder proof.",
+  "cases": [
+    {
+      "m": 6,
+      "input": "/workspace/scratch/5abf44ff3fd9/economics_problem2/work/structural_designated_m6.standard.smt2",
+      "input_sha256": "bf24e50713175ad01e2d15d51fe78121e5df0412cb7c5c6f445e56337350c4b2",
+      "domain_assertions": 26,
+      "allocation_clauses": 729,
+      "matrix_count": 4,
+      "matrix_allocation_pairs": 2916,
+      "zero_cost_chores_quantified": true,
+      "allocation_domain": "all complete labelled allocations",
+      "disagreements": 0,
+      "counts": [
+        {
+          "matrix": "zero",
+          "accepted_allocations_in_tested_domain": 729
+        },
+        {
+          "matrix": "uniform",
+          "accepted_allocations_in_tested_domain": 90
+        },
+        {
+          "matrix": "zero_cost_boundaries",
+          "accepted_allocations_in_tested_domain": 149
+        },
+        {
+          "matrix": "unbalanced_rational",
+          "accepted_allocations_in_tested_domain": 7
+        }
+      ]
+    },
+    {
+      "m": 7,
+      "input": "/workspace/scratch/5abf44ff3fd9/economics_problem2/work/structural_designated_reduced_m7_seed0.standard.smt2",
+      "input_sha256": "662a176b1db574f79025586c78a1a3a835b445a85662aa365d6411b0763cda3d",
+      "domain_assertions": 41,
+      "allocation_clauses": 1806,
+      "matrix_count": 4,
+      "matrix_allocation_pairs": 7224,
+      "zero_cost_chores_quantified": true,
+      "allocation_domain": "all complete nonempty labelled allocations",
+      "disagreements": 0,
+      "counts": [
+        {
+          "matrix": "zero",
+          "accepted_allocations_in_tested_domain": 1806
+        },
+        {
+          "matrix": "uniform",
+          "accepted_allocations_in_tested_domain": 420
+        },
+        {
+          "matrix": "zero_cost_boundaries",
+          "accepted_allocations_in_tested_domain": 392
+        },
+        {
+          "matrix": "unbalanced_rational",
+          "accepted_allocations_in_tested_domain": 29
+        }
+      ]
+    }
+  ],
+  "elapsed_s": 2.508357
+}

@@ -1,0 +1,786 @@
+{
+  "status": "PASS_SEED_COMPRESSION_AND_ASSERTION_BINDING_NOT_GLOBAL_UNSAT",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "elapsed_seconds": 2.4201224759999604,
+  "peak_rss_kib": 166788,
+  "seed_regions_verified": 3238,
+  "seed_orders_each": 28,
+  "resumed_regions_verified": 109,
+  "new_regions_verified": 191,
+  "raw_literal_atoms": 58472,
+  "retained_atoms": 31460,
+  "outer_base_assertions": 18,
+  "outer_learned_clauses": 3523,
+  "outer_snapshot_sha256": "f43d624e71a68a9e5e3b70d68668f57f3f6e016530b2414d150371ac36c85aa2",
+  "outer_portable_without_model_add": true,
+  "seed_regions_sha256": "6bfaff9d405ddbbfe60af58c4b2aaa6b471b030b251306dc3f9d7957a5d6174d",
+  "resumed_regions_sha256": "4c39d8c83ea881381bdb20982b269d5dabe3481ec59d7d691d66ffe762ca2151",
+  "robust_seed_sha256": "3f5bddb069eb14decccb54afc81694010f4f887ce1928fc85f4ff714a1dd7725",
+  "new_core_proof_limit": "The audit binds the archived new inner core files by hash but does not certify their UNSAT; separate row-core alternatives remain necessary.",
+  "new_region_manifest": [
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00000.json",
+      "sha256": "96fcd3a2d5f391b5b748eeb13431b58c173dd2100dbe2e01e592e266ed8dfddf"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00001.json",
+      "sha256": "1c44d73340c1e21d1f7ec8dbc460a507d6190b8aeb25201ae32a9eb4edc3dd9f"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00002.json",
+      "sha256": "9c724ba75aba81b767f7adf9f57f9f892e0d3aae0be3221a7410f9b8a9f9fc95"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00003.json",
+      "sha256": "9f1f9d4e3ab78c09dc7d48b95bb4e01b084a4af15d460fd9331201f977fd8136"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00004.json",
+      "sha256": "6c5fbad37fbcbfc09edbdc95cd772f4985c2044fdd9750fc43e5f2d83ff1dfcf"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00005.json",
+      "sha256": "aff51e38cffa73c3cb7d85235a5dcf7966c4f057f33d2c03392348c280371b04"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00006.json",
+      "sha256": "553f20ade08245c8db17a29d6879a2fb67437c66a1ec44fbaec6f0153a7d81fa"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00007.json",
+      "sha256": "bd8af9fed3497b812aeeac21bff68ce989ca3028f6f0b4621b068b16d2e06b07"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00008.json",
+      "sha256": "ee3a48849f198675f6b34e07a564d775cf72bd2d29902fdfa1b44fe524b9e519"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00009.json",
+      "sha256": "d15ed864e13b14365c417d083c1e21152212bd34424fa4ac552b2149bcb8f30b"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00010.json",
+      "sha256": "8cfe82221d436d6e78192b8edfabb35475ef2f36646fe5d77f5652f86f69b39c"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00011.json",
+      "sha256": "88f5473955a58530e20861b65d776027edb85aaab34276d64ee1ba99142e6955"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00012.json",
+      "sha256": "10568d13f3e439a8875806f54eb12b1cee36860d412c2460a844710316d7a40e"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00013.json",
+      "sha256": "bf280d011a10c28aafcf11e597ea44b3355ed4c4d2c5bb1d7543201d40d92ac2"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00014.json",
+      "sha256": "855491be3cc659b503131aa2e8c48fb58371f420f8e20f460e96d158573b23ca"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00015.json",
+      "sha256": "cc6fcf61ff6a43b45452c89b3b5ea1ff5c48d6290f6335f043c31b060a499f95"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00016.json",
+      "sha256": "5717637704bbd2f70cb34e97a8fc9563cab609f86afb89fb73b3cd18bfc3f862"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00017.json",
+      "sha256": "85dd322e7a67e44b0ba6ef14720bcaeadc2199a61e8479f1a97a876156fd5eed"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00018.json",
+      "sha256": "2d6ff436cd7bd8c8d3055faee33f9398a09d242a05c663bb9adc6b40aad5257b"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00019.json",
+      "sha256": "ebbb2627f50e5b373f9726527b2a63d03c3a9d22ce9be52b6b8e7071757ffe19"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00020.json",
+      "sha256": "3cf804f18e9571190789a0775caef828dcf9bed88a7e8cf95ffb03a5f50b0033"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00021.json",
+      "sha256": "0ad591bf69ef2daf98567da1a27624d99280264e29ad481b95a7bcbcbf27611e"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00022.json",
+      "sha256": "eba0375f9e8577743f981e4150ebe90870621a7a1416a42c8969223b1ef860a5"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00023.json",
+      "sha256": "85a41c6ae7d09ca757ec4f86521361821a1a12aaf1464471258257ba71f8f677"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00024.json",
+      "sha256": "544d88d66e0175d916d9b13fec244546c16a9b72913891056d589096f726d6b2"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00025.json",
+      "sha256": "fdafd0f6a6b4504823650f5aabb0e38dfe9669b3432f1f4e216b656052793de9"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00026.json",
+      "sha256": "7183d664b0714c2904bf1f215a33dbba54a72236ca34fa8543b5af823fe558ab"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00027.json",
+      "sha256": "28bbc622e8c1b4609757993b38e6a48cb03fc9357d61807dabf509d063f5f004"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00028.json",
+      "sha256": "166c8d7a8e5f3153fccbeccd7ca7e4cb836d5a67b7442a4dea7d76fa4030a60b"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00029.json",
+      "sha256": "a8a9fc79aa167c543e7e47050ec6933ab8ec0f2deec70a69c63e0bfa69802c07"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00030.json",
+      "sha256": "00fb08e6868f02c3b748b24314df89b18ffeaa8594649b14c679dce5d506f36a"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00031.json",
+      "sha256": "8ebeca3aace95aa41265786ccd9a3d2bc54570b009138b8db3e3aa6065aad0c2"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00032.json",
+      "sha256": "a6785c090eb3d42113a52b821b96432d749bfde24fb468b9838e98d944d64bff"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00033.json",
+      "sha256": "3e97e04bcd8956092360f296a4c182bcb8896c5a320b8e695126608802ab0e02"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00034.json",
+      "sha256": "7a8d91e5d67b6474e701244d5387231f8532a77a8d29091b27ab1afc9e2894bc"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00035.json",
+      "sha256": "33674d4b33dfa88c93b965cb3b4983575022b10303465f3992e4088c59ad8876"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00036.json",
+      "sha256": "652263ac268afd59800fcf98b6c23c77e037a6854f7fe91567b162c6d31c8846"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00037.json",
+      "sha256": "221f7719a66e85a1421002cf665865645fec8a6c38f4e44709565a7758079d22"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00038.json",
+      "sha256": "14bca862e488953a38ce402017ae4ad8c446eb02bd27410ff4d55f21db1e9862"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00039.json",
+      "sha256": "297241815cf0754c623962f110db459368478b5cdea3cd7371b06ef95d65d298"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00040.json",
+      "sha256": "cc50537abf2f450799b00d04717eb99934fda804b1ecd3740fc7cd2616305f47"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00041.json",
+      "sha256": "00e302655e3ee24ed2b994b722c1afd3e180e34a076266bf7f192038d3cb7200"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00042.json",
+      "sha256": "fd3a07fbf981246cdff4ef8de569511eee3e90757414f6a7426ae0b234bd2c0d"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00043.json",
+      "sha256": "6f125becf1fcfae523dfcb4eb1db64eb716c72e6b317903d6fcab47873b44565"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00044.json",
+      "sha256": "2359606c5393b46a2fc7cdc0839384db146e26bae3591b6f405c709c0580815f"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00045.json",
+      "sha256": "9653ff428f897a1667c76d783df149ec70e9a45f94f14c22d2c858f49cb3d12c"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00046.json",
+      "sha256": "2c8a18a8b6b4f8c70fdb550bcf593f18ec3cafb1edb134077c34a05eb7516358"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00047.json",
+      "sha256": "0cb2925a0f907aab1f85dfc602582cec93ba8c07fe8869aaaa6950cc8c4d3d4f"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00048.json",
+      "sha256": "6537622295767d993c231e3c2aee55c683e26eec4a3252acbd425ae6541130f0"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00049.json",
+      "sha256": "8d0ab402c0c48b7a17e91d23609ac9accc25d54a272a4aa7a38ec91003647fe1"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00050.json",
+      "sha256": "4329fc8927645b5547dd8cd6053abea55d0e5d861c2f8e309756d638bbc7d746"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00051.json",
+      "sha256": "1db81e797ddc54b0efd03bd4115ccf2dd5a65ac96415c9e84e7d018270b36fd7"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00052.json",
+      "sha256": "c237e0411d29c8c85ac835d20ca281b3bd1d69bbeecd433f0aaaa57b23e28e8a"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00053.json",
+      "sha256": "00eec410347b5947b6e3922400c98dcc6f99b98e6ae49f30de55aa4a7b993073"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00054.json",
+      "sha256": "5e585d6306d8dbc412d86a034483a72df7b34d04053a3bfe96730e67d4003a15"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00055.json",
+      "sha256": "7625327906b0313e49ca6a67a0c052af97517e9eac26e31f67a30c48143bef15"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00056.json",
+      "sha256": "5a313cb4636dd5821f08f7ee2603adfd7eccf2a00d4b0819a665385ddb260bc9"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00057.json",
+      "sha256": "57b33855766c4acd0b62ccbbe85571ab1ae20c6740ad64505b120fe6d00fc1a1"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00058.json",
+      "sha256": "6fb8f6106af5f71a4597329cc45bb1fd5326ebdc53d4db08cf601abdb1f40321"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00059.json",
+      "sha256": "00f515babc8ae731b962bf4af459398cbba88c0d5644f5f48b91ecfb683ae0eb"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00060.json",
+      "sha256": "4e55c34a69d9fb365db44b769126dced54588fef632eaeac519f528b32385085"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00061.json",
+      "sha256": "0e028c3e1ffbdec856d1a18981f9f2e29828a293a682aeb358ea98341b67317b"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00062.json",
+      "sha256": "b422d2dfdd682f8be4628be85203d1ff292c75fc9523336e374fd97495c8a7bf"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00063.json",
+      "sha256": "c9ee8c41cf880367c87fd6a51712c36c274e23950c9cc7fbb83bcace29a1410d"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00064.json",
+      "sha256": "8b04a1c5252ce50f19383466a82dd11332dbad4a1a56c31f1cc01380b8ad638b"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00065.json",
+      "sha256": "56f4adb3fffdff0dd2ef017041e2e363ecd711c875335ade2c25a1f09f9561c6"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00066.json",
+      "sha256": "3c292382e672a547fc22bf53659de4557759c3000e3462821f38971e36112b08"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00067.json",
+      "sha256": "2453e0d2a49f65ec2583c140d80aa674dd686de22cfaad511f1e0c2779aaf7b4"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00068.json",
+      "sha256": "77c10e2ee8c0aea7fb75522266ee30ffbeb8e44960ce2333897511c17606d574"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00069.json",
+      "sha256": "20b7489dad2aede2b40feba6d029d0ba4ab17d85107c9bd3525ec439bfbd9cc6"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00070.json",
+      "sha256": "750a72aa794f91daae780718f87ee6f9dafbcfcc0928dc685fe546b7e1d7aa23"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00071.json",
+      "sha256": "9ee0c586ec62464174a9dc0b6f6db96e93037d2f317bd446ce44958644d009f0"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00072.json",
+      "sha256": "c0082347f4b1d7169681ded29a41496567d4f63da8569bd61822950df0ab08e4"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00073.json",
+      "sha256": "e6da30874688b11eb52898674d392cf9b87576fce106036df7c4dad8032d3068"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00074.json",
+      "sha256": "16e5e36587507b3970424051b85681d7df291adf4cf2a0d93d5d269c29e63aff"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00075.json",
+      "sha256": "a095501dbbc02358bbfcc93feef5344ced27d4c98917465bae7570928c295529"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00076.json",
+      "sha256": "7a7f8756f69635f36a94cd31e67236426353dd175725249da081bdadd52b0063"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00077.json",
+      "sha256": "54a2b7d8b7704ab02850e78e8e31d966ff0aec3334f0a0b4b17c614a392fb9b8"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00078.json",
+      "sha256": "410b041866a415635d0d46b0f56fc112a86f9966f48c61f25a0f17c55d751e2b"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00079.json",
+      "sha256": "ffd1cbd09c2b3e6c4f7bac9063ac332c6ff06c882f60934ac8d4e51198b3fdf2"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00080.json",
+      "sha256": "9a8904f8165811bb7cee8a28bc30b7015f8ed0222456273512591d0f7247ff51"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00081.json",
+      "sha256": "4b06685b6dd29981fd4dca657d46c81de1041d993372645f11d8abff19414560"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00082.json",
+      "sha256": "5c1e5061ca8ae1d0a23aa48f53d8c5a705011748457cecca6730e57aaac8f107"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00083.json",
+      "sha256": "3d5278da115b3a22c6773b628609be18871c11697ad551b08079ce8a219d1a31"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00084.json",
+      "sha256": "253c452e243f407af0d13e2667dfa7a28960461e58f3b55c76e50844a6cf59f9"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00085.json",
+      "sha256": "ac8c97a71efa052b68c07426525a60b6b22de3f96d4c794a15ba32fb727db335"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00086.json",
+      "sha256": "dd4665da84ece79eac9272a588badfdca652fae802d0a7ef3778dbedf4bb3a97"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00087.json",
+      "sha256": "cc4bfae378f00300f7e8aa623788b31316aadbbb9bdc10fa14fd950106a02147"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00088.json",
+      "sha256": "7189da7d285219d17468c6fe63925ec6c22ac3db49d5f4fa1e8ad8683847b811"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00089.json",
+      "sha256": "6188074c291da919e3649bad1baac560110d6deb48f004895fbe3dbbb07b65ae"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00090.json",
+      "sha256": "86ab565a316e7ddbd0607f91678f2073ce4a0dfe21b9108bb643f8de64e2c729"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00091.json",
+      "sha256": "93d246feaa02bbf19839855ccce0b6659c3291faeab1fda0bce412d4b2e3d8aa"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00092.json",
+      "sha256": "510e411a2aea0f2a446c4334ac14e616fe9a7a9a523f0be59ce4f46cd660dcb8"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00093.json",
+      "sha256": "fc17581a7f307b3da6c4177dd365bb27c978e7d4b7ca328357494e4bd9c12e9c"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00094.json",
+      "sha256": "ea505e974a70c07ea768bf2e577f3d15c4f1f21804b83657d4a49a8f5b914ca0"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00095.json",
+      "sha256": "ae25dda51e45e5cea786450116df725c74be65f4594cc4739d11b06019c81fe1"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00096.json",
+      "sha256": "511634ecce1cc26b82403c05a1d8512586882f7c77261daed6412051630d118c"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00097.json",
+      "sha256": "ba8d6a1332cc8573a460e01f5268e6f100c36db023cc55642511e51374b71e4b"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00098.json",
+      "sha256": "fdc787c9e72349a3568a225e9e13978d1556364fbaec87631fda77f8e6cba697"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00099.json",
+      "sha256": "74ee1ed241b7f0d73792fe5176c27646f48b37e91c52cc3eb5a5d3720e6a7bb2"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00100.json",
+      "sha256": "8a84a9cde8e965c13e3cbe56631c207e68b9d952a806e7d64723df58792a8e32"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00101.json",
+      "sha256": "b9872d71aa4905b2494141fdc38c6f3e0b1a70e31fa59b6adecc58413f26af12"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00102.json",
+      "sha256": "55dfa780b9571c012994c3e945d9558c3e9f8f8d12619dc0294d41d58473dcae"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00103.json",
+      "sha256": "7bee7e940a1832ab9bb1f0802337dcdad6200a560444d35a748efa422298fe39"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00104.json",
+      "sha256": "9cad20908670f4ec0f12620fce82d6397e389364b0b6f5c746a8b48f701f2e12"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00105.json",
+      "sha256": "8bf16974fafaa2cf4676fe00de2f3928da6bcb2cd6b3966db45f773a79dfea4e"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00106.json",
+      "sha256": "fc3b8c3b645d58bfc1e5473009d6eb7ced9f181a0635c979a4d033fbf4109d5b"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00107.json",
+      "sha256": "50c2dc307661ab5378d094b75e4edc49ec02ad8921d42afe0383120b606c7eb6"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00108.json",
+      "sha256": "85d48c418cebc178e6ed8c7525708aec2b477eec431587b00ebdd30b61290160"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00109.json",
+      "sha256": "8011c7d0e4a407d9d1526dd603870cf2e764a7aaf1514436d59f8ed074d7b166"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00110.json",
+      "sha256": "c3f112e4ae3a70fa5cc1b04d909238bd02b159ec07d1edf3b53485d7eb064864"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00111.json",
+      "sha256": "7236c036fe1a8a03f0067aa5739c15043c26643de539e042855b336179bf159b"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00112.json",
+      "sha256": "31c1838b997a40898ba3a3c95f4163240b06395430a0ba030c2ce962283f89c3"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00113.json",
+      "sha256": "0828af548efbcb4b4a436199832bbd0af7ef3a6bcb70d81c500756e24a6ab9ec"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00114.json",
+      "sha256": "caba1f3d5c41fb272d333466ad4827f6aaa20451752b14ac30fdcb7a005dfa42"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00115.json",
+      "sha256": "d1c8865eddff65afc577988ada85f8c5eca7787c988ae98e55c0918317309b27"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00116.json",
+      "sha256": "368b5c3048edca426c7f257721120bd890b6bf50f7a2dad647522290beb43d67"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00117.json",
+      "sha256": "57bac34203a67b1ad379971035eaf555c203fdd11cebaefc327570f9973ea6ad"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00118.json",
+      "sha256": "222e8fdb3ef980604f18c11299fa989d32c614d99fc501e3293f938a6df99de7"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00119.json",
+      "sha256": "06fba8d7a5afc88f4936cc183c022f0174301a963327265f549f781b7f7f79ea"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00120.json",
+      "sha256": "51ab7db70211b87e0184a3c816bbaf5406643320644d62481412f3bcf85b1baf"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00121.json",
+      "sha256": "2709f82681dae576e617de1fcacd30556483ae0d2db15cd4a01757f9a5c77b1c"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00122.json",
+      "sha256": "d9b3dfeb08228a62319d44886552b1309fb578292f3534f17704918e1bc126c9"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00123.json",
+      "sha256": "c06744be2a4044af0efe65d77f784bb26f9f8f548093668698d8c9a5388d6a96"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00124.json",
+      "sha256": "e9e913f8699bb89c23b9fc5b0e00283863868bdc4cb98d2e4255a15caa79b139"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00125.json",
+      "sha256": "1cb0f8ce2a5ff1d84c453d93517599fd5688e5c6fc00c1a9d6b0f4f880fa28f8"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00126.json",
+      "sha256": "91a1f109a9aa94f0595ca4cc6e93c81b4a1ead65fdd094a13e9f159ad1c9b916"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00127.json",
+      "sha256": "733bdf525d55614ba4a66512a09e696746c856fd15ed4a7e32fc664f473f4203"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00128.json",
+      "sha256": "884174a7bbbeb3ce06b990a00e5756fa150bdc833ad622040a296c865a37a97d"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00129.json",
+      "sha256": "c6c2b7df8402b3650ae3211b04e4a126e357f467209e7a34fe573f57b2922e92"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00130.json",
+      "sha256": "80429a0a5959f788b2e2e97424037158ec4e179553815e5849986e0b16d5d747"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00131.json",
+      "sha256": "8404f6fb7f29df60d527e5c7f77795f805d3c9c540f51448358766bc19ef479e"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00132.json",
+      "sha256": "77e946b866fadbf83511e47a212df7276a80d6e270d45702cb93e4192995e77a"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00133.json",
+      "sha256": "a2988b7fee5e8a35ee0f1a69e98674c35d509ec3bcd7c53ed3528fa5a27fcb9d"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00134.json",
+      "sha256": "22a0325a19e118f309d925498c0f9cd49a93dbd4c72b83e95175e9857644ef0a"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00135.json",
+      "sha256": "12410a4ac3de5ad73cab1e7103e3a7cd14b257b0c78bd27265a6ab08cc193839"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00136.json",
+      "sha256": "8fe30cc8509cb4d0944d3346f184c8f3ee4b47342142782310ebf2a73709a9bc"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00137.json",
+      "sha256": "776d17140cb9771895521284bc6c6d01d52ac2ad461b6ab29f792a21cb1cb560"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00138.json",
+      "sha256": "4aade1051ada489acf017253ba58f65bc32376b59a8c263b5a33e569a1cdf5d3"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00139.json",
+      "sha256": "04b902e1bb3defb9a7487e5e1f9d9417e7d8b6030f90716434e9851682388a28"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00140.json",
+      "sha256": "910377b4e7b4609285bbe89e2ba794eb1d98ade0f24fefeef81a7e1a00d28592"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00141.json",
+      "sha256": "09fd0914f61ea0751522a43ed1402e63590e7178e0e3df489dfdd2abbb4c49f7"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00142.json",
+      "sha256": "00bb57b44d2a70ed4a4b365bf4fe846861cabe59826840ef47c4039babd69325"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00143.json",
+      "sha256": "3054c9131a48f6df063f418635c76761adf2a11e9f945cb79ffcb9c3839d162e"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00144.json",
+      "sha256": "5361e882576b5bbb0182d1608af165f46fc8aaa172601a061d85a6b2b4746bbb"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00145.json",
+      "sha256": "ef709b855892002ee40e42a8ec3e24bda4d48b88ea41ca7b83f18c2d36aaa3b1"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00146.json",
+      "sha256": "e63a419903ed28aa0e0bdb17eb8cef3071f4ae8ea716808513c3be57acf25a17"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00147.json",
+      "sha256": "c463a177fc9da298563c1c4bc3371173d2ecb1f897e66b69b54a2d8c5be966d8"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00148.json",
+      "sha256": "e971316fd0594d669ebb86ca7972c4a5ac3f6c5a027fd7f661a3fcc86cfd1d9c"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00149.json",
+      "sha256": "b136280292c27b68bf879063d27f589e6c488f2dd1a3e9fdbab1e13f903206a1"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00150.json",
+      "sha256": "faf22dc37cf856bedf129ffb68bb3d87cc4f25de581ba53c6fa37d172f00551b"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00151.json",
+      "sha256": "5df2785009ca4a7c84be3a77d303ae5fc85526e41c152aea01c6b1984452f7e1"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00152.json",
+      "sha256": "5404e1e49b4890d0550545a8214250d10de16ec3684e7e34e12ff3e800825b12"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00153.json",
+      "sha256": "194840f4a5fd42c6ab947775ca036a3668eadd64eeb2282ce39ebfcff537ada4"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00154.json",
+      "sha256": "b4c4040c30813054e7e28c7f9ea3209257dce2a835f0a3909a10629c97823c24"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00155.json",
+      "sha256": "d54df5445d40c15fedb83b3221de81f3fa3a25329bcfaa4a689f59017e3c0aa4"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00156.json",
+      "sha256": "30eed8055c63ade75dbe33384851d68b4331c2d0bfa3ecdeb99eaffaff8cecff"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00157.json",
+      "sha256": "1411a8a0b497966c81ddea8c764fb2e10e430c51083783257549e57687e887a7"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00158.json",
+      "sha256": "53ba95cd660339ba78acd02be05807a92bee9168523b3de5c9552dda2e8c18b1"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00159.json",
+      "sha256": "cd1a45d5992b7515271eb20e2b031d45be59cccf218990c1856dba7fd400f652"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00160.json",
+      "sha256": "06a97502fb8dadf8646b089a7e8b9a5377a745266ee8d05d89edba66839276cf"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00161.json",
+      "sha256": "6312f260528d50533070194f1b1352a415a574c6a426238ad3e9b0850951c820"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00162.json",
+      "sha256": "a065afa368804e92c9859e337aa34076717f1d15f164697f7ce557f2af10073b"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00163.json",
+      "sha256": "1ac266cc8c3e2b5fd65463b25b1ba808dcd636ffb004554da6fbf17f9d0bbdd9"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00164.json",
+      "sha256": "ed01d72ce4613fad56104a95bcce1a56513fb5198b14152ca4038845def4b853"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00165.json",
+      "sha256": "115b3d8f7f1ce4ea1745932e5e6219905e79ed55b0201916d260f0b7ba4e9c28"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00166.json",
+      "sha256": "41e72ae5c198c42bc4e1463dac47a8c02d69424bfd181956bd8042ebeadd099f"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00167.json",
+      "sha256": "6f30d08a165db4aefef7f04ba6e6d5e815288e9529a7af41bca0349ef2f85f26"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00168.json",
+      "sha256": "a3007f32e9e19cb0a57f421ecaa09033d2bfabfdbaef974b9fe2773620798b5e"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00169.json",
+      "sha256": "702d897d5e1a5ea0a40dce45901f877378856c615f658502733d2843217bdda3"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00170.json",
+      "sha256": "d99c59e04be51e286b97d033dc1d5f37592f088c9c117e264f90989fac4c90b5"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00171.json",
+      "sha256": "8618dc4c924059f9a271071f5bf920002d022003443c3369d4b735010330d281"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00172.json",
+      "sha256": "d423c21a17c80969e6633e1f55705e9d029cc78253ee7108f2610964dc0e599b"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00173.json",
+      "sha256": "f7cabaf6c799266da8618c1d6224e42aedbaa269a1e59f57b2138d67f3dc3932"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00174.json",
+      "sha256": "18e609f14540eb1776c2ea7830e68da13facebe979ff864e1c5cd65d772bdb6a"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00175.json",
+      "sha256": "0bf3cd6761f0744f9bf8237336ef4b85668729eac11809f4e20c93369bbd607e"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00176.json",
+      "sha256": "bd6c97a858c4f7c8f9c1396b431f5120bffdabf31744ea109bb408d8735ba7e0"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00177.json",
+      "sha256": "33c716b7d15726210dd241d3c32f4d96fef32c372cfcc5306c2771d402110f75"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00178.json",
+      "sha256": "231eaf5b117acd90116fd76e952117a9792a8f881f06ce28056c8f4e56e29198"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00179.json",
+      "sha256": "f25f6c2d30f1da9ab52f871e062e949af60e125f5a558c6f82415b8f18147f33"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00180.json",
+      "sha256": "7349a7021916a3fdd6603165249d576db289a5f149671b50dda11801f5ba8a0a"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00181.json",
+      "sha256": "fbd1d212dfa62bceecbbab5fefe10ee092f531dbc211e928f0466055bd8ff854"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00182.json",
+      "sha256": "cf6c9d7a1a0d7a0159db620da5cc384dca77a55a5ce63e2da4edbfffde178f93"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00183.json",
+      "sha256": "effd424f22882fb31025c6b57298aba1f3f61ab209bcea8db634ca2c036d3431"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00184.json",
+      "sha256": "ec87634d09fec67e4d0a8675053f685d8f635e85d44b23a5b4b727d3dd8a559b"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00185.json",
+      "sha256": "560dd033d4383eba261c691ce95ab90ca10b10ec633a06f9a0a94a214dd75686"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00186.json",
+      "sha256": "554989c84b670673ecc2bb93b8ecd4d9802e63ad70586ec78e7662b2f76363a8"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00187.json",
+      "sha256": "d54bac5f620f074a5b6127b6d918ba1bd50ded0bc60299ace7d071572a97c5bb"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00188.json",
+      "sha256": "7b9503e350c8d2cb5c01b7e140ab45e4e8fe23070073f40759d27d7b681894de"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00189.json",
+      "sha256": "3b167a3fa71471c721ea7f9058e2f69651ec8258165e7f920ef55cfc2b63fbcd"
+    },
+    {
+      "file": "continuation/structural_nine/row_elimination_compressed/regions/00190.json",
+      "sha256": "690c4bac8b1ccb7ca6992674a893e2ca11e51111d59667aeb994bf721aaf7220"
+    }
+  ]
+}

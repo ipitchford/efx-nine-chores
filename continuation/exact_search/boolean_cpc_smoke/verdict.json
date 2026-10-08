@@ -1,0 +1,36 @@
+{
+  "solver": "cvc5-1.4.1",
+  "input": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/boolean_cpc_smoke/toy.smt2",
+  "input_sha256": "c4b35967e17cf0717d5eab340e1c68f9176eb800997047699f728aeb2a83a92d",
+  "logic": "QF_UF",
+  "logic_declaration_injected": false,
+  "address_space_limit_mib": 300,
+  "options": {
+    "produce-proofs": "true",
+    "produce-unsat-cores": "true",
+    "check-proofs": "false",
+    "proof-check": "none",
+    "incremental": "false",
+    "proof-prune-input": "true",
+    "proof-granularity": "dsl-rewrite",
+    "tlimit-per": "5000"
+  },
+  "command_counts": {
+    "set-logic": 1,
+    "declare-fun": 2,
+    "assert": 4,
+    "check-sat": 1
+  },
+  "assertions": 4,
+  "parsed_assertions_sha256": "f072fac653f7d80aa9bcd7dc800c0223cbbfbe32a3b4c00798b7a5d19648782e",
+  "result": "unsat",
+  "reason_unknown": null,
+  "parse_s": 0.018055,
+  "memory_reductions": "incremental=false; redundant internal proof checking disabled; unused input-scope pruning; parser/input/text copies released before checkSat",
+  "check_s": 0.000157,
+  "proofs_checked_internally": false,
+  "independent_proof_check": "pending",
+  "proofs": [],
+  "phase": "solver_verdict",
+  "proof_export": "not_started"
+}

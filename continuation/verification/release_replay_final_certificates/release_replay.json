@@ -1,0 +1,30 @@
+{
+  "status": "PASS_RELEASE_LOCAL_CERTIFICATES_AND_INPUT_BINDING_NO_GLOBAL_VERDICT",
+  "started_utc": "2026-10-07T21:54:41.839925+00:00",
+  "index": "continuation/verification/release_certificate_index.json",
+  "index_sha256": "a3c55d0a8a1b6d60d03d56aff7cb0f57266899e4347a4b4f40d9df87c07d6edf",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "phase": "certificates",
+  "prefix_certificates_indexed": 1956,
+  "row_certificates_indexed": 2005,
+  "bound_files_checked": 8245,
+  "audits": [
+    {
+      "name": "bounded_prefix",
+      "status": "PASS_ALL_PREFIX_CERTIFICATES_AND_EXACT_BOUNDED_INPUT_NOT_GLOBAL_UNSAT",
+      "elapsed_seconds": 13.749590581999655,
+      "receipt": "continuation/verification/release_replay_final_certificates/bounded_prefix_snapshot_audit.json",
+      "receipt_sha256": "8efa65326ca6b5a23b6d9ae8971ff91d7cd8641b14ef3673b34b27b22cfa303c"
+    },
+    {
+      "name": "row_snapshot",
+      "status": "PASS_ALL_LOCAL_GUARANTEES_AND_EXACT_FINAL_OUTER_BINDING_NOT_GLOBAL_UNSAT",
+      "elapsed_seconds": 13.534915911001008,
+      "receipt": "continuation/verification/release_replay_final_certificates/row_snapshot_audit.json",
+      "receipt_sha256": "1fd7c7ccd8c8bbe08083f4b31f22dcdbcb1522e769a406f7fbe9c4931331b8d1"
+    }
+  ],
+  "scope": "Exact local certificates and their bound input formulas only; no solver or global existence verdict. Mutation fixtures are excluded by the explicit index.",
+  "finished_utc": "2026-10-07T21:55:09.131158+00:00",
+  "elapsed_seconds": 27.727661229997466
+}

@@ -1,0 +1,84 @@
+{
+  "status": "PASS_BACKWARD_PRODUCER_CONTROLS",
+  "cases": [
+    {
+      "variables": 2,
+      "status": "PASS_INDEPENDENT_HINT_REPLAY",
+      "trace_records": 8
+    },
+    {
+      "variables": 2,
+      "status": "PASS_RESUMED_CANDIDATES_INDEPENDENT_REPLAY"
+    },
+    {
+      "variables": 3,
+      "status": "PASS_INDEPENDENT_HINT_REPLAY",
+      "trace_records": 16
+    },
+    {
+      "variables": 3,
+      "status": "PASS_RESUMED_CANDIDATES_INDEPENDENT_REPLAY"
+    },
+    {
+      "variables": 4,
+      "status": "PASS_INDEPENDENT_HINT_REPLAY",
+      "trace_records": 29
+    },
+    {
+      "variables": 4,
+      "status": "PASS_RESUMED_CANDIDATES_INDEPENDENT_REPLAY"
+    },
+    {
+      "variables": 5,
+      "status": "PASS_INDEPENDENT_HINT_REPLAY",
+      "trace_records": 59
+    },
+    {
+      "variables": 5,
+      "status": "PASS_RESUMED_CANDIDATES_INDEPENDENT_REPLAY"
+    },
+    {
+      "variables": 6,
+      "status": "PASS_INDEPENDENT_HINT_REPLAY",
+      "trace_records": 118
+    },
+    {
+      "variables": 6,
+      "status": "PASS_RESUMED_CANDIDATES_INDEPENDENT_REPLAY"
+    },
+    {
+      "status": "PASS_SELF_REFERENTIAL_CHECKPOINT_REJECTED"
+    },
+    {
+      "status": "PASS_TRUNCATED_TAIL_RECOMPUTED_AND_INDEPENDENTLY_REPLAYED"
+    },
+    {
+      "status": "PASS_INVALID_PROVISIONAL_REFUTATION_REJECTED",
+      "control": "provisional_opposite_units"
+    },
+    {
+      "status": "PASS_INVALID_PROVISIONAL_REFUTATION_REJECTED",
+      "control": "future_binary_and_unit"
+    },
+    {
+      "status": "PASS_INVALID_PROVISIONAL_REFUTATION_REJECTED",
+      "control": "self_or_future_empty"
+    },
+    {
+      "status": "PASS_INVALID_PROVISIONAL_REFUTATION_REJECTED",
+      "control": "satisfiable_complete_capture"
+    },
+    {
+      "status": "PASS_SOURCE_DERIVED_UNIT_INSERTION_AND_RENUMBERING"
+    },
+    {
+      "status": "PASS_V6_CHECKPOINT_RESUMED_WITH_SOURCE_UNIT_CACHE"
+    },
+    {
+      "status": "PASS_V7_CHECKPOINT_WITH_CACHED_UNIT_NODES_RESUMED"
+    }
+  ],
+  "producer_cpp_sha256": "b2a4bd8489fee2e6b9f715ae2c5b9358e5f78edfdb360b876282490809ec8de5",
+  "producer_executable_sha256": "a3a088bd35fdc9a9c26ca680e091d1490ec38aa8216880f77f6c98ff320cca44",
+  "checker_source_sha256": "7ece388b1466370bef950df80a2fe042611d2482b85d254360fbe25270c8041c"
+}

@@ -1,0 +1,31 @@
+{
+  "status": "PASS_BUDGETED_REPLAY_ORCHESTRATION_AND_RELOCATION_CONTROLS",
+  "control_count": 4,
+  "controls": [
+    "complete fresh three-stage replay after relocation",
+    "existing complete output cannot be overwritten",
+    "missing arithmetic coverage cannot produce a combined PASS",
+    "wrong original input cannot create replay outputs"
+  ],
+  "memory_budget_mib": 1600,
+  "mathematical_checking_functions_unchanged": true,
+  "original_location_deleted": true,
+  "mixed_relative_and_absolute_paths_checked": true,
+  "stale_historical_absolute_path_preserved_and_not_required": true,
+  "solver_invoked": false,
+  "large_completed_certificates_replayed": false,
+  "fixture_scope": "Tiny synthetic contradiction, not an economics result",
+  "fixture_input_sha256": "3a077b246c1313abad44dc9a472aecd158a2ef1c84ad5a9fb09c1b8928ef0f2b",
+  "fixture_complete_receipt_sha256": "700d08afaa9ba499e937654b2f3cd41b74ff17b822e3840eecd703e1f6f7958d",
+  "checker_sources_sha256": {
+    "lra_certificate_common.py": "7f490f5ba6ba51d8c363566124100d90de91523fd2777686915ad1ece19d8bf4",
+    "check_lra_capture.py": "cb30ac1c4ea59bea092f0141073cf685899389033867098ae1205198b98d9308",
+    "check_lra_rup.py": "7ece388b1466370bef950df80a2fe042611d2482b85d254360fbe25270c8041c",
+    "check_lra_farkas.py": "5a7b69a284a7bceef7a00236fe7d868e8da29d70a7964ba4044e0109cd97b840",
+    "check_lra_certificate.py": "87fa105d6f970cc27c1f4025bdc28282d63750e410532211961d840d7aa77fd0",
+    "bind_completed_lra_checks.py": "5990edf0be6e76e96117be9b053d529b1746959773753847512660d171e042ff",
+    "run_lra_with_budget.py": "a013f7c6ac37998cc751250e736cccd920b7b4758953b7f94969dc66df9e946a"
+  },
+  "control_source_sha256": "b700e10407835db2a55e9c3781f98cc19f0632905642415e208dd00fb2ccdccf",
+  "completed_at_utc": "2026-10-08T00:16:41.264427+00:00"
+}

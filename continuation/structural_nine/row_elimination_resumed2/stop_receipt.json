@@ -1,0 +1,10 @@
+{
+  "status": "clean_algorithmic_restart",
+  "created_utc": "2026-10-07T21:06:16.350200+00:00",
+  "reason": "Enable exact generic sampling and on-demand independently certified pair cores",
+  "termination": "requested_stop",
+  "completed_regions": 439,
+  "seconds": 803.3559383969987,
+  "outer_sha256": "c3967cd3ae8988946b38b7319a8ed58c5f86458593afaf49cbf665821fc0bfc6",
+  "diagnostic_note": "Visible stdout was stale; history and region files are authoritative. No timeout or stalled solver verdict was observed."
+}

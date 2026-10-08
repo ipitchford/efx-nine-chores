@@ -1,0 +1,42 @@
+{
+  "status": "PASS_EXACT_POSITIVE_OUTER_NONCOVERAGE_WITNESS_ONLY",
+  "time_utc": "2026-10-07T22:15:10.794831+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "input": "continuation/structural_nine/row_elimination_batch1/outer_final.smt2",
+  "input_sha256": "1fc2bec83744678c33126d36e26ea535ff31bab494e8a6c4f9ad662d46214ec4",
+  "source_zero_model": "continuation/structural_nine/zero_outer/run1_model.json",
+  "source_zero_model_sha256": "e13b99b8ee5b981794908bf33c4a37322a8d6988a27c5a7783b370892545754e",
+  "rows_1_and_2": [
+    [
+      304,
+      1,
+      8,
+      1524,
+      860,
+      882,
+      216,
+      84,
+      120
+    ],
+    [
+      304,
+      6,
+      1,
+      1002,
+      726,
+      902,
+      228,
+      36,
+      56
+    ]
+  ],
+  "exact_assertions_checked": 6309,
+  "learned_region_exclusions_checked": 6291,
+  "smallest_maximum_exclusion_margin": "1",
+  "current_frozen_row_region_family_is_not_complete": true,
+  "main_target_counterexample": false,
+  "scope": "These two positive integer cost rows have their pinned minima exactly one and satisfy every assertion in the original final two-row relaxation. Thus the currently frozen 6,291 sufficient regions do not cover its canonical two-row domain. No first row is supplied; this is not a three-agent instance without EFX, and the universal nine-chore problem remains unresolved.",
+  "script_sha256": "48fe8d72e7575345456682f282cee56ae9c351dbc02931fc49acdb4b05321228",
+  "elapsed_seconds": 2.6325780730003316,
+  "peak_rss_kib": 23760
+}

@@ -1,0 +1,20 @@
+{
+  "status": "process_returned",
+  "returncode": 0,
+  "started_utc": "2026-10-07T20:53:02.721409+00:00",
+  "seconds": 0.7168016430005082,
+  "memory_cap_mib": 300,
+  "external_timeout_seconds": 120,
+  "max_rss_kib": 8576,
+  "command": [
+    "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/pair_census_full",
+    "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/full_pair_census/input.txt",
+    "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/full_pair_census/accepted_pairs.bin",
+    "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/full_pair_census/summary.json",
+    "118"
+  ],
+  "input_sha256": "a7fbf317080a72b4678470625e55d05eb723df95cc79718c985eeccb117f1ccc",
+  "cpp_source_sha256": "2b8bb96ab6a26bbfe5f75faa5c6d3ccf30b90c37502009e0b8ba726b217d556b",
+  "binary_sha256": "27d48f713c5525b96de45166cad8a38aee524f815eee3a66e5148171e848ba25",
+  "accepted_pairs_sha256": "6fd8663ffd5f20bdda404aa49f6c3e06973e876f3199c6b1c42d07e71ea508fc"
+}

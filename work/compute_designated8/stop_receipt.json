@@ -1,0 +1,15 @@
+{
+  "status": "INTERRUPTED_WITHOUT_CONCLUSION",
+  "reason": "Independent structural worker reports a rational counterexample to strengthened P8; stopped to verify it. This does not settle nine-chore EFX.",
+  "utc": "2026-10-07T18:09:34.298202+00:00",
+  "last_completed_iteration": {
+    "iteration": 246,
+    "status": "sat",
+    "clauses": 2434,
+    "check_seconds": 1.948425557000519,
+    "elapsed_seconds": 324.49154881399954,
+    "designated_EF_allocations": 2,
+    "max_integer": 615,
+    "newly_added": 2
+  }
+}

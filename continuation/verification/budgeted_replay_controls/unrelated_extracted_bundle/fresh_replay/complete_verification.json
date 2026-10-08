@@ -1,0 +1,43 @@
+{
+  "status": "PASS_INDEPENDENT_EXACT_LRA_UNSAT_CERTIFICATE",
+  "verification_mode": "binding_of_completed_immutable_independent_checks",
+  "input": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/budgeted_replay_controls/unrelated_extracted_bundle/payload/input.smt2",
+  "input_sha256": "3a077b246c1313abad44dc9a472aecd158a2ef1c84ad5a9fb09c1b8928ef0f2b",
+  "original_smt_reconstructed": true,
+  "exact_affine_atoms_checked": true,
+  "boolean_rup_refutation_checked": true,
+  "all_admitted_theory_axioms_checked": true,
+  "callback_assumptions_admitted": false,
+  "producer_solver_verdict_trusted": false,
+  "solver_or_third_party_numeric_library_invoked_by_independent_checkers": false,
+  "completed_proofs_repeated_in_this_binding_step": false,
+  "selected_theory_clauses": 1,
+  "selected_original_clauses": 2,
+  "derived_rup_clauses": 1,
+  "ordered_reason_positions": 3,
+  "stage_receipts_sha256": {
+    "fresh_replay/input_binding.json": "d5e997fc0b55d615ba472ea5ccae623caeb79fee8cbb7f6ef55e24c72b27c9ef",
+    "fresh_replay/rup_verification.json": "ecde6466ea91b5131121e0617c27f4ea74947687b30446d963ecf683daa2da71",
+    "fresh_replay/arithmetic_verification.json": "387c474942bd46eeb007e8d911d9a05db643999e9e66f6182410db2ed396dc3f"
+  },
+  "captured_files_sha256": {
+    "atoms.jsonl": "da11bdca1b650840b6feba56f40ad1cbe846828b80a9d68482d8a248cd206d01",
+    "input_clauses.jsonl": "5989ea60dfa2529ec09d79637a9c138b55376f031110b953dd9db96b5a892156",
+    "theory_clauses.jsonl": "7952b7257401e153249776ff47b405d34afb02162d8e7df61b504dcdbbcf48f6",
+    "metadata.json": "1dcd11f1072889be5281843034804e8b5e1215989ff2816d1ef42f75540f6a3c",
+    "receipt.json": "eed93ec73caa06d5118b74d34897500a959e186efd5cec7e309d7166ae0110d2"
+  },
+  "trace_sha256": "2630ab694c96cb1bc567eaeefb2575e23c26b33b10b3404239490632de914817",
+  "certificate_sha256": "b1ffb6d7efce4d8adacfd0dc74fe163166fc2f7409160e6b18ab5d2f6dd0a4e8",
+  "selected_indices_sha256": "d758f9aad1cc8112cd45089a5d02c62d5080922560596632231c1c58bf8ef7a6",
+  "checker_sources_sha256": {
+    "lra_certificate_common.py": "7f490f5ba6ba51d8c363566124100d90de91523fd2777686915ad1ece19d8bf4",
+    "check_lra_capture.py": "cb30ac1c4ea59bea092f0141073cf685899389033867098ae1205198b98d9308",
+    "check_lra_rup.py": "7ece388b1466370bef950df80a2fe042611d2482b85d254360fbe25270c8041c",
+    "check_lra_farkas.py": "5a7b69a284a7bceef7a00236fe7d868e8da29d70a7964ba4044e0109cd97b840",
+    "check_lra_certificate.py": "87fa105d6f970cc27c1f4025bdc28282d63750e410532211961d840d7aa77fd0",
+    "bind_completed_lra_checks.py": "5990edf0be6e76e96117be9b053d529b1746959773753847512660d171e042ff"
+  },
+  "target_reduction_must_be_verified_separately": true,
+  "completed_at_utc": "2026-10-08T00:16:41.138560+00:00"
+}

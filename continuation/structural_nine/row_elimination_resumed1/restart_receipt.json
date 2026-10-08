@@ -1,0 +1,21 @@
+{
+  "status": "restart_launched_after_previous_session_disappearance",
+  "created_utc": "2026-10-07T20:46:15.153341+00:00",
+  "previous_runs": [
+    {
+      "path": "continuation/structural_nine/row_elimination_seeded",
+      "completed_region_files": 109,
+      "terminal_summary_present": false
+    },
+    {
+      "path": "continuation/structural_nine/row_elimination_compressed",
+      "completed_region_files": 284,
+      "terminal_summary_present": false
+    }
+  ],
+  "resume_policy": "All direct and nested source directories; exact core hashes; deduplicate allocation-core sets",
+  "extra_paired_seeds": 92,
+  "pair_verification": "368 independent exact rational branch checks PASS",
+  "seconds": 1200,
+  "memory_mib": 1450
+}

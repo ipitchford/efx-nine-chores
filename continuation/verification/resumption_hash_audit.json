@@ -1,0 +1,49 @@
+{
+  "time_utc": "2026-10-07T20:45:48.141229+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "scope": "Byte-identity replay of completed audit evidence; no certificate recomputation or solver invocation.",
+  "audit_receipts": {
+    "prefix_snapshot_audit.json": "dfef512289b3c783e709dbab7e8669a42dbc8696eac8c60c3895d2ba7528e02f",
+    "row_core_audit.json": "561ec31bd12bf642f067cc6a2f7bc76ff0b24384c0f39411508399a0acc7bb5c",
+    "row_compression_audit.json": "00d84af43d1a4a44bbab703c266664d9f126b8bb474c9d8d8c51bd22b2b72ba9"
+  },
+  "hash_counts": {
+    "prefix_snapshot_audit.json": 641,
+    "row_core_audit.json": 169,
+    "row_compression_audit.json": 191,
+    "inspected_source_manifest.json": 9
+  },
+  "mismatches": [],
+  "static_hashes": {
+    "continuation/verification/prefix_v3_snapshot.smt2": {
+      "sha256": "cd08600dcbc506b018d015c78700376754be5a1de2274bc91ed0b6b46154d87c",
+      "matches_completed_receipt": true
+    },
+    "continuation/verification/prefix_v3_portable_snapshot.smt2": {
+      "sha256": "31f6176e45180fef5b71f220093f0ea59cd3c58c476c1f9f71d7e8f261e432dd",
+      "matches_completed_receipt": true
+    },
+    "continuation/verification/row_compressed_outer_snapshot.smt2": {
+      "sha256": "f43d624e71a68a9e5e3b70d68668f57f3f6e016530b2414d150371ac36c85aa2",
+      "matches_completed_receipt": true
+    },
+    "continuation/structural_nine/row_elimination_compressed/seed_regions.json": {
+      "sha256": "6bfaff9d405ddbbfe60af58c4b2aaa6b471b030b251306dc3f9d7957a5d6174d",
+      "matches_completed_receipt": true
+    },
+    "continuation/structural_nine/row_elimination_compressed/resumed_regions.json": {
+      "sha256": "4c39d8c83ea881381bdb20982b269d5dabe3481ec59d7d691d66ffe762ca2151",
+      "matches_completed_receipt": true
+    },
+    "continuation/structural_nine/row_elimination_compressed/robust_seed.json": {
+      "sha256": "3f5bddb069eb14decccb54afc81694010f4f887ce1928fc85f4ff714a1dd7725",
+      "matches_completed_receipt": true
+    }
+  },
+  "distinct_seeded_cores": 109,
+  "current_compressed_region_count": 284,
+  "current_live_outer_sha256": "d23f58b2b03be9369ec139bbccfdf868eae248b9a10f0c3b13d55da706d6a6e0",
+  "status": "PASS_RECORDED_EVIDENCE_UNCHANGED",
+  "elapsed_seconds": 0.08945632699942507,
+  "peak_rss_kib": 13496
+}

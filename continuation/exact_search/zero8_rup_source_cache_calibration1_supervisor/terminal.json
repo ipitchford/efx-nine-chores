@@ -1,0 +1,10 @@
+{
+  "status": "child_completed",
+  "returncode": 0,
+  "elapsed_seconds": 14.48163385999942,
+  "utc": "2026-10-07T23:45:41.518383+00:00",
+  "hard_killed": false,
+  "configuration_sha256": "04e33c12b9abf951194c4fdec4dde6c6c988ff1f4bc2a4ea0262c4fdf5e1f492",
+  "bound_files_unchanged": true,
+  "max_child_rss_kib": 102952
+}

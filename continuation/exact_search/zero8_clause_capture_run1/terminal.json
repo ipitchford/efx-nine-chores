@@ -1,0 +1,10 @@
+{
+  "status": "hard_wall_timeout",
+  "returncode": -9,
+  "elapsed_seconds": 90.00475417100097,
+  "utc": "2026-10-07T22:29:11.033556+00:00",
+  "hard_killed": true,
+  "configuration_sha256": "8d9f56ce7602a76ce310cad9136e465bd09363dfbe7b43791abaa4b18efeddfc",
+  "bound_files_unchanged": true,
+  "max_child_rss_kib": 60660
+}

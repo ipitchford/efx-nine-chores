@@ -1,0 +1,9 @@
+{
+  "returncode": 0,
+  "seconds": 0.6555847809995612,
+  "max_rss_kib": 18432,
+  "stdout": "scored=2113668\n",
+  "stderr": "",
+  "accepted_pairs.bin_sha256": "6fd8663ffd5f20bdda404aa49f6c3e06973e876f3199c6b1c42d07e71ea508fc",
+  "pair_region_scores.bin_sha256": "845b794e5c5fb8607a7ed6dce8d6dc411c3648ac49e34a1421e0b5123154ab9d"
+}

@@ -1,0 +1,58 @@
+{
+  "status": "SEALED_UNTRUSTED_DEPENDENCY_PREFIX_THEORY_SELECTION",
+  "completed_at_utc": "2026-10-07T23:40:51.769591+00:00",
+  "source_checkpoint": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/zero9_rup_checkpoint_run1/candidate_justifications.jsonl",
+  "source_size_observed": 21532874,
+  "sealed_prefix_bytes": 21532828,
+  "ignored_unterminated_suffix_bytes": 46,
+  "sealed_prefix_records": 27243,
+  "sealed_prefix_sha256": "3b36379780920c2049ee5fb49086e1ea6f979c7d2a3474ffb68e29fe2f229fd2",
+  "producer_started_sha256": "e09bc84e7d58254a7c16825b3fcd585150aa4ae141bb96a838cdbc0f1208f429",
+  "producer_configuration_sha256": "4c82f3a859669b4fe435f8dc319f493617c9f24d6abd31d30b5fdbcef8525433",
+  "input_binding_sha256": "a31b46824ef77a3806527e24da35572775df4d405f4296823744b5a2e2ced8c0",
+  "capture_hashes": {
+    "input_clauses.jsonl": "435f7af9909281ca31fa3d5a646e4caa5bb53fb36bc993895d6f5b6f20317c66",
+    "theory_clauses.jsonl": "76ed7b45fe3cebe508563b9719dad6dd4893f61a5313b32dd2d4a0784dff38be",
+    "atoms.jsonl": "07363e1475cf95ef9e66060e9030b0541f95150dab0aada68aea11236b7a5592",
+    "assumptions.jsonl": "d5e2b8565c02cec9c906d6eab0220103369a320a4879f0d73ff01a38f7d052e4",
+    "rup_clauses.jsonl": "e0629aea22cf72414681e99a2e71057c197715ea6b05ecb33ee4784b7be27aa6",
+    "metadata.json": "ebe323468831b34d5fbc30e110bf3d8124d98c97eb0f21ccfbd586c12dc9e97b",
+    "receipt.json": "53cb13091ced3b9799c7a88a67f457e373697340150e254f3bef98a8fa2b3ff8"
+  },
+  "first_theory_global_id": 18179,
+  "last_theory_global_id": 3252393,
+  "all_referenced_theories": 143347,
+  "previously_generated_candidates": 121003,
+  "prior_artifacts": [
+    {
+      "directory": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/zero9_farkas_pipeline_run1/artifacts",
+      "records": 46943,
+      "manifest_sha256": "50ca63c373c8be9e25e40d7e1487cf6b53c214fb199f85dae80a316cd4545e83",
+      "certificates_sha256": "5036c410be8b37aa4c30cf883d528526dd0416f4660a83feacca9f4f7eeb9778"
+    },
+    {
+      "directory": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/zero9_farkas_pipeline_run2/artifacts",
+      "records": 26875,
+      "manifest_sha256": "ab3ea472b6125fc685a8012abe0214c9c48d99a83937427287c4df1445551454",
+      "certificates_sha256": "02a2ff672e4a9b9e816af470a6c17a6fdc855b3228b94e581e61149c538ad148"
+    },
+    {
+      "directory": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/zero9_farkas_pipeline_run3/artifacts",
+      "records": 24121,
+      "manifest_sha256": "9b383e752f2168672406b910ea80029abc0c24e7dab83961938959d446a992de",
+      "certificates_sha256": "7ea98143b59f5d7af1c1c8879c2cae671cb7ae327660257e0beb82c51804b3a0"
+    },
+    {
+      "directory": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/zero9_farkas_pipeline_run4/artifacts",
+      "records": 23064,
+      "manifest_sha256": "0989f3a897ef6e8b2b5f3f12ec33d804e983b67172bc51f85285572f08cd68f6",
+      "certificates_sha256": "69f11001ad1b80396303886f8c2eaa3511e4cba9f769a716f6e582cb4534b854"
+    }
+  ],
+  "selected_theories": 22344,
+  "selection_sha256": "50f49dd4598b82bf906047143301b9b054051e4e14ad0f16ec858235568168bd",
+  "original_checkpoint_modified": false,
+  "boolean_validity_checked": false,
+  "arithmetic_validity_checked": false,
+  "final_selection_coverage_claimed": false
+}

@@ -1,0 +1,92 @@
+{
+  "recorded_at_utc": "2026-10-07T21:11:12.320008+00:00",
+  "reviewed_theorem": "continuation/exact_search/row_local_integer_bound.md",
+  "theorem_sha256": "7d3fcb6ed8cd19ca648bb2f5772142733ee94ab7f8c448c9fe176afe32ad62ba",
+  "independent_review_receipt": "continuation/verification/row_local_integer_bound_check.json",
+  "review_receipt_sha256": "2f4e9d2178268e955ec0fd33e5c8524ca2a747e7a868789c94712348a9032c05",
+  "integer_bounds": {
+    "8": 2401,
+    "9": 11585
+  },
+  "integer_models_use_independent_minima": true,
+  "scaled_common_minimum_models_are_real_not_integer": true,
+  "artifacts": {
+    "cpsat8_rowwise_complete": {
+      "receipt": "continuation/exact_search/cpsat8_rowwise_complete.json",
+      "receipt_sha256": "449d17c52c0d9981c35ecde322ec92fa0f4dcb77155d8104ba376d15f1ac1523",
+      "status": "UNKNOWN",
+      "model_file": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/cpsat8_rowwise_complete.pbtxt",
+      "model_sha256": "0ffb60c8c105ed82bdaf5c3e24f948dcaa4d5130b781da1684b5765eedbe40c0"
+    },
+    "cpsat9_rowwise_complete": {
+      "receipt": "continuation/exact_search/cpsat9_rowwise_complete.json",
+      "receipt_sha256": "d602431f563a09ca0dfe4d320394356b3e26c5349f6ed77f38d82395ddde1c15",
+      "status": "prepared_and_audited_no_solve",
+      "model_file": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/cpsat9_rowwise_complete.pbtxt",
+      "model_sha256": "9023d19a1eca46c032693cfecafd21e5376fde3dbcca6c8e800ac232b56fda7b"
+    },
+    "bounded8_fixed_min_preparation": {
+      "receipt": "continuation/exact_search/bounded8_fixed_min_preparation.json",
+      "receipt_sha256": "75bce798bbfbaaf68ee3198e18d525f9b56d142370ff3ff91574bc4728104bef",
+      "status": "prepared_no_solver_call",
+      "forms": [
+        {
+          "form": "fractional",
+          "input": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/bounded8_fixed_min_fractional.smt2",
+          "input_sha256": "a56f5d995f19592d6e1a3a7770f778e9384e215042bad6a6e81e4011494306b5",
+          "assertions": 5867,
+          "fixed_minimum": 1,
+          "failure_margin": "1/2401",
+          "nonminimum_upper_bound": 2401,
+          "free_variables": 21,
+          "allocation_clauses": 5796,
+          "roundtrip_assertions": "all exact simplified ASTs preserved; parser may represent rational literals as division nodes"
+        },
+        {
+          "form": "unit",
+          "input": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/bounded8_fixed_min_unit.smt2",
+          "input_sha256": "9efd1199e8d1efc9f3aef9e36e40848a58c883d8e7d661d9a56469016141e348",
+          "assertions": 5867,
+          "fixed_minimum": 2401,
+          "failure_margin": "1",
+          "nonminimum_upper_bound": 5764801,
+          "free_variables": 21,
+          "allocation_clauses": 5796,
+          "roundtrip_assertions": "all exact simplified ASTs preserved; parser may represent rational literals as division nodes"
+        }
+      ]
+    },
+    "bounded9_fixed_min_preparation": {
+      "receipt": "continuation/exact_search/bounded9_fixed_min_preparation.json",
+      "receipt_sha256": "390e2e1e45889381925a8354f9ae1de6acc1a2a44c73b212e9432c9b887b37f6",
+      "status": "prepared_no_solver_call",
+      "forms": [
+        {
+          "form": "fractional",
+          "input": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/bounded9_fixed_min_fractional.smt2",
+          "input_sha256": "91a3e24415645fd9f404c3708163355d27516af83ac04c1959888b45dd0fc10f",
+          "assertions": 18231,
+          "fixed_minimum": 1,
+          "failure_margin": "1/11585",
+          "nonminimum_upper_bound": 11585,
+          "free_variables": 24,
+          "allocation_clauses": 18150,
+          "roundtrip_assertions": "all exact simplified ASTs preserved; parser may represent rational literals as division nodes"
+        },
+        {
+          "form": "unit",
+          "input": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/bounded9_fixed_min_unit.smt2",
+          "input_sha256": "ebc6b356812ffb3cb72433b017dfe54262919bafbf1a828bb3ecb63de1fb4fb8",
+          "assertions": 18231,
+          "fixed_minimum": 11585,
+          "failure_margin": "1",
+          "nonminimum_upper_bound": 134212225,
+          "free_variables": 24,
+          "allocation_clauses": 18150,
+          "roundtrip_assertions": "all exact simplified ASTs preserved; parser may represent rational literals as division nodes"
+        }
+      ]
+    }
+  },
+  "scope": "Bound and exact encoding provenance; search outcomes remain those of the individual receipts."
+}

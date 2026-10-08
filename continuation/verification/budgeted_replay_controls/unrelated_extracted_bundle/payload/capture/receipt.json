@@ -1,0 +1,22 @@
+{
+  "status": "SYNTHETIC_ORCHESTRATION_CONTROL_NOT_AN_ECONOMICS_RESULT",
+  "input": "/deliberately/unavailable/original/budgeted-replay/input.smt2",
+  "input_sha256": "3a077b246c1313abad44dc9a472aecd158a2ef1c84ad5a9fb09c1b8928ef0f2b",
+  "finished_at_utc": "synthetic_control",
+  "unique_atoms": 2,
+  "unique_theory_clauses": 1,
+  "files": {
+    "atoms.jsonl": {
+      "sha256": "da11bdca1b650840b6feba56f40ad1cbe846828b80a9d68482d8a248cd206d01",
+      "bytes": 65
+    },
+    "input_clauses.jsonl": {
+      "sha256": "5989ea60dfa2529ec09d79637a9c138b55376f031110b953dd9db96b5a892156",
+      "bytes": 111
+    },
+    "theory_clauses.jsonl": {
+      "sha256": "7952b7257401e153249776ff47b405d34afb02162d8e7df61b504dcdbbcf48f6",
+      "bytes": 17
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "status": "PASS_CONSTRUCTIVE_SOLVER_INDEPENDENT_EXACT_CHECKS",
+  "source_sha256": "46055bfa2ebe623c2c59d04f650d56f2a822dc673891a6e055d2d5356a39acf7",
+  "all_subset_tables_checked_on_mixed_zero_rational_fixture": 1536,
+  "literal_deletion_positions_checked": 6912,
+  "zero_cost_deletion_positions_checked": 3840,
+  "invalid_input_controls_rejected": [
+    "boolean",
+    "binary_float",
+    "nan_string",
+    "infinity_string",
+    "negative",
+    "zero_denominator"
+  ],
+  "exact_nonbinary_decimal_cli_case_passed": true,
+  "decimal_cost": "1000000000000000001/10000000000000000000",
+  "complete_labelled_assignment_checked": true,
+  "literal_output_inequalities_checked": 18,
+  "implementation_modified": false,
+  "general_correctness_basis": "Independent source review plus the displayed exact scaling and sum-minus-minimum arguments; finite controls supplement rather than replace those arguments.",
+  "files_sha256": {
+    "continuation/verification/constructive_solver_checks/decimal_fixture_input.json": "3a4249b2df908312eb99ef1d743b0422fcb2e660a65445f65fc3e31641a37af7",
+    "continuation/verification/constructive_solver_checks/decimal_fixture_output.json": "d7d0e4ee2f16cab425d400bd58a522cf16dd76cd5a8cc2d1a36970a44e0725db",
+    "continuation/verification/check_constructive_solver.py": "7f1a14d27d6ce2f5c334b8177c84a1420dde109f3f5abf77fe467a8f86385b87"
+  },
+  "completed_at_utc": "2026-10-07T23:05:42.070411+00:00"
+}

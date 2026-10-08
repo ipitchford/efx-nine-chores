@@ -1,0 +1,33 @@
+{
+  "status": "SEALED_UNTRUSTED_CANDIDATE_PREFIX_NOT_A_REFUTATION",
+  "created_at_utc": "2026-10-07T23:50:21.142425+00:00",
+  "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/zero9_rup_checkpoint_run1/candidate_justifications.jsonl",
+  "observed_source_bytes": 36046299,
+  "sealed_complete_bytes": 36045846,
+  "omitted_unterminated_bytes": 453,
+  "complete_records": 49312,
+  "first_id": 5733155,
+  "last_id": 5294762,
+  "candidate_sha256": "27cca7b43b9f5312fb4c9f388759569332e13cbcc7a8a49f91ebca4d11b28733",
+  "configuration_sha256": "4c82f3a859669b4fe435f8dc319f493617c9f24d6abd31d30b5fdbcef8525433",
+  "source_bindings": {
+    "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/rup_dependency_producer_v6": "205d5fb1eef7b2b64d7413db971c7805200385ce12beb4b2096ca626b7764b06",
+    "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/rup_dependency_producer_v6.cpp": "2648db7a10c77853c6dcf66ff628ef0ead590a0a2c34c6ac5c1ca153ddb47097",
+    "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/rup_dependency_producer_v6_controls.json": "ed6c01eb4edc02f40cf8e57781b1f176093a13c77f9e05608bd3014be60ca0ec",
+    "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/supervise_command.py": "49ade833c3bb8f32e375008ff65d9aceab9964b588fa21dadb072792f54cfde0",
+    "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/zero9_capture_snapshot_input_binding.json": "a31b46824ef77a3806527e24da35572775df4d405f4296823744b5a2e2ced8c0",
+    "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/zero8_rup_monotone_calibration1_independent.json": "3a949d6d7c139ce0140d67eb16089bfe4ae692841a4379455ed06daca23ccb7f",
+    "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/zero9_clause_capture_run1_durable_snapshot/snapshot_manifest.json": "2e330dda3ce3e8a010c0b2bb122055f2c9d74c80f588bc22ad00e427ddd807a5",
+    "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/zero9_clause_capture_run1_durable_snapshot/capture/input_clauses.jsonl": "435f7af9909281ca31fa3d5a646e4caa5bb53fb36bc993895d6f5b6f20317c66",
+    "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/zero9_clause_capture_run1_durable_snapshot/capture/theory_clauses.jsonl": "76ed7b45fe3cebe508563b9719dad6dd4893f61a5313b32dd2d4a0784dff38be",
+    "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/zero9_clause_capture_run1_durable_snapshot/capture/receipt.json": "53cb13091ced3b9799c7a88a67f457e373697340150e254f3bef98a8fa2b3ff8",
+    "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/zero9_clause_capture_run1_durable_snapshot/capture/atoms.jsonl": "07363e1475cf95ef9e66060e9030b0541f95150dab0aada68aea11236b7a5592",
+    "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/zero9_clause_capture_run1_durable_snapshot/capture/assumptions.jsonl": "d5e2b8565c02cec9c906d6eab0220103369a320a4879f0d73ff01a38f7d052e4",
+    "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/zero9_clause_capture_run1_durable_snapshot/capture/metadata.json": "ebe323468831b34d5fbc30e110bf3d8124d98c97eb0f21ccfbd586c12dc9e97b",
+    "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/zero9_clause_capture_run1_durable_snapshot/capture/rup_clauses.jsonl": "e0629aea22cf72414681e99a2e71057c197715ea6b05ecb33ee4784b7be27aa6"
+  },
+  "previous_prefix": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/zero9_v6_sealed_before_switch1/candidate_justifications.jsonl",
+  "extends_previous_complete_prefix": true,
+  "independent_hint_validation_complete": false,
+  "final_dependency_closure_complete": false
+}

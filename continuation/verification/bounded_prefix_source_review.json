@@ -1,0 +1,29 @@
+{
+  "status": "PASS_MATHEMATICAL_NECESSARY_CONDITION_AND_SOURCE_REVIEW_NOT_SOLVER_VERDICT",
+  "time_utc": "2026-10-07T21:32:57.443035+00:00",
+  "source": "continuation/prefix_cegis.py",
+  "source_sha256": "00927d82d58a02e2d3ba9d831aee584c031cdded867cd32548d7d904ede4f7c2",
+  "proof": "continuation/exact_search/bounded_prefix_margin.md",
+  "proof_sha256": "bede0c109e50ff5578bdec0df36e3fa83463812f48f6348a9b832a8c11a44b30",
+  "bound": 11585,
+  "row_local_margin": [
+    1,
+    11585
+  ],
+  "integer_minimum_upper_bound_from_nine_distinct_costs": 11577,
+  "uniform_strict_slack": [
+    8,
+    134119545
+  ],
+  "base_assertions": {
+    "fixed_minima": 3,
+    "row_local_gaps": 26,
+    "nonminimum_upper_bounds": 21,
+    "strict_cross_row_total_comparisons": 2,
+    "total": 52
+  },
+  "cross_row_margin": "strictly > 0; no 1/B lower bound",
+  "learned_exclusion": "At least one integer row-local premise q <= -1/B",
+  "original_model_membership": "Exact weak region-premise check on the original SMT point after common denominator clearing",
+  "scope": "A full counterexample implies a bounded prefix outside every fixed finite valid region family. Bounded-prefix UNSAT is sufficient. SAT-equivalence between the old and new prefix relaxations is not claimed. No global solver was run by this review."
+}

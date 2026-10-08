@@ -1,0 +1,463 @@
+{
+  "status": "frozen_unfinished_coverage_checkpoint",
+  "created_utc": "2026-10-07T20:51:15.741459+00:00",
+  "outer_sha256": "7580e516bbb0d3ae4a7098dfc35984acaa982ea4284b1fc5396596e63d74edbb",
+  "outer_assertions": 4805,
+  "domain_assertions": 18,
+  "robust_single_regions": 3238,
+  "resumed_regions": 450,
+  "paired_regions": 1048,
+  "new_regions": 51,
+  "records": [
+    {
+      "kind": "seed_or_manifest",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/robust_seed.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/robust_seed.json",
+      "sha256": "3f5bddb069eb14decccb54afc81694010f4f887ce1928fc85f4ff714a1dd7725"
+    },
+    {
+      "kind": "seed_or_manifest",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/seed_regions.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/seed_regions.json",
+      "sha256": "6bfaff9d405ddbbfe60af58c4b2aaa6b471b030b251306dc3f9d7957a5d6174d"
+    },
+    {
+      "kind": "seed_or_manifest",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/resumed_regions.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/resumed_regions.json",
+      "sha256": "b84f85cf240fbcd242cb86d90df005b6f99e0c9821badc8f2b0e3fbd0bdea979"
+    },
+    {
+      "kind": "seed_or_manifest",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/resume_manifest.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/resume_manifest.json",
+      "sha256": "f2d69d209e57fe923f3619bc4f5ba2c2a85cb7d47850a418e7843c537be0e2ee"
+    },
+    {
+      "kind": "seed_or_manifest",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/paired_seed_regions.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/paired_seed_regions.json",
+      "sha256": "5cd0083d1916cd98c5d13cd7c0d01fd1fa6ca178ffcae909c0f53f8a135ce1a2"
+    },
+    {
+      "kind": "seed_or_manifest",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/paired_seed_verification.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/paired_seed_verification.json",
+      "sha256": "d4b6d70230e4fff33c64c3a9bfc78bdb6834dc8a8a61dd1ba57d0fe35dd2c274"
+    },
+    {
+      "kind": "seed_or_manifest",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/source_snapshot.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/source_snapshot.json",
+      "sha256": "cb3d459f0a63dcb359664efa7e3b3729280034bdb17b9bda062ea93e0c2efbd7"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00000.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00000.json",
+      "sha256": "a8510919f4c8a0af013e0929a43bbfbc5d2cea9550495424604940a1b0d9adb6",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00000.smt2",
+      "core_sha256": "0e185aa349d02268d6d2432581e04bd846198b99dd43b3bca34fd6b62a6321aa"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00001.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00001.json",
+      "sha256": "0fa431897e97ee3aaa2604a55540e5fcb42c76de34acd9e889ece54ce22739b2",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00001.smt2",
+      "core_sha256": "97b1d7dd8d53a1f145f486909da33baedf23dc42b72e8b96cb3f4b9a70920546"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00002.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00002.json",
+      "sha256": "24b064206a8c2ea699f7063392ad29d6eb90847202756a7a53affcbb78b6c100",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00002.smt2",
+      "core_sha256": "6edb469723437e91f66e66b9a0594d1b97a66b69aa8b2103428e65816a0c8a52"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00003.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00003.json",
+      "sha256": "dd8a9bbc1d3e59b77fedf490939f815c3dffa3a8f93c63be3e31358a97b143dc",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00003.smt2",
+      "core_sha256": "ae200f37d0cf67d2ce26c601acf5600e2150a2abe91931ecffb5ece5b497655b"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00004.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00004.json",
+      "sha256": "58c4f8f6be2b3817cb534ff17cbdbcd094694b5392ac5080efc99cf0ef698bd9",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00004.smt2",
+      "core_sha256": "8657211fc6758b65b2164698f108af9925aebf4c41e54ab05a5d024cd5a709b8"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00005.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00005.json",
+      "sha256": "60f859be61d588182f51c4aa6e6401cb9846dd34e510918767b89a7e5551c413",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00005.smt2",
+      "core_sha256": "191ed6f591d44621bde1fbfe0cd0a718fcd5623bfcb93b0e8ebb3ca2355de954"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00006.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00006.json",
+      "sha256": "c681d0cafab86683f1e7495aa335d63f5d00427b6efcaf8eff765b052bd16dbf",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00006.smt2",
+      "core_sha256": "b647586d0aac50f0148db41ab350b9e95fa18addc6594a7fa99f4a1083131294"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00007.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00007.json",
+      "sha256": "0a953e857d64415535c9797c56f8151a8a52940b1cd92cfbaa83e182a40968fe",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00007.smt2",
+      "core_sha256": "01c705174b37511c2edf33261b10cf2e97ca6c85325da96bb169c86e6e05cb8c"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00008.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00008.json",
+      "sha256": "204080f3b2977b89dce7ec414f260168815a525fbc65f2f70c5e9bb1e3a33bd9",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00008.smt2",
+      "core_sha256": "f6de8340e0ff875144be6a41af83dfed5ca7a7aa8b441f3a0c7ee2381518bd4d"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00009.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00009.json",
+      "sha256": "aee9798cb0726e7f828d4d073d266627f2dcad264dc891a712f5d9d5df27fcd0",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00009.smt2",
+      "core_sha256": "0edf7012d91f639fce84c253626d7fa1921a9ffd63855dcae5c78b6c753625cb"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00010.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00010.json",
+      "sha256": "8d860e7f81336bd09ce17fc66bc7bbcb397688aa6f47affb88be6038a94b92c8",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00010.smt2",
+      "core_sha256": "3e0bebe59b5ad1129c129556dbbfa39ac90b1efcad089644d9fcca07a0f3f943"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00011.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00011.json",
+      "sha256": "9c6ded9a807b422d82c445d2aebb44b83034136aa5f5e2baecd5d75b3ffa2854",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00011.smt2",
+      "core_sha256": "2a408996f21b6177317bb8df62199b0ee6a5a9e0cbc06fa1c3a67220a09e85f8"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00012.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00012.json",
+      "sha256": "5db6c875303b4774cdd8f58a17f25522e56655ce307a8ad2f33d4d81af221110",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00012.smt2",
+      "core_sha256": "26a44c162d8eb491b4f422f43f2c97d093c7e8bc53a4afbd153b04ef9ba0daf2"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00013.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00013.json",
+      "sha256": "25fdb1ac5daeb8894b4191eb5808f6c9f4051c51268e09e9f598029c81a22f8b",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00013.smt2",
+      "core_sha256": "c9782e2c9ce0b911b73e70857a1dc9c47cfb96c2878082103bd10196c6bbc6a2"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00014.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00014.json",
+      "sha256": "ec2ee5efecd2f1fcc1737bbf9270c4f3bc66ba58dbbe4165b7e0da39c141b145",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00014.smt2",
+      "core_sha256": "36e30ba354194203d13783371c2f5dc9a327a274be9edf55079857533b22c808"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00015.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00015.json",
+      "sha256": "fb441cbc52d271add1c13278155f8db8d69c8438be48814a4de33daa79de85db",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00015.smt2",
+      "core_sha256": "6e5f42160b660a561a5d31247c48cefcfadef49e1d92ed050694d0ca5c24e6d6"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00016.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00016.json",
+      "sha256": "d7078fad42d33bc38acff77e9da443694188d6f12bb70d252249797196770575",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00016.smt2",
+      "core_sha256": "d6cd524bfbba2fab8dc54f10bc8bb1aa78ffc9cbb0b96a7843db1b60c673d9ec"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00017.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00017.json",
+      "sha256": "c79674108bbb3fa36eaa2c2abf521080124f7299be05e2433ef7d8dc44fc45bc",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00017.smt2",
+      "core_sha256": "bb3550776b2df037ad9d854c9209ac24b210c1499a4129e3bcf7a713d718845d"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00018.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00018.json",
+      "sha256": "ec5564630865174cd2d5d32c556934a0ad37c6039ade2f8620c4d02a21a55402",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00018.smt2",
+      "core_sha256": "f8cb82a3e4a293bc46c17ca46eddb8e5e5d3eeffb24c5bcea0dc2b4a9fde1e11"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00019.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00019.json",
+      "sha256": "c11e3ba0ddc50074f2e6b45ac522a6f822e68aadf3c4a5afcbac79778ff372bc",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00019.smt2",
+      "core_sha256": "bf452463e01dbef4b22813b0a8adce04bfe4714d62d9776ec46ae4f22b172956"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00020.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00020.json",
+      "sha256": "0793b6749311a25fd984eb4ca4da7fc23a6894e9e71c8dbcea9844014a86b0c3",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00020.smt2",
+      "core_sha256": "8cc60f4ded385f6107274b21a8416a65eb927bb003fb7590df22b3f67f5ff341"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00021.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00021.json",
+      "sha256": "f9e7a2079b91680070d1fa3626997bf0c64828b1348df068ad1d24230552d51d",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00021.smt2",
+      "core_sha256": "d6161bb4d311ced8cd6703bce60dac89c24ef089611c1ae4132a8726de000198"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00022.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00022.json",
+      "sha256": "96e49b46a155d336553792cea1e05d4be05ee755668ba7fad1edef5ecc93034b",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00022.smt2",
+      "core_sha256": "555c39b86ed443fa004913abcb5a86ff9ec7785d6db7b8a56382ca3975f8d949"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00023.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00023.json",
+      "sha256": "c28177b589775accf13cae56a9b7d4bb4c758386c15c54f9f35cb5bdabd68749",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00023.smt2",
+      "core_sha256": "a33bc3cdf8194921849ee5399de54799aac164e3d3b719c547ca0e4d38a6cf20"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00024.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00024.json",
+      "sha256": "5487bfcc8f008d7eb4b28a9e729dc9d0f3cc6b7b2d9730c0abded8ceac8f9282",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00024.smt2",
+      "core_sha256": "03f0ceb368c36cffa00c40c335f006118b375f1a78ce1ce917b1d2e893d4226e"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00025.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00025.json",
+      "sha256": "40e0facaf6cb8c7dab6468b3e7adc4fa0ca9f4059cfef339e0ed086897c7d867",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00025.smt2",
+      "core_sha256": "6c9ce746d46f1ee65dc697326912dbe59e9d17616a17532e5d56a5efee986927"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00026.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00026.json",
+      "sha256": "f32dceaf371895ce6360bb355fd48efe9bf905d341292baf20923c5027056bca",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00026.smt2",
+      "core_sha256": "1aef2b29b1434c194104205cd755886e2e0a762be8c83e1ed28964eeb6b9befa"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00027.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00027.json",
+      "sha256": "0e3cbd7bc365497ed0409821621fba9ae5aa3b19e35ae1af16ffdc4060f7d947",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00027.smt2",
+      "core_sha256": "2b5963c0a31a3706d8b3ee883d4272a6fbbbcfc99370096a53f9243877be287d"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00028.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00028.json",
+      "sha256": "7ceedc30bb2022bb30db9215b676c8b72234ed3bcb29a7bc6c3a71c9a1fe18bd",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00028.smt2",
+      "core_sha256": "2429b1880eb0e345a2d9b0759108dfd235851da3fca0ff6643cf0ff9c81d277f"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00029.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00029.json",
+      "sha256": "fa9cae204d848b2319e60692292c7328b7469352fccde6162fd56c0e49d14c88",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00029.smt2",
+      "core_sha256": "deabbff284743c5360a79ca4dbc7292bd01ff76209098c6ad3449745f0e99fc2"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00030.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00030.json",
+      "sha256": "e8474a87bca3930d763758d6316fa16e079b65ba1509cf3c11cc3060b909b4ab",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00030.smt2",
+      "core_sha256": "3e3358d5c27d3283efb39cc701c0753a9942268bfcc2da57322bfbf78a6dbda3"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00031.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00031.json",
+      "sha256": "d16783680292ac32f35d04ead4b88e44b77be3ce4f2174c8e91e7bbed4346ff5",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00031.smt2",
+      "core_sha256": "aa87c0277f3f34ee59d83efe4b745463b16c074713ea5c86b48e8ef22103f5d0"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00032.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00032.json",
+      "sha256": "34b6578d0b0e5162c1b6194e7ae3ec9914f5637e60cfc5d3e06f35b395ceb521",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00032.smt2",
+      "core_sha256": "0022990772c2131b8c222794afdafda3ca4a70f3cc283b6cde110f2fbb85d390"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00033.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00033.json",
+      "sha256": "8355806586f504ba68f19f3942e992e6219569cd55f238b75575194057f00e0f",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00033.smt2",
+      "core_sha256": "7eefb1134b059676871474378f9ab841471ae2cbc697bd39051f1df677a2fee1"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00034.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00034.json",
+      "sha256": "ebaa9bf7d81134b69232cc6ac11834d2aae5064073a64b9ec81bbb100f2aeb73",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00034.smt2",
+      "core_sha256": "e2f6b419a35765a00139c32d5b0a77ba8312284e408b074ec1f89d353ec0584f"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00035.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00035.json",
+      "sha256": "90f2765bfcd811d5a5882f66fea2fa7458fec4022586e9e5eb9dfe3da399026a",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00035.smt2",
+      "core_sha256": "ffb609b91a601f89d06b12bd4bec80f5111c0a3e00c8fd1e0c610004fdec9a89"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00036.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00036.json",
+      "sha256": "dcb4e31ed719b56fed82b9d274d1a5d1921f0a59ba66d3086ed873eacf25ca4c",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00036.smt2",
+      "core_sha256": "b5abcdd9a7f13c7b0a18eec37d45fe9b886de9f6740e8146ed70772100b6c9da"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00037.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00037.json",
+      "sha256": "99647a3b6325f0f6739a56d407f649c5ab80c1e7c03cd12824afe083ff4c4ec9",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00037.smt2",
+      "core_sha256": "bdcdff615c840cd565bf95e8233703f6ecb0c18540b0fe4c037a7c5df88c25c5"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00038.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00038.json",
+      "sha256": "8c33de6ca6ac041c22b15c2c4485461ab17fa2bbf0d3198dfab7c26749f5aa78",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00038.smt2",
+      "core_sha256": "f55a862b763c85db90d73aa37fb4eb92d98eebb2f0fdcce33c5ea4537c6def54"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00039.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00039.json",
+      "sha256": "4316aa3f766e358fcd87f922f6dfecac1dfbad851ea5b75b58f12e5f1ba0b7d9",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00039.smt2",
+      "core_sha256": "8f6bcd387aab030469a812c17e9e1b0555db7373059283ab826242c5d4f41d28"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00040.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00040.json",
+      "sha256": "c65f35aa8c6277777e745a83bb6600f3764d26e4ab6acf0af93f72332bc905f3",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00040.smt2",
+      "core_sha256": "fff637c77bfc0e0cef9670522f88a9551db8dd084faba769e69d295cd162bf40"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00041.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00041.json",
+      "sha256": "e1dc710bbacf3cd324ce0fa36dc76515521636c20f5c9b036f6fdfce46d574b3",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00041.smt2",
+      "core_sha256": "ab1ce51a7e79c7f511eae70b5221fd0974254cee28a7b18663d6121939fe5f91"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00042.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00042.json",
+      "sha256": "44377d805969f355ac7d2eb5fd14e7c1600e56984e0e47e7046df7273835c816",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00042.smt2",
+      "core_sha256": "3edac4dfaf62393da433b42944da30f3d8998d38335c7032b9ce854adde5ddfe"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00043.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00043.json",
+      "sha256": "4888704b7ce6e378dc14501955c37308be1740cb7e38c3e5056eecbaac1e7617",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00043.smt2",
+      "core_sha256": "5d27514432225b8d97c76b0304f3776984191198e6f259838fe34834493f88db"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00044.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00044.json",
+      "sha256": "25978710521fed51f717425e4b48032ca3618e3cdb1fc6170b432a6b2b1f255c",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00044.smt2",
+      "core_sha256": "b8c14aa6f5d1e89e04f4d1bd5d7b394915902ff15641edffbc7dec78ce5490b1"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00045.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00045.json",
+      "sha256": "01363cf6fc4485f98c6f7bc034a58a7948ac2e1ba6191c2aec118c3634fb18d7",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00045.smt2",
+      "core_sha256": "266f6699df0a74db8c01690f93c2e65438c4018ddefb482d34c7af91395b6f5d"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00046.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00046.json",
+      "sha256": "0fbe9d055668d3aeefdc62d91f410b21d8f8bfe0cba4c1777b444d2c1c0b785c",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00046.smt2",
+      "core_sha256": "1fd4c6540757637479d5aa5de10459ab40160785b9cf1ba5daf71d92a6b5a967"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00047.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00047.json",
+      "sha256": "a760099b02913ef67603759e4a67456b0716d3ff9955a257b4df009411e605af",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00047.smt2",
+      "core_sha256": "fb030632acdcc48fc3d1be51f1fd3180781afdd32624185abb5ca1a0c5d60bd6"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00048.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00048.json",
+      "sha256": "a9820a750c9d6ec0f7572cdcd31e251c746275c4ca379ca216062b464ecc53c2",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00048.smt2",
+      "core_sha256": "42ad7b831cc57e08e45d9e7e4a8601ee6718e422e1a165463d3de4341c38e50d"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00049.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00049.json",
+      "sha256": "7e69a6c2370c6a266738d87c0adb65eef0c6d7b94f82c7c9d3e5aa12ff4b496e",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00049.smt2",
+      "core_sha256": "a8c345c4f25a1edcd37a32450b657f8a52d8a7dd620daada3eabba9753bfca29"
+    },
+    {
+      "kind": "learned_region",
+      "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_resumed2/regions/00050.json",
+      "frozen": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/regions/00050.json",
+      "sha256": "663133f68ecd2c1db6867cdc7e6abdbd8efa0a6d036a97b0e8f5d883fe533413",
+      "core": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/outer_resumed2_checkpoint1/inner/00050.smt2",
+      "core_sha256": "6bc599e805eaff11fed01f14b61324bce078d93cc902c6e8fde184e9cab520f1"
+    }
+  ]
+}

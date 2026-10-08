@@ -1,0 +1,15 @@
+{
+  "status": "INTERRUPTED_WITHOUT_CONCLUSION",
+  "reason": "Memory-constrained restart without proof accumulation; exact allocations and SMT formula retained.",
+  "utc": "2026-10-07T18:02:33.415114+00:00",
+  "last_completed_iteration": {
+    "iteration": 2,
+    "status": "sat",
+    "clauses": 3945,
+    "check_seconds": 55.0756009050001,
+    "elapsed_seconds": 181.06019370099966,
+    "efx_allocations": 50,
+    "max_integer": 1013,
+    "newly_added": 50
+  }
+}

@@ -1,0 +1,4 @@
+Publication replay: 3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 21.0.0 (clang-2100.1.1.101)]
+macOS-27.0.1-arm64-arm-64bit-Mach-O
+Standard library only. Mathematical checker functions retain intake hashes. Darwin RLIMIT_AS not enforced.
+Historical peak_rss_kib fields on Darwin contain native bytes, not KiB; divide by 1024 for KiB. This field-name limitation is retained transparently, not used as a benchmark.

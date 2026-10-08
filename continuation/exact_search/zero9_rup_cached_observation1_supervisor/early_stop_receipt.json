@@ -1,0 +1,14 @@
+{
+  "status": "AUTHORIZED_EARLY_STOP_NOT_TIMEOUT_OR_VERDICT",
+  "utc": "2026-10-07T23:09:39.813174+00:00",
+  "tool_session": 50655,
+  "tool_exit_code": 130,
+  "last_observed_supervisor_heartbeat": {
+    "utc": "2026-10-07T23:09:37.959951+00:00",
+    "elapsed_seconds": 105.01512420599829,
+    "remaining_seconds": 794.9848757940017
+  },
+  "observed_progress_log": "processed 10000 RUP records\n",
+  "reason": "Cached closure does not resolve nine-chore throughput; switching to demand-driven backward justification.",
+  "refutation_obtained": false
+}

@@ -1,0 +1,42 @@
+{
+  "status": "completed_with_algorithm_result",
+  "started_utc": "2026-10-07T21:28:39.130768+00:00",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-u",
+    "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/prefix_cegis.py",
+    "--out",
+    "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/prefix_regions_bounded1",
+    "--resume",
+    "--fixed-minima",
+    "--restricted-ninth",
+    "--bounded-representative",
+    "--deadline",
+    "600",
+    "--check-timeout",
+    "60",
+    "--memory-mib",
+    "1800",
+    "--max-steps",
+    "5000"
+  ],
+  "algorithm_budget_seconds": 600,
+  "hard_wall_seconds": 650,
+  "runner_sha256": "00927d82d58a02e2d3ba9d831aee584c031cdded867cd32548d7d904ede4f7c2",
+  "resumed_region_files": 1701,
+  "scope": "A bounded necessary-condition relaxation. SAT alone is not a counterexample.",
+  "child_pid": 6,
+  "heartbeat_utc": "2026-10-07T21:38:39.212327+00:00",
+  "elapsed_seconds": 603.4017033960008,
+  "result": {
+    "status": "unknown",
+    "reason": "wall-clock deadline",
+    "steps": 1956,
+    "elapsed_seconds": 601.1481155239999,
+    "statistics": "(:arith-assert-lower        7492958\n :arith-assert-upper        5967301\n :arith-bound-prop          1213235\n :arith-conflicts           9754\n :arith-num-rows            6647\n :arith-pivots              206769\n :arith-row-summations      403298044\n :arith-tableau-max-columns 6671\n :arith-tableau-max-rows    6647\n :binary-propagations       891321\n :conflicts                 10019\n :decisions                 397407\n :del-clause                778263\n :final-checks              254\n :max-memory                260.38\n :memory                    257.53\n :minimized-lits            1442\n :mk-bool-var               11250\n :mk-clause                 1224102\n :mk-clause-binary          5979\n :num-allocs                17471052293737.00\n :num-checks                254\n :propagations              11876305\n :restarts                  18\n :rlimit-count              15922145107.00\n :time                      5.38)"
+  },
+  "child_returncode": 0,
+  "hard_killed": false,
+  "finished_utc": "2026-10-07T21:38:42.536284+00:00",
+  "completed_region_files": 1956
+}

@@ -1,0 +1,12539 @@
+{
+  "status": "prepared_not_solved",
+  "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/zero_outer/run1_model.json",
+  "source_sha256": "e13b99b8ee5b981794908bf33c4a37322a8d6988a27c5a7783b370892545754e",
+  "fixed_rows": [
+    [
+      "1",
+      "0",
+      "1/38",
+      "381/76",
+      "215/76",
+      "441/152",
+      "27/38",
+      "21/76",
+      "15/38"
+    ],
+    [
+      "1",
+      "3/152",
+      "0",
+      "501/152",
+      "363/152",
+      "451/152",
+      "3/4",
+      "9/76",
+      "7/38"
+    ]
+  ],
+  "all_allocations_checked": 19683,
+  "compatible_allocations": [
+    {
+      "allocation_id": 0,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 1,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 2,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 3,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 5,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "allocation_id": 6,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 7,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "allocation_id": 9,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 11,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 15,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 17,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 18,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 19,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 21,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 22,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 27,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 29,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 33,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 35,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 45,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 47,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 51,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 53,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 54,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 55,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 57,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 58,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 63,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 64,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 66,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 67,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 81,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 83,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 87,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 89,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 99,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 101,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 105,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 107,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 135,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 136,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 138,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 144,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 146,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 150,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 162,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 163,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 165,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 166,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 171,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 172,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 174,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 175,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 189,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 191,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 194,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "allocation_id": 195,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 196,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "allocation_id": 197,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 200,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 204,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 206,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 207,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 208,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 210,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 211,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 214,
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "allocation_id": 243,
+      "allocation": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 245,
+      "allocation": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 249,
+      "allocation": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 251,
+      "allocation": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 261,
+      "allocation": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 263,
+      "allocation": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 267,
+      "allocation": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 269,
+      "allocation": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 297,
+      "allocation": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 299,
+      "allocation": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 303,
+      "allocation": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 305,
+      "allocation": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 315,
+      "allocation": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 405,
+      "allocation": [
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 407,
+      "allocation": [
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 411,
+      "allocation": [
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 413,
+      "allocation": [
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 423,
+      "allocation": [
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 425,
+      "allocation": [
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 429,
+      "allocation": [
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 486,
+      "allocation": [
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 487,
+      "allocation": [
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 489,
+      "allocation": [
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 490,
+      "allocation": [
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 495,
+      "allocation": [
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 496,
+      "allocation": [
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 498,
+      "allocation": [
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 499,
+      "allocation": [
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 513,
+      "allocation": [
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 514,
+      "allocation": [
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 516,
+      "allocation": [
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 517,
+      "allocation": [
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 522,
+      "allocation": [
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 523,
+      "allocation": [
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 524,
+      "allocation": [
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 525,
+      "allocation": [
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 527,
+      "allocation": [
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "allocation_id": 528,
+      "allocation": [
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 529,
+      "allocation": [
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "allocation_id": 567,
+      "allocation": [
+        0,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 568,
+      "allocation": [
+        0,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 570,
+      "allocation": [
+        0,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 571,
+      "allocation": [
+        0,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 576,
+      "allocation": [
+        0,
+        0,
+        0,
+        2,
+        1,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 577,
+      "allocation": [
+        0,
+        0,
+        0,
+        2,
+        1,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 579,
+      "allocation": [
+        0,
+        0,
+        0,
+        2,
+        1,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 583,
+      "allocation": [
+        0,
+        0,
+        0,
+        2,
+        1,
+        0,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "allocation_id": 729,
+      "allocation": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 731,
+      "allocation": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 734,
+      "allocation": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "allocation_id": 735,
+      "allocation": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 747,
+      "allocation": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 748,
+      "allocation": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 750,
+      "allocation": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 751,
+      "allocation": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 783,
+      "allocation": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 784,
+      "allocation": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 786,
+      "allocation": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 787,
+      "allocation": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 792,
+      "allocation": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 793,
+      "allocation": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 795,
+      "allocation": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 796,
+      "allocation": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 864,
+      "allocation": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 891,
+      "allocation": [
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 892,
+      "allocation": [
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 894,
+      "allocation": [
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 895,
+      "allocation": [
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 900,
+      "allocation": [
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 901,
+      "allocation": [
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 903,
+      "allocation": [
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 904,
+      "allocation": [
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 920,
+      "allocation": [
+        0,
+        0,
+        1,
+        0,
+        2,
+        1,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 923,
+      "allocation": [
+        0,
+        0,
+        1,
+        0,
+        2,
+        1,
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "allocation_id": 924,
+      "allocation": [
+        0,
+        0,
+        1,
+        0,
+        2,
+        1,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 926,
+      "allocation": [
+        0,
+        0,
+        1,
+        0,
+        2,
+        1,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 936,
+      "allocation": [
+        0,
+        0,
+        1,
+        0,
+        2,
+        1,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 937,
+      "allocation": [
+        0,
+        0,
+        1,
+        0,
+        2,
+        1,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 939,
+      "allocation": [
+        0,
+        0,
+        1,
+        0,
+        2,
+        1,
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 943,
+      "allocation": [
+        0,
+        0,
+        1,
+        0,
+        2,
+        1,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "allocation_id": 1215,
+      "allocation": [
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 1216,
+      "allocation": [
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 1218,
+      "allocation": [
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 1219,
+      "allocation": [
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 1224,
+      "allocation": [
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 1225,
+      "allocation": [
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 1227,
+      "allocation": [
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 1228,
+      "allocation": [
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 1242,
+      "allocation": [
+        0,
+        0,
+        1,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 1243,
+      "allocation": [
+        0,
+        0,
+        1,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 1245,
+      "allocation": [
+        0,
+        0,
+        1,
+        2,
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 1246,
+      "allocation": [
+        0,
+        0,
+        1,
+        2,
+        0,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 1251,
+      "allocation": [
+        0,
+        0,
+        1,
+        2,
+        0,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 1252,
+      "allocation": [
+        0,
+        0,
+        1,
+        2,
+        0,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 1253,
+      "allocation": [
+        0,
+        0,
+        1,
+        2,
+        0,
+        1,
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 1254,
+      "allocation": [
+        0,
+        0,
+        1,
+        2,
+        0,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 1257,
+      "allocation": [
+        0,
+        0,
+        1,
+        2,
+        0,
+        1,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 1296,
+      "allocation": [
+        0,
+        0,
+        1,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 1297,
+      "allocation": [
+        0,
+        0,
+        1,
+        2,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 1299,
+      "allocation": [
+        0,
+        0,
+        1,
+        2,
+        1,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 1300,
+      "allocation": [
+        0,
+        0,
+        1,
+        2,
+        1,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 1305,
+      "allocation": [
+        0,
+        0,
+        1,
+        2,
+        1,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 1306,
+      "allocation": [
+        0,
+        0,
+        1,
+        2,
+        1,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 1308,
+      "allocation": [
+        0,
+        0,
+        1,
+        2,
+        1,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 1458,
+      "allocation": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 1459,
+      "allocation": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 1461,
+      "allocation": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 1465,
+      "allocation": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "allocation_id": 1467,
+      "allocation": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 1469,
+      "allocation": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 1473,
+      "allocation": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 1475,
+      "allocation": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 1485,
+      "allocation": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 1487,
+      "allocation": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 1491,
+      "allocation": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 1493,
+      "allocation": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 1503,
+      "allocation": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 1505,
+      "allocation": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 1509,
+      "allocation": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 1511,
+      "allocation": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 1539,
+      "allocation": [
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 1541,
+      "allocation": [
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 1545,
+      "allocation": [
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 1547,
+      "allocation": [
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 1557,
+      "allocation": [
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 1559,
+      "allocation": [
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 1563,
+      "allocation": [
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 1565,
+      "allocation": [
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 1602,
+      "allocation": [
+        0,
+        0,
+        2,
+        0,
+        1,
+        2,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 1608,
+      "allocation": [
+        0,
+        0,
+        2,
+        0,
+        1,
+        2,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 1647,
+      "allocation": [
+        0,
+        0,
+        2,
+        0,
+        2,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 1649,
+      "allocation": [
+        0,
+        0,
+        2,
+        0,
+        2,
+        1,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 1652,
+      "allocation": [
+        0,
+        0,
+        2,
+        0,
+        2,
+        1,
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "allocation_id": 1653,
+      "allocation": [
+        0,
+        0,
+        2,
+        0,
+        2,
+        1,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 1654,
+      "allocation": [
+        0,
+        0,
+        2,
+        0,
+        2,
+        1,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "allocation_id": 1655,
+      "allocation": [
+        0,
+        0,
+        2,
+        0,
+        2,
+        1,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 1658,
+      "allocation": [
+        0,
+        0,
+        2,
+        0,
+        2,
+        1,
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 1662,
+      "allocation": [
+        0,
+        0,
+        2,
+        0,
+        2,
+        1,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 1664,
+      "allocation": [
+        0,
+        0,
+        2,
+        0,
+        2,
+        1,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 1666,
+      "allocation": [
+        0,
+        0,
+        2,
+        0,
+        2,
+        1,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 1669,
+      "allocation": [
+        0,
+        0,
+        2,
+        0,
+        2,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 1701,
+      "allocation": [
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 1703,
+      "allocation": [
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 1707,
+      "allocation": [
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 1709,
+      "allocation": [
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 1719,
+      "allocation": [
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 1721,
+      "allocation": [
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 1725,
+      "allocation": [
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 1727,
+      "allocation": [
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 1755,
+      "allocation": [
+        0,
+        0,
+        2,
+        1,
+        0,
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 1757,
+      "allocation": [
+        0,
+        0,
+        2,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 1761,
+      "allocation": [
+        0,
+        0,
+        2,
+        1,
+        0,
+        2,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 1763,
+      "allocation": [
+        0,
+        0,
+        2,
+        1,
+        0,
+        2,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 1863,
+      "allocation": [
+        0,
+        0,
+        2,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 1865,
+      "allocation": [
+        0,
+        0,
+        2,
+        1,
+        2,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 1869,
+      "allocation": [
+        0,
+        0,
+        2,
+        1,
+        2,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 1871,
+      "allocation": [
+        0,
+        0,
+        2,
+        1,
+        2,
+        0,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 1881,
+      "allocation": [
+        0,
+        0,
+        2,
+        1,
+        2,
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 1887,
+      "allocation": [
+        0,
+        0,
+        2,
+        1,
+        2,
+        0,
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 1980,
+      "allocation": [
+        0,
+        0,
+        2,
+        2,
+        0,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 1981,
+      "allocation": [
+        0,
+        0,
+        2,
+        2,
+        0,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 1982,
+      "allocation": [
+        0,
+        0,
+        2,
+        2,
+        0,
+        1,
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 1983,
+      "allocation": [
+        0,
+        0,
+        2,
+        2,
+        0,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 1986,
+      "allocation": [
+        0,
+        0,
+        2,
+        2,
+        0,
+        1,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 2035,
+      "allocation": [
+        0,
+        0,
+        2,
+        2,
+        1,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 2187,
+      "allocation": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 2189,
+      "allocation": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 2192,
+      "allocation": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "allocation_id": 2193,
+      "allocation": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 2205,
+      "allocation": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 2206,
+      "allocation": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 2208,
+      "allocation": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 2209,
+      "allocation": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 2241,
+      "allocation": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 2242,
+      "allocation": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 2244,
+      "allocation": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 2245,
+      "allocation": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 2250,
+      "allocation": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 2251,
+      "allocation": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 2253,
+      "allocation": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 2254,
+      "allocation": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 2322,
+      "allocation": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 2339,
+      "allocation": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        2,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 2349,
+      "allocation": [
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 2350,
+      "allocation": [
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 2352,
+      "allocation": [
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 2353,
+      "allocation": [
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 2358,
+      "allocation": [
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 2359,
+      "allocation": [
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 2361,
+      "allocation": [
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 2362,
+      "allocation": [
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 2378,
+      "allocation": [
+        0,
+        1,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 2381,
+      "allocation": [
+        0,
+        1,
+        0,
+        0,
+        2,
+        1,
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "allocation_id": 2382,
+      "allocation": [
+        0,
+        1,
+        0,
+        0,
+        2,
+        1,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 2384,
+      "allocation": [
+        0,
+        1,
+        0,
+        0,
+        2,
+        1,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 2394,
+      "allocation": [
+        0,
+        1,
+        0,
+        0,
+        2,
+        1,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 2395,
+      "allocation": [
+        0,
+        1,
+        0,
+        0,
+        2,
+        1,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 2397,
+      "allocation": [
+        0,
+        1,
+        0,
+        0,
+        2,
+        1,
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 2401,
+      "allocation": [
+        0,
+        1,
+        0,
+        0,
+        2,
+        1,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "allocation_id": 2673,
+      "allocation": [
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 2674,
+      "allocation": [
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 2676,
+      "allocation": [
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 2677,
+      "allocation": [
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 2682,
+      "allocation": [
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 2683,
+      "allocation": [
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 2685,
+      "allocation": [
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 2686,
+      "allocation": [
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 2700,
+      "allocation": [
+        0,
+        1,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 2701,
+      "allocation": [
+        0,
+        1,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 2703,
+      "allocation": [
+        0,
+        1,
+        0,
+        2,
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 2704,
+      "allocation": [
+        0,
+        1,
+        0,
+        2,
+        0,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 2709,
+      "allocation": [
+        0,
+        1,
+        0,
+        2,
+        0,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 2710,
+      "allocation": [
+        0,
+        1,
+        0,
+        2,
+        0,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 2711,
+      "allocation": [
+        0,
+        1,
+        0,
+        2,
+        0,
+        1,
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 2712,
+      "allocation": [
+        0,
+        1,
+        0,
+        2,
+        0,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 2715,
+      "allocation": [
+        0,
+        1,
+        0,
+        2,
+        0,
+        1,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 2754,
+      "allocation": [
+        0,
+        1,
+        0,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 2755,
+      "allocation": [
+        0,
+        1,
+        0,
+        2,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 2757,
+      "allocation": [
+        0,
+        1,
+        0,
+        2,
+        1,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 2758,
+      "allocation": [
+        0,
+        1,
+        0,
+        2,
+        1,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 2763,
+      "allocation": [
+        0,
+        1,
+        0,
+        2,
+        1,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 2764,
+      "allocation": [
+        0,
+        1,
+        0,
+        2,
+        1,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 2766,
+      "allocation": [
+        0,
+        1,
+        0,
+        2,
+        1,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 2918,
+      "allocation": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 2921,
+      "allocation": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "allocation_id": 2922,
+      "allocation": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 2934,
+      "allocation": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 2935,
+      "allocation": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 2937,
+      "allocation": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 2938,
+      "allocation": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 2970,
+      "allocation": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 2971,
+      "allocation": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 2973,
+      "allocation": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        2,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 2974,
+      "allocation": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        2,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 2979,
+      "allocation": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 2980,
+      "allocation": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        2,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 2982,
+      "allocation": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        2,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 2983,
+      "allocation": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 3051,
+      "allocation": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 3068,
+      "allocation": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        2,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 3078,
+      "allocation": [
+        0,
+        1,
+        1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 3079,
+      "allocation": [
+        0,
+        1,
+        1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 3081,
+      "allocation": [
+        0,
+        1,
+        1,
+        0,
+        2,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 3082,
+      "allocation": [
+        0,
+        1,
+        1,
+        0,
+        2,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 3087,
+      "allocation": [
+        0,
+        1,
+        1,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 3088,
+      "allocation": [
+        0,
+        1,
+        1,
+        0,
+        2,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 3090,
+      "allocation": [
+        0,
+        1,
+        1,
+        0,
+        2,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 3091,
+      "allocation": [
+        0,
+        1,
+        1,
+        0,
+        2,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 3107,
+      "allocation": [
+        0,
+        1,
+        1,
+        0,
+        2,
+        1,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 3110,
+      "allocation": [
+        0,
+        1,
+        1,
+        0,
+        2,
+        1,
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "allocation_id": 3111,
+      "allocation": [
+        0,
+        1,
+        1,
+        0,
+        2,
+        1,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 3113,
+      "allocation": [
+        0,
+        1,
+        1,
+        0,
+        2,
+        1,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 3123,
+      "allocation": [
+        0,
+        1,
+        1,
+        0,
+        2,
+        1,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 3124,
+      "allocation": [
+        0,
+        1,
+        1,
+        0,
+        2,
+        1,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 3126,
+      "allocation": [
+        0,
+        1,
+        1,
+        0,
+        2,
+        1,
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 3130,
+      "allocation": [
+        0,
+        1,
+        1,
+        0,
+        2,
+        1,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "allocation_id": 3402,
+      "allocation": [
+        0,
+        1,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 3403,
+      "allocation": [
+        0,
+        1,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 3405,
+      "allocation": [
+        0,
+        1,
+        1,
+        2,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 3406,
+      "allocation": [
+        0,
+        1,
+        1,
+        2,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 3411,
+      "allocation": [
+        0,
+        1,
+        1,
+        2,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 3412,
+      "allocation": [
+        0,
+        1,
+        1,
+        2,
+        0,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 3414,
+      "allocation": [
+        0,
+        1,
+        1,
+        2,
+        0,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 3415,
+      "allocation": [
+        0,
+        1,
+        1,
+        2,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 3429,
+      "allocation": [
+        0,
+        1,
+        1,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 3430,
+      "allocation": [
+        0,
+        1,
+        1,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 3432,
+      "allocation": [
+        0,
+        1,
+        1,
+        2,
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 3433,
+      "allocation": [
+        0,
+        1,
+        1,
+        2,
+        0,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 3438,
+      "allocation": [
+        0,
+        1,
+        1,
+        2,
+        0,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 3439,
+      "allocation": [
+        0,
+        1,
+        1,
+        2,
+        0,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 3440,
+      "allocation": [
+        0,
+        1,
+        1,
+        2,
+        0,
+        1,
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 3441,
+      "allocation": [
+        0,
+        1,
+        1,
+        2,
+        0,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 3444,
+      "allocation": [
+        0,
+        1,
+        1,
+        2,
+        0,
+        1,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 3483,
+      "allocation": [
+        0,
+        1,
+        1,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 3484,
+      "allocation": [
+        0,
+        1,
+        1,
+        2,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 3486,
+      "allocation": [
+        0,
+        1,
+        1,
+        2,
+        1,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 3487,
+      "allocation": [
+        0,
+        1,
+        1,
+        2,
+        1,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 3492,
+      "allocation": [
+        0,
+        1,
+        1,
+        2,
+        1,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 3493,
+      "allocation": [
+        0,
+        1,
+        1,
+        2,
+        1,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 3495,
+      "allocation": [
+        0,
+        1,
+        1,
+        2,
+        1,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 3645,
+      "allocation": [
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 3836,
+      "allocation": [
+        0,
+        1,
+        2,
+        0,
+        2,
+        1,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 3839,
+      "allocation": [
+        0,
+        1,
+        2,
+        0,
+        2,
+        1,
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "allocation_id": 3840,
+      "allocation": [
+        0,
+        1,
+        2,
+        0,
+        2,
+        1,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 3842,
+      "allocation": [
+        0,
+        1,
+        2,
+        0,
+        2,
+        1,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 3853,
+      "allocation": [
+        0,
+        1,
+        2,
+        0,
+        2,
+        1,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 4167,
+      "allocation": [
+        0,
+        1,
+        2,
+        2,
+        0,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 4168,
+      "allocation": [
+        0,
+        1,
+        2,
+        2,
+        0,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 4169,
+      "allocation": [
+        0,
+        1,
+        2,
+        2,
+        0,
+        1,
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 4170,
+      "allocation": [
+        0,
+        1,
+        2,
+        2,
+        0,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 4173,
+      "allocation": [
+        0,
+        1,
+        2,
+        2,
+        0,
+        1,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 4222,
+      "allocation": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 4374,
+      "allocation": [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 4375,
+      "allocation": [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 4377,
+      "allocation": [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 4381,
+      "allocation": [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "allocation_id": 4383,
+      "allocation": [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 4385,
+      "allocation": [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 4389,
+      "allocation": [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 4391,
+      "allocation": [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 4401,
+      "allocation": [
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 4403,
+      "allocation": [
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 4407,
+      "allocation": [
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 4409,
+      "allocation": [
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 4419,
+      "allocation": [
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 4421,
+      "allocation": [
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 4425,
+      "allocation": [
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 4427,
+      "allocation": [
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 4455,
+      "allocation": [
+        0,
+        2,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 4457,
+      "allocation": [
+        0,
+        2,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 4461,
+      "allocation": [
+        0,
+        2,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 4463,
+      "allocation": [
+        0,
+        2,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 4473,
+      "allocation": [
+        0,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 4475,
+      "allocation": [
+        0,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 4479,
+      "allocation": [
+        0,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 4481,
+      "allocation": [
+        0,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 4518,
+      "allocation": [
+        0,
+        2,
+        0,
+        0,
+        1,
+        2,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 4524,
+      "allocation": [
+        0,
+        2,
+        0,
+        0,
+        1,
+        2,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 4563,
+      "allocation": [
+        0,
+        2,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 4565,
+      "allocation": [
+        0,
+        2,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 4568,
+      "allocation": [
+        0,
+        2,
+        0,
+        0,
+        2,
+        1,
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "allocation_id": 4569,
+      "allocation": [
+        0,
+        2,
+        0,
+        0,
+        2,
+        1,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 4570,
+      "allocation": [
+        0,
+        2,
+        0,
+        0,
+        2,
+        1,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "allocation_id": 4571,
+      "allocation": [
+        0,
+        2,
+        0,
+        0,
+        2,
+        1,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 4574,
+      "allocation": [
+        0,
+        2,
+        0,
+        0,
+        2,
+        1,
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 4578,
+      "allocation": [
+        0,
+        2,
+        0,
+        0,
+        2,
+        1,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 4580,
+      "allocation": [
+        0,
+        2,
+        0,
+        0,
+        2,
+        1,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 4582,
+      "allocation": [
+        0,
+        2,
+        0,
+        0,
+        2,
+        1,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 4585,
+      "allocation": [
+        0,
+        2,
+        0,
+        0,
+        2,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 4617,
+      "allocation": [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 4619,
+      "allocation": [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 4623,
+      "allocation": [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 4625,
+      "allocation": [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 4635,
+      "allocation": [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 4637,
+      "allocation": [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 4641,
+      "allocation": [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 4643,
+      "allocation": [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 4671,
+      "allocation": [
+        0,
+        2,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 4673,
+      "allocation": [
+        0,
+        2,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 4677,
+      "allocation": [
+        0,
+        2,
+        0,
+        1,
+        0,
+        2,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 4679,
+      "allocation": [
+        0,
+        2,
+        0,
+        1,
+        0,
+        2,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 4779,
+      "allocation": [
+        0,
+        2,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 4781,
+      "allocation": [
+        0,
+        2,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 4785,
+      "allocation": [
+        0,
+        2,
+        0,
+        1,
+        2,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 4787,
+      "allocation": [
+        0,
+        2,
+        0,
+        1,
+        2,
+        0,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 4797,
+      "allocation": [
+        0,
+        2,
+        0,
+        1,
+        2,
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 4803,
+      "allocation": [
+        0,
+        2,
+        0,
+        1,
+        2,
+        0,
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 4896,
+      "allocation": [
+        0,
+        2,
+        0,
+        2,
+        0,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 4897,
+      "allocation": [
+        0,
+        2,
+        0,
+        2,
+        0,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 4898,
+      "allocation": [
+        0,
+        2,
+        0,
+        2,
+        0,
+        1,
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 4899,
+      "allocation": [
+        0,
+        2,
+        0,
+        2,
+        0,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 4902,
+      "allocation": [
+        0,
+        2,
+        0,
+        2,
+        0,
+        1,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 4951,
+      "allocation": [
+        0,
+        2,
+        0,
+        2,
+        1,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 5103,
+      "allocation": [
+        0,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 5294,
+      "allocation": [
+        0,
+        2,
+        1,
+        0,
+        2,
+        1,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 5297,
+      "allocation": [
+        0,
+        2,
+        1,
+        0,
+        2,
+        1,
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "allocation_id": 5298,
+      "allocation": [
+        0,
+        2,
+        1,
+        0,
+        2,
+        1,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 5300,
+      "allocation": [
+        0,
+        2,
+        1,
+        0,
+        2,
+        1,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 5311,
+      "allocation": [
+        0,
+        2,
+        1,
+        0,
+        2,
+        1,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 5625,
+      "allocation": [
+        0,
+        2,
+        1,
+        2,
+        0,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 5626,
+      "allocation": [
+        0,
+        2,
+        1,
+        2,
+        0,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 5627,
+      "allocation": [
+        0,
+        2,
+        1,
+        2,
+        0,
+        1,
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 5628,
+      "allocation": [
+        0,
+        2,
+        1,
+        2,
+        0,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 5631,
+      "allocation": [
+        0,
+        2,
+        1,
+        2,
+        0,
+        1,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 5680,
+      "allocation": [
+        0,
+        2,
+        1,
+        2,
+        1,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 5833,
+      "allocation": [
+        0,
+        2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 5835,
+      "allocation": [
+        0,
+        2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 5839,
+      "allocation": [
+        0,
+        2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "allocation_id": 5841,
+      "allocation": [
+        0,
+        2,
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 5843,
+      "allocation": [
+        0,
+        2,
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 5847,
+      "allocation": [
+        0,
+        2,
+        2,
+        0,
+        0,
+        0,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 5849,
+      "allocation": [
+        0,
+        2,
+        2,
+        0,
+        0,
+        0,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 5859,
+      "allocation": [
+        0,
+        2,
+        2,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 5861,
+      "allocation": [
+        0,
+        2,
+        2,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 5865,
+      "allocation": [
+        0,
+        2,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 5867,
+      "allocation": [
+        0,
+        2,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 5877,
+      "allocation": [
+        0,
+        2,
+        2,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 5879,
+      "allocation": [
+        0,
+        2,
+        2,
+        0,
+        0,
+        1,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 5883,
+      "allocation": [
+        0,
+        2,
+        2,
+        0,
+        0,
+        1,
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 5885,
+      "allocation": [
+        0,
+        2,
+        2,
+        0,
+        0,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 5913,
+      "allocation": [
+        0,
+        2,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 5915,
+      "allocation": [
+        0,
+        2,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 5919,
+      "allocation": [
+        0,
+        2,
+        2,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 5921,
+      "allocation": [
+        0,
+        2,
+        2,
+        0,
+        1,
+        0,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 5931,
+      "allocation": [
+        0,
+        2,
+        2,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 5933,
+      "allocation": [
+        0,
+        2,
+        2,
+        0,
+        1,
+        0,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 5937,
+      "allocation": [
+        0,
+        2,
+        2,
+        0,
+        1,
+        0,
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 5939,
+      "allocation": [
+        0,
+        2,
+        2,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 5976,
+      "allocation": [
+        0,
+        2,
+        2,
+        0,
+        1,
+        2,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 5982,
+      "allocation": [
+        0,
+        2,
+        2,
+        0,
+        1,
+        2,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 6021,
+      "allocation": [
+        0,
+        2,
+        2,
+        0,
+        2,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 6023,
+      "allocation": [
+        0,
+        2,
+        2,
+        0,
+        2,
+        1,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 6026,
+      "allocation": [
+        0,
+        2,
+        2,
+        0,
+        2,
+        1,
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "allocation_id": 6027,
+      "allocation": [
+        0,
+        2,
+        2,
+        0,
+        2,
+        1,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 6028,
+      "allocation": [
+        0,
+        2,
+        2,
+        0,
+        2,
+        1,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "allocation_id": 6029,
+      "allocation": [
+        0,
+        2,
+        2,
+        0,
+        2,
+        1,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 6032,
+      "allocation": [
+        0,
+        2,
+        2,
+        0,
+        2,
+        1,
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 6036,
+      "allocation": [
+        0,
+        2,
+        2,
+        0,
+        2,
+        1,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 6038,
+      "allocation": [
+        0,
+        2,
+        2,
+        0,
+        2,
+        1,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 6043,
+      "allocation": [
+        0,
+        2,
+        2,
+        0,
+        2,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 6075,
+      "allocation": [
+        0,
+        2,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 6077,
+      "allocation": [
+        0,
+        2,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 6081,
+      "allocation": [
+        0,
+        2,
+        2,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 6083,
+      "allocation": [
+        0,
+        2,
+        2,
+        1,
+        0,
+        0,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 6093,
+      "allocation": [
+        0,
+        2,
+        2,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 6095,
+      "allocation": [
+        0,
+        2,
+        2,
+        1,
+        0,
+        0,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 6099,
+      "allocation": [
+        0,
+        2,
+        2,
+        1,
+        0,
+        0,
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 6101,
+      "allocation": [
+        0,
+        2,
+        2,
+        1,
+        0,
+        0,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 6129,
+      "allocation": [
+        0,
+        2,
+        2,
+        1,
+        0,
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 6131,
+      "allocation": [
+        0,
+        2,
+        2,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 6135,
+      "allocation": [
+        0,
+        2,
+        2,
+        1,
+        0,
+        2,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 6137,
+      "allocation": [
+        0,
+        2,
+        2,
+        1,
+        0,
+        2,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 6237,
+      "allocation": [
+        0,
+        2,
+        2,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 6239,
+      "allocation": [
+        0,
+        2,
+        2,
+        1,
+        2,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 6243,
+      "allocation": [
+        0,
+        2,
+        2,
+        1,
+        2,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 6245,
+      "allocation": [
+        0,
+        2,
+        2,
+        1,
+        2,
+        0,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 6255,
+      "allocation": [
+        0,
+        2,
+        2,
+        1,
+        2,
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 6261,
+      "allocation": [
+        0,
+        2,
+        2,
+        1,
+        2,
+        0,
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 6354,
+      "allocation": [
+        0,
+        2,
+        2,
+        2,
+        0,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 6355,
+      "allocation": [
+        0,
+        2,
+        2,
+        2,
+        0,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 6356,
+      "allocation": [
+        0,
+        2,
+        2,
+        2,
+        0,
+        1,
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 6357,
+      "allocation": [
+        0,
+        2,
+        2,
+        2,
+        0,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 6360,
+      "allocation": [
+        0,
+        2,
+        2,
+        2,
+        0,
+        1,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 6409,
+      "allocation": [
+        0,
+        2,
+        2,
+        2,
+        1,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 6561,
+      "allocation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 6563,
+      "allocation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 6567,
+      "allocation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 6569,
+      "allocation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 6579,
+      "allocation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 6581,
+      "allocation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 6584,
+      "allocation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "allocation_id": 6585,
+      "allocation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 6587,
+      "allocation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 6615,
+      "allocation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 6616,
+      "allocation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 6618,
+      "allocation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 6619,
+      "allocation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 6624,
+      "allocation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 6625,
+      "allocation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 6627,
+      "allocation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 6628,
+      "allocation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 6696,
+      "allocation": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 6698,
+      "allocation": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 6702,
+      "allocation": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 6704,
+      "allocation": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 6714,
+      "allocation": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        2,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 6723,
+      "allocation": [
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 6724,
+      "allocation": [
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 6726,
+      "allocation": [
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 6727,
+      "allocation": [
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 6732,
+      "allocation": [
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 6733,
+      "allocation": [
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 6735,
+      "allocation": [
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 6736,
+      "allocation": [
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 6752,
+      "allocation": [
+        1,
+        0,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 6756,
+      "allocation": [
+        1,
+        0,
+        0,
+        0,
+        2,
+        1,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 6758,
+      "allocation": [
+        1,
+        0,
+        0,
+        0,
+        2,
+        1,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 6768,
+      "allocation": [
+        1,
+        0,
+        0,
+        0,
+        2,
+        1,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 6770,
+      "allocation": [
+        1,
+        0,
+        0,
+        0,
+        2,
+        1,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 6773,
+      "allocation": [
+        1,
+        0,
+        0,
+        0,
+        2,
+        1,
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "allocation_id": 6774,
+      "allocation": [
+        1,
+        0,
+        0,
+        0,
+        2,
+        1,
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 7047,
+      "allocation": [
+        1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 7048,
+      "allocation": [
+        1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 7050,
+      "allocation": [
+        1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 7051,
+      "allocation": [
+        1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 7056,
+      "allocation": [
+        1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 7057,
+      "allocation": [
+        1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 7059,
+      "allocation": [
+        1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 7060,
+      "allocation": [
+        1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 7074,
+      "allocation": [
+        1,
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 7077,
+      "allocation": [
+        1,
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 7080,
+      "allocation": [
+        1,
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 7128,
+      "allocation": [
+        1,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 7129,
+      "allocation": [
+        1,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 7130,
+      "allocation": [
+        1,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 7131,
+      "allocation": [
+        1,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 7134,
+      "allocation": [
+        1,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 7310,
+      "allocation": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 7316,
+      "allocation": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 7344,
+      "allocation": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 7345,
+      "allocation": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 7347,
+      "allocation": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 7348,
+      "allocation": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 7353,
+      "allocation": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 7354,
+      "allocation": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        2,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 7356,
+      "allocation": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        2,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 7357,
+      "allocation": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 7452,
+      "allocation": [
+        1,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 7453,
+      "allocation": [
+        1,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 7455,
+      "allocation": [
+        1,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 7456,
+      "allocation": [
+        1,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 7461,
+      "allocation": [
+        1,
+        0,
+        1,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 7462,
+      "allocation": [
+        1,
+        0,
+        1,
+        0,
+        2,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 7464,
+      "allocation": [
+        1,
+        0,
+        1,
+        0,
+        2,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 7465,
+      "allocation": [
+        1,
+        0,
+        1,
+        0,
+        2,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 7499,
+      "allocation": [
+        1,
+        0,
+        1,
+        0,
+        2,
+        1,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 7776,
+      "allocation": [
+        1,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 7777,
+      "allocation": [
+        1,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 7779,
+      "allocation": [
+        1,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 7780,
+      "allocation": [
+        1,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 7785,
+      "allocation": [
+        1,
+        0,
+        1,
+        2,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 7786,
+      "allocation": [
+        1,
+        0,
+        1,
+        2,
+        0,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 7788,
+      "allocation": [
+        1,
+        0,
+        1,
+        2,
+        0,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 7789,
+      "allocation": [
+        1,
+        0,
+        1,
+        2,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 7803,
+      "allocation": [
+        1,
+        0,
+        1,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 7809,
+      "allocation": [
+        1,
+        0,
+        1,
+        2,
+        0,
+        1,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 7857,
+      "allocation": [
+        1,
+        0,
+        1,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 7859,
+      "allocation": [
+        1,
+        0,
+        1,
+        2,
+        1,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 7863,
+      "allocation": [
+        1,
+        0,
+        1,
+        2,
+        1,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 8019,
+      "allocation": [
+        1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 8021,
+      "allocation": [
+        1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 8025,
+      "allocation": [
+        1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 8027,
+      "allocation": [
+        1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 8037,
+      "allocation": [
+        1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 8039,
+      "allocation": [
+        1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 8042,
+      "allocation": [
+        1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "allocation_id": 8043,
+      "allocation": [
+        1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 8044,
+      "allocation": [
+        1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "allocation_id": 8154,
+      "allocation": [
+        1,
+        0,
+        2,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 8156,
+      "allocation": [
+        1,
+        0,
+        2,
+        0,
+        1,
+        2,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 8160,
+      "allocation": [
+        1,
+        0,
+        2,
+        0,
+        1,
+        2,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 8162,
+      "allocation": [
+        1,
+        0,
+        2,
+        0,
+        1,
+        2,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 8210,
+      "allocation": [
+        1,
+        0,
+        2,
+        0,
+        2,
+        1,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 8214,
+      "allocation": [
+        1,
+        0,
+        2,
+        0,
+        2,
+        1,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 8216,
+      "allocation": [
+        1,
+        0,
+        2,
+        0,
+        2,
+        1,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 8226,
+      "allocation": [
+        1,
+        0,
+        2,
+        0,
+        2,
+        1,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 8228,
+      "allocation": [
+        1,
+        0,
+        2,
+        0,
+        2,
+        1,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 8232,
+      "allocation": [
+        1,
+        0,
+        2,
+        0,
+        2,
+        1,
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 8532,
+      "allocation": [
+        1,
+        0,
+        2,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 8535,
+      "allocation": [
+        1,
+        0,
+        2,
+        2,
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 8586,
+      "allocation": [
+        1,
+        0,
+        2,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 8587,
+      "allocation": [
+        1,
+        0,
+        2,
+        2,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 8589,
+      "allocation": [
+        1,
+        0,
+        2,
+        2,
+        1,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 8768,
+      "allocation": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 8774,
+      "allocation": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 8802,
+      "allocation": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 8803,
+      "allocation": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 8805,
+      "allocation": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 8806,
+      "allocation": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 8811,
+      "allocation": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 8812,
+      "allocation": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        2,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 8814,
+      "allocation": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        2,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 8815,
+      "allocation": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 8910,
+      "allocation": [
+        1,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 8911,
+      "allocation": [
+        1,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 8913,
+      "allocation": [
+        1,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 8914,
+      "allocation": [
+        1,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 8919,
+      "allocation": [
+        1,
+        1,
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 8920,
+      "allocation": [
+        1,
+        1,
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 8922,
+      "allocation": [
+        1,
+        1,
+        0,
+        0,
+        2,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 8923,
+      "allocation": [
+        1,
+        1,
+        0,
+        0,
+        2,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 8957,
+      "allocation": [
+        1,
+        1,
+        0,
+        0,
+        2,
+        1,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 9234,
+      "allocation": [
+        1,
+        1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 9235,
+      "allocation": [
+        1,
+        1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 9237,
+      "allocation": [
+        1,
+        1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 9238,
+      "allocation": [
+        1,
+        1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 9243,
+      "allocation": [
+        1,
+        1,
+        0,
+        2,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 9244,
+      "allocation": [
+        1,
+        1,
+        0,
+        2,
+        0,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 9246,
+      "allocation": [
+        1,
+        1,
+        0,
+        2,
+        0,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 9247,
+      "allocation": [
+        1,
+        1,
+        0,
+        2,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 9261,
+      "allocation": [
+        1,
+        1,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 9267,
+      "allocation": [
+        1,
+        1,
+        0,
+        2,
+        0,
+        1,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 9315,
+      "allocation": [
+        1,
+        1,
+        0,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 9317,
+      "allocation": [
+        1,
+        1,
+        0,
+        2,
+        1,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 9321,
+      "allocation": [
+        1,
+        1,
+        0,
+        2,
+        1,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 9497,
+      "allocation": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 9503,
+      "allocation": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 9531,
+      "allocation": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 9532,
+      "allocation": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 9534,
+      "allocation": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        2,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 9535,
+      "allocation": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        2,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 9540,
+      "allocation": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 9541,
+      "allocation": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        2,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 9543,
+      "allocation": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        2,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 9544,
+      "allocation": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 9639,
+      "allocation": [
+        1,
+        1,
+        1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 9640,
+      "allocation": [
+        1,
+        1,
+        1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 9642,
+      "allocation": [
+        1,
+        1,
+        1,
+        0,
+        2,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 9643,
+      "allocation": [
+        1,
+        1,
+        1,
+        0,
+        2,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 9648,
+      "allocation": [
+        1,
+        1,
+        1,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 9649,
+      "allocation": [
+        1,
+        1,
+        1,
+        0,
+        2,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 9651,
+      "allocation": [
+        1,
+        1,
+        1,
+        0,
+        2,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 9652,
+      "allocation": [
+        1,
+        1,
+        1,
+        0,
+        2,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 9686,
+      "allocation": [
+        1,
+        1,
+        1,
+        0,
+        2,
+        1,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 9963,
+      "allocation": [
+        1,
+        1,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 9964,
+      "allocation": [
+        1,
+        1,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 9966,
+      "allocation": [
+        1,
+        1,
+        1,
+        2,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 9967,
+      "allocation": [
+        1,
+        1,
+        1,
+        2,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 9972,
+      "allocation": [
+        1,
+        1,
+        1,
+        2,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 9973,
+      "allocation": [
+        1,
+        1,
+        1,
+        2,
+        0,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 9975,
+      "allocation": [
+        1,
+        1,
+        1,
+        2,
+        0,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 9976,
+      "allocation": [
+        1,
+        1,
+        1,
+        2,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 9990,
+      "allocation": [
+        1,
+        1,
+        1,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 9996,
+      "allocation": [
+        1,
+        1,
+        1,
+        2,
+        0,
+        1,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 10044,
+      "allocation": [
+        1,
+        1,
+        1,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 10046,
+      "allocation": [
+        1,
+        1,
+        1,
+        2,
+        1,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 10050,
+      "allocation": [
+        1,
+        1,
+        1,
+        2,
+        1,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 10226,
+      "allocation": [
+        1,
+        1,
+        2,
+        0,
+        0,
+        0,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 10230,
+      "allocation": [
+        1,
+        1,
+        2,
+        0,
+        0,
+        0,
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 10415,
+      "allocation": [
+        1,
+        1,
+        2,
+        0,
+        2,
+        1,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 10719,
+      "allocation": [
+        1,
+        1,
+        2,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 10773,
+      "allocation": [
+        1,
+        1,
+        2,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 10935,
+      "allocation": [
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 10937,
+      "allocation": [
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 10941,
+      "allocation": [
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 10943,
+      "allocation": [
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 10953,
+      "allocation": [
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 10955,
+      "allocation": [
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 10958,
+      "allocation": [
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "allocation_id": 10959,
+      "allocation": [
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 11070,
+      "allocation": [
+        1,
+        2,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 11072,
+      "allocation": [
+        1,
+        2,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 11076,
+      "allocation": [
+        1,
+        2,
+        0,
+        0,
+        1,
+        2,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 11078,
+      "allocation": [
+        1,
+        2,
+        0,
+        0,
+        1,
+        2,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 11126,
+      "allocation": [
+        1,
+        2,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 11130,
+      "allocation": [
+        1,
+        2,
+        0,
+        0,
+        2,
+        1,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 11132,
+      "allocation": [
+        1,
+        2,
+        0,
+        0,
+        2,
+        1,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 11142,
+      "allocation": [
+        1,
+        2,
+        0,
+        0,
+        2,
+        1,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 11144,
+      "allocation": [
+        1,
+        2,
+        0,
+        0,
+        2,
+        1,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 11148,
+      "allocation": [
+        1,
+        2,
+        0,
+        0,
+        2,
+        1,
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 11448,
+      "allocation": [
+        1,
+        2,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 11451,
+      "allocation": [
+        1,
+        2,
+        0,
+        2,
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 11502,
+      "allocation": [
+        1,
+        2,
+        0,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 11503,
+      "allocation": [
+        1,
+        2,
+        0,
+        2,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 11505,
+      "allocation": [
+        1,
+        2,
+        0,
+        2,
+        1,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 11684,
+      "allocation": [
+        1,
+        2,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 11873,
+      "allocation": [
+        1,
+        2,
+        1,
+        0,
+        2,
+        1,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 12177,
+      "allocation": [
+        1,
+        2,
+        1,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 12231,
+      "allocation": [
+        1,
+        2,
+        1,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 12393,
+      "allocation": [
+        1,
+        2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 12395,
+      "allocation": [
+        1,
+        2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 12399,
+      "allocation": [
+        1,
+        2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 12401,
+      "allocation": [
+        1,
+        2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 12411,
+      "allocation": [
+        1,
+        2,
+        2,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 12413,
+      "allocation": [
+        1,
+        2,
+        2,
+        0,
+        0,
+        0,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 12416,
+      "allocation": [
+        1,
+        2,
+        2,
+        0,
+        0,
+        0,
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "allocation_id": 12417,
+      "allocation": [
+        1,
+        2,
+        2,
+        0,
+        0,
+        0,
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 12418,
+      "allocation": [
+        1,
+        2,
+        2,
+        0,
+        0,
+        0,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "allocation_id": 12528,
+      "allocation": [
+        1,
+        2,
+        2,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 12530,
+      "allocation": [
+        1,
+        2,
+        2,
+        0,
+        1,
+        2,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 12534,
+      "allocation": [
+        1,
+        2,
+        2,
+        0,
+        1,
+        2,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 12536,
+      "allocation": [
+        1,
+        2,
+        2,
+        0,
+        1,
+        2,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 12584,
+      "allocation": [
+        1,
+        2,
+        2,
+        0,
+        2,
+        1,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 12588,
+      "allocation": [
+        1,
+        2,
+        2,
+        0,
+        2,
+        1,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 12590,
+      "allocation": [
+        1,
+        2,
+        2,
+        0,
+        2,
+        1,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 12600,
+      "allocation": [
+        1,
+        2,
+        2,
+        0,
+        2,
+        1,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 12602,
+      "allocation": [
+        1,
+        2,
+        2,
+        0,
+        2,
+        1,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 12606,
+      "allocation": [
+        1,
+        2,
+        2,
+        0,
+        2,
+        1,
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 12906,
+      "allocation": [
+        1,
+        2,
+        2,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 12909,
+      "allocation": [
+        1,
+        2,
+        2,
+        2,
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 12960,
+      "allocation": [
+        1,
+        2,
+        2,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 12961,
+      "allocation": [
+        1,
+        2,
+        2,
+        2,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 12963,
+      "allocation": [
+        1,
+        2,
+        2,
+        2,
+        1,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 13122,
+      "allocation": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 13123,
+      "allocation": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 13125,
+      "allocation": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 13126,
+      "allocation": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 13131,
+      "allocation": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 13132,
+      "allocation": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 13134,
+      "allocation": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 13149,
+      "allocation": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 13151,
+      "allocation": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 13155,
+      "allocation": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 13157,
+      "allocation": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 13167,
+      "allocation": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 13169,
+      "allocation": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 13173,
+      "allocation": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 13175,
+      "allocation": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 13203,
+      "allocation": [
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 13205,
+      "allocation": [
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 13209,
+      "allocation": [
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 13211,
+      "allocation": [
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 13221,
+      "allocation": [
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 13223,
+      "allocation": [
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 13227,
+      "allocation": [
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 13229,
+      "allocation": [
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 13266,
+      "allocation": [
+        2,
+        0,
+        0,
+        0,
+        1,
+        2,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 13267,
+      "allocation": [
+        2,
+        0,
+        0,
+        0,
+        1,
+        2,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 13269,
+      "allocation": [
+        2,
+        0,
+        0,
+        0,
+        1,
+        2,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 13311,
+      "allocation": [
+        2,
+        0,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 13312,
+      "allocation": [
+        2,
+        0,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 13314,
+      "allocation": [
+        2,
+        0,
+        0,
+        0,
+        2,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 13315,
+      "allocation": [
+        2,
+        0,
+        0,
+        0,
+        2,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 13320,
+      "allocation": [
+        2,
+        0,
+        0,
+        0,
+        2,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 13321,
+      "allocation": [
+        2,
+        0,
+        0,
+        0,
+        2,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 13322,
+      "allocation": [
+        2,
+        0,
+        0,
+        0,
+        2,
+        1,
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 13323,
+      "allocation": [
+        2,
+        0,
+        0,
+        0,
+        2,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 13326,
+      "allocation": [
+        2,
+        0,
+        0,
+        0,
+        2,
+        1,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 13365,
+      "allocation": [
+        2,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 13367,
+      "allocation": [
+        2,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 13371,
+      "allocation": [
+        2,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 13373,
+      "allocation": [
+        2,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 13383,
+      "allocation": [
+        2,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 13385,
+      "allocation": [
+        2,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 13389,
+      "allocation": [
+        2,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 13391,
+      "allocation": [
+        2,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 13419,
+      "allocation": [
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 13527,
+      "allocation": [
+        2,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 13851,
+      "allocation": [
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 13852,
+      "allocation": [
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 13854,
+      "allocation": [
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 13855,
+      "allocation": [
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 13860,
+      "allocation": [
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 13863,
+      "allocation": [
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 13995,
+      "allocation": [
+        2,
+        0,
+        1,
+        0,
+        1,
+        2,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 13998,
+      "allocation": [
+        2,
+        0,
+        1,
+        0,
+        1,
+        2,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 14040,
+      "allocation": [
+        2,
+        0,
+        1,
+        0,
+        2,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 14041,
+      "allocation": [
+        2,
+        0,
+        1,
+        0,
+        2,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 14043,
+      "allocation": [
+        2,
+        0,
+        1,
+        0,
+        2,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 14044,
+      "allocation": [
+        2,
+        0,
+        1,
+        0,
+        2,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 14049,
+      "allocation": [
+        2,
+        0,
+        1,
+        0,
+        2,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 14051,
+      "allocation": [
+        2,
+        0,
+        1,
+        0,
+        2,
+        1,
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 14055,
+      "allocation": [
+        2,
+        0,
+        1,
+        0,
+        2,
+        1,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 14607,
+      "allocation": [
+        2,
+        0,
+        2,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 14609,
+      "allocation": [
+        2,
+        0,
+        2,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 14613,
+      "allocation": [
+        2,
+        0,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 14615,
+      "allocation": [
+        2,
+        0,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 14625,
+      "allocation": [
+        2,
+        0,
+        2,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 14627,
+      "allocation": [
+        2,
+        0,
+        2,
+        0,
+        0,
+        1,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 14631,
+      "allocation": [
+        2,
+        0,
+        2,
+        0,
+        0,
+        1,
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 14633,
+      "allocation": [
+        2,
+        0,
+        2,
+        0,
+        0,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 14661,
+      "allocation": [
+        2,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 14663,
+      "allocation": [
+        2,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 14667,
+      "allocation": [
+        2,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 14669,
+      "allocation": [
+        2,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 14679,
+      "allocation": [
+        2,
+        0,
+        2,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 14681,
+      "allocation": [
+        2,
+        0,
+        2,
+        0,
+        1,
+        0,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 14685,
+      "allocation": [
+        2,
+        0,
+        2,
+        0,
+        1,
+        0,
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 14687,
+      "allocation": [
+        2,
+        0,
+        2,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 14778,
+      "allocation": [
+        2,
+        0,
+        2,
+        0,
+        2,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 14779,
+      "allocation": [
+        2,
+        0,
+        2,
+        0,
+        2,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 14781,
+      "allocation": [
+        2,
+        0,
+        2,
+        0,
+        2,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 14823,
+      "allocation": [
+        2,
+        0,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 14825,
+      "allocation": [
+        2,
+        0,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 14829,
+      "allocation": [
+        2,
+        0,
+        2,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 14831,
+      "allocation": [
+        2,
+        0,
+        2,
+        1,
+        0,
+        0,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 14841,
+      "allocation": [
+        2,
+        0,
+        2,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 14843,
+      "allocation": [
+        2,
+        0,
+        2,
+        1,
+        0,
+        0,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 14847,
+      "allocation": [
+        2,
+        0,
+        2,
+        1,
+        0,
+        0,
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 14849,
+      "allocation": [
+        2,
+        0,
+        2,
+        1,
+        0,
+        0,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 15309,
+      "allocation": [
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 15310,
+      "allocation": [
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 15312,
+      "allocation": [
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 15313,
+      "allocation": [
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 15318,
+      "allocation": [
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 15321,
+      "allocation": [
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 15453,
+      "allocation": [
+        2,
+        1,
+        0,
+        0,
+        1,
+        2,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 15456,
+      "allocation": [
+        2,
+        1,
+        0,
+        0,
+        1,
+        2,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 15498,
+      "allocation": [
+        2,
+        1,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 15499,
+      "allocation": [
+        2,
+        1,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 15501,
+      "allocation": [
+        2,
+        1,
+        0,
+        0,
+        2,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 15502,
+      "allocation": [
+        2,
+        1,
+        0,
+        0,
+        2,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 15507,
+      "allocation": [
+        2,
+        1,
+        0,
+        0,
+        2,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 15509,
+      "allocation": [
+        2,
+        1,
+        0,
+        0,
+        2,
+        1,
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 15513,
+      "allocation": [
+        2,
+        1,
+        0,
+        0,
+        2,
+        1,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 16038,
+      "allocation": [
+        2,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 16039,
+      "allocation": [
+        2,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 16041,
+      "allocation": [
+        2,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 16042,
+      "allocation": [
+        2,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 16047,
+      "allocation": [
+        2,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 16182,
+      "allocation": [
+        2,
+        1,
+        1,
+        0,
+        1,
+        2,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 16185,
+      "allocation": [
+        2,
+        1,
+        1,
+        0,
+        1,
+        2,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 16227,
+      "allocation": [
+        2,
+        1,
+        1,
+        0,
+        2,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 16228,
+      "allocation": [
+        2,
+        1,
+        1,
+        0,
+        2,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 16230,
+      "allocation": [
+        2,
+        1,
+        1,
+        0,
+        2,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 16231,
+      "allocation": [
+        2,
+        1,
+        1,
+        0,
+        2,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "allocation_id": 16236,
+      "allocation": [
+        2,
+        1,
+        1,
+        0,
+        2,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 16238,
+      "allocation": [
+        2,
+        1,
+        1,
+        0,
+        2,
+        1,
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 16242,
+      "allocation": [
+        2,
+        1,
+        1,
+        0,
+        2,
+        1,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 16965,
+      "allocation": [
+        2,
+        1,
+        2,
+        0,
+        2,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 17523,
+      "allocation": [
+        2,
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 17525,
+      "allocation": [
+        2,
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 17529,
+      "allocation": [
+        2,
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 17531,
+      "allocation": [
+        2,
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 17541,
+      "allocation": [
+        2,
+        2,
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 17543,
+      "allocation": [
+        2,
+        2,
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 17547,
+      "allocation": [
+        2,
+        2,
+        0,
+        0,
+        0,
+        1,
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 17549,
+      "allocation": [
+        2,
+        2,
+        0,
+        0,
+        0,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 17577,
+      "allocation": [
+        2,
+        2,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 17579,
+      "allocation": [
+        2,
+        2,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 17583,
+      "allocation": [
+        2,
+        2,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 17585,
+      "allocation": [
+        2,
+        2,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 17595,
+      "allocation": [
+        2,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 17597,
+      "allocation": [
+        2,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 17601,
+      "allocation": [
+        2,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 17603,
+      "allocation": [
+        2,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 17694,
+      "allocation": [
+        2,
+        2,
+        0,
+        0,
+        2,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 17695,
+      "allocation": [
+        2,
+        2,
+        0,
+        0,
+        2,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 17697,
+      "allocation": [
+        2,
+        2,
+        0,
+        0,
+        2,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 17739,
+      "allocation": [
+        2,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 17741,
+      "allocation": [
+        2,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 17745,
+      "allocation": [
+        2,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 17747,
+      "allocation": [
+        2,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 17757,
+      "allocation": [
+        2,
+        2,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 17759,
+      "allocation": [
+        2,
+        2,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 17763,
+      "allocation": [
+        2,
+        2,
+        0,
+        1,
+        0,
+        0,
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 17765,
+      "allocation": [
+        2,
+        2,
+        0,
+        1,
+        0,
+        0,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 18423,
+      "allocation": [
+        2,
+        2,
+        1,
+        0,
+        2,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 18981,
+      "allocation": [
+        2,
+        2,
+        2,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 18983,
+      "allocation": [
+        2,
+        2,
+        2,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 18987,
+      "allocation": [
+        2,
+        2,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 18989,
+      "allocation": [
+        2,
+        2,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 18999,
+      "allocation": [
+        2,
+        2,
+        2,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 19001,
+      "allocation": [
+        2,
+        2,
+        2,
+        0,
+        0,
+        1,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 19005,
+      "allocation": [
+        2,
+        2,
+        2,
+        0,
+        0,
+        1,
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 19007,
+      "allocation": [
+        2,
+        2,
+        2,
+        0,
+        0,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 19035,
+      "allocation": [
+        2,
+        2,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 19037,
+      "allocation": [
+        2,
+        2,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 19041,
+      "allocation": [
+        2,
+        2,
+        2,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 19043,
+      "allocation": [
+        2,
+        2,
+        2,
+        0,
+        1,
+        0,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 19053,
+      "allocation": [
+        2,
+        2,
+        2,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 19055,
+      "allocation": [
+        2,
+        2,
+        2,
+        0,
+        1,
+        0,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 19059,
+      "allocation": [
+        2,
+        2,
+        2,
+        0,
+        1,
+        0,
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 19061,
+      "allocation": [
+        2,
+        2,
+        2,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 19152,
+      "allocation": [
+        2,
+        2,
+        2,
+        0,
+        2,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 19153,
+      "allocation": [
+        2,
+        2,
+        2,
+        0,
+        2,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "allocation_id": 19155,
+      "allocation": [
+        2,
+        2,
+        2,
+        0,
+        2,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "allocation_id": 19197,
+      "allocation": [
+        2,
+        2,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 19199,
+      "allocation": [
+        2,
+        2,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 19203,
+      "allocation": [
+        2,
+        2,
+        2,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 19205,
+      "allocation": [
+        2,
+        2,
+        2,
+        1,
+        0,
+        0,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "allocation_id": 19215,
+      "allocation": [
+        2,
+        2,
+        2,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "allocation_id": 19217,
+      "allocation": [
+        2,
+        2,
+        2,
+        1,
+        0,
+        0,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "allocation_id": 19221,
+      "allocation": [
+        2,
+        2,
+        2,
+        1,
+        0,
+        0,
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "allocation_id": 19223,
+      "allocation": [
+        2,
+        2,
+        2,
+        1,
+        0,
+        0,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "inputs": {
+    "zero": {
+      "path": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/fixed_zero_outer_candidate/zero_inner.smt2",
+      "sha256": "8a53645f5be9f78d99540fa80e6e397d15fe32b2ea6f27c809f48f6739704c01",
+      "domain_assertions": 13,
+      "assertions": 905,
+      "free_variables": 7
+    },
+    "positive": {
+      "path": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/fixed_zero_outer_candidate/positive_inner.smt2",
+      "sha256": "3a0da6233295385d7fa25d80b69e161c1cce86c130cf6b28634f35d6f0cba318",
+      "domain_assertions": 15,
+      "assertions": 907,
+      "free_variables": 8
+    }
+  },
+  "scope": "Existential first-row costs in the canonical strict order; both other rows fixed exactly. Every compatible allocation contributes the disjunction of all literal owned-item deletion failures. Includes nonsurjective allocations if compatible.",
+  "zero_domain": "c00=0,c01=1,c02>1, all c0g>0 for g>=2, c08<c07<c06<c05<c04<c03",
+  "positive_domain": "c00=1, all c0g>1 for g>=1, c01<c02, c08<c07<c06<c05<c04<c03"
+}

@@ -1,0 +1,36 @@
+{
+  "status": "child_completed",
+  "utc": "2026-10-07T21:36:36.270646+00:00",
+  "elapsed": 608.8791612770001,
+  "child_returncode": 0,
+  "worker_summary": {
+    "termination": "deadline",
+    "regions": 326,
+    "seconds": 608.0500675250005,
+    "outer_sha256": "1d69f5b4d71456fc6fb79a93b16c287e877e3273f43a7bdb0213a063f6922f5b",
+    "max_rss_kib": 863500,
+    "solver": "5.1.0",
+    "args": {
+      "out": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_short1",
+      "seconds": 600,
+      "iterations": 10000,
+      "memory_mib": 1450,
+      "outer_timeout": 90000,
+      "inner_timeout": 15000,
+      "seed_robust": true,
+      "compress": true,
+      "resume": [
+        "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_generic_pairs"
+      ],
+      "pair_seeds": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/pair_seeds_all.json",
+      "pair_index": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/full_pair_census/accepted_pairs.bin",
+      "pair_scores": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/full_pair_census/pair_region_scores.bin",
+      "generic_model": true,
+      "order": "descending"
+    },
+    "status_scope": "Exploratory exact solver record; no externally checked proof is implied by raw UNSAT"
+  },
+  "completed_region_files": 326,
+  "input_hashes_unchanged": true,
+  "mathematical_verdict": "deadline"
+}

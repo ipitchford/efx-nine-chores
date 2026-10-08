@@ -1,0 +1,15 @@
+{
+  "status": "SEALED_EXACT_FINAL_SELECTED_ARITHMETIC_CANDIDATE_STREAM",
+  "certificates_sha256": "1158d4059ecb2ea0a0fce97a492e662a9b151b26f03fa33b6d839732d4d0e356",
+  "certificate_bytes": 61678792,
+  "records": 370780,
+  "selection_sha256": "d24e12363b34b76a55066b57b21c22573a81da468f685becd7874b175e014827",
+  "preparation_sha256": "f7d9860cd8c873e98ed5d6ef6fbd23c43d75a19125e0e06a4046e05042a625de",
+  "configuration_sha256": "d3974acd114f20bbb56c00cf172acbf68068a56271ffe3007026151b436acf04",
+  "supervisor_terminal_sha256": "7eccc092bb544475b03f9b4a49c729021f5a98a52527f1ae405ff2c336a17aec",
+  "omitted_unselected_candidates": 1774,
+  "part_count": 10,
+  "fresh_process_readback": true,
+  "exact_index_sequence_matches_final_selection": true,
+  "independent_arithmetic_acceptance_claimed": false
+}

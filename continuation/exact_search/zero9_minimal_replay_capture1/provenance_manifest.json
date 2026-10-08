@@ -1,0 +1,47 @@
+{
+  "status": "SEALED_MINIMAL_REPLAY_CAPTURE_PREPARATION_ONLY",
+  "source_capture": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/zero9_clause_capture_run1_durable_snapshot/capture",
+  "source_input_binding": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/verification/zero9_capture_snapshot_input_binding.json",
+  "source_capture_files_sha256": {
+    "input_clauses.jsonl": "435f7af9909281ca31fa3d5a646e4caa5bb53fb36bc993895d6f5b6f20317c66",
+    "theory_clauses.jsonl": "76ed7b45fe3cebe508563b9719dad6dd4893f61a5313b32dd2d4a0784dff38be",
+    "atoms.jsonl": "07363e1475cf95ef9e66060e9030b0541f95150dab0aada68aea11236b7a5592",
+    "assumptions.jsonl": "d5e2b8565c02cec9c906d6eab0220103369a320a4879f0d73ff01a38f7d052e4",
+    "rup_clauses.jsonl": "e0629aea22cf72414681e99a2e71057c197715ea6b05ecb33ee4784b7be27aa6",
+    "metadata.json": "ebe323468831b34d5fbc30e110bf3d8124d98c97eb0f21ccfbd586c12dc9e97b",
+    "receipt.json": "53cb13091ced3b9799c7a88a67f457e373697340150e254f3bef98a8fa2b3ff8"
+  },
+  "source_input_binding_sha256": "a31b46824ef77a3806527e24da35572775df4d405f4296823744b5a2e2ced8c0",
+  "derived_capture": "capture",
+  "derived_capture_files_sha256": {
+    "atoms.jsonl": "07363e1475cf95ef9e66060e9030b0541f95150dab0aada68aea11236b7a5592",
+    "input_clauses.jsonl": "435f7af9909281ca31fa3d5a646e4caa5bb53fb36bc993895d6f5b6f20317c66",
+    "theory_clauses.jsonl": "76ed7b45fe3cebe508563b9719dad6dd4893f61a5313b32dd2d4a0784dff38be",
+    "metadata.json": "ebe323468831b34d5fbc30e110bf3d8124d98c97eb0f21ccfbd586c12dc9e97b",
+    "receipt.json": "f6f4b98446239e30e1ce03e5da6590cfc16255b461bd280104a42872bb36c892"
+  },
+  "copied_source_files_sha256": {
+    "atoms.jsonl": "07363e1475cf95ef9e66060e9030b0541f95150dab0aada68aea11236b7a5592",
+    "input_clauses.jsonl": "435f7af9909281ca31fa3d5a646e4caa5bb53fb36bc993895d6f5b6f20317c66",
+    "theory_clauses.jsonl": "76ed7b45fe3cebe508563b9719dad6dd4893f61a5313b32dd2d4a0784dff38be",
+    "metadata.json": "ebe323468831b34d5fbc30e110bf3d8124d98c97eb0f21ccfbd586c12dc9e97b"
+  },
+  "preserved_source_receipt": "source_capture_receipt.json",
+  "preserved_source_binding": "source_capture_input_binding.json",
+  "omitted_raw_callback_streams": {
+    "rup_clauses.jsonl": {
+      "sha256": "e0629aea22cf72414681e99a2e71057c197715ea6b05ecb33ee4784b7be27aa6",
+      "bytes": 136642201
+    },
+    "assumptions.jsonl": {
+      "sha256": "d5e2b8565c02cec9c906d6eab0220103369a320a4879f0d73ff01a38f7d052e4",
+      "bytes": 1942162
+    }
+  },
+  "omitted_raw_bytes": 138584363,
+  "source_indices_unchanged": true,
+  "original_files_modified": false,
+  "independent_math_acceptance_claimed": false,
+  "completed_at_utc": "2026-10-08T00:03:00.043723+00:00",
+  "preparation_source_sha256": "b1c474b26643bdbf353c2cae97da2dd192355412781d9c79cd95842b006be3ad"
+}

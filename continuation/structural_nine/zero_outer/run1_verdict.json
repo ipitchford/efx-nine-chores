@@ -1,0 +1,13 @@
+{
+  "result": "sat",
+  "input": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/zero_outer/zero_minimum_final_outer.smt2",
+  "input_sha256": "7652b9e62a367ac0ee3e09ef8bbb5882831f1292af372e5ae425ff58141a7331",
+  "solver": "5.1.0",
+  "assertions": 6305,
+  "timeout_ms": 59765,
+  "check_seconds": 3.7043967839999823,
+  "elapsed": 3.939261860999977,
+  "reason_unknown": null,
+  "max_rss_kib": 113828,
+  "scope": "Outer model or raw solver result only; no full nine-chore conclusion is certified here."
+}

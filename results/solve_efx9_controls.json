@@ -1,0 +1,113 @@
+{
+  "status": "PASS_EXACT_ALLOCATION_FINDER_CONTROLS",
+  "source_sha256": "46055bfa2ebe623c2c59d04f650d56f2a822dc673891a6e055d2d5356a39acf7",
+  "cases": [
+    {
+      "case": "all_zero",
+      "status": "PASS_LITERAL_INDEPENDENT_CHECK",
+      "assignment_by_chore": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "assignments_examined": 1,
+      "seconds": 0.0007951349980430678
+    },
+    {
+      "case": "all_one",
+      "status": "PASS_LITERAL_INDEPENDENT_CHECK",
+      "assignment_by_chore": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3
+      ],
+      "assignments_examined": 378,
+      "seconds": 0.000982036999630509
+    },
+    {
+      "case": "zero_row",
+      "status": "PASS_LITERAL_INDEPENDENT_CHECK",
+      "assignment_by_chore": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "assignments_examined": 1,
+      "seconds": 0.0005825529988214839
+    },
+    {
+      "case": "distinct_zeros_and_ties",
+      "status": "PASS_LITERAL_INDEPENDENT_CHECK",
+      "assignment_by_chore": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        3,
+        3,
+        1,
+        1
+      ],
+      "assignments_examined": 397,
+      "seconds": 0.0009276050004700664
+    },
+    {
+      "case": "exact_small_rationals",
+      "status": "PASS_LITERAL_INDEPENDENT_CHECK",
+      "assignment_by_chore": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        3,
+        2,
+        3
+      ],
+      "assignments_examined": 105,
+      "seconds": 0.0008182099991245195
+    },
+    {
+      "case": "eight_chore_strengthening_example_plus_one",
+      "status": "PASS_LITERAL_INDEPENDENT_CHECK",
+      "assignment_by_chore": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        3,
+        3,
+        1
+      ],
+      "assignments_examined": 133,
+      "seconds": 0.0008297770000353921
+    }
+  ],
+  "zero_sensitive_literal_control_passed": true,
+  "invalid_cost_controls_passed": 5,
+  "decimal_json_exactness_passed": true,
+  "independent_checker": "src/efx_exact.py",
+  "scope": "Returned instance allocations and exact input/zero-deletion controls; this receipt is not the universal existence proof."
+}

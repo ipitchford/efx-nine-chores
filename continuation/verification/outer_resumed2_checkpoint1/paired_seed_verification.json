@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "certified_pairs": 1048,
+  "exhaustive_failure_branches": 4192,
+  "family": "all_minimum_owning_allocations",
+  "counts": {},
+  "verification": "Literal deletion coefficients and exact nonnegative rational identities; standard library only",
+  "source": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/pair_seeds_all.json",
+  "source_sha256": "d40155f1b2865ac19239bce76e544b42073dee5f22797fc77e690be675894a23"
+}

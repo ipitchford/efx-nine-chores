@@ -1,0 +1,15 @@
+{
+  "status": "INTERRUPTED_WITHOUT_CONCLUSION",
+  "reason": "Reallocated slower nine-chore CEGIS worker to neighbourhood-batched designated-EF P8; root full nine-chore solvers remain active. All available models and exact clauses retained.",
+  "utc": "2026-10-07T18:09:07.617405+00:00",
+  "last_completed_iteration": {
+    "iteration": 63,
+    "status": "sat",
+    "clauses": 3765,
+    "check_seconds": 26.961802041000738,
+    "elapsed_seconds": 787.5474173599996,
+    "efx_allocations": 6,
+    "max_integer": 1478,
+    "newly_added": 6
+  }
+}

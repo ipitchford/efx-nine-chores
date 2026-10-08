@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "new_regions": 4,
+  "independent_core_checks": [
+    {
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 20,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 22,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 24,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 22,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    }
+  ],
+  "batch_exact_duplicates": 0,
+  "batch_subset_dominations": 0,
+  "ordered_history": "PASS",
+  "outer_assertion_binding": 3260,
+  "binding_normalization": "Exact Z3 arithmetic simplification removes parser unary-minus wrappers before structural comparison.",
+  "outer_sha256": "ac2823986e3137f98fa292af4d82bc16f6b2e8973e07457ff742a63244c2d60d",
+  "claim_scope": "One exact smoke iteration and its local certificates; no universal nine-chore verdict."
+}

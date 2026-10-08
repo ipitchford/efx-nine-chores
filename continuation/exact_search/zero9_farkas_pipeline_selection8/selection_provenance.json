@@ -1,0 +1,78 @@
+{
+  "status": "SEALED_UNTRUSTED_DEPENDENCY_PREFIX_THEORY_SELECTION",
+  "completed_at_utc": "2026-10-07T23:57:44.628187+00:00",
+  "source_checkpoint": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/zero9_rup_source_cache_run1/candidate_justifications.jsonl",
+  "source_size_observed": 50570624,
+  "sealed_prefix_bytes": 50568671,
+  "ignored_unterminated_suffix_bytes": 1953,
+  "sealed_prefix_records": 126816,
+  "sealed_prefix_sha256": "e3a31da662122f4341c9b74634d2f0ad502983755e71a09dfa4f5b2d69af9552",
+  "producer_started_sha256": "e6379bea8f38fee1b52249a3f8f94b0a2e3a30ed1cbfbc48d0bac78ce061b7b0",
+  "producer_configuration_sha256": "7975a30b2f6e3d2c30e77756078c140154fe20ef03f6cd015658772f7fd497d3",
+  "selector_sha256": "bcc1a20d2e90052d6b4a4ee8d219c92c24f7bedac8549fcf9ac6d206765bb174",
+  "external_source_cache_ids": true,
+  "input_binding_sha256": "a31b46824ef77a3806527e24da35572775df4d405f4296823744b5a2e2ced8c0",
+  "capture_hashes": {
+    "input_clauses.jsonl": "435f7af9909281ca31fa3d5a646e4caa5bb53fb36bc993895d6f5b6f20317c66",
+    "theory_clauses.jsonl": "76ed7b45fe3cebe508563b9719dad6dd4893f61a5313b32dd2d4a0784dff38be",
+    "atoms.jsonl": "07363e1475cf95ef9e66060e9030b0541f95150dab0aada68aea11236b7a5592",
+    "assumptions.jsonl": "d5e2b8565c02cec9c906d6eab0220103369a320a4879f0d73ff01a38f7d052e4",
+    "rup_clauses.jsonl": "e0629aea22cf72414681e99a2e71057c197715ea6b05ecb33ee4784b7be27aa6",
+    "metadata.json": "ebe323468831b34d5fbc30e110bf3d8124d98c97eb0f21ccfbd586c12dc9e97b",
+    "receipt.json": "53cb13091ced3b9799c7a88a67f457e373697340150e254f3bef98a8fa2b3ff8"
+  },
+  "first_theory_global_id": 18179,
+  "last_theory_global_id": 3252393,
+  "all_referenced_theories": 274785,
+  "previously_generated_candidates": 195791,
+  "prior_artifacts": [
+    {
+      "directory": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/zero9_farkas_pipeline_run1/artifacts",
+      "records": 46943,
+      "manifest_sha256": "50ca63c373c8be9e25e40d7e1487cf6b53c214fb199f85dae80a316cd4545e83",
+      "certificates_sha256": "5036c410be8b37aa4c30cf883d528526dd0416f4660a83feacca9f4f7eeb9778"
+    },
+    {
+      "directory": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/zero9_farkas_pipeline_run2/artifacts",
+      "records": 26875,
+      "manifest_sha256": "ab3ea472b6125fc685a8012abe0214c9c48d99a83937427287c4df1445551454",
+      "certificates_sha256": "02a2ff672e4a9b9e816af470a6c17a6fdc855b3228b94e581e61149c538ad148"
+    },
+    {
+      "directory": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/zero9_farkas_pipeline_run3/artifacts",
+      "records": 24121,
+      "manifest_sha256": "9b383e752f2168672406b910ea80029abc0c24e7dab83961938959d446a992de",
+      "certificates_sha256": "7ea98143b59f5d7af1c1c8879c2cae671cb7ae327660257e0beb82c51804b3a0"
+    },
+    {
+      "directory": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/zero9_farkas_pipeline_run4/artifacts",
+      "records": 23064,
+      "manifest_sha256": "0989f3a897ef6e8b2b5f3f12ec33d804e983b67172bc51f85285572f08cd68f6",
+      "certificates_sha256": "69f11001ad1b80396303886f8c2eaa3511e4cba9f769a716f6e582cb4534b854"
+    },
+    {
+      "directory": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/zero9_farkas_pipeline_run5/artifacts",
+      "records": 22344,
+      "manifest_sha256": "d0df2bd3080e50302ac9435ace92a8b625fde3144d986397444c7e9fa7e068a2",
+      "certificates_sha256": "e6aa35956b2181b668e1e4713fc8f474c8044e5138e3dd1dc7a34f74a934ee3e"
+    },
+    {
+      "directory": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/zero9_farkas_pipeline_run6/artifacts",
+      "records": 17445,
+      "manifest_sha256": "05271198074957eb7efd5203b8dad13ee2d08f4a32b574b1bd1c2b54f11190be",
+      "certificates_sha256": "156cf6d4bbcb690c1fbf13702e6d57a088da3bfcd48927c2e8d9ae9f422a6321"
+    },
+    {
+      "directory": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/zero9_farkas_pipeline_run7/artifacts",
+      "records": 34999,
+      "manifest_sha256": "c8d469cbcfffc685207954cf8c980d2f36e1cb04ebce2c6bc7a0bb293c13fa83",
+      "certificates_sha256": "b7f2217640401c2136ab3c7f2e9afc30d425f03fbe1c20aefae9d9353566666a"
+    }
+  ],
+  "selected_theories": 78994,
+  "selection_sha256": "4269c5d0e5f438cd7b571db7ed2d249dbdbb7402c02db5ca86f29e6c82aba864",
+  "original_checkpoint_modified": false,
+  "boolean_validity_checked": false,
+  "arithmetic_validity_checked": false,
+  "final_selection_coverage_claimed": false
+}

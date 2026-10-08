@@ -1,0 +1,541 @@
+{
+  "status": "PASS_EXACT_REDUCED_CORES_AND_ORIGINAL_REGION_SUBSET_IMPLICATION",
+  "time_utc": "2026-10-07T21:38:23.668114+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "elapsed_seconds": 0.08422970399988117,
+  "peak_rss_kib": 11904,
+  "source_directory": "continuation/structural_nine/row_elimination_short1_minimized",
+  "generation_receipt": "continuation/structural_nine/row_elimination_short1_minimized/final_verification.json",
+  "generation_receipt_sha256": "a300026d30874dee5a32d1faed14fe5a10f67c4c0ea1cd6a7d427a84f73b4a7a",
+  "checker_sha256": "288607fc42e9027e53d36b2634df9e7e8cbd9270b18efabb18628b3ad1eda1e2",
+  "compression_checker_sha256": "8fff4fd3302b1c8cafea88a23b6b8e7faf46dee49c0442bdcfa9c3667f58ec0f",
+  "original_regions_certified": 14,
+  "reduced_failure_branches": 200,
+  "maximum_original_core_size": 8,
+  "maximum_reduced_core_size": 4,
+  "scope": "Every reduced exact certificate, original and reduced core hash, allocation subset, full original literal region and original compression is checked. Original-region predicates imply the reduced predicates; a first-row allocation guaranteed in the reduced set is also in the original set. This is local validity, not global coverage.",
+  "receipts": [
+    {
+      "original_source": "continuation/structural_nine/row_elimination_short1/regions/00056.json",
+      "original_source_sha256": "9b5ab3fbfbb154cb292064dff3e497e0bccb2693a6b6524e2395b845abf2e1c1",
+      "original_core_sha256": "08483ab6059843f601b4fde6d394c87241d8b413a7d9b91ae15f9eb8a08b8e70",
+      "original_allocation_ids": [
+        4306,
+        468,
+        684,
+        10723,
+        12915,
+        12961,
+        12963
+      ],
+      "reduced_source": "continuation/structural_nine/row_elimination_short1_minimized/regions/00056.json",
+      "reduced_source_sha256": "98294d279e1edf42314f27fc1a0f0102e5bcce6d22b72b8f29a19c1aa79ed4d4",
+      "reduced_core_sha256": "c2e39c5e2290ec082f5734d93a69b78c81637a3da9bbfa4e8edb3f82375bdcf3",
+      "retained_allocation_ids": [
+        684,
+        10723,
+        12915,
+        12963
+      ],
+      "retained_original_indices": [
+        2,
+        3,
+        4,
+        6
+      ],
+      "certificate": "continuation/structural_nine/row_elimination_short1_minimized/certificates/00056.json",
+      "certificate_sha256": "21b7c4e418e3e46472ae41069128dc4d81fce7c4cb70019c3999a599f19bba52",
+      "original_raw_atoms": 77,
+      "original_retained_atoms": 41,
+      "reduced_raw_atoms": 46,
+      "reduced_retained_atoms": 25,
+      "status": "PASS",
+      "core_allocations": 4,
+      "exhaustive_failure_branches": 16,
+      "other_region_inequalities": 46,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "original_source": "continuation/structural_nine/row_elimination_short1/regions/00203.json",
+      "original_source_sha256": "0f939b2fff4622e084076139d0da6a99950ee0809123dd67d10f8be69da818e0",
+      "original_core_sha256": "4210ae08ae024050ea5599bd456a0f32ef7c3fc930d2aae7d0b85ded4a3e76bf",
+      "original_allocation_ids": [
+        4903,
+        12597,
+        888,
+        9994,
+        16606
+      ],
+      "reduced_source": "continuation/structural_nine/row_elimination_short1_minimized/regions/00203.json",
+      "reduced_source_sha256": "72c332cb287bb7e3f1cc7323d0f09972eea7f7739253b994fb270662b33dcf92",
+      "reduced_core_sha256": "a7008ba10d31be20566b4e3ecf37074da0c1a025000cc6186a72ae285ef3a826",
+      "retained_allocation_ids": [
+        4903,
+        12597,
+        16606
+      ],
+      "retained_original_indices": [
+        0,
+        1,
+        4
+      ],
+      "certificate": "continuation/structural_nine/row_elimination_short1_minimized/certificates/00203.json",
+      "certificate_sha256": "6aa358c4dfab4e0865b9ac53b4a4e410d3bb7642316bf0f8f92225ef3d16b807",
+      "original_raw_atoms": 60,
+      "original_retained_atoms": 32,
+      "reduced_raw_atoms": 38,
+      "reduced_retained_atoms": 26,
+      "status": "PASS",
+      "core_allocations": 3,
+      "exhaustive_failure_branches": 8,
+      "other_region_inequalities": 38,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "original_source": "continuation/structural_nine/row_elimination_short1/regions/00204.json",
+      "original_source_sha256": "9b9fb6a8037a641e79ab4e1d005f16d532e9056beb370f89c8ff201a4f444f24",
+      "original_core_sha256": "ef74f930e453200551d9ac6ca6441181a9a4c8804ee983a1b718b20053f83b93",
+      "original_allocation_ids": [
+        9994,
+        12597,
+        11463,
+        884,
+        16606
+      ],
+      "reduced_source": "continuation/structural_nine/row_elimination_short1_minimized/regions/00204.json",
+      "reduced_source_sha256": "6ca4b4f736933eb72a6214e0e2dfc3e0ad5d81a9933daa7db91bf7c6758dff85",
+      "reduced_core_sha256": "0fffa4e4f7fa11cf2989c12f45d877ac56e50633ec8076b87d66ac26bb994518",
+      "retained_allocation_ids": [
+        12597,
+        11463,
+        16606
+      ],
+      "retained_original_indices": [
+        1,
+        2,
+        4
+      ],
+      "certificate": "continuation/structural_nine/row_elimination_short1_minimized/certificates/00204.json",
+      "certificate_sha256": "d2de1ecff73b32f3d956ac0165c22396c302d140f0ecae1080d1ecaf29fed653",
+      "original_raw_atoms": 60,
+      "original_retained_atoms": 32,
+      "reduced_raw_atoms": 38,
+      "reduced_retained_atoms": 24,
+      "status": "PASS",
+      "core_allocations": 3,
+      "exhaustive_failure_branches": 16,
+      "other_region_inequalities": 38,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "original_source": "continuation/structural_nine/row_elimination_short1/regions/00205.json",
+      "original_source_sha256": "85539ea86314cfce063ec95c1e8bf494c7c9fba6fbb45d46382468a2aee498a9",
+      "original_core_sha256": "1aaee6cfe5ee8232aef4efae0e89c2feda52f5feb69ba6d86165b5e0045ad25d",
+      "original_allocation_ids": [
+        12915,
+        528,
+        9994,
+        16606,
+        10045,
+        12597
+      ],
+      "reduced_source": "continuation/structural_nine/row_elimination_short1_minimized/regions/00205.json",
+      "reduced_source_sha256": "935ee2927dc16bffa83f01a4f49b3d5d6186b6d1a388b0da53b37309b37ce1f6",
+      "reduced_core_sha256": "ce3fba7a5ab52dd48bc5709ceee8350563260b07a4c502b51885f138a959c625",
+      "retained_allocation_ids": [
+        528,
+        10045,
+        12597
+      ],
+      "retained_original_indices": [
+        1,
+        4,
+        5
+      ],
+      "certificate": "continuation/structural_nine/row_elimination_short1_minimized/certificates/00205.json",
+      "certificate_sha256": "3171de39a96dfb1a7dbcee012237c7ed37b537e327a29a3c0b5d36900000df0f",
+      "original_raw_atoms": 68,
+      "original_retained_atoms": 27,
+      "reduced_raw_atoms": 32,
+      "reduced_retained_atoms": 18,
+      "status": "PASS",
+      "core_allocations": 3,
+      "exhaustive_failure_branches": 8,
+      "other_region_inequalities": 32,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "original_source": "continuation/structural_nine/row_elimination_short1/regions/00206.json",
+      "original_source_sha256": "4ce152eb8eafa30f42d4f0b52153c10f7a4b91c7f4fd6f495cefb899deda9d99",
+      "original_core_sha256": "f5b3283c4b1ebb6d24dc6eb5355da4854b3e2338ca1c3490915e7b81b0bc3b11",
+      "original_allocation_ids": [
+        12597,
+        525,
+        528,
+        10045,
+        9994,
+        16967,
+        19154
+      ],
+      "reduced_source": "continuation/structural_nine/row_elimination_short1_minimized/regions/00206.json",
+      "reduced_source_sha256": "db1d8bfa190628c5d662e2b76fa6dc1e33e94c9fe0a307c654ee754c1b3962ea",
+      "reduced_core_sha256": "947a5b9423bf8e3c5058b5418c5b4d181492b189ea639f7d829a505be6906ec9",
+      "retained_allocation_ids": [
+        528,
+        10045,
+        19154
+      ],
+      "retained_original_indices": [
+        2,
+        3,
+        6
+      ],
+      "certificate": "continuation/structural_nine/row_elimination_short1_minimized/certificates/00206.json",
+      "certificate_sha256": "4c45a0b496ff10ebe0c6caec28e0633ca1253a794a6515dd3b7b8d92b2b453b6",
+      "original_raw_atoms": 74,
+      "original_retained_atoms": 21,
+      "reduced_raw_atoms": 28,
+      "reduced_retained_atoms": 12,
+      "status": "PASS",
+      "core_allocations": 3,
+      "exhaustive_failure_branches": 8,
+      "other_region_inequalities": 28,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "original_source": "continuation/structural_nine/row_elimination_short1/regions/00207.json",
+      "original_source_sha256": "27be2758ccd3f2a7fb24413e00672c2dbd3b613411fd90214eb6dbbc7e40d964",
+      "original_core_sha256": "837787bde5bf89a2b5867e3f568c2581d4a409c49d86f6fa448ae6517e6af28c",
+      "original_allocation_ids": [
+        12593,
+        9994,
+        10360,
+        10045,
+        12597,
+        16967,
+        528,
+        525
+      ],
+      "reduced_source": "continuation/structural_nine/row_elimination_short1_minimized/regions/00207.json",
+      "reduced_source_sha256": "72fdc3352149113c3e8266d1e6d0aee74b7613ee83f321a0170be5428ae99bde",
+      "reduced_core_sha256": "f47368c4838ff5b874e08c1f4a7673057c6142a2c604bd5867805375285f071e",
+      "retained_allocation_ids": [
+        10045,
+        12597,
+        525
+      ],
+      "retained_original_indices": [
+        3,
+        4,
+        7
+      ],
+      "certificate": "continuation/structural_nine/row_elimination_short1_minimized/certificates/00207.json",
+      "certificate_sha256": "46a3a5b1ff51ea8eb475f68dc82328c4b6926b1058c90928afc34f10f53213c5",
+      "original_raw_atoms": 89,
+      "original_retained_atoms": 29,
+      "reduced_raw_atoms": 30,
+      "reduced_retained_atoms": 15,
+      "status": "PASS",
+      "core_allocations": 3,
+      "exhaustive_failure_branches": 8,
+      "other_region_inequalities": 30,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "original_source": "continuation/structural_nine/row_elimination_short1/regions/00208.json",
+      "original_source_sha256": "8076c3a03375b04263b6f0468af19de22e3744c2f58f4ace9bafc607b127b84a",
+      "original_core_sha256": "b7361d34ece1dfa44e8a2482184df5537837f6a753f67c9bd83e03aac976ce77",
+      "original_allocation_ids": [
+        9994,
+        10045,
+        528,
+        16560,
+        12549,
+        12547,
+        12597
+      ],
+      "reduced_source": "continuation/structural_nine/row_elimination_short1_minimized/regions/00208.json",
+      "reduced_source_sha256": "ac9451c3d29d577f30e0a6610d5ef6194ae0f1e4b0f944402bee281d32f58891",
+      "reduced_core_sha256": "eca4ac77fc9a6f2db8572700f9352304ce659a321be16955f7aace5c6c65d05c",
+      "retained_allocation_ids": [
+        10045,
+        528,
+        12597
+      ],
+      "retained_original_indices": [
+        1,
+        2,
+        6
+      ],
+      "certificate": "continuation/structural_nine/row_elimination_short1_minimized/certificates/00208.json",
+      "certificate_sha256": "61fadc9e45721b1aea5ff04dd22fdd14c207675d2994b382455f2b80595d01d0",
+      "original_raw_atoms": 83,
+      "original_retained_atoms": 33,
+      "reduced_raw_atoms": 32,
+      "reduced_retained_atoms": 18,
+      "status": "PASS",
+      "core_allocations": 3,
+      "exhaustive_failure_branches": 8,
+      "other_region_inequalities": 32,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "original_source": "continuation/structural_nine/row_elimination_short1/regions/00209.json",
+      "original_source_sha256": "8016119b2437a021381795a4240d037b57346ce93c1606c1782d0951718af64e",
+      "original_core_sha256": "09a8017fd21db0972bcf4a592e80806985c08c4e15b300ffcc175e2b12920008",
+      "original_allocation_ids": [
+        10045,
+        528,
+        9994,
+        2715,
+        12547,
+        12597
+      ],
+      "reduced_source": "continuation/structural_nine/row_elimination_short1_minimized/regions/00209.json",
+      "reduced_source_sha256": "add198de3c8f67c6f8e31d787cfdfb40707afd700a18396c09df9c578a507156",
+      "reduced_core_sha256": "1916568f852d635c11a65d2a27a8ffd26dfd4afb49073dcff013761e27da68a9",
+      "retained_allocation_ids": [
+        10045,
+        2715,
+        12597
+      ],
+      "retained_original_indices": [
+        0,
+        3,
+        5
+      ],
+      "certificate": "continuation/structural_nine/row_elimination_short1_minimized/certificates/00209.json",
+      "certificate_sha256": "b0af592d2965f038c05edbaafdef700cdf491175c46eb9f0b9023e07d7b2d48e",
+      "original_raw_atoms": 68,
+      "original_retained_atoms": 22,
+      "reduced_raw_atoms": 34,
+      "reduced_retained_atoms": 16,
+      "status": "PASS",
+      "core_allocations": 3,
+      "exhaustive_failure_branches": 8,
+      "other_region_inequalities": 34,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "original_source": "continuation/structural_nine/row_elimination_short1/regions/00210.json",
+      "original_source_sha256": "6b5ee9e91f72188a97e974f3828c2bf38f303dde61e24bd44b2d3ad103fe2fc1",
+      "original_core_sha256": "a2e8f623d6dacd48d2ce27cc4202f0b65a0bc84a8d6d4b953405b92a643e8074",
+      "original_allocation_ids": [
+        10045,
+        12597,
+        12915,
+        9994,
+        3122,
+        528
+      ],
+      "reduced_source": "continuation/structural_nine/row_elimination_short1_minimized/regions/00210.json",
+      "reduced_source_sha256": "70606c635ed7c189543951fa9bc0405df40b9d1686e987065059dcebd510922e",
+      "reduced_core_sha256": "90211e53918b0135e5e7d5ef7ff41397a739b81ff31c9c3617446ba2bead5662",
+      "retained_allocation_ids": [
+        10045,
+        12915,
+        3122,
+        528
+      ],
+      "retained_original_indices": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "certificate": "continuation/structural_nine/row_elimination_short1_minimized/certificates/00210.json",
+      "certificate_sha256": "4f5cfdae44e628f003853783e27fc7ee086394a9624c3ca1e65cfdc3296bace7",
+      "original_raw_atoms": 70,
+      "original_retained_atoms": 32,
+      "reduced_raw_atoms": 44,
+      "reduced_retained_atoms": 25,
+      "status": "PASS",
+      "core_allocations": 4,
+      "exhaustive_failure_branches": 16,
+      "other_region_inequalities": 44,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "original_source": "continuation/structural_nine/row_elimination_short1/regions/00233.json",
+      "original_source_sha256": "2609afd2654eec46f183b6690ec6f434ad6886a6f33c265724ff2f381763071d",
+      "original_core_sha256": "13d00594b0bd6d788e801b270a7d1cb131f5833b48f3b29d9b4912823ce7345e",
+      "original_allocation_ids": [
+        3451,
+        3578,
+        3622,
+        9409,
+        9423
+      ],
+      "reduced_source": "continuation/structural_nine/row_elimination_short1_minimized/regions/00233.json",
+      "reduced_source_sha256": "e2fb181bb74e266c70872c4e3eafc196f9c1eaec79ca8cf9913c72f14b53cde9",
+      "reduced_core_sha256": "2a88bd4cfd37c1dc3993f3a81c795cc2e927c0c9ac74ad5e969d9dce6f083322",
+      "retained_allocation_ids": [
+        3578,
+        9409,
+        9423
+      ],
+      "retained_original_indices": [
+        1,
+        3,
+        4
+      ],
+      "certificate": "continuation/structural_nine/row_elimination_short1_minimized/certificates/00233.json",
+      "certificate_sha256": "6f3cadfac8b25a7d09aa9ea25c543284f8c9d72ad9742a6f4bc6fac4f7394e1f",
+      "original_raw_atoms": 66,
+      "original_retained_atoms": 29,
+      "reduced_raw_atoms": 38,
+      "reduced_retained_atoms": 16,
+      "status": "PASS",
+      "core_allocations": 3,
+      "exhaustive_failure_branches": 32,
+      "other_region_inequalities": 38,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "original_source": "continuation/structural_nine/row_elimination_short1/regions/00234.json",
+      "original_source_sha256": "1f7fe70beda7884e061eedd48b46e7fcfd35ba2dad80132fd07a261fdad86439",
+      "original_core_sha256": "6b89ed1510af993c1f8e907020b4ebc43893349d3869610d3981fb8d072a3d7e",
+      "original_allocation_ids": [
+        4306,
+        3578,
+        14512,
+        3451,
+        7236,
+        3580
+      ],
+      "reduced_source": "continuation/structural_nine/row_elimination_short1_minimized/regions/00234.json",
+      "reduced_source_sha256": "c993a64dccdc97b5c058ab7a67b40e6d9b0be4f7091b2b49e3f510145fb515c9",
+      "reduced_core_sha256": "d3060eebb2fb1d1e4c2aa71af86e1153997eb64aa6b7603727187a649dcd9cd4",
+      "retained_allocation_ids": [
+        3578,
+        14512,
+        7236
+      ],
+      "retained_original_indices": [
+        1,
+        2,
+        4
+      ],
+      "certificate": "continuation/structural_nine/row_elimination_short1_minimized/certificates/00234.json",
+      "certificate_sha256": "a0de0c2c7b140195b4e8729d26f33fe178c3798f6478e16215d242526a98f6b6",
+      "original_raw_atoms": 73,
+      "original_retained_atoms": 36,
+      "reduced_raw_atoms": 36,
+      "reduced_retained_atoms": 25,
+      "status": "PASS",
+      "core_allocations": 3,
+      "exhaustive_failure_branches": 32,
+      "other_region_inequalities": 36,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "original_source": "continuation/structural_nine/row_elimination_short1/regions/00274.json",
+      "original_source_sha256": "4a39fee0b8a5fed80d905e669b0bba60779fb2621ac4664b520a7f42b143e66d",
+      "original_core_sha256": "e9ad694f687822a2fb1d0d99d9a51510d8d91f3337666418406a8aadde8785bc",
+      "original_allocation_ids": [
+        4267,
+        2086,
+        402,
+        6264,
+        10911
+      ],
+      "reduced_source": "continuation/structural_nine/row_elimination_short1_minimized/regions/00274.json",
+      "reduced_source_sha256": "6775b259f355239c93e4d20b69024b54b0405d7ea591997c89930ba3cc7287ac",
+      "reduced_core_sha256": "467c1c4dcea3f9e8cdf9824072db394f65f93d3ac1b0a1f1c878751c9ceda3dd",
+      "retained_allocation_ids": [
+        2086,
+        402,
+        6264,
+        10911
+      ],
+      "retained_original_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "certificate": "continuation/structural_nine/row_elimination_short1_minimized/certificates/00274.json",
+      "certificate_sha256": "605f9d870d7c89c97cf62c713dbb6f3a637d33377720319acba68f85ad7c22a3",
+      "original_raw_atoms": 58,
+      "original_retained_atoms": 27,
+      "reduced_raw_atoms": 46,
+      "reduced_retained_atoms": 26,
+      "status": "PASS",
+      "core_allocations": 4,
+      "exhaustive_failure_branches": 16,
+      "other_region_inequalities": 46,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "original_source": "continuation/structural_nine/row_elimination_short1/regions/00285.json",
+      "original_source_sha256": "b1f068225341a5d19a645d5a926f8a9f6924c54efbc24d4a2013b311b195951f",
+      "original_core_sha256": "5effa485576eba3af2176c0e1b05a2ebaadaa7606dcc84f5698a20cf6c551293",
+      "original_allocation_ids": [
+        3537,
+        7088,
+        7096,
+        4239,
+        3154,
+        8986
+      ],
+      "reduced_source": "continuation/structural_nine/row_elimination_short1_minimized/regions/00285.json",
+      "reduced_source_sha256": "0c3b4eda6f2f6b974a8cf773ff34eb4aca09bf0104a9cd07f0eeb44a9c684caf",
+      "reduced_core_sha256": "14708cb1fb9b9d478c6c2c5301ccee388b8e4a141301fcfffc237d7598a3ebc9",
+      "retained_allocation_ids": [
+        3537,
+        7096,
+        3154
+      ],
+      "retained_original_indices": [
+        0,
+        2,
+        4
+      ],
+      "certificate": "continuation/structural_nine/row_elimination_short1_minimized/certificates/00285.json",
+      "certificate_sha256": "14a3b960c1797c976dccda94090451a621287b3a3a034f5fbbb2532528b30830",
+      "original_raw_atoms": 66,
+      "original_retained_atoms": 39,
+      "reduced_raw_atoms": 35,
+      "reduced_retained_atoms": 25,
+      "status": "PASS",
+      "core_allocations": 3,
+      "exhaustive_failure_branches": 16,
+      "other_region_inequalities": 35,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "original_source": "continuation/structural_nine/row_elimination_short1/regions/00286.json",
+      "original_source_sha256": "e7d729fb1a0f8fb7aaad51a0dfc4f58cca15f9b5edafa434a6c77378af11a1e8",
+      "original_core_sha256": "cbed26a3546e6f50cd207e72e760b19b2056a8661e3744ac62ffe83c221b151c",
+      "original_allocation_ids": [
+        3962,
+        3779,
+        4104
+      ],
+      "reduced_source": "continuation/structural_nine/row_elimination_short1_minimized/regions/00286.json",
+      "reduced_source_sha256": "69d77b6e1911b6208199a52985c6f35176783f49a6b95a2cfbf0608e2f54be77",
+      "reduced_core_sha256": "cbed26a3546e6f50cd207e72e760b19b2056a8661e3744ac62ffe83c221b151c",
+      "retained_allocation_ids": [
+        3962,
+        3779,
+        4104
+      ],
+      "retained_original_indices": [
+        0,
+        1,
+        2
+      ],
+      "certificate": "continuation/structural_nine/row_elimination_short1_minimized/certificates/00286.json",
+      "certificate_sha256": "19a5d6cdc295b06ab7c23f8793b3c4cce7b60765609d6544319a97f4eb701cbf",
+      "original_raw_atoms": 36,
+      "original_retained_atoms": 12,
+      "reduced_raw_atoms": 36,
+      "reduced_retained_atoms": 12,
+      "status": "PASS",
+      "core_allocations": 3,
+      "exhaustive_failure_branches": 8,
+      "other_region_inequalities": 36,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    }
+  ]
+}

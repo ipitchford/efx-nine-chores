@@ -1,0 +1,25 @@
+{
+  "status": "running",
+  "started_at_utc": "2026-10-07T21:51:21.747640+00:00",
+  "input": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/zero_minimum9_reference_strict.smt2",
+  "input_sha256": "65b0e3d6b2f234a6391db058771b8597a7bdd6feb003813ddc88630843ceab5b",
+  "input_bytes": 11182371,
+  "solver": "z3-5.1.0",
+  "timeout_seconds": 600,
+  "address_space_cap_mib": 2000,
+  "arith_solver": 2,
+  "random_seed": 0,
+  "fixed_minima": 0,
+  "reference_columns": [
+    1,
+    0,
+    0
+  ],
+  "reference_cost": 1,
+  "free_real_variables": 21,
+  "proof_generation_enabled": true,
+  "proof_status": "no independently checked proof",
+  "assertions": 18177,
+  "parse_seconds": 0.6971603439997125,
+  "check_started_at_utc": "2026-10-07T21:51:22.445289+00:00"
+}

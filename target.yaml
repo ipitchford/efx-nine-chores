@@ -1,0 +1,48 @@
+target_id: three-agent-nine-chore-efx
+search_date: 2026-10-07
+intended_contribution_unit: theorem
+claim:
+  exact_statement: |
+    For every matrix C in R_{≥0}^{3 x 9}, there is a labelled partition
+    (A_0,A_1,A_2) of {0,...,8} such that for all i != j and every g in A_i,
+    sum_{h in A_i except g} C[i,h] <= sum_{h in A_j} C[i,h].
+    Empty bundles are allowed, and zero-cost owned chores remain quantified.
+    Alternatively, refute this statement by an exact rational counterexample
+    and an exhaustive verifier of all 3^9 labelled allocations.
+  exclusions:
+    - Approximate EFX, EF1, tEFX, disposal, partial allocations, positive-only trim conventions.
+    - Restricted costs or bounded integer search as a universal proof.
+    - Solver timeout or numerical infeasibility as a proof.
+source:
+  originating_reference: Xinkai Zhang (2026), EFX Allocations for Three Agents and Seven or Eight Chores, version 2, 6 October 2026.
+  url: https://arxiv.org/html/2609.10585v2
+normalisation:
+  indices: agents 0,1,2; chores 0,...,8
+  scaling: positive independent row scaling preserves all EFX comparisons; zero rows handled separately
+  basis_order: labelled item columns, simultaneous column permutations only
+  symmetries: [agent permutations with rows and allocated labels together, simultaneous chore permutations, positive row scaling]
+finite_fingerprints:
+  - {name: all-zero matrix, rows: 3, columns: 9, EFX_allocations: 19683}
+  - {name: uniform costs one, rows: 3, columns: 3, EFX_allocations: 6}
+  - {name: uniform costs one, rows: 3, columns: 6, EFX_allocations: 90}
+  - {name: uniform costs one, rows: 3, columns: 9, EFX_allocations: 1680}
+sequences:
+  - name: complete labelled allocations for m=3,...,9
+    exact_values: [27,81,243,729,2187,6561,19683]
+    natural_scalings: []
+generating_functions:
+  - {name: labelled allocations, expression: '1/(1-3*t)', variables: [t]}
+matrices: []
+aliases:
+  analysis: [finite union of closed polyhedral cones, homogeneous strict linear feasibility]
+  probability: [deterministic fair allocation of additive disutilities]
+  combinatorics: [EFX graph perfect matching, indivisible chores, min-sum partition]
+  mathematical_physics: [no useful established translation identified]
+  statistics_optimisation_ml: [QF_LRA satisfiability, disjunctive linear programming, counterexample-guided synthesis]
+known_invariants:
+  dimension: 27 before scaling; 24 after three row normalisations
+  disjoint_minima_reduction: follows from m=8 existence and KMS insertion lemma; to be independently checked
+  residual_predicate: 'cost(own)-min(own item cost) <= min(other bundle costs), own nonempty'
+search_constraints:
+  primary_sources_only_for_technical_claims: true
+  databases_or_corpora: [arXiv, GitHub public artifact, indexed primary literature]

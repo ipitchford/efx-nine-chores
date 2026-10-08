@@ -1,0 +1,43 @@
+{
+  "status": "PASS_PIPELINE_PREPARATION_ONLY",
+  "runner": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/check_cvc5_memory_reduced.py",
+  "runner_sha256": "23c431860e1ffef33a9d07b6b5f7ae475cf14b9f7b50f7f560e66adcd15b5504",
+  "supported_output_types": [
+    {
+      "return_type": "str",
+      "bytes": 2310001,
+      "sha256": "480747089562965b9f5d4220baa9a22a9dd3e8ac229651c0b5d2b446b2391e4d"
+    },
+    {
+      "return_type": "bytes",
+      "bytes": 2310001,
+      "sha256": "480747089562965b9f5d4220baa9a22a9dd3e8ac229651c0b5d2b446b2391e4d"
+    }
+  ],
+  "invalid_wrapper_rejected": true,
+  "real_toy_export": {
+    "report": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/memory_reduced_cpc_smoke3/report.json",
+    "sha256": "e728d8ee2b9ac90b7ebb5d3819bf0f7f0bfa7cda5f179a9dcdfcb81e88461c23"
+  },
+  "real_toy_replay": {
+    "report": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/memory_reduced_cpc_smoke3/ethos.json",
+    "sha256": "70e424df0949b0539fd8203c281f35df9f57221815e14863fe8da4486388aa35"
+  },
+  "prior_native_api_issue": "Installed cvc5 1.4.1 proofToString returns bytes. The older verdict-first writer assumed str; the separate memory-reduced variant handles both without copying a full bytes output.",
+  "options": {
+    "produce_proofs": true,
+    "incremental": false,
+    "internal_proof_check": false,
+    "proof_prune_input": true,
+    "proof_granularity": "dsl-rewrite"
+  },
+  "input_buffers_released_before_solver": true,
+  "assertion_hash_streamed": true,
+  "resource_limits": "Native proof storage and proofToString output may still exceed a gigabyte. No full zero9 memory/runtime claim follows from the toy.",
+  "source_documentation": "https://cvc5.github.io/docs/latest/options.html",
+  "final_proof_policy": "Require exact full-input or independently justified subset binding, complete CPC export, no holes, then reference-bound Ethos correct/exit0/final-false with no expert signature.",
+  "old_producer_sha256": "8966edc2521b9f2f5ab64776e5cdaf07eb52682770e03e3258c38b40ed9afa12",
+  "yices8_calibration": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/zero_minimum8_yices_reference_run1/terminal.json",
+  "yices9_launched": false,
+  "mathematical_scope": "Toy pipeline validation and Yices8 UNKNOWN calibration only. Full nine-chore certificate remains pending."
+}

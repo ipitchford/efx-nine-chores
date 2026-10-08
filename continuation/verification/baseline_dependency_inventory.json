@@ -1,0 +1,19 @@
+{
+  "status": "PASS_BASELINE_DEPENDENCY_INVENTORY_AND_UNCHANGED_SEVEN_CERTIFICATE_BINDING",
+  "files_sha256": {
+    "results/root7_pruned.smt2": "7855d4233735958aff2ffb1bb52a1aae9ff782ac16abf0550ba780e6ff211bea",
+    "certificates/root7_cvc5.cpc": "62d8754d1e0f592a8c28b39d64de02d9579287d05b2346ff6e6349a6cb02961c",
+    "results/root7_ethos.json": "a9925e63c7bdd39b3b0178979e4eb5ba43dfe37412dbdaa7672db873e88333bb",
+    "sources/kms_2305_04168.pdf": "6b7cb91112ce406267edc86620c2b9246f033f903cb8cb1a0dc4ee0727c50f8f",
+    "sources/zhang_2609_10585v2.pdf": "aa629aed52eccff915d57a32c3bb6fc445e3a2263d0d03de84c9da67ca8e395d",
+    "continuation/verification/baseline_dependency_note.md": "106465172eecbcf39649de09456600817b92dcbc5b8e36bd31d941d257acb6d4"
+  },
+  "historical_seven_certificate_replayed_this_pass": false,
+  "historical_seven_certificate_carried_by_hash": true,
+  "six_baseline": "Kobayashi\u2013Mahara\u2013Sakamoto Theorem 3.1, cited",
+  "eight_baseline_current": "Zhang v2 Theorem 2, cited",
+  "new_independently_checked_eight_certificate_complete": false,
+  "new_independently_checked_nine_certificate_complete": false,
+  "P8_or_D8_required": false,
+  "completed_at_utc": "2026-10-07T22:42:58.186821+00:00"
+}

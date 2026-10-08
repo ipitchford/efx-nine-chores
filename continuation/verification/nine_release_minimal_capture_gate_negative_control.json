@@ -1,0 +1,17 @@
+{
+  "status": "PASS_NINE_RELEASE_GATE_REJECTS_COMPLETE_WRONG_INPUT_CERTIFICATE",
+  "control": "Real complete eight-chore certificate must not pass the updated minimal-capture nine release gate.",
+  "returncode": 1,
+  "rejection": "ValueError: wrong mathematical input",
+  "completion_artifacts_unchanged": true,
+  "completion_artifact_hashes_before": {
+    "continuation/verification/nine_release_index.json": null,
+    "continuation/verification/zero9_full_target_binding.json": null,
+    "continuation/verification/zero9_full_target_completion.md": null,
+    "docs/zero9_replay_command.txt": null
+  },
+  "source_sha256": "f4ae364f708347c74bfad097c60d582cd93d2de59da4b75f5653c1522e41665e",
+  "accepted_eight_certificate_sha256": "56bf13ec58d04c9f4441d0409242b7314d6e15f0d54ef0e101ad0543828f9f29",
+  "actual_nine_certificate_claimed": false,
+  "completed_at_utc": "2026-10-08T00:04:11.202996+00:00"
+}

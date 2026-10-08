@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "bash_syntax",
+      "command": [
+        "bash",
+        "-n",
+        "scripts/setup_checker.sh"
+      ],
+      "returncode": 0,
+      "passed": true
+    },
+    {
+      "name": "help",
+      "command": [
+        "bash",
+        "scripts/setup_checker.sh",
+        "--help"
+      ],
+      "returncode": 0,
+      "passed": true
+    },
+    {
+      "name": "offline_existing_checker",
+      "command": [
+        "bash",
+        "scripts/setup_checker.sh",
+        "--check",
+        "--checker",
+        "work/ethos/build/src/ethos"
+      ],
+      "returncode": 0,
+      "passed": true
+    },
+    {
+      "name": "missing_python_error",
+      "command": [
+        "bash",
+        "scripts/setup_checker.sh",
+        "--check"
+      ],
+      "returncode": 2,
+      "passed": true
+    }
+  ],
+  "control_cli_cases_passed": 4,
+  "network_fetch_executed": false,
+  "full_source_build_executed": false,
+  "setup_script_sha256": "ba6b639ecf13d79bc341a2a68d1a745b502d78b300a260b9ed7a543585e31cbe",
+  "controls_script_sha256": "b608b765636baaf9225669180d91d020b10806360d6019892217c0e096eab113",
+  "notes": "Read-only setup validation used the original local checker, which is not included in the release archive; fresh controls used replay/ paths."
+}

@@ -1,0 +1,19 @@
+{
+  "status": "PASS_ALL_SERIALIZED_ZERO_MINIMUM_CLAUSES_RECONSTRUCTED_WITH_STDLIB",
+  "time_utc": "2026-10-07T21:51:07.372009+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "elapsed_seconds": 1.1357442490007088,
+  "peak_rss_kib": 14176,
+  "m": 8,
+  "input": "continuation/exact_search/zero_minimum8_reference_strict.smt2",
+  "input_sha256": "20d56e8ecd4bfad40ad5c7786c7865442c9961569dabb9e1a8dfe415b584c08f",
+  "free_real_variables": 18,
+  "domain_assertions": 23,
+  "allocation_clauses": 5796,
+  "total_assertions": 5819,
+  "literal_positions_checked": 54360,
+  "pinned_zero_deletion_positions_reconstructed": 10836,
+  "zero_deletion_mutation_fixture_rejected_by_actual_clause": null,
+  "scope": "Every serialized affine failure atom and every allocation clause is compared exactly against independent literal reconstruction with only the justified possible-minimum deletion pruning. All free-variable declarations, positive/reference/order domain assertions and command shapes are checked. Pinned zero deletions remain included. No solver or global coverage check is run.",
+  "zero_deletion_mutation_scope": "The dedicated nine-chore mutation fixture is checked against the nine-chore formula; all eight-chore literal clauses including zero deletions were independently reconstructed."
+}

@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "recorded_at_utc": "2026-10-07T21:52:51.393617+00:00",
+  "active_dimension": 9,
+  "maximum_original_row_support": 7,
+  "unchanged_columns": 8,
+  "maximum_unchanged_nonzeros": 62,
+  "exact_projected_bound": "2770563/256",
+  "integer_bound": 10822,
+  "floor_lower_numerator": 2770432,
+  "exact_numerator": 2770563,
+  "floor_upper_numerator": 2770688,
+  "denominator": 256,
+  "positive_cost_bits": 14,
+  "maximum_nine_entry_row_sum": 97398,
+  "full_row_sum_bits": 17,
+  "proof": "projected_determinant_bound_10822.md",
+  "independent_review": "Approved by verification_resumed from the stated projection/Gram argument.",
+  "scope": "Exact arithmetic and parameter checks; no matrix enumeration or EFX solver result.",
+  "old_11585_inputs_changed": false,
+  "script_sha256": "0430b0fbe05c66cc4045bc44b063192e0295f7614ea59ebae9b15ece2010e00a"
+}

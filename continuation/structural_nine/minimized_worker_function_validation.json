@@ -1,0 +1,88 @@
+{
+  "status": "PASS",
+  "source_function": "minimize_first_core",
+  "original_size": 11,
+  "reduced_size": 4,
+  "independent_literal_formula": "unsat",
+  "receipt": {
+    "original_allocation_ids": [
+      3796,
+      12549,
+      10008,
+      14418,
+      2764,
+      12533,
+      1296,
+      10729,
+      2775,
+      8177,
+      13699
+    ],
+    "retained_original_indices": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "original_size": 11,
+    "retained_size": 4,
+    "seconds": 0.02137113900244003,
+    "checks": [
+      {
+        "removed_original_index": 0,
+        "status": "unsat",
+        "seconds": 0.0031697810009063687
+      },
+      {
+        "removed_original_index": 1,
+        "status": "unsat",
+        "seconds": 0.0015387399980681948
+      },
+      {
+        "removed_original_index": 2,
+        "status": "unsat",
+        "seconds": 0.0003691790006996598
+      },
+      {
+        "removed_original_index": 3,
+        "status": "unsat",
+        "seconds": 0.00023733000125503168
+      },
+      {
+        "removed_original_index": 4,
+        "status": "unsat",
+        "seconds": 0.0002013750017795246
+      },
+      {
+        "removed_original_index": 5,
+        "status": "unsat",
+        "seconds": 0.00023190100182546303
+      },
+      {
+        "removed_original_index": 6,
+        "status": "sat",
+        "seconds": 0.0003816579992417246
+      },
+      {
+        "removed_original_index": 7,
+        "status": "sat",
+        "seconds": 0.00043576000098255463
+      },
+      {
+        "removed_original_index": 8,
+        "status": "sat",
+        "seconds": 0.002238029999716673
+      },
+      {
+        "removed_original_index": 9,
+        "status": "sat",
+        "seconds": 0.0006496749992948025
+      },
+      {
+        "removed_original_index": 10,
+        "status": "unsat",
+        "seconds": 8.167399937519804e-05
+      }
+    ]
+  }
+}

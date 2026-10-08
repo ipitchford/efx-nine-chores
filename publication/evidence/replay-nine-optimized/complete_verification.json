@@ -1,0 +1,43 @@
+{
+  "status": "PASS_INDEPENDENT_EXACT_LRA_UNSAT_CERTIFICATE",
+  "verification_mode": "binding_of_completed_immutable_independent_checks",
+  "input": "/Users/admin/Documents/Codex/efx-nine-chores-publication-20261008.VbU3fy/repository/continuation/exact_search/zero_minimum9_reference_strict.smt2",
+  "input_sha256": "65b0e3d6b2f234a6391db058771b8597a7bdd6feb003813ddc88630843ceab5b",
+  "original_smt_reconstructed": true,
+  "exact_affine_atoms_checked": true,
+  "boolean_rup_refutation_checked": true,
+  "all_admitted_theory_axioms_checked": true,
+  "callback_assumptions_admitted": false,
+  "producer_solver_verdict_trusted": false,
+  "solver_or_third_party_numeric_library_invoked_by_independent_checkers": false,
+  "completed_proofs_repeated_in_this_binding_step": false,
+  "selected_theory_clauses": 370780,
+  "selected_original_clauses": 4550,
+  "derived_rup_clauses": 172146,
+  "ordered_reason_positions": 8088323,
+  "stage_receipts_sha256": {
+    "../replay-nine-optimized/input_binding.json": "6ab16a3e381f716dbfb6ca33ddc270cae141e52547ff02752a5bee0f4acfd316",
+    "../replay-nine-optimized/rup_verification.json": "8cd8c87411b90ce6a020b73654fe6e809036328bfb6697f93ed1e69cd3f3853b",
+    "../replay-nine-optimized/arithmetic_verification.json": "cd00e883df15417fa8ff58053a1db92a22e96027450dcb0a7b949779de94bafe"
+  },
+  "captured_files_sha256": {
+    "atoms.jsonl": "07363e1475cf95ef9e66060e9030b0541f95150dab0aada68aea11236b7a5592",
+    "input_clauses.jsonl": "435f7af9909281ca31fa3d5a646e4caa5bb53fb36bc993895d6f5b6f20317c66",
+    "theory_clauses.jsonl": "76ed7b45fe3cebe508563b9719dad6dd4893f61a5313b32dd2d4a0784dff38be",
+    "metadata.json": "ebe323468831b34d5fbc30e110bf3d8124d98c97eb0f21ccfbd586c12dc9e97b",
+    "receipt.json": "f6f4b98446239e30e1ce03e5da6590cfc16255b461bd280104a42872bb36c892"
+  },
+  "trace_sha256": "5aa0e25669748203333da25c117e219097adb2a2d2fa0bb4a9800fcfd4eae9c5",
+  "certificate_sha256": "1158d4059ecb2ea0a0fce97a492e662a9b151b26f03fa33b6d839732d4d0e356",
+  "selected_indices_sha256": "d24e12363b34b76a55066b57b21c22573a81da468f685becd7874b175e014827",
+  "checker_sources_sha256": {
+    "lra_certificate_common.py": "7f490f5ba6ba51d8c363566124100d90de91523fd2777686915ad1ece19d8bf4",
+    "check_lra_capture.py": "cb30ac1c4ea59bea092f0141073cf685899389033867098ae1205198b98d9308",
+    "check_lra_rup.py": "7ece388b1466370bef950df80a2fe042611d2482b85d254360fbe25270c8041c",
+    "check_lra_farkas.py": "5a7b69a284a7bceef7a00236fe7d868e8da29d70a7964ba4044e0109cd97b840",
+    "check_lra_certificate.py": "a04e85a6260bdceb457144b8c8ec3329207af22cd73e689c73dbfc7b7b22a686",
+    "bind_completed_lra_checks.py": "5990edf0be6e76e96117be9b053d529b1746959773753847512660d171e042ff"
+  },
+  "target_reduction_must_be_verified_separately": true,
+  "completed_at_utc": "2026-10-08T08:42:49.566526+00:00"
+}

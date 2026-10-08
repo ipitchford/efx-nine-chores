@@ -1,0 +1,713 @@
+{
+  "iteration": 196,
+  "outer_seconds": 0.22814547900088655,
+  "inner_seconds": 0.1013741079987085,
+  "compatible_allocations": 1940,
+  "status": "unsat",
+  "other_rows": [
+    [
+      1048,
+      891,
+      2391,
+      3740,
+      3190,
+      1546,
+      2231,
+      1515,
+      1014
+    ],
+    [
+      26554,
+      39085,
+      297,
+      71010,
+      49826,
+      42666,
+      14918,
+      26255,
+      31029
+    ]
+  ],
+  "core_size": 2,
+  "core_allocation_ids": [
+    451,
+    6150
+  ],
+  "core_allocations": [
+    [
+      0,
+      0,
+      0,
+      1,
+      2,
+      1,
+      2,
+      0,
+      1
+    ],
+    [
+      0,
+      2,
+      2,
+      1,
+      0,
+      2,
+      2,
+      1,
+      0
+    ]
+  ],
+  "core_sha256": "60787e5f53255aa16fa241480a009e58a541955e842e848682d1bfb334733d63",
+  "region_atoms": [
+    {
+      "agent": 1,
+      "coefficients": [
+        -1,
+        -1,
+        -1,
+        0,
+        0,
+        1,
+        0,
+        -1,
+        1
+      ]
+    },
+    {
+      "agent": 1,
+      "coefficients": [
+        -1,
+        -1,
+        -1,
+        1,
+        0,
+        0,
+        0,
+        -1,
+        1
+      ]
+    },
+    {
+      "agent": 1,
+      "coefficients": [
+        -1,
+        -1,
+        -1,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "agent": 1,
+      "coefficients": [
+        -1,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        1,
+        -1
+      ]
+    },
+    {
+      "agent": 1,
+      "coefficients": [
+        -1,
+        0,
+        0,
+        1,
+        -1,
+        0,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "agent": 1,
+      "coefficients": [
+        0,
+        -1,
+        -1,
+        0,
+        0,
+        -1,
+        -1,
+        1,
+        0
+      ]
+    },
+    {
+      "agent": 1,
+      "coefficients": [
+        0,
+        -1,
+        -1,
+        1,
+        0,
+        -1,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "agent": 1,
+      "coefficients": [
+        0,
+        0,
+        0,
+        0,
+        -1,
+        1,
+        -1,
+        0,
+        1
+      ]
+    },
+    {
+      "agent": 1,
+      "coefficients": [
+        0,
+        0,
+        0,
+        1,
+        -1,
+        0,
+        -1,
+        0,
+        1
+      ]
+    },
+    {
+      "agent": 1,
+      "coefficients": [
+        0,
+        0,
+        0,
+        1,
+        -1,
+        1,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "agent": 2,
+      "coefficients": [
+        -1,
+        -1,
+        -1,
+        0,
+        0,
+        0,
+        1,
+        -1,
+        0
+      ]
+    },
+    {
+      "agent": 2,
+      "coefficients": [
+        -1,
+        -1,
+        -1,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "agent": 2,
+      "coefficients": [
+        -1,
+        0,
+        1,
+        0,
+        -1,
+        1,
+        1,
+        0,
+        -1
+      ]
+    },
+    {
+      "agent": 2,
+      "coefficients": [
+        -1,
+        1,
+        0,
+        0,
+        -1,
+        1,
+        1,
+        0,
+        -1
+      ]
+    },
+    {
+      "agent": 2,
+      "coefficients": [
+        -1,
+        1,
+        1,
+        0,
+        -1,
+        0,
+        1,
+        0,
+        -1
+      ]
+    },
+    {
+      "agent": 2,
+      "coefficients": [
+        -1,
+        1,
+        1,
+        0,
+        -1,
+        1,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "agent": 2,
+      "coefficients": [
+        0,
+        0,
+        0,
+        -1,
+        0,
+        -1,
+        1,
+        0,
+        -1
+      ]
+    },
+    {
+      "agent": 2,
+      "coefficients": [
+        0,
+        0,
+        0,
+        -1,
+        1,
+        -1,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "agent": 2,
+      "coefficients": [
+        0,
+        0,
+        1,
+        -1,
+        0,
+        1,
+        1,
+        -1,
+        0
+      ]
+    },
+    {
+      "agent": 2,
+      "coefficients": [
+        0,
+        1,
+        0,
+        -1,
+        0,
+        1,
+        1,
+        -1,
+        0
+      ]
+    },
+    {
+      "agent": 2,
+      "coefficients": [
+        0,
+        1,
+        1,
+        -1,
+        0,
+        0,
+        1,
+        -1,
+        0
+      ]
+    },
+    {
+      "agent": 2,
+      "coefficients": [
+        0,
+        1,
+        1,
+        -1,
+        0,
+        1,
+        0,
+        -1,
+        0
+      ]
+    }
+  ],
+  "compressed_region_atoms": [
+    {
+      "agent": 1,
+      "coefficients": [
+        -1,
+        -1,
+        -1,
+        0,
+        0,
+        1,
+        0,
+        -1,
+        1
+      ]
+    },
+    {
+      "agent": 1,
+      "coefficients": [
+        -1,
+        -1,
+        -1,
+        1,
+        0,
+        0,
+        0,
+        -1,
+        1
+      ]
+    },
+    {
+      "agent": 1,
+      "coefficients": [
+        -1,
+        -1,
+        -1,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "agent": 1,
+      "coefficients": [
+        -1,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        1,
+        -1
+      ]
+    },
+    {
+      "agent": 1,
+      "coefficients": [
+        -1,
+        0,
+        0,
+        1,
+        -1,
+        0,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "agent": 1,
+      "coefficients": [
+        0,
+        -1,
+        -1,
+        0,
+        0,
+        -1,
+        -1,
+        1,
+        0
+      ]
+    },
+    {
+      "agent": 1,
+      "coefficients": [
+        0,
+        -1,
+        -1,
+        1,
+        0,
+        -1,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "agent": 1,
+      "coefficients": [
+        0,
+        0,
+        0,
+        0,
+        -1,
+        1,
+        -1,
+        0,
+        1
+      ]
+    },
+    {
+      "agent": 1,
+      "coefficients": [
+        0,
+        0,
+        0,
+        1,
+        -1,
+        0,
+        -1,
+        0,
+        1
+      ]
+    },
+    {
+      "agent": 1,
+      "coefficients": [
+        0,
+        0,
+        0,
+        1,
+        -1,
+        1,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "agent": 2,
+      "coefficients": [
+        -1,
+        -1,
+        -1,
+        0,
+        0,
+        0,
+        1,
+        -1,
+        0
+      ]
+    },
+    {
+      "agent": 2,
+      "coefficients": [
+        -1,
+        -1,
+        -1,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "agent": 2,
+      "coefficients": [
+        -1,
+        1,
+        0,
+        0,
+        -1,
+        1,
+        1,
+        0,
+        -1
+      ]
+    },
+    {
+      "agent": 2,
+      "coefficients": [
+        0,
+        0,
+        0,
+        -1,
+        0,
+        -1,
+        1,
+        0,
+        -1
+      ]
+    },
+    {
+      "agent": 2,
+      "coefficients": [
+        0,
+        0,
+        0,
+        -1,
+        1,
+        -1,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "agent": 2,
+      "coefficients": [
+        0,
+        1,
+        0,
+        -1,
+        0,
+        1,
+        1,
+        -1,
+        0
+      ]
+    }
+  ],
+  "dominance_certificate": [
+    {
+      "raw_index": 0,
+      "retained_index": 0,
+      "zero": false
+    },
+    {
+      "raw_index": 1,
+      "retained_index": 1,
+      "zero": false
+    },
+    {
+      "raw_index": 2,
+      "retained_index": 2,
+      "zero": false
+    },
+    {
+      "raw_index": 3,
+      "retained_index": 3,
+      "zero": false
+    },
+    {
+      "raw_index": 4,
+      "retained_index": 4,
+      "zero": false
+    },
+    {
+      "raw_index": 5,
+      "retained_index": 5,
+      "zero": false
+    },
+    {
+      "raw_index": 6,
+      "retained_index": 6,
+      "zero": false
+    },
+    {
+      "raw_index": 7,
+      "retained_index": 7,
+      "zero": false
+    },
+    {
+      "raw_index": 8,
+      "retained_index": 8,
+      "zero": false
+    },
+    {
+      "raw_index": 9,
+      "retained_index": 9,
+      "zero": false
+    },
+    {
+      "raw_index": 10,
+      "retained_index": 10,
+      "zero": false
+    },
+    {
+      "raw_index": 11,
+      "retained_index": 11,
+      "zero": false
+    },
+    {
+      "raw_index": 12,
+      "retained_index": 12,
+      "zero": false
+    },
+    {
+      "raw_index": 13,
+      "retained_index": 12,
+      "zero": false
+    },
+    {
+      "raw_index": 14,
+      "retained_index": 12,
+      "zero": false
+    },
+    {
+      "raw_index": 15,
+      "retained_index": 12,
+      "zero": false
+    },
+    {
+      "raw_index": 16,
+      "retained_index": 13,
+      "zero": false
+    },
+    {
+      "raw_index": 17,
+      "retained_index": 14,
+      "zero": false
+    },
+    {
+      "raw_index": 18,
+      "retained_index": 15,
+      "zero": false
+    },
+    {
+      "raw_index": 19,
+      "retained_index": 15,
+      "zero": false
+    },
+    {
+      "raw_index": 20,
+      "retained_index": 15,
+      "zero": false
+    },
+    {
+      "raw_index": 21,
+      "retained_index": 15,
+      "zero": false
+    }
+  ],
+  "compression_counts": {
+    "raw": 22,
+    "kept": 16
+  }
+}

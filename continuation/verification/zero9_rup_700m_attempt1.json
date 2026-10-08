@@ -1,0 +1,19 @@
+{
+  "status": "RESOURCE_FAILURE_NO_MATHEMATICAL_VERDICT",
+  "returncode": 1,
+  "observed_exception": "MemoryError",
+  "address_space_cap_mib": 700,
+  "exception_location": "check_lra_rup.propagate_check: assignment[abs(literal)] = literal > 0",
+  "source_and_inputs_sha256": {
+    "continuation/verification/check_lra_rup.py": "7ece388b1466370bef950df80a2fe042611d2482b85d254360fbe25270c8041c",
+    "continuation/verification/lra_certificate_common.py": "7f490f5ba6ba51d8c363566124100d90de91523fd2777686915ad1ece19d8bf4",
+    "continuation/verification/zero9_minimal_capture_input_binding.json": "d325bd86d805a9d6a4ad46a701128b63c024a013326f8285606b69ba46926e8f",
+    "continuation/exact_search/zero9_rup_source_cache_run1/trimmed_trace.jsonl": "5aa0e25669748203333da25c117e219097adb2a2d2fa0bb4a9800fcfd4eae9c5",
+    "continuation/exact_search/zero9_rup_source_cache_run1/selected_theory_indices.json": "d24e12363b34b76a55066b57b21c22573a81da468f685becd7874b175e014827"
+  },
+  "complete_rup_receipt_written": false,
+  "semantic_rejection_observed": false,
+  "independent_certificate_complete": false,
+  "scope": "The original checker CLI exhausted its address-space budget. No completed PASS or semantic counterexample is inferred. The unchanged checking function is retried separately with an explicitly recorded larger cap.",
+  "recorded_at_utc": "2026-10-08T00:14:58.539971+00:00"
+}

@@ -1,0 +1,62 @@
+{
+  "status": "PASS_EXACT_ARITHMETIC_AND_PRIOR_SUPPORT_BINDING_NOT_EXHAUSTIVE_SEARCH",
+  "time_utc": "2026-10-07T21:01:37.543550+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "agents": 3,
+  "chores": 9,
+  "independent_dimension_per_row": 9,
+  "maximum_coefficient_support": 7,
+  "cramer_replacement_maximum_row_squared_norm": 8,
+  "bound": 11585,
+  "bound_squared": 134212225,
+  "radicand": 134217728,
+  "successor_squared": 134235396,
+  "common_integer_row_minima_required": false,
+  "general_bound_for_three_agents_and_m_at_least_4": {
+    "4": 9,
+    "5": 32,
+    "6": 125,
+    "7": 529,
+    "8": 2401,
+    "9": 11585,
+    "10": 59049
+  },
+  "prior_literal_support_audit": {
+    "file": "continuation/verification/prefix_snapshot_audit.json",
+    "sha256": "dfef512289b3c783e709dbab7e8669a42dbc8696eac8c60c3895d2ba7528e02f",
+    "value": 194368031998,
+    "surjective_allocations": 18150,
+    "literal_comparisons": 326700,
+    "maximum_support": 7
+  },
+  "scope": "The row-local decomposition and vertex/Cramer/Hadamard proof were reviewed mathematically. This receipt checks the new exact integer bound, simple determinant-row norm examples, and continuity of the already completed literal support audit. It does not exhaust a cost grid or machine-formalize the theorem.",
+  "norm_examples_checked": 27,
+  "elapsed_seconds": 0.0034596300010889536,
+  "peak_rss_kib": 12032,
+  "normalization_corollary": {
+    "normalized_minimum": 1,
+    "normalized_entry_upper_bound": 11585,
+    "row_local_strict_margin_lower_bound": [
+      1,
+      11585
+    ],
+    "scaled_common_minimum": 11585,
+    "scaled_entry_upper_bound": 134212225,
+    "scaled_strict_margin_lower_bound": 1,
+    "scaled_variables": "Real, not necessarily integer",
+    "cross_row_total_margin_claimed": false,
+    "equivalence": "Global counterexample existence; not pointwise inclusion of every original counterexample"
+  },
+  "corollary_review_time_utc": "2026-10-07T21:05:13.460349+00:00",
+  "reviewed_theorem": {
+    "file": "continuation/exact_search/row_local_integer_bound.md",
+    "sha256": "09a367ad64332da6022bc924de522c4747f24b62c70aaf99540ca130e462f314"
+  },
+  "general_agents_remark": {
+    "condition": "n >= 2 and m >= n+1",
+    "bound": "floor((m-n+2)^(m/2))",
+    "maximum_failure_support": "m-n+1",
+    "dimension_per_row": "m",
+    "status": "Proof reviewed; no additional search"
+  }
+}

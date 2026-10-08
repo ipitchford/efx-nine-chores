@@ -1,0 +1,114 @@
+{
+  "result": "PASS",
+  "scope": "Boundary enforcement controls, not a checker soundness proof.",
+  "checker_sha256": "11c3f0685eeac19c655f8305af4cb75fd775639ad9c27aa2e2ac9ca7df66de8b",
+  "cases": [
+    {
+      "case": "valid_refutation",
+      "expected_accepted": true,
+      "accepted": true,
+      "passed": true,
+      "command": [
+        "/workspace/scratch/5abf44ff3fd9/economics_problem2/work/ethos/build/src/ethos",
+        "--include=/workspace/scratch/5abf44ff3fd9/economics_problem2/work/cvc5_signatures/proofs/eo/cpc/Cpc.eo",
+        "--reference=/workspace/scratch/5abf44ff3fd9/economics_problem2/work/checker_controls/contradiction.smt2",
+        "--require-proof-of-false"
+      ],
+      "proof_input_mode": "stdin",
+      "proof_stream_adaptation": {
+        "adaptation": "Drop exact original Real declarations from CPC prefix; reuse reference constants; retain all proof steps.",
+        "removed_duplicate_declarations": [
+          "x"
+        ],
+        "stream_sha256": "78fa08f31372ab63aec9a83c791e2b4aef38a4ed3fcf803cba676872790d383a",
+        "stream_bytes": 3141,
+        "embedded_include_reference_commands_allowed": false
+      },
+      "returncode": 0,
+      "stdout": "correct\n",
+      "stderr": "",
+      "reference_sha256": "4128f7af8f1d4f0aafa5bdff401d70b64475c0c98a4abc2eba345e6d5652d47a",
+      "proof_sha256": "e056a959a37f34711b1e83ac975883e2e455a8b18d3bbc53a898ee9e11bea8d8"
+    },
+    {
+      "case": "missing_reference_assumptions",
+      "expected_accepted": false,
+      "accepted": false,
+      "passed": true,
+      "command": [
+        "/workspace/scratch/5abf44ff3fd9/economics_problem2/work/ethos/build/src/ethos",
+        "--include=/workspace/scratch/5abf44ff3fd9/economics_problem2/work/cvc5_signatures/proofs/eo/cpc/Cpc.eo",
+        "--reference=/workspace/scratch/5abf44ff3fd9/economics_problem2/work/checker_controls/missing_assumptions.smt2",
+        "--require-proof-of-false"
+      ],
+      "proof_input_mode": "stdin",
+      "proof_stream_adaptation": {
+        "adaptation": "Drop exact original Real declarations from CPC prefix; reuse reference constants; retain all proof steps.",
+        "removed_duplicate_declarations": [
+          "x"
+        ],
+        "stream_sha256": "78fa08f31372ab63aec9a83c791e2b4aef38a4ed3fcf803cba676872790d383a",
+        "stream_bytes": 3141,
+        "embedded_include_reference_commands_allowed": false
+      },
+      "returncode": -6,
+      "stdout": "",
+      "stderr": "Fatal failure within void ethos::Lexer::parseError(const std::string&, bool) at /workspace/scratch/5abf44ff3fd9/economics_problem2/work/ethos/src/lexer.cpp:88\nError: stream:14.13: The assumption @p2 was not part of the referenced assertions\n\n",
+      "reference_sha256": "b46c753648c31196054b9b32364cc4a7fa5010550b3b33137a08f016cb9d0497",
+      "proof_sha256": "e056a959a37f34711b1e83ac975883e2e455a8b18d3bbc53a898ee9e11bea8d8"
+    },
+    {
+      "case": "valid_nonrefuting_prefix_without_false_requirement",
+      "expected_accepted": true,
+      "accepted": true,
+      "passed": true,
+      "command": [
+        "/workspace/scratch/5abf44ff3fd9/economics_problem2/work/ethos/build/src/ethos",
+        "--include=/workspace/scratch/5abf44ff3fd9/economics_problem2/work/cvc5_signatures/proofs/eo/cpc/Cpc.eo",
+        "--reference=/workspace/scratch/5abf44ff3fd9/economics_problem2/work/checker_controls/satisfiable.smt2"
+      ],
+      "proof_input_mode": "stdin",
+      "proof_stream_adaptation": {
+        "adaptation": "Drop exact original Real declarations from CPC prefix; reuse reference constants; retain all proof steps.",
+        "removed_duplicate_declarations": [
+          "x"
+        ],
+        "stream_sha256": "3bb3a90c48c96f1185245b6a56c7361a946074bceddf7230126aac7001eae022",
+        "stream_bytes": 21,
+        "embedded_include_reference_commands_allowed": false
+      },
+      "returncode": 0,
+      "stdout": "correct\n",
+      "stderr": "",
+      "reference_sha256": "b46c753648c31196054b9b32364cc4a7fa5010550b3b33137a08f016cb9d0497",
+      "proof_sha256": "de548c390f19d4d09d3296b941592b008ad24f6b4ed486e91886cca6147dbb3a"
+    },
+    {
+      "case": "same_nonrefuting_prefix_with_false_requirement",
+      "expected_accepted": false,
+      "accepted": false,
+      "passed": true,
+      "command": [
+        "/workspace/scratch/5abf44ff3fd9/economics_problem2/work/ethos/build/src/ethos",
+        "--include=/workspace/scratch/5abf44ff3fd9/economics_problem2/work/cvc5_signatures/proofs/eo/cpc/Cpc.eo",
+        "--reference=/workspace/scratch/5abf44ff3fd9/economics_problem2/work/checker_controls/satisfiable.smt2",
+        "--require-proof-of-false"
+      ],
+      "proof_input_mode": "stdin",
+      "proof_stream_adaptation": {
+        "adaptation": "Drop exact original Real declarations from CPC prefix; reuse reference constants; retain all proof steps.",
+        "removed_duplicate_declarations": [
+          "x"
+        ],
+        "stream_sha256": "3bb3a90c48c96f1185245b6a56c7361a946074bceddf7230126aac7001eae022",
+        "stream_bytes": 21,
+        "embedded_include_reference_commands_allowed": false
+      },
+      "returncode": -6,
+      "stdout": "",
+      "stderr": "Fatal failure within int main(int, char**) at /workspace/scratch/5abf44ff3fd9/economics_problem2/work/ethos/src/main.cpp:204\nError: the last proof step did not prove false at assumption level zero.\n",
+      "reference_sha256": "b46c753648c31196054b9b32364cc4a7fa5010550b3b33137a08f016cb9d0497",
+      "proof_sha256": "de548c390f19d4d09d3296b941592b008ad24f6b4ed486e91886cca6147dbb3a"
+    }
+  ]
+}

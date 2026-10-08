@@ -1,0 +1,21 @@
+{
+  "status": "REJECTED_TRUNCATED_CAPTURE_ORIGINAL_STREAMS",
+  "error": "original atom missing from capture",
+  "capture": "continuation/exact_search/zero8_clause_capture_run3/capture",
+  "files_sha256": {
+    "input_clauses.jsonl": "5cd171ad245dd83493853ed1055d5a37adec85c182a880c3bb96d584f213d280",
+    "theory_clauses.jsonl": "2a5318bdf0d59ff9061ad3ccefc7cb70b18a58e2648d80b3f5331579064f673d",
+    "receipt.json": "88237c8e500a1e7e8a477d7505ad28b39c7565a49d98bcb7f0979d52b54a55a4",
+    "atoms.jsonl": "74b5ee971205c77e4abf7a21b5dcca5a305a3b2398639e99ec34461787aa5a96",
+    "assumptions.jsonl": "4c484b69d44b01800f7894d988090468d5f561c52a3e23eca7261edcd3b10334",
+    "metadata.json": "17cf2521cbc5a0e6c6032507690b81bdb4caabecedec948ede7c75949bd0bbf1",
+    "rup_clauses.jsonl": "9341c377b80c78f3fe7644f8e65635989156f62e81a4aedee08cbd2071b705be"
+  },
+  "actual_atom_records": 5442,
+  "actual_input_records": 4300,
+  "reported_atoms": 5746,
+  "required_input_records": 5820,
+  "original_files_modified": false,
+  "mathematical_verdict_inferred": false,
+  "completed_at_utc": "2026-10-07T22:41:47.511473+00:00"
+}

@@ -1,0 +1,61 @@
+{
+  "status": "PASS_ALL_COMPLETE_ALLOCATIONS_AND_BOTH_NEW_INNER_INPUTS_WITH_STDLIB",
+  "time_utc": "2026-10-07T22:23:00.749520+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "source_model_sha256": "e13b99b8ee5b981794908bf33c4a37322a8d6988a27c5a7783b370892545754e",
+  "preparation_sha256": "75aaf36df00c242229e56f8f5b7ca1fc2bc9633b48093ebf337ed09b3ddbf6b8",
+  "allocations_checked": 19683,
+  "fixed_row_compatible_allocations": 892,
+  "fixed_rows": [
+    [
+      "1",
+      "0",
+      "1/38",
+      "381/76",
+      "215/76",
+      "441/152",
+      "27/38",
+      "21/76",
+      "15/38"
+    ],
+    [
+      "1",
+      "3/152",
+      "0",
+      "501/152",
+      "363/152",
+      "451/152",
+      "3/4",
+      "9/76",
+      "7/38"
+    ]
+  ],
+  "inputs": [
+    {
+      "mode": "zero",
+      "input": "continuation/structural_nine/fixed_zero_outer_candidate/zero_inner.smt2",
+      "input_sha256": "8a53645f5be9f78d99540fa80e6e397d15fe32b2ea6f27c809f48f6739704c01",
+      "declarations": 7,
+      "free_variables_after_equalities": 7,
+      "domain_assertions": 13,
+      "allocation_failure_assertions": 892,
+      "total_assertions": 905,
+      "literal_positions_checked": 8518
+    },
+    {
+      "mode": "positive",
+      "input": "continuation/structural_nine/fixed_zero_outer_candidate/positive_inner.smt2",
+      "input_sha256": "3a0da6233295385d7fa25d80b69e161c1cce86c130cf6b28634f35d6f0cba318",
+      "declarations": 9,
+      "free_variables_after_equalities": 8,
+      "domain_assertions": 15,
+      "allocation_failure_assertions": 892,
+      "total_assertions": 907,
+      "literal_positions_checked": 8518
+    }
+  ],
+  "script_sha256": "f8b83367db9c5f5ec29798cdef84272866e731a9949380d3f69b4577cbf3c7c5",
+  "scope": "Both fixed other rows are literal-EFX-tested over all complete allocations, including empty bundles and owned-zero deletions. Every compatible allocation's complete first-row failure disjunction and each domain assertion is independently reconstructed. These are fixed-candidate existential first-row inputs, not universal nine-chore formulas; no solver is run.",
+  "elapsed_seconds": 0.2606763539988606,
+  "peak_rss_kib": 12164
+}

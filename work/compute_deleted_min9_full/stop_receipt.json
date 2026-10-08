@@ -1,0 +1,14 @@
+{
+  "status": "UNKNOWN_TIMEOUT",
+  "target": "Three simultaneous deleted-minimum prescribed-EF obstructions",
+  "last_completed_check": {
+    "iteration": 0,
+    "status": "unknown",
+    "clauses": 17388,
+    "check_seconds": 1200.41611018,
+    "elapsed_seconds": 1200.721472108,
+    "reason": "timeout"
+  },
+  "formula_sha256": "19ffc933f5d3ad6ab1b428465b42684127222ee0436eee6853835366983f6e15",
+  "logical_verdict": "none"
+}

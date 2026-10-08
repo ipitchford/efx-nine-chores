@@ -1,0 +1,16 @@
+{
+  "status": "running",
+  "started_at_utc": "2026-10-07T20:44:56.406876+00:00",
+  "input": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/fixed9_strict_uncoupled.smt2",
+  "input_sha256": "a0d4565a8081ddc78e75e8b2f598688b0dc5dcad8deb76d93244a33ad60cb453",
+  "input_bytes": 24695529,
+  "solver": "z3-5.1.0",
+  "timeout_seconds": 1800,
+  "address_space_cap_mib": 2450,
+  "arith_solver": 2,
+  "random_seed": 0,
+  "proof_status": "no independently checked proof",
+  "assertions": 18207,
+  "parse_seconds": 0.7903706199995213,
+  "check_started_at_utc": "2026-10-07T20:44:57.198548+00:00"
+}

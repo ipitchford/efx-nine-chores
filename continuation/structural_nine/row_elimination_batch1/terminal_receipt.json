@@ -1,0 +1,43 @@
+{
+  "status": "child_completed",
+  "utc": "2026-10-07T21:52:00.184773+00:00",
+  "elapsed": 605.8698992919999,
+  "child_returncode": 0,
+  "worker_summary": {
+    "termination": "outer_unknown",
+    "regions": 623,
+    "seconds": 605.014977928,
+    "outer_sha256": "1fc2bec83744678c33126d36e26ea535ff31bab494e8a6c4f9ad662d46214ec4",
+    "max_rss_kib": 916384,
+    "solver": "5.1.0",
+    "args": {
+      "out": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_batch1",
+      "seconds": 600,
+      "iterations": 10000,
+      "memory_mib": 1750,
+      "outer_timeout": 90000,
+      "inner_timeout": 15000,
+      "seed_robust": true,
+      "compress": true,
+      "resume": [
+        "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_short1",
+        "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_generic_pairs_minimized",
+        "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_short1_minimized",
+        "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/row_elimination_batch_smoke"
+      ],
+      "prune_resume_cores": true,
+      "pair_seeds": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/pair_seeds_all.json",
+      "pair_index": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/full_pair_census/accepted_pairs.bin",
+      "pair_scores": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/structural_nine/full_pair_census/pair_region_scores.bin",
+      "pair_batch": 4,
+      "pair_pool": 128,
+      "generic_model": true,
+      "core_minimization_ms": 2000,
+      "order": "descending"
+    },
+    "status_scope": "Exploratory exact solver record; no externally checked proof is implied by raw UNSAT"
+  },
+  "completed_region_files": 623,
+  "input_hashes_unchanged": true,
+  "mathematical_verdict": "outer_unknown"
+}

@@ -1,0 +1,7 @@
+{
+  "scope": "Unbounded prefix search interrupted without terminal verdict",
+  "prefix_regions": 1701,
+  "assertions_expected": 1732,
+  "snapshot_sha256": "7a75fa7b997ae1b695772e74448aa40d25872ce9a7154ff483a430a7698abeb6",
+  "source": "continuation/prefix_regions_v3/formula.smt2"
+}

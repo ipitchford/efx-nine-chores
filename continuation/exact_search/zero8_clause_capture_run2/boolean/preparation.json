@@ -1,0 +1,23 @@
+{
+  "status": "BOOLEAN_ABSTRACTION_PREPARED_NOT_SOLVED",
+  "capture": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/zero8_clause_capture_run2/capture",
+  "source_input_sha256": "20d56e8ecd4bfad40ad5c7786c7865442c9961569dabb9e1a8dfe415b584c08f",
+  "capture_receipt_sha256": "cedb08565021c31809738137ada5334e89386747bd1c1f795ef0921b170b075c",
+  "capture_bindings": {
+    "atoms.jsonl": "f5057a3dc1864b0e4a8edfe24f4fd36758c86052165ac687d7f0c711c1a44813",
+    "input_clauses.jsonl": "68c791fbde70c64b7f8d123c35ec42dcec9ea594d751cbc877af4c57dbb09e1f",
+    "theory_clauses.jsonl": "2a5318bdf0d59ff9061ad3ccefc7cb70b18a58e2648d80b3f5331579064f673d",
+    "metadata.json": "17cf2521cbc5a0e6c6032507690b81bdb4caabecedec948ede7c75949bd0bbf1"
+  },
+  "boolean_input": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/zero8_clause_capture_run2/boolean/all_clauses.smt2",
+  "boolean_sha256": "8d7458bc53d2eee88d71792f9b39c0f4f2576ffe40fc152ad793e8047bbc5c14",
+  "assertions": 254804,
+  "counts": {
+    "input_clauses": 5820,
+    "theory_clauses": 248984
+  },
+  "variables": 5746,
+  "assertion_order": "All input JSONL records in order, null clauses represented by true, then all theory JSONL records in order.",
+  "assumptions_used": false,
+  "rup_used": false
+}

@@ -1,0 +1,112 @@
+{
+  "status": "PASS_PRIMITIVE_CRAMER_BOUND_ARITHMETIC_AND_SMALL_DIMENSION_CONTROLS",
+  "general_bound": "floor(sqrt((m-1)*(m-2)^(m-2)))",
+  "m8": {
+    "squared_bound": 326592,
+    "integer_bound": 571,
+    "positive_lift_bound": 1142
+  },
+  "m9": {
+    "squared_bound": 6588344,
+    "integer_bound": 2566,
+    "positive_lift_bound": 5132
+  },
+  "exact_integer_bounds_m4_through_m20": {
+    "4": {
+      "squared_bound": 12,
+      "integer_bound": 3,
+      "positive_lift_bound": 6
+    },
+    "5": {
+      "squared_bound": 108,
+      "integer_bound": 10,
+      "positive_lift_bound": 20
+    },
+    "6": {
+      "squared_bound": 1280,
+      "integer_bound": 35,
+      "positive_lift_bound": 70
+    },
+    "7": {
+      "squared_bound": 18750,
+      "integer_bound": 136,
+      "positive_lift_bound": 272
+    },
+    "8": {
+      "squared_bound": 326592,
+      "integer_bound": 571,
+      "positive_lift_bound": 1142
+    },
+    "9": {
+      "squared_bound": 6588344,
+      "integer_bound": 2566,
+      "positive_lift_bound": 5132
+    },
+    "10": {
+      "squared_bound": 150994944,
+      "integer_bound": 12288,
+      "positive_lift_bound": 24576
+    },
+    "11": {
+      "squared_bound": 3874204890,
+      "integer_bound": 62243,
+      "positive_lift_bound": 124486
+    },
+    "12": {
+      "squared_bound": 110000000000,
+      "integer_bound": 331662,
+      "positive_lift_bound": 663324
+    },
+    "13": {
+      "squared_bound": 3423740047332,
+      "integer_bound": 1850335,
+      "positive_lift_bound": 3700670
+    },
+    "14": {
+      "squared_bound": 115909305827328,
+      "integer_bound": 10766118,
+      "positive_lift_bound": 21532236
+    },
+    "15": {
+      "squared_bound": 4240251492291542,
+      "integer_bound": 65117213,
+      "positive_lift_bound": 130234426
+    },
+    "16": {
+      "squared_bound": 166680102383370240,
+      "integer_bound": 408264745,
+      "positive_lift_bound": 816529490
+    },
+    "17": {
+      "squared_bound": 7006302246093750000,
+      "integer_bound": 2646942055,
+      "positive_lift_bound": 5293884110
+    },
+    "18": {
+      "squared_bound": 313594649253062377472,
+      "integer_bound": 17708603819,
+      "positive_lift_bound": 35417207638
+    },
+    "19": {
+      "squared_bound": 14890324713954061755186,
+      "integer_bound": 122025918205,
+      "positive_lift_bound": 244051836410
+    },
+    "20": {
+      "squared_bound": 747581753430634213933056,
+      "integer_bound": 864628101226,
+      "positive_lift_bound": 1729256202452
+    }
+  },
+  "dimension3_admissible_nonsingular_matrices": 3264,
+  "dimension3_coordinates_checked": 9792,
+  "nontrivial_parity_divisor_coordinates": 720,
+  "general_theorem_basis": "Written proof; finite controls are not a substitute for the parity/Hadamard argument.",
+  "frozen_search_inputs_modified": false,
+  "exhaustive_counterexample_search_performed": false,
+  "completed_at_utc": "2026-10-07T22:44:47.816116+00:00",
+  "files_sha256": {
+    "primitive_cramer_bound.md": "10b0dea7286990c271c15ac1414adc2039c6d33b4c23359c9b04c4f7172fd674",
+    "check_primitive_cramer_bound.py": "b8b50b57790662c68b508da6b8dd48814fe4260424b90c603399b8b7d4984de1"
+  }
+}

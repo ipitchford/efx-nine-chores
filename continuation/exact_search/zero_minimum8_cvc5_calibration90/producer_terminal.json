@@ -1,0 +1,10 @@
+{
+  "status": "child_completed",
+  "stage": "export",
+  "returncode": -6,
+  "elapsed": 58.63288012599878,
+  "input_sha256": "20d56e8ecd4bfad40ad5c7786c7865442c9961569dabb9e1a8dfe415b584c08f",
+  "input_unchanged": true,
+  "durable_solver_verdict": null,
+  "scope": "A solver verdict and an independently verified proof are separate outcomes."
+}

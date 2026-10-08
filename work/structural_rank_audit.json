@@ -1,0 +1,248 @@
+{
+  "source": "economics_problem2/src/strict_lra.py",
+  "sha256": "6fa9a42ead14011e4fadf80003ea53fe2a962123b01d9bf1b7056fa35eccd65e",
+  "canonical_rank_cases": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      0,
+      7
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      1,
+      7
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      6,
+      7
+    ]
+  ],
+  "rank_case_count": 28,
+  "checked_cases": [
+    {
+      "case": [
+        0,
+        1
+      ],
+      "predicates_compared": 59049,
+      "canonical_matrices": 3,
+      "empty_allocations_skipped": 1533,
+      "source_info": {
+        "m": 9,
+        "allocations_all": 19683,
+        "allocation_clauses": 10421,
+        "literal_positions": 102406,
+        "unique_atoms": 24336,
+        "assertions": 10480,
+        "normalisation": "none",
+        "order": "descending",
+        "row_symmetry": true,
+        "rank_case": [
+          0,
+          1
+        ],
+        "all_trims": false,
+        "cuts": "none",
+        "cut_count": 0,
+        "dominance": true,
+        "automatically_bad": 7729,
+        "dominated_atoms": 8978
+      },
+      "result": "PASS"
+    },
+    {
+      "case": [
+        0,
+        7
+      ],
+      "predicates_compared": 59049,
+      "canonical_matrices": 3,
+      "empty_allocations_skipped": 1533,
+      "source_info": {
+        "m": 9,
+        "allocations_all": 19683,
+        "allocation_clauses": 10232,
+        "literal_positions": 99430,
+        "unique_atoms": 24435,
+        "assertions": 10291,
+        "normalisation": "none",
+        "order": "descending",
+        "row_symmetry": true,
+        "rank_case": [
+          0,
+          7
+        ],
+        "all_trims": false,
+        "cuts": "none",
+        "cut_count": 0,
+        "dominance": true,
+        "automatically_bad": 7918,
+        "dominated_atoms": 8978
+      },
+      "result": "PASS"
+    },
+    {
+      "case": [
+        3,
+        5
+      ],
+      "predicates_compared": 59049,
+      "canonical_matrices": 3,
+      "empty_allocations_skipped": 1533,
+      "source_info": {
+        "m": 9,
+        "allocations_all": 19683,
+        "allocation_clauses": 10354,
+        "literal_positions": 100949,
+        "unique_atoms": 24373,
+        "assertions": 10413,
+        "normalisation": "none",
+        "order": "descending",
+        "row_symmetry": true,
+        "rank_case": [
+          3,
+          5
+        ],
+        "all_trims": false,
+        "cuts": "none",
+        "cut_count": 0,
+        "dominance": true,
+        "automatically_bad": 7796,
+        "dominated_atoms": 8978
+      },
+      "result": "PASS"
+    },
+    {
+      "case": [
+        6,
+        7
+      ],
+      "predicates_compared": 59049,
+      "canonical_matrices": 3,
+      "empty_allocations_skipped": 1533,
+      "source_info": {
+        "m": 9,
+        "allocations_all": 19683,
+        "allocation_clauses": 10113,
+        "literal_positions": 97331,
+        "unique_atoms": 24574,
+        "assertions": 10172,
+        "normalisation": "none",
+        "order": "descending",
+        "row_symmetry": true,
+        "rank_case": [
+          6,
+          7
+        ],
+        "all_trims": false,
+        "cuts": "none",
+        "cut_count": 0,
+        "dominance": true,
+        "automatically_bad": 8037,
+        "dominated_atoms": 8978
+      },
+      "result": "PASS"
+    }
+  ],
+  "total_predicates_compared": 236196,
+  "elapsed_s": 27.357998509000026,
+  "result": "PASS"
+}

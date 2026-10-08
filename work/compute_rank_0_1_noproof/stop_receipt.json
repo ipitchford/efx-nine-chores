@@ -1,0 +1,15 @@
+{
+  "status": "INTERRUPTED_WITHOUT_CONCLUSION",
+  "reason": "Reallocated rank(0,1) worker to the smaller designated-EF P8 target after P7 UNSAT result; no branch conclusion.",
+  "utc": "2026-10-07T18:04:05.312557+00:00",
+  "last_completed_iteration": {
+    "iteration": 0,
+    "status": "sat",
+    "clauses": 3995,
+    "check_seconds": 75.15363084100045,
+    "elapsed_seconds": 75.15364857799977,
+    "efx_allocations": 11,
+    "max_integer": 2953,
+    "newly_added": 11
+  }
+}

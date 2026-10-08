@@ -1,0 +1,12 @@
+{
+  "out": "continuation/prefix_regions_v3",
+  "deadline": 1800.0,
+  "check_timeout": 180,
+  "oracle_timeout": 30,
+  "arith": 2,
+  "max_steps": 3000,
+  "memory_mib": 1800,
+  "resume": true,
+  "fixed_minima": true,
+  "restricted_ninth": true
+}

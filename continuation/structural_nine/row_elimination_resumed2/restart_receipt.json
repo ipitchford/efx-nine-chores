@@ -1,0 +1,15 @@
+{
+  "status": "restart_launched",
+  "created_utc": "2026-10-07T20:48:45.239930+00:00",
+  "source_runs": [
+    "row_elimination_seeded",
+    "row_elimination_compressed",
+    "row_elimination_resumed1"
+  ],
+  "expected_source_regions": 450,
+  "robust_single_seeds": 3238,
+  "exact_pair_seeds": 1048,
+  "independently_checked_pair_branches": 4192,
+  "seconds": 1200,
+  "memory_mib": 1450
+}

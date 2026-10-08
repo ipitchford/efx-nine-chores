@@ -1,0 +1,49 @@
+{
+  "status": "PASS_BACKWARD_PRODUCER_CONTROLS",
+  "cases": [
+    {
+      "variables": 2,
+      "status": "PASS_INDEPENDENT_HINT_REPLAY",
+      "trace_records": 8
+    },
+    {
+      "variables": 3,
+      "status": "PASS_INDEPENDENT_HINT_REPLAY",
+      "trace_records": 16
+    },
+    {
+      "variables": 4,
+      "status": "PASS_INDEPENDENT_HINT_REPLAY",
+      "trace_records": 29
+    },
+    {
+      "variables": 5,
+      "status": "PASS_INDEPENDENT_HINT_REPLAY",
+      "trace_records": 59
+    },
+    {
+      "variables": 6,
+      "status": "PASS_INDEPENDENT_HINT_REPLAY",
+      "trace_records": 118
+    },
+    {
+      "status": "PASS_INVALID_PROVISIONAL_REFUTATION_REJECTED",
+      "control": "provisional_opposite_units"
+    },
+    {
+      "status": "PASS_INVALID_PROVISIONAL_REFUTATION_REJECTED",
+      "control": "future_binary_and_unit"
+    },
+    {
+      "status": "PASS_INVALID_PROVISIONAL_REFUTATION_REJECTED",
+      "control": "self_or_future_empty"
+    },
+    {
+      "status": "PASS_INVALID_PROVISIONAL_REFUTATION_REJECTED",
+      "control": "satisfiable_complete_capture"
+    }
+  ],
+  "producer_cpp_sha256": "7bf3c54ac577970bd815f62422fc75f328ae94a1bf23e310e3d406fbe73a7c36",
+  "producer_executable_sha256": "1993385388dbfacb0a4d1fee073773cc1a5b4a8c8ad5d3df746af40a01d75fb9",
+  "checker_source_sha256": "7ece388b1466370bef950df80a2fe042611d2482b85d254360fbe25270c8041c"
+}

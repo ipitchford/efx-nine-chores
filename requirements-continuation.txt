@@ -1,0 +1,7 @@
+# Optional search/generation dependencies. Exact certificate replay uses
+# only Python's standard library and does not require this file.
+-r requirements-solver.txt
+numpy==2.3.5
+scipy==1.17.0
+sympy==1.14.0
+ortools==9.15.6755

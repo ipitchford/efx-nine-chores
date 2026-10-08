@@ -1,0 +1,29 @@
+{
+  "recorded_at_utc": "2026-10-07T20:48:41.299744+00:00",
+  "runner": "run_frozen_z3.py",
+  "runner_sha256": "06763ae825d12ad090a48f16759bebf057f8e474c2255e7dc4278fe4cf6fb38e",
+  "scope": "Frozen fixed-minimum input; SAT replay assumes pinned diagonal minima are exactly one.",
+  "solver_command": [
+    "python",
+    "-u",
+    "continuation/exact_search/run_frozen_z3.py",
+    "continuation/exact_search/fixed9_strict_uncoupled.smt2",
+    "--out",
+    "continuation/exact_search/fixed9_strict_uncoupled_resume1",
+    "--expected-sha256",
+    "a0d4565a8081ddc78e75e8b2f598688b0dc5dcad8deb76d93244a33ad60cb453",
+    "--timeout",
+    "1800",
+    "--cap-mib",
+    "2450",
+    "--arith",
+    "2",
+    "--seed",
+    "0",
+    "--m",
+    "9"
+  ],
+  "stdout_and_stderr": "fixed9_strict_uncoupled_resume1.log",
+  "initial_observed_cgroup_events": "low 0\nhigh 0\nmax 268780\noom 22\noom_kill 3\noom_group_kill 0",
+  "note": "Cgroup counts are historical totals; no event attribution to this run is made."
+}

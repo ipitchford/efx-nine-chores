@@ -1,0 +1,11 @@
+{
+  "status": "AUTHORIZED_EARLY_STOP_NOT_TIMEOUT_OR_SOLVER_VERDICT",
+  "utc": "2026-10-07T23:06:22.912578+00:00",
+  "tool_session": 57475,
+  "tool_exit_code": 130,
+  "method": "Control-C through the owning exec session",
+  "reason": "Slow repeated propagation; replace with separately controlled cached-closure v3",
+  "cross_namespace_pid_signal_attempt": "Failed before any signal was sent",
+  "raw_files_preserved": true,
+  "refutation_obtained": false
+}

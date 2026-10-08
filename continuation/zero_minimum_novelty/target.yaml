@@ -1,0 +1,64 @@
+target_id: chores-efx-single-minimum-zero-normalization
+search_date: 2026-10-07
+intended_contribution_unit: proof-and-computational-reduction
+claim:
+  exact_statement: |
+    For every finite nonnegative additive chore instance C, choose one
+    globally minimum-cost chore e_i in each row. Let D equal C except that
+    D_i(e_i)=0. Under complete EFX with every owned chore in the deletion
+    quantifier, including zero-cost chores, EFX(D) is a subset of EFX(C).
+    Consequently counterexamples are preserved. For three agents and m>=4,
+    a counterexample has a representative with one zero per row and all
+    other costs positive integers at most floor(sqrt((m-2)*(m-1)^(m-2))).
+    At m=9 the bound is3831. Raising the zero entries to1/2 and multiplying
+    by2 gives a positive integer counterexample with all row minima exactly1
+    and every other entry even in2..7662. No such counterexample is asserted.
+  exclusions:
+    - This is not a nine-chore existence proof or a counterexample.
+    - It does not subtract a row minimum from every coordinate.
+    - It does not assert equality of the two EFX allocation sets.
+    - It does not apply a positive-only-deletion definition after zeroing.
+    - No historical-priority or first-proof claim is made.
+source:
+  originating_reference: Session derivation; exact target from supplied Problem2.
+  related_reference: Zhang2026 arXiv2609.10585v2; KMS2023 arXiv2305.04168.
+  url: https://arxiv.org/html/2609.10585v2
+normalisation:
+  indices: Agents0,1,2; chores0..m-1; arbitrary selected minimum e_i.
+  scaling: Independent positive scaling of each valuation row.
+  basis_order: Coordinate projection deletes the selected minimum coordinate.
+  symmetries: [agent-permutation, common-chore-permutation]
+sequences:
+  - name: zero-representative-upper-bounds-m4-through12
+    exact_values: [4,13,50,197,840,3831,18557,94868,509287]
+    natural_scalings: [twice-this-sequence-gives-positive-common-minimum-bounds]
+  - name: residuals-for-row-2-4-7-in-subset-mask-order
+    exact_values: [0,0,0,4,0,7,7,11]
+    natural_scalings: []
+generating_functions:
+  - name: not-applicable
+    expression: No rational or algebraic generating function is asserted.
+    variables: []
+matrices:
+  - name: fixed-minimum-coordinate-projection-in-three-coordinates
+    entries: [[0,0,0],[0,1,0],[0,0,1]]
+  - name: fixed-minimum-coordinate-projection-in-four-coordinates
+    entries: [[0,0,0,0],[0,1,0,0],[0,0,1,0],[0,0,0,1]]
+  - name: fixed-minimum-coordinate-projection-in-five-coordinates
+    entries: [[0,0,0,0,0],[0,1,0,0,0],[0,0,1,0,0],[0,0,0,1,0],[0,0,0,0,1]]
+aliases:
+  analysis: [worst-deletion-residual-invariance, monotone-comparison-tightening]
+  probability: [deterministic-coordinate-projection-not-a-stochastic-kernel]
+  combinatorics: [allocation-set-inclusion, counterexample-preserving-reduction]
+  mathematical_physics: [idempotent-coordinate-projection-no-physical-claim]
+  statistics_optimisation_ml: [constraint-preserving-preprocessing, sparse-linear-feasibility, small-integer-representative]
+known_invariants:
+  residual_identity: r_D(S)=r_C(S) for every owned bundle S.
+  comparison_monotonicity: D_i(T)<=C_i(T) for every bundle T.
+  projection_spectrum: zero-once-and-one-with-multiplicity-m-1.
+  projection_characteristic_polynomial: lambda*(lambda-1)^(m-1).
+  projection_rank_and_trace: m-1.
+  projection_determinant: 0.
+search_constraints:
+  primary_sources_only_for_technical_claims: true
+  databases_or_corpora: [arXiv, publisher-primary-pages, indexed-web-full-text]

@@ -1,0 +1,14 @@
+{
+  "status": "PASS_DERIVED_CAPTURE_PROVENANCE_AND_ORIGINALS_PRESERVED",
+  "provenance_manifest_sha256": "1e5c3871fb11b3b6081b7c8bba7841201168ec8918628feb3898f3b75350238b",
+  "input_binding_sha256": "c1ada96ffa421af867540852802e975af0c6648839f6e0d0d2905dbe666cfc18",
+  "original_rejection_sha256": "6600b742d2c571316f1ddbd9a6b079fb7c213c36ecc13bd76ff7ca46eb77e67e",
+  "static_streams_match_original_prefix_and_complete_v2": true,
+  "theory_and_rup_streams_copied_exactly": true,
+  "all_rejected_original_capture_files_unchanged": true,
+  "producer_intended_atom_interpretation_is_not_trusted": true,
+  "mathematical_basis": "Original SMT assertions were independently reconstructed under the derived atom interpretation; Boolean and arithmetic proof checks must both pass under that same interpretation.",
+  "reconstruction_does_not_call_solver_check": true,
+  "full_certificate_complete": false,
+  "completed_at_utc": "2026-10-07T22:47:48.274200+00:00"
+}

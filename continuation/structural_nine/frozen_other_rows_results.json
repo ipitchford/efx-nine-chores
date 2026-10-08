@@ -1,0 +1,157 @@
+[
+  {
+    "kind": "distinct",
+    "column": 2,
+    "result": "unsat",
+    "assertions": 686,
+    "filtered_allocations": 671,
+    "build_seconds": 0.11786683599893877,
+    "check_seconds": 0.038255733999903896,
+    "formula_sha256": "4aeccd14f24ff7ef3259cd8f5f821ab11d84766d7c0375519ac6d5503c7e0c8c"
+  },
+  {
+    "kind": "distinct",
+    "column": 3,
+    "result": "unsat",
+    "assertions": 686,
+    "filtered_allocations": 671,
+    "build_seconds": 0.11190701899977284,
+    "check_seconds": 0.02046187199994165,
+    "formula_sha256": "50bbad721493633cfece85857ff61c37b6df0d980e62f946a282c5ec31d53758"
+  },
+  {
+    "kind": "distinct",
+    "column": 4,
+    "result": "unsat",
+    "assertions": 686,
+    "filtered_allocations": 671,
+    "build_seconds": 0.14414675099942542,
+    "check_seconds": 0.018499249999877065,
+    "formula_sha256": "ee52417b46d520c276a2a9b7335bd1d0f05e6be3ae3f6b977795c92878a46c2f"
+  },
+  {
+    "kind": "distinct",
+    "column": 5,
+    "result": "unsat",
+    "assertions": 686,
+    "filtered_allocations": 671,
+    "build_seconds": 0.14780393999899388,
+    "check_seconds": 0.03977396300069813,
+    "formula_sha256": "755a012ed03a27e9f6a15663bd3caf2782f1a1734b79d917a2580b90cea9409f"
+  },
+  {
+    "kind": "distinct",
+    "column": 6,
+    "result": "unsat",
+    "assertions": 686,
+    "filtered_allocations": 671,
+    "build_seconds": 0.11722356599966588,
+    "check_seconds": 0.01738973999999871,
+    "formula_sha256": "835c33cd3d0b07ec242b13b1d5375565ec7140743a9bc10abfd95f6b8072b658"
+  },
+  {
+    "kind": "distinct",
+    "column": 7,
+    "result": "unsat",
+    "assertions": 686,
+    "filtered_allocations": 671,
+    "build_seconds": 0.12480052799946861,
+    "check_seconds": 0.018917962999694282,
+    "formula_sha256": "cc6e7ad7867a91dc6dfb18db200f408e16c374693e460e1416de73c2fe987ab4"
+  },
+  {
+    "kind": "second",
+    "column": 2,
+    "result": "sat",
+    "assertions": 686,
+    "filtered_allocations": 671,
+    "build_seconds": 0.1129255119994923,
+    "check_seconds": 0.05460887300068862,
+    "formula_sha256": "7d29e1c9ec02cfd1f610b97679205eee5625efd6a048ffc67f690b1479191286",
+    "matrix": [
+      [
+        7,
+        32,
+        20,
+        79,
+        96,
+        115,
+        106,
+        176
+      ],
+      [
+        3,
+        15,
+        24,
+        136,
+        358,
+        171,
+        500,
+        294
+      ],
+      [
+        20,
+        4,
+        7,
+        235,
+        166,
+        500,
+        56,
+        203
+      ]
+    ],
+    "efx_count": 32,
+    "prescribed0_efx_count": 0,
+    "verified_all_allocations": 6561
+  },
+  {
+    "kind": "second",
+    "column": 3,
+    "result": "unsat",
+    "assertions": 686,
+    "filtered_allocations": 671,
+    "build_seconds": 0.11742370499996468,
+    "check_seconds": 0.020151912000073935,
+    "formula_sha256": "f93f00b9f316b233d09e61c5f3f91764f24004999124fc44664c83e9d8727771"
+  },
+  {
+    "kind": "second",
+    "column": 4,
+    "result": "unsat",
+    "assertions": 686,
+    "filtered_allocations": 671,
+    "build_seconds": 0.11088518200085673,
+    "check_seconds": 0.017916245999003877,
+    "formula_sha256": "64beee53026c62bf7c5a80c651fbe2ac3de4f6ba5a380f33bf94280038c15c0c"
+  },
+  {
+    "kind": "second",
+    "column": 5,
+    "result": "unsat",
+    "assertions": 686,
+    "filtered_allocations": 671,
+    "build_seconds": 0.11017380399971444,
+    "check_seconds": 0.02269321200037666,
+    "formula_sha256": "63d093e080876ab1c65b87b734cb4fb968e57ca4bfb79bcf9114adefcfe19aeb"
+  },
+  {
+    "kind": "second",
+    "column": 6,
+    "result": "unsat",
+    "assertions": 686,
+    "filtered_allocations": 671,
+    "build_seconds": 0.1454770450000069,
+    "check_seconds": 0.03220842500013532,
+    "formula_sha256": "99fd73200551d9c37d7cc70218096d4a53453e93a895deda3650c7be5a347ef8"
+  },
+  {
+    "kind": "second",
+    "column": 7,
+    "result": "unsat",
+    "assertions": 686,
+    "filtered_allocations": 671,
+    "build_seconds": 0.14899721199981286,
+    "check_seconds": 0.0244580649996351,
+    "formula_sha256": "4331821674138f2d9f2b5ed17ad20517f659e1d933d448d501eb7ec9acda30aa"
+  }
+]

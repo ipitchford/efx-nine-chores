@@ -1,0 +1,10 @@
+python3 continuation/verification/run_lra_with_budget.py \
+  --stage all \
+  --memory-mib 1600 \
+  --input continuation/exact_search/zero_minimum9_reference_strict.smt2 \
+  --expected-sha256 65b0e3d6b2f234a6391db058771b8597a7bdd6feb003813ddc88630843ceab5b \
+  --capture continuation/exact_search/zero9_minimal_replay_capture1/capture \
+  --trace continuation/exact_search/zero9_rup_source_cache_run1/trimmed_trace.jsonl \
+  --certificates continuation/exact_search/zero9_selected_farkas_final1/arithmetic_certificates.jsonl \
+  --selected-indices continuation/exact_search/zero9_rup_source_cache_run1/selected_theory_indices.json \
+  --out-directory replay_results/zero9_fresh

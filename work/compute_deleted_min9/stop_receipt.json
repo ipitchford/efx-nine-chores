@@ -1,0 +1,19 @@
+{
+  "status": "INTERRUPTED_WITHOUT_CONCLUSION",
+  "reason": "Prioritising prescribed-EF P8 with all3 minima distinct; full simultaneous-deletion solver remains active.",
+  "utc": "2026-10-07T18:15:54.062538+00:00",
+  "last_completed_iteration": {
+    "iteration": 54,
+    "status": "sat",
+    "clauses": 2825,
+    "check_seconds": 8.671139435000441,
+    "elapsed_seconds": 147.47393982099948,
+    "deleted_min_designated_EF_counts": [
+      4,
+      6,
+      2
+    ],
+    "full_EFX_allocations": 33,
+    "newly_added": 12
+  }
+}

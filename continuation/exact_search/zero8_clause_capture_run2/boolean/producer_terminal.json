@@ -1,0 +1,11 @@
+{
+  "status": "child_completed",
+  "returncode": -6,
+  "utc": "2026-10-07T22:34:48.860971+00:00",
+  "elapsed": 77.20388169999933,
+  "solver_verdict": null,
+  "input_sha256": "8d7458bc53d2eee88d71792f9b39c0f4f2576ffe40fc152ad793e8047bbc5c14",
+  "input_unchanged": true,
+  "core_saved": false,
+  "proof_saved": false
+}

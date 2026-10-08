@@ -1,0 +1,39 @@
+{
+  "status": "PASS_PRODUCER_CONTROLS",
+  "cases": [
+    {
+      "variables": 2,
+      "status": "PASS_INDEPENDENT_HINT_REPLAY",
+      "trace_records": 7
+    },
+    {
+      "variables": 3,
+      "status": "PASS_INDEPENDENT_HINT_REPLAY",
+      "trace_records": 15
+    },
+    {
+      "variables": 4,
+      "status": "PASS_INDEPENDENT_HINT_REPLAY",
+      "trace_records": 30
+    },
+    {
+      "variables": 5,
+      "status": "PASS_INDEPENDENT_HINT_REPLAY",
+      "trace_records": 62
+    },
+    {
+      "variables": 6,
+      "status": "PASS_INDEPENDENT_HINT_REPLAY",
+      "trace_records": 124
+    },
+    {
+      "status": "PASS_NON_RUP_REJECTED"
+    },
+    {
+      "status": "PASS_FINAL_EMPTY_FAILURE_PRESERVES_CHECKED_PREFIX"
+    }
+  ],
+  "producer_cpp_sha256": "f49d5af9f7cc9c724a5a9cc930a7803796574d1bc48d2669a9b6dd8325bc95e6",
+  "producer_executable_sha256": "70279de70099899a150e4cf6fe7b74417294d68cb573ce42d026339a6989eb78",
+  "checker_source_sha256": "7ece388b1466370bef950df80a2fe042611d2482b85d254360fbe25270c8041c"
+}

@@ -1,0 +1,10 @@
+{
+  "status": "COMPLETE_FRESH_REPLAY_THEN_UNCHANGED_IMMUTABLE_STAGE_BINDING",
+  "complete_verification_sha256": "700d08afaa9ba499e937654b2f3cd41b74ff17b822e3840eecd703e1f6f7958d",
+  "orchestration_driver_sha256": "a013f7c6ac37998cc751250e736cccd920b7b4758953b7f94969dc66df9e946a",
+  "address_space_cap_mib": 1600,
+  "mathematical_checking_functions_unchanged": true,
+  "all_three_mathematical_stages_executed_in_this_process": true,
+  "elapsed_seconds": 0.03366788300263579,
+  "completed_at_utc": "2026-10-08T00:16:41.142903+00:00"
+}

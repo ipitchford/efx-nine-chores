@@ -1,0 +1,20 @@
+{
+  "source": "economics_problem2/work/compute_designated8_allmin/fewest_model.json",
+  "results": [
+    {
+      "free_row": 0,
+      "status": "unsat",
+      "clauses": 621
+    },
+    {
+      "free_row": 1,
+      "status": "unsat",
+      "clauses": 435
+    },
+    {
+      "free_row": 2,
+      "status": "unsat",
+      "clauses": 288
+    }
+  ]
+}

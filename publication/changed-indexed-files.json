@@ -1,0 +1,20 @@
+{
+  "boundary": "Original index retained as history; this list exposes every revised indexed file.",
+  "changes": [
+    {
+      "path": "continuation/verification/check_lra_certificate.py",
+      "originalSha256": "87fa105d6f970cc27c1f4025bdc28282d63750e410532211961d840d7aa77fd0",
+      "currentSha256": "a04e85a6260bdceb457144b8c8ec3329207af22cd73e689c73dbfc7b7b22a686"
+    },
+    {
+      "path": "continuation/verification/run_lra_with_budget.py",
+      "originalSha256": "a013f7c6ac37998cc751250e736cccd920b7b4758953b7f94969dc66df9e946a",
+      "currentSha256": "a6e3333fd5d82f120ace5de9a1d13bfe14c3aaaf24518b59a5a51dea77ed19c9"
+    },
+    {
+      "path": "continuation/verification/test_budgeted_lra_replay.py",
+      "originalSha256": "b700e10407835db2a55e9c3781f98cc19f0632905642415e208dd00fb2ccdccf",
+      "currentSha256": "e63a05d0265d6c077f4f329b0d634b78b8b01b374cd2f6ae88b954095a230685"
+    }
+  ]
+}

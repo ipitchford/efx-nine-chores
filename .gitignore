@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.DS_Store
+tmp/
+output/
+replay_results/
+continuation/exact_search/zero9_minimal_replay_capture1/capture/theory_clauses.jsonl
+continuation/exact_search/zero9_rup_source_cache_run1/trimmed_trace.jsonl
+continuation/exact_search/zero9_selected_farkas_final1/arithmetic_certificates.jsonl
+*.aux
+*.log

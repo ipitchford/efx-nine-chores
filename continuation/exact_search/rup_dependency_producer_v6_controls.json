@@ -1,0 +1,75 @@
+{
+  "status": "PASS_BACKWARD_PRODUCER_CONTROLS",
+  "cases": [
+    {
+      "variables": 2,
+      "status": "PASS_INDEPENDENT_HINT_REPLAY",
+      "trace_records": 8
+    },
+    {
+      "variables": 2,
+      "status": "PASS_RESUMED_CANDIDATES_INDEPENDENT_REPLAY"
+    },
+    {
+      "variables": 3,
+      "status": "PASS_INDEPENDENT_HINT_REPLAY",
+      "trace_records": 16
+    },
+    {
+      "variables": 3,
+      "status": "PASS_RESUMED_CANDIDATES_INDEPENDENT_REPLAY"
+    },
+    {
+      "variables": 4,
+      "status": "PASS_INDEPENDENT_HINT_REPLAY",
+      "trace_records": 29
+    },
+    {
+      "variables": 4,
+      "status": "PASS_RESUMED_CANDIDATES_INDEPENDENT_REPLAY"
+    },
+    {
+      "variables": 5,
+      "status": "PASS_INDEPENDENT_HINT_REPLAY",
+      "trace_records": 59
+    },
+    {
+      "variables": 5,
+      "status": "PASS_RESUMED_CANDIDATES_INDEPENDENT_REPLAY"
+    },
+    {
+      "variables": 6,
+      "status": "PASS_INDEPENDENT_HINT_REPLAY",
+      "trace_records": 118
+    },
+    {
+      "variables": 6,
+      "status": "PASS_RESUMED_CANDIDATES_INDEPENDENT_REPLAY"
+    },
+    {
+      "status": "PASS_SELF_REFERENTIAL_CHECKPOINT_REJECTED"
+    },
+    {
+      "status": "PASS_TRUNCATED_TAIL_RECOMPUTED_AND_INDEPENDENTLY_REPLAYED"
+    },
+    {
+      "status": "PASS_INVALID_PROVISIONAL_REFUTATION_REJECTED",
+      "control": "provisional_opposite_units"
+    },
+    {
+      "status": "PASS_INVALID_PROVISIONAL_REFUTATION_REJECTED",
+      "control": "future_binary_and_unit"
+    },
+    {
+      "status": "PASS_INVALID_PROVISIONAL_REFUTATION_REJECTED",
+      "control": "self_or_future_empty"
+    },
+    {
+      "status": "PASS_INVALID_PROVISIONAL_REFUTATION_REJECTED",
+      "control": "satisfiable_complete_capture"
+    }
+  ],
+  "producer_cpp_sha256": "2648db7a10c77853c6dcf66ff628ef0ead590a0a2c34c6ac5c1ca153ddb47097",
+  "producer_executable_sha256": "205d5fb1eef7b2b64d7413db971c7805200385ce12beb4b2096ca626b7764b06",
+  "checker_source_sha256": "7ece388b1466370bef950df80a2fe042611d2482b85d254360fbe25270c8041c"
+}

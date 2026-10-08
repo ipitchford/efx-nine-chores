@@ -1,0 +1,224 @@
+{
+  "status": "PASS",
+  "fixtures": [
+    {
+      "rows": [
+        [
+          4,
+          24,
+          95,
+          149,
+          79,
+          76,
+          37,
+          30
+        ],
+        [
+          152,
+          9,
+          36,
+          131,
+          11,
+          58,
+          40,
+          148
+        ],
+        [
+          49,
+          32,
+          3,
+          84,
+          54,
+          96,
+          127,
+          64
+        ]
+      ],
+      "canonical_domain": true,
+      "surjective_efx_allocations": 119
+    },
+    {
+      "rows": [
+        [
+          1,
+          88,
+          146,
+          141,
+          69,
+          56,
+          16,
+          14
+        ],
+        [
+          24,
+          1,
+          12,
+          6,
+          11,
+          132,
+          8,
+          118
+        ],
+        [
+          76,
+          15,
+          2,
+          85,
+          16,
+          120,
+          52,
+          132
+        ]
+      ],
+      "canonical_domain": true,
+      "surjective_efx_allocations": 108
+    },
+    {
+      "rows": [
+        [
+          7,
+          109,
+          136,
+          148,
+          145,
+          107,
+          64,
+          41
+        ],
+        [
+          26,
+          3,
+          132,
+          146,
+          99,
+          12,
+          122,
+          75
+        ],
+        [
+          119,
+          22,
+          6,
+          111,
+          95,
+          96,
+          66,
+          126
+        ]
+      ],
+      "canonical_domain": true,
+      "surjective_efx_allocations": 115
+    },
+    {
+      "rows": [
+        [
+          2394,
+          2395,
+          2396,
+          2401,
+          2400,
+          2399,
+          2398,
+          2397
+        ],
+        [
+          2395,
+          2394,
+          2396,
+          2397,
+          2398,
+          2399,
+          2400,
+          2401
+        ],
+        [
+          2395,
+          2396,
+          2394,
+          2397,
+          2398,
+          2399,
+          2400,
+          2401
+        ]
+      ],
+      "canonical_domain": true,
+      "surjective_efx_allocations": 324
+    },
+    {
+      "rows": [
+        [
+          2401,
+          2401,
+          2401,
+          2401,
+          2401,
+          2401,
+          2401,
+          2401
+        ],
+        [
+          2401,
+          2401,
+          2401,
+          2401,
+          2401,
+          2401,
+          2401,
+          2401
+        ],
+        [
+          2401,
+          2401,
+          2401,
+          2401,
+          2401,
+          2401,
+          2401,
+          2401
+        ]
+      ],
+      "canonical_domain": false,
+      "surjective_efx_allocations": 1680
+    },
+    {
+      "rows": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "canonical_domain": false,
+      "surjective_efx_allocations": 5796
+    }
+  ],
+  "actual_bv_atoms_checked": 57822,
+  "allocation_clauses_checked": 34776,
+  "exact_comparison": "Actual unsigned bit-vector AST against independently summed integer deletion inequalities"
+}

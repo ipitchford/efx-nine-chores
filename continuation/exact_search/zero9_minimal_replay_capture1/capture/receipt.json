@@ -1,0 +1,40 @@
+{
+  "status": "DERIVED_REPLAY_SOURCE_STREAMS_ONLY",
+  "finished_at_utc": "2026-10-08T00:03:00.043723+00:00",
+  "input_sha256": "65b0e3d6b2f234a6391db058771b8597a7bdd6feb003813ddc88630843ceab5b",
+  "unique_atoms": 18066,
+  "unique_theory_clauses": 3234215,
+  "solver_invoked": false,
+  "solver_verdict": null,
+  "source_solver_verdict": "unsat",
+  "source_atom_and_clause_indices_unchanged": true,
+  "source_capture_receipt_sha256": "53cb13091ced3b9799c7a88a67f457e373697340150e254f3bef98a8fa2b3ff8",
+  "source_capture_input_binding_sha256": "a31b46824ef77a3806527e24da35572775df4d405f4296823744b5a2e2ced8c0",
+  "omitted_raw_callback_streams": {
+    "rup_clauses.jsonl": {
+      "sha256": "e0629aea22cf72414681e99a2e71057c197715ea6b05ecb33ee4784b7be27aa6",
+      "bytes": 136642201
+    },
+    "assumptions.jsonl": {
+      "sha256": "d5e2b8565c02cec9c906d6eab0220103369a320a4879f0d73ff01a38f7d052e4",
+      "bytes": 1942162
+    }
+  },
+  "omission_scope": "Raw callback RUP and assumption logs are not axioms in the final hinted RUP/Farkas proof. All original CNF, oriented affine atoms, and theory-clause source indices are unchanged.",
+  "independent_input_atom_rebinding_required": true,
+  "independent_certificate_complete": false,
+  "files": {
+    "atoms.jsonl": {
+      "sha256": "07363e1475cf95ef9e66060e9030b0541f95150dab0aada68aea11236b7a5592",
+      "bytes": 1408282
+    },
+    "input_clauses.jsonl": {
+      "sha256": "435f7af9909281ca31fa3d5a646e4caa5bb53fb36bc993895d6f5b6f20317c66",
+      "bytes": 1890621
+    },
+    "theory_clauses.jsonl": {
+      "sha256": "76ed7b45fe3cebe508563b9719dad6dd4893f61a5313b32dd2d4a0784dff38be",
+      "bytes": 138842335
+    }
+  }
+}

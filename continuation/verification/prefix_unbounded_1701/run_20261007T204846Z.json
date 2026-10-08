@@ -1,0 +1,20 @@
+{
+  "status": "running",
+  "started_utc": "2026-10-07T20:48:46.944451+00:00",
+  "config": {
+    "out": "continuation/prefix_regions_v3",
+    "deadline": 1800.0,
+    "check_timeout": 180,
+    "oracle_timeout": 30,
+    "arith": 2,
+    "max_steps": 3000,
+    "memory_mib": 1800,
+    "resume": true,
+    "fixed_minima": true,
+    "restricted_ninth": true
+  },
+  "note": "Only an explicit solver verdict establishes SAT or UNSAT.",
+  "resumed_regions": 922,
+  "next_step": 922,
+  "last_completed_step": 1700
+}

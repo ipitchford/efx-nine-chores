@@ -1,0 +1,9 @@
+{
+  "synthetic_filtering": true,
+  "arithmetic_acceptance_claimed": false,
+  "strict_extras_rejected": true,
+  "duplicate_rejected": true,
+  "missing_rejected": true,
+  "composer_sha256": "c115376fe87391267dd5a22a09ebe005b432be280b273b394b0231b6eeea7e10",
+  "fixture_path": "/workspace/scratch/5abf44ff3fd9/economics_problem2/tmp/farkas_filter_controls_5oxlibww"
+}

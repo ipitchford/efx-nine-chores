@@ -1,0 +1,18 @@
+name: Exact certificate checks
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  replay:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Restore losslessly compressed proof streams
+        run: python3 publication/replay.py restore
+      - name: Check all publication manifest entries
+        run: python3 publication/replay.py manifest
+      - name: Adversarial controls
+        run: python3 publication/replay.py controls
+      - name: Full exact certificate replay
+        run: python3 publication/replay.py replay

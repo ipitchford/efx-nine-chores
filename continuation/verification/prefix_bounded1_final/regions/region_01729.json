@@ -1,0 +1,2936 @@
+{
+  "status": "covered",
+  "prefix": [
+    [
+      21586113281250000,
+      38286312500000005,
+      136447121093750025,
+      416678308593750125,
+      277783675781250625,
+      198768921875003125,
+      198767058593765625,
+      179626593750078125
+    ],
+    [
+      928267361328125001,
+      21586113281250000,
+      2784800634765625025,
+      9390599832031250125,
+      3734652453125000625,
+      2849562494140628125,
+      2849557111328140625,
+      21587976562578125
+    ],
+    [
+      86349835937500001,
+      215874341406250005,
+      21586113281250000,
+      453334589062500125,
+      366985829687500625,
+      21588597656253125,
+      21588390625015625,
+      280636614843828125
+    ]
+  ],
+  "distinct_boxes": 983,
+  "extension_domain_lower": [
+    [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "coverage_scope": "ninth_columns_above_recorded_linear_lower_bounds",
+  "domain_inequalities": [
+    {
+      "row": 0,
+      "coeffs": [
+        -1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "row": 0,
+      "coeffs": [
+        -1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "row": 0,
+      "coeffs": [
+        -1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "row": 0,
+      "coeffs": [
+        -1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "row": 0,
+      "coeffs": [
+        -1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "row": 0,
+      "coeffs": [
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "row": 0,
+      "coeffs": [
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "row": 1,
+      "coeffs": [
+        1,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "row": 1,
+      "coeffs": [
+        0,
+        -1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "row": 1,
+      "coeffs": [
+        0,
+        -1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "row": 1,
+      "coeffs": [
+        0,
+        -1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "row": 1,
+      "coeffs": [
+        0,
+        -1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "row": 1,
+      "coeffs": [
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "row": 1,
+      "coeffs": [
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "row": 2,
+      "coeffs": [
+        1,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "row": 2,
+      "coeffs": [
+        0,
+        1,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "row": 2,
+      "coeffs": [
+        0,
+        0,
+        -1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "row": 2,
+      "coeffs": [
+        0,
+        0,
+        -1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "row": 2,
+      "coeffs": [
+        0,
+        0,
+        -1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "row": 2,
+      "coeffs": [
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "row": 2,
+      "coeffs": [
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "row": 0,
+      "coeffs": [
+        0,
+        -1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "row": 0,
+      "coeffs": [
+        0,
+        0,
+        0,
+        1,
+        -1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "row": 0,
+      "coeffs": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "row": 0,
+      "coeffs": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        -1,
+        0
+      ]
+    },
+    {
+      "row": 0,
+      "coeffs": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        -1
+      ]
+    }
+  ],
+  "region": [
+    {
+      "row": 0,
+      "coeffs": [
+        0,
+        0,
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        0
+      ]
+    },
+    {
+      "row": 0,
+      "coeffs": [
+        0,
+        1,
+        -1,
+        1,
+        -1,
+        0,
+        -1,
+        1
+      ]
+    },
+    {
+      "row": 0,
+      "coeffs": [
+        1,
+        1,
+        1,
+        -1,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "row": 1,
+      "coeffs": [
+        -1,
+        0,
+        -1,
+        1,
+        0,
+        0,
+        -1,
+        -2
+      ]
+    },
+    {
+      "row": 1,
+      "coeffs": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        -1,
+        0,
+        -2
+      ]
+    },
+    {
+      "row": 2,
+      "coeffs": [
+        0,
+        1,
+        1,
+        -1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "row": 2,
+      "coeffs": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        1
+      ]
+    },
+    {
+      "row": 2,
+      "coeffs": [
+        1,
+        0,
+        1,
+        -1,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "row": 2,
+      "coeffs": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        -1,
+        1,
+        0
+      ]
+    }
+  ],
+  "cover": [
+    {
+      "allocation": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        2
+      ],
+      "lower": [
+        416678308593750125,
+        9433775578125096901,
+        0
+      ],
+      "upper": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "allocation": [
+        0,
+        1,
+        0,
+        2,
+        0,
+        2,
+        0,
+        1,
+        1
+      ],
+      "lower": [
+        395084949218688145,
+        0,
+        0
+      ],
+      "upper": [
+        null,
+        10275689583984313151,
+        null
+      ]
+    }
+  ],
+  "certificate": {
+    "atoms": [
+      {
+        "row": 0,
+        "side": "lower",
+        "coeffs": [
+          0,
+          -1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          -1
+        ]
+      },
+      {
+        "row": 0,
+        "side": "lower",
+        "coeffs": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "row": 0,
+        "side": "lower",
+        "coeffs": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "row": 0,
+        "side": "lower",
+        "coeffs": [
+          1,
+          -1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          -1
+        ]
+      },
+      {
+        "row": 0,
+        "side": "lower",
+        "coeffs": [
+          1,
+          -1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          -1
+        ]
+      },
+      {
+        "row": 0,
+        "side": "lower",
+        "coeffs": [
+          1,
+          -1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "row": 1,
+        "side": "lower",
+        "coeffs": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "row": 1,
+        "side": "lower",
+        "coeffs": [
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "row": 1,
+        "side": "lower",
+        "coeffs": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "row": 1,
+        "side": "lower",
+        "coeffs": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "row": 1,
+        "side": "lower",
+        "coeffs": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "row": 1,
+        "side": "lower",
+        "coeffs": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "row": 1,
+        "side": "upper",
+        "coeffs": [
+          0,
+          -1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "row": 1,
+        "side": "upper",
+        "coeffs": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          -1
+        ]
+      },
+      {
+        "row": 1,
+        "side": "upper",
+        "coeffs": [
+          1,
+          -1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "row": 1,
+        "side": "upper",
+        "coeffs": [
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          -1
+        ]
+      },
+      {
+        "row": 2,
+        "side": "lower",
+        "coeffs": [
+          0,
+          -1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -1
+        ]
+      },
+      {
+        "row": 2,
+        "side": "lower",
+        "coeffs": [
+          0,
+          -1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          -1
+        ]
+      }
+    ],
+    "allocation_clauses": [
+      [
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      [
+        0,
+        3,
+        4,
+        5,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    ],
+    "always_incompatibilities": [
+      [
+        2
+      ]
+    ],
+    "premised_incompatibilities": [
+      {
+        "row": 0,
+        "coeffs": [
+          -1,
+          1,
+          -1,
+          1,
+          -1,
+          0,
+          0,
+          1
+        ],
+        "edges": [
+          [
+            5
+          ]
+        ]
+      },
+      {
+        "row": 0,
+        "coeffs": [
+          -1,
+          1,
+          -1,
+          1,
+          0,
+          0,
+          -1,
+          1
+        ],
+        "edges": [
+          [
+            4
+          ]
+        ]
+      },
+      {
+        "row": 0,
+        "coeffs": [
+          -1,
+          1,
+          0,
+          1,
+          -1,
+          0,
+          -1,
+          1
+        ],
+        "edges": [
+          [
+            3
+          ]
+        ]
+      },
+      {
+        "row": 0,
+        "coeffs": [
+          0,
+          0,
+          0,
+          1,
+          -1,
+          0,
+          0,
+          0
+        ],
+        "edges": [
+          [
+            1
+          ]
+        ]
+      },
+      {
+        "row": 0,
+        "coeffs": [
+          0,
+          1,
+          -1,
+          1,
+          -1,
+          0,
+          -1,
+          1
+        ],
+        "edges": [
+          [
+            0
+          ]
+        ]
+      },
+      {
+        "row": 1,
+        "coeffs": [
+          -1,
+          -2,
+          -1,
+          1,
+          0,
+          0,
+          -1,
+          0
+        ],
+        "edges": [
+          [
+            12,
+            11
+          ]
+        ]
+      },
+      {
+        "row": 1,
+        "coeffs": [
+          -1,
+          -2,
+          -1,
+          1,
+          0,
+          0,
+          0,
+          -1
+        ],
+        "edges": [
+          [
+            12,
+            10
+          ]
+        ]
+      },
+      {
+        "row": 1,
+        "coeffs": [
+          -1,
+          -2,
+          -1,
+          1,
+          0,
+          1,
+          -1,
+          -1
+        ],
+        "edges": [
+          [
+            12,
+            9
+          ]
+        ]
+      },
+      {
+        "row": 1,
+        "coeffs": [
+          -1,
+          -2,
+          0,
+          1,
+          0,
+          0,
+          -1,
+          -1
+        ],
+        "edges": [
+          [
+            12,
+            8
+          ]
+        ]
+      },
+      {
+        "row": 1,
+        "coeffs": [
+          -1,
+          -1,
+          -1,
+          1,
+          0,
+          0,
+          -1,
+          -1
+        ],
+        "edges": [
+          [
+            12,
+            7
+          ],
+          [
+            13,
+            11
+          ]
+        ]
+      },
+      {
+        "row": 1,
+        "coeffs": [
+          -1,
+          -1,
+          -1,
+          1,
+          0,
+          0,
+          0,
+          -2
+        ],
+        "edges": [
+          [
+            13,
+            10
+          ]
+        ]
+      },
+      {
+        "row": 1,
+        "coeffs": [
+          -1,
+          -1,
+          -1,
+          1,
+          0,
+          1,
+          -1,
+          -2
+        ],
+        "edges": [
+          [
+            13,
+            9
+          ]
+        ]
+      },
+      {
+        "row": 1,
+        "coeffs": [
+          -1,
+          -1,
+          0,
+          1,
+          0,
+          0,
+          -1,
+          -2
+        ],
+        "edges": [
+          [
+            13,
+            8
+          ]
+        ]
+      },
+      {
+        "row": 1,
+        "coeffs": [
+          -1,
+          0,
+          -1,
+          1,
+          0,
+          0,
+          -1,
+          -2
+        ],
+        "edges": [
+          [
+            13,
+            7
+          ]
+        ]
+      },
+      {
+        "row": 1,
+        "coeffs": [
+          0,
+          -2,
+          -1,
+          1,
+          0,
+          0,
+          -1,
+          -1
+        ],
+        "edges": [
+          [
+            12,
+            6
+          ]
+        ]
+      },
+      {
+        "row": 1,
+        "coeffs": [
+          0,
+          -2,
+          0,
+          0,
+          1,
+          -1,
+          0,
+          0
+        ],
+        "edges": [
+          [
+            14,
+            11
+          ]
+        ]
+      },
+      {
+        "row": 1,
+        "coeffs": [
+          0,
+          -2,
+          0,
+          0,
+          1,
+          -1,
+          1,
+          -1
+        ],
+        "edges": [
+          [
+            14,
+            10
+          ]
+        ]
+      },
+      {
+        "row": 1,
+        "coeffs": [
+          0,
+          -2,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -1
+        ],
+        "edges": [
+          [
+            14,
+            9
+          ]
+        ]
+      },
+      {
+        "row": 1,
+        "coeffs": [
+          0,
+          -2,
+          1,
+          0,
+          1,
+          -1,
+          0,
+          -1
+        ],
+        "edges": [
+          [
+            14,
+            8
+          ]
+        ]
+      },
+      {
+        "row": 1,
+        "coeffs": [
+          0,
+          -1,
+          -1,
+          1,
+          0,
+          0,
+          -1,
+          -2
+        ],
+        "edges": [
+          [
+            13,
+            6
+          ]
+        ]
+      },
+      {
+        "row": 1,
+        "coeffs": [
+          0,
+          -1,
+          0,
+          0,
+          1,
+          -1,
+          0,
+          -1
+        ],
+        "edges": [
+          [
+            14,
+            7
+          ],
+          [
+            15,
+            11
+          ]
+        ]
+      },
+      {
+        "row": 1,
+        "coeffs": [
+          0,
+          -1,
+          0,
+          0,
+          1,
+          -1,
+          1,
+          -2
+        ],
+        "edges": [
+          [
+            15,
+            10
+          ]
+        ]
+      },
+      {
+        "row": 1,
+        "coeffs": [
+          0,
+          -1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -2
+        ],
+        "edges": [
+          [
+            15,
+            9
+          ]
+        ]
+      },
+      {
+        "row": 1,
+        "coeffs": [
+          0,
+          -1,
+          1,
+          0,
+          1,
+          -1,
+          0,
+          -2
+        ],
+        "edges": [
+          [
+            15,
+            8
+          ]
+        ]
+      },
+      {
+        "row": 1,
+        "coeffs": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          -1,
+          0,
+          -2
+        ],
+        "edges": [
+          [
+            15,
+            7
+          ]
+        ]
+      },
+      {
+        "row": 1,
+        "coeffs": [
+          1,
+          -2,
+          0,
+          0,
+          1,
+          -1,
+          0,
+          -1
+        ],
+        "edges": [
+          [
+            14,
+            6
+          ]
+        ]
+      },
+      {
+        "row": 1,
+        "coeffs": [
+          1,
+          -1,
+          0,
+          0,
+          1,
+          -1,
+          0,
+          -2
+        ],
+        "edges": [
+          [
+            15,
+            6
+          ]
+        ]
+      },
+      {
+        "row": 2,
+        "coeffs": [
+          0,
+          1,
+          1,
+          -1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "edges": [
+          [
+            17
+          ]
+        ]
+      },
+      {
+        "row": 2,
+        "coeffs": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          -1,
+          0,
+          1
+        ],
+        "edges": [
+          [
+            16
+          ]
+        ]
+      }
+    ]
+  },
+  "arithmetic_premise_count": 29,
+  "constant_premise_count_before_deduplication": 16,
+  "unreduced_region": [
+    {
+      "row": 0,
+      "coeffs": [
+        -1,
+        0,
+        -1,
+        1,
+        -1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "row": 0,
+      "coeffs": [
+        -1,
+        0,
+        -1,
+        1,
+        0,
+        1,
+        -1,
+        0
+      ]
+    },
+    {
+      "row": 0,
+      "coeffs": [
+        -1,
+        0,
+        0,
+        1,
+        -1,
+        1,
+        -1,
+        0
+      ]
+    },
+    {
+      "row": 0,
+      "coeffs": [
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "row": 0,
+      "coeffs": [
+        -1,
+        1,
+        -1,
+        1,
+        0,
+        0,
+        -1,
+        1
+      ]
+    },
+    {
+      "row": 0,
+      "coeffs": [
+        -1,
+        1,
+        0,
+        1,
+        -1,
+        0,
+        -1,
+        1
+      ]
+    },
+    {
+      "row": 0,
+      "coeffs": [
+        0,
+        0,
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        0
+      ]
+    },
+    {
+      "row": 0,
+      "coeffs": [
+        0,
+        0,
+        0,
+        1,
+        -1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "row": 0,
+      "coeffs": [
+        0,
+        1,
+        -1,
+        1,
+        -1,
+        0,
+        -1,
+        1
+      ]
+    },
+    {
+      "row": 0,
+      "coeffs": [
+        1,
+        1,
+        1,
+        -1,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "row": 0,
+      "coeffs": [
+        1,
+        1,
+        1,
+        0,
+        -1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "row": 1,
+      "coeffs": [
+        -1,
+        -2,
+        -1,
+        1,
+        0,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "row": 1,
+      "coeffs": [
+        -1,
+        -2,
+        -1,
+        1,
+        0,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "row": 1,
+      "coeffs": [
+        -1,
+        -2,
+        -1,
+        1,
+        0,
+        1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "row": 1,
+      "coeffs": [
+        -1,
+        -2,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "row": 1,
+      "coeffs": [
+        -1,
+        -1,
+        -1,
+        1,
+        0,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "row": 1,
+      "coeffs": [
+        -1,
+        -1,
+        -1,
+        1,
+        0,
+        0,
+        0,
+        -2
+      ]
+    },
+    {
+      "row": 1,
+      "coeffs": [
+        -1,
+        -1,
+        -1,
+        1,
+        0,
+        1,
+        -1,
+        -2
+      ]
+    },
+    {
+      "row": 1,
+      "coeffs": [
+        -1,
+        -1,
+        -1,
+        1,
+        1,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "row": 1,
+      "coeffs": [
+        -1,
+        -1,
+        -1,
+        1,
+        1,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "row": 1,
+      "coeffs": [
+        -1,
+        -1,
+        -1,
+        1,
+        1,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "row": 1,
+      "coeffs": [
+        -1,
+        -1,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        -2
+      ]
+    },
+    {
+      "row": 1,
+      "coeffs": [
+        -1,
+        -1,
+        0,
+        1,
+        1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "row": 1,
+      "coeffs": [
+        -1,
+        0,
+        -1,
+        1,
+        0,
+        0,
+        -1,
+        -2
+      ]
+    },
+    {
+      "row": 1,
+      "coeffs": [
+        -1,
+        0,
+        -1,
+        1,
+        1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "row": 1,
+      "coeffs": [
+        0,
+        -2,
+        -1,
+        1,
+        0,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "row": 1,
+      "coeffs": [
+        0,
+        -2,
+        0,
+        0,
+        1,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "row": 1,
+      "coeffs": [
+        0,
+        -2,
+        0,
+        0,
+        1,
+        -1,
+        1,
+        -1
+      ]
+    },
+    {
+      "row": 1,
+      "coeffs": [
+        0,
+        -2,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "row": 1,
+      "coeffs": [
+        0,
+        -2,
+        1,
+        0,
+        1,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "row": 1,
+      "coeffs": [
+        0,
+        -1,
+        -1,
+        1,
+        0,
+        0,
+        -1,
+        -2
+      ]
+    },
+    {
+      "row": 1,
+      "coeffs": [
+        0,
+        -1,
+        -1,
+        1,
+        1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "row": 1,
+      "coeffs": [
+        0,
+        -1,
+        0,
+        0,
+        1,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "row": 1,
+      "coeffs": [
+        0,
+        -1,
+        0,
+        0,
+        1,
+        -1,
+        1,
+        -2
+      ]
+    },
+    {
+      "row": 1,
+      "coeffs": [
+        0,
+        -1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -2
+      ]
+    },
+    {
+      "row": 1,
+      "coeffs": [
+        0,
+        -1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        -1
+      ]
+    },
+    {
+      "row": 1,
+      "coeffs": [
+        0,
+        -1,
+        1,
+        0,
+        1,
+        -1,
+        0,
+        -2
+      ]
+    },
+    {
+      "row": 1,
+      "coeffs": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        -1,
+        0,
+        -2
+      ]
+    },
+    {
+      "row": 1,
+      "coeffs": [
+        1,
+        -2,
+        0,
+        0,
+        1,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "row": 1,
+      "coeffs": [
+        1,
+        -1,
+        0,
+        0,
+        1,
+        -1,
+        0,
+        -2
+      ]
+    },
+    {
+      "row": 1,
+      "coeffs": [
+        1,
+        -1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        -1
+      ]
+    },
+    {
+      "row": 2,
+      "coeffs": [
+        0,
+        1,
+        1,
+        -1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "row": 2,
+      "coeffs": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        1
+      ]
+    },
+    {
+      "row": 2,
+      "coeffs": [
+        1,
+        0,
+        1,
+        -1,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "row": 2,
+      "coeffs": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        -1,
+        1,
+        0
+      ]
+    }
+  ],
+  "linear_reduction": {
+    "original_count": 45,
+    "retained_count": 9,
+    "derivations": [
+      {
+        "target_index": 0,
+        "retained": [
+          {
+            "index": 0,
+            "weight": 1
+          }
+        ],
+        "background": [
+          {
+            "index": 6,
+            "weight": 1
+          },
+          {
+            "index": 25,
+            "weight": 1
+          }
+        ],
+        "coordinates": []
+      },
+      {
+        "target_index": 1,
+        "retained": [
+          {
+            "index": 0,
+            "weight": 1
+          }
+        ],
+        "background": [
+          {
+            "index": 6,
+            "weight": 1
+          },
+          {
+            "index": 23,
+            "weight": 1
+          },
+          {
+            "index": 24,
+            "weight": 1
+          },
+          {
+            "index": 25,
+            "weight": 1
+          }
+        ],
+        "coordinates": []
+      },
+      {
+        "target_index": 2,
+        "retained": [
+          {
+            "index": 0,
+            "weight": 1
+          }
+        ],
+        "background": [
+          {
+            "index": 0,
+            "weight": 1
+          },
+          {
+            "index": 21,
+            "weight": 1
+          }
+        ],
+        "coordinates": []
+      },
+      {
+        "target_index": 3,
+        "retained": [
+          {
+            "index": 1,
+            "weight": 1
+          }
+        ],
+        "background": [
+          {
+            "index": 5,
+            "weight": 1
+          }
+        ],
+        "coordinates": []
+      },
+      {
+        "target_index": 4,
+        "retained": [
+          {
+            "index": 1,
+            "weight": 1
+          }
+        ],
+        "background": [
+          {
+            "index": 4,
+            "weight": 1
+          },
+          {
+            "index": 23,
+            "weight": 1
+          }
+        ],
+        "coordinates": []
+      },
+      {
+        "target_index": 5,
+        "retained": [
+          {
+            "index": 1,
+            "weight": 1
+          }
+        ],
+        "background": [
+          {
+            "index": 0,
+            "weight": 1
+          },
+          {
+            "index": 21,
+            "weight": 1
+          }
+        ],
+        "coordinates": []
+      },
+      {
+        "target_index": 6,
+        "retained": [
+          {
+            "index": 0,
+            "weight": 1
+          }
+        ],
+        "background": [],
+        "coordinates": []
+      },
+      {
+        "target_index": 7,
+        "retained": [
+          {
+            "index": 1,
+            "weight": 1
+          }
+        ],
+        "background": [
+          {
+            "index": 21,
+            "weight": 1
+          },
+          {
+            "index": 25,
+            "weight": 1
+          }
+        ],
+        "coordinates": []
+      },
+      {
+        "target_index": 8,
+        "retained": [
+          {
+            "index": 1,
+            "weight": 1
+          }
+        ],
+        "background": [],
+        "coordinates": []
+      },
+      {
+        "target_index": 9,
+        "retained": [
+          {
+            "index": 2,
+            "weight": 1
+          }
+        ],
+        "background": [],
+        "coordinates": []
+      },
+      {
+        "target_index": 10,
+        "retained": [
+          {
+            "index": 1,
+            "weight": 1
+          },
+          {
+            "index": 2,
+            "weight": 1
+          }
+        ],
+        "background": [
+          {
+            "index": 21,
+            "weight": 1
+          },
+          {
+            "index": 25,
+            "weight": 1
+          }
+        ],
+        "coordinates": []
+      },
+      {
+        "target_index": 11,
+        "retained": [
+          {
+            "index": 3,
+            "weight": 1
+          }
+        ],
+        "background": [
+          {
+            "index": 13,
+            "weight": 2
+          }
+        ],
+        "coordinates": []
+      },
+      {
+        "target_index": 12,
+        "retained": [
+          {
+            "index": 3,
+            "weight": 1
+          }
+        ],
+        "background": [
+          {
+            "index": 12,
+            "weight": 1
+          },
+          {
+            "index": 13,
+            "weight": 1
+          }
+        ],
+        "coordinates": []
+      },
+      {
+        "target_index": 13,
+        "retained": [
+          {
+            "index": 3,
+            "weight": 1
+          }
+        ],
+        "background": [
+          {
+            "index": 11,
+            "weight": 1
+          },
+          {
+            "index": 13,
+            "weight": 1
+          }
+        ],
+        "coordinates": []
+      },
+      {
+        "target_index": 14,
+        "retained": [
+          {
+            "index": 3,
+            "weight": 1
+          }
+        ],
+        "background": [
+          {
+            "index": 8,
+            "weight": 1
+          },
+          {
+            "index": 13,
+            "weight": 1
+          }
+        ],
+        "coordinates": []
+      },
+      {
+        "target_index": 15,
+        "retained": [
+          {
+            "index": 3,
+            "weight": 1
+          }
+        ],
+        "background": [
+          {
+            "index": 13,
+            "weight": 1
+          }
+        ],
+        "coordinates": []
+      },
+      {
+        "target_index": 16,
+        "retained": [
+          {
+            "index": 3,
+            "weight": 1
+          }
+        ],
+        "background": [
+          {
+            "index": 12,
+            "weight": 1
+          }
+        ],
+        "coordinates": []
+      },
+      {
+        "target_index": 17,
+        "retained": [
+          {
+            "index": 3,
+            "weight": 1
+          }
+        ],
+        "background": [
+          {
+            "index": 11,
+            "weight": 1
+          }
+        ],
+        "coordinates": []
+      },
+      {
+        "target_index": 18,
+        "retained": [
+          {
+            "index": 3,
+            "weight": 1
+          },
+          {
+            "index": 4,
+            "weight": 1
+          }
+        ],
+        "background": [
+          {
+            "index": 13,
+            "weight": 1
+          }
+        ],
+        "coordinates": [
+          {
+            "index": 7,
+            "weight": 3
+          }
+        ]
+      },
+      {
+        "target_index": 19,
+        "retained": [
+          {
+            "index": 3,
+            "weight": 1
+          },
+          {
+            "index": 4,
+            "weight": 1
+          }
+        ],
+        "background": [
+          {
+            "index": 13,
+            "weight": 1
+          }
+        ],
+        "coordinates": [
+          {
+            "index": 6,
+            "weight": 1
+          },
+          {
+            "index": 7,
+            "weight": 2
+          }
+        ]
+      },
+      {
+        "target_index": 20,
+        "retained": [
+          {
+            "index": 3,
+            "weight": 1
+          },
+          {
+            "index": 4,
+            "weight": 1
+          }
+        ],
+        "background": [
+          {
+            "index": 13,
+            "weight": 1
+          }
+        ],
+        "coordinates": [
+          {
+            "index": 5,
+            "weight": 1
+          },
+          {
+            "index": 7,
+            "weight": 2
+          }
+        ]
+      },
+      {
+        "target_index": 21,
+        "retained": [
+          {
+            "index": 3,
+            "weight": 1
+          }
+        ],
+        "background": [
+          {
+            "index": 8,
+            "weight": 1
+          }
+        ],
+        "coordinates": []
+      },
+      {
+        "target_index": 22,
+        "retained": [
+          {
+            "index": 3,
+            "weight": 1
+          },
+          {
+            "index": 4,
+            "weight": 1
+          }
+        ],
+        "background": [
+          {
+            "index": 8,
+            "weight": 1
+          }
+        ],
+        "coordinates": [
+          {
+            "index": 7,
+            "weight": 3
+          }
+        ]
+      },
+      {
+        "target_index": 23,
+        "retained": [
+          {
+            "index": 3,
+            "weight": 1
+          }
+        ],
+        "background": [],
+        "coordinates": []
+      },
+      {
+        "target_index": 24,
+        "retained": [
+          {
+            "index": 3,
+            "weight": 1
+          },
+          {
+            "index": 4,
+            "weight": 1
+          }
+        ],
+        "background": [],
+        "coordinates": [
+          {
+            "index": 7,
+            "weight": 3
+          }
+        ]
+      },
+      {
+        "target_index": 25,
+        "retained": [
+          {
+            "index": 3,
+            "weight": 1
+          }
+        ],
+        "background": [
+          {
+            "index": 7,
+            "weight": 1
+          },
+          {
+            "index": 13,
+            "weight": 1
+          }
+        ],
+        "coordinates": []
+      },
+      {
+        "target_index": 26,
+        "retained": [
+          {
+            "index": 4,
+            "weight": 1
+          }
+        ],
+        "background": [
+          {
+            "index": 13,
+            "weight": 2
+          }
+        ],
+        "coordinates": []
+      },
+      {
+        "target_index": 27,
+        "retained": [
+          {
+            "index": 4,
+            "weight": 1
+          }
+        ],
+        "background": [
+          {
+            "index": 12,
+            "weight": 1
+          },
+          {
+            "index": 13,
+            "weight": 1
+          }
+        ],
+        "coordinates": []
+      },
+      {
+        "target_index": 28,
+        "retained": [
+          {
+            "index": 4,
+            "weight": 1
+          }
+        ],
+        "background": [
+          {
+            "index": 11,
+            "weight": 1
+          },
+          {
+            "index": 13,
+            "weight": 1
+          }
+        ],
+        "coordinates": []
+      },
+      {
+        "target_index": 29,
+        "retained": [
+          {
+            "index": 4,
+            "weight": 1
+          }
+        ],
+        "background": [
+          {
+            "index": 8,
+            "weight": 1
+          },
+          {
+            "index": 13,
+            "weight": 1
+          }
+        ],
+        "coordinates": []
+      },
+      {
+        "target_index": 30,
+        "retained": [
+          {
+            "index": 3,
+            "weight": 1
+          }
+        ],
+        "background": [
+          {
+            "index": 7,
+            "weight": 1
+          }
+        ],
+        "coordinates": []
+      },
+      {
+        "target_index": 31,
+        "retained": [
+          {
+            "index": 3,
+            "weight": 1
+          },
+          {
+            "index": 4,
+            "weight": 1
+          }
+        ],
+        "background": [
+          {
+            "index": 7,
+            "weight": 1
+          }
+        ],
+        "coordinates": [
+          {
+            "index": 7,
+            "weight": 3
+          }
+        ]
+      },
+      {
+        "target_index": 32,
+        "retained": [
+          {
+            "index": 4,
+            "weight": 1
+          }
+        ],
+        "background": [
+          {
+            "index": 13,
+            "weight": 1
+          }
+        ],
+        "coordinates": []
+      },
+      {
+        "target_index": 33,
+        "retained": [
+          {
+            "index": 4,
+            "weight": 1
+          }
+        ],
+        "background": [
+          {
+            "index": 12,
+            "weight": 1
+          }
+        ],
+        "coordinates": []
+      },
+      {
+        "target_index": 34,
+        "retained": [
+          {
+            "index": 4,
+            "weight": 1
+          }
+        ],
+        "background": [
+          {
+            "index": 11,
+            "weight": 1
+          }
+        ],
+        "coordinates": []
+      },
+      {
+        "target_index": 35,
+        "retained": [
+          {
+            "index": 3,
+            "weight": "1/2"
+          }
+        ],
+        "background": [
+          {
+            "index": 11,
+            "weight": 1
+          }
+        ],
+        "coordinates": [
+          {
+            "index": 0,
+            "weight": "1/2"
+          },
+          {
+            "index": 2,
+            "weight": "1/2"
+          },
+          {
+            "index": 3,
+            "weight": "1/2"
+          },
+          {
+            "index": 6,
+            "weight": "1/2"
+          }
+        ]
+      },
+      {
+        "target_index": 36,
+        "retained": [
+          {
+            "index": 4,
+            "weight": 1
+          }
+        ],
+        "background": [
+          {
+            "index": 8,
+            "weight": 1
+          }
+        ],
+        "coordinates": []
+      },
+      {
+        "target_index": 37,
+        "retained": [
+          {
+            "index": 4,
+            "weight": 1
+          }
+        ],
+        "background": [],
+        "coordinates": []
+      },
+      {
+        "target_index": 38,
+        "retained": [
+          {
+            "index": 4,
+            "weight": 1
+          }
+        ],
+        "background": [
+          {
+            "index": 7,
+            "weight": 1
+          },
+          {
+            "index": 13,
+            "weight": 1
+          }
+        ],
+        "coordinates": []
+      },
+      {
+        "target_index": 39,
+        "retained": [
+          {
+            "index": 4,
+            "weight": 1
+          }
+        ],
+        "background": [
+          {
+            "index": 7,
+            "weight": 1
+          }
+        ],
+        "coordinates": []
+      },
+      {
+        "target_index": 40,
+        "retained": [
+          {
+            "index": 4,
+            "weight": 1
+          }
+        ],
+        "background": [
+          {
+            "index": 7,
+            "weight": 1
+          }
+        ],
+        "coordinates": [
+          {
+            "index": 2,
+            "weight": 1
+          },
+          {
+            "index": 5,
+            "weight": 1
+          },
+          {
+            "index": 6,
+            "weight": 1
+          },
+          {
+            "index": 7,
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "target_index": 41,
+        "retained": [
+          {
+            "index": 5,
+            "weight": 1
+          }
+        ],
+        "background": [],
+        "coordinates": []
+      },
+      {
+        "target_index": 42,
+        "retained": [
+          {
+            "index": 6,
+            "weight": 1
+          }
+        ],
+        "background": [],
+        "coordinates": []
+      },
+      {
+        "target_index": 43,
+        "retained": [
+          {
+            "index": 7,
+            "weight": 1
+          }
+        ],
+        "background": [],
+        "coordinates": []
+      },
+      {
+        "target_index": 44,
+        "retained": [
+          {
+            "index": 8,
+            "weight": 1
+          }
+        ],
+        "background": [],
+        "coordinates": []
+      }
+    ]
+  },
+  "verification": {
+    "status": "PASS",
+    "coverage_scope": "ninth_columns_above_recorded_linear_lower_bounds",
+    "method": "literal EFX box derivation, linear premise identity checks, and propositional UNSAT replay"
+  },
+  "elapsed_s": 0.5141456319979625,
+  "replay": {
+    "status": "PASS",
+    "coverage_scope": "ninth_columns_above_recorded_linear_lower_bounds",
+    "method": "literal EFX box derivation, linear premise identity checks, and propositional UNSAT replay"
+  },
+  "independent_replay": {
+    "status": "PASS",
+    "prefix_columns": 8,
+    "cover_allocations": 2,
+    "region_inequalities": 9,
+    "background_inequalities": 26,
+    "conic_identities": 45,
+    "propositional_states": 2,
+    "coverage_scope": "ninth_columns_above_recorded_linear_lower_bounds",
+    "extension_domain_lower": [
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "method": "Independent literal reconstruction, exact rational linear identities, exhaustive Boolean choice recursion; standard library only"
+  },
+  "step": 1729,
+  "unperturbed_prefix": [
+    [
+      55260450,
+      98012960,
+      349304630,
+      1066696470,
+      711126210,
+      508848440,
+      508843670,
+      459844080
+    ],
+    [
+      2376364445,
+      55260450,
+      7129089625,
+      24039935570,
+      9560710280,
+      7294879985,
+      7294866205,
+      55265220
+    ],
+    [
+      221055580,
+      552638314,
+      55260450,
+      1160536548,
+      939483724,
+      55266810,
+      55266280,
+      718429734
+    ]
+  ],
+  "unperturbed_prefix_in_region": true
+}

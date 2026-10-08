@@ -1,0 +1,598 @@
+{
+  "main_status": "proved_with_independent_exact_certificate",
+  "updated_at_utc": "2026-10-08T00:21:50.928385+00:00",
+  "all_supervised_runs_terminal": true,
+  "release_audit_status": "PASS",
+  "release_audit_scope": "Complete independently checked nine-chore refutation and full target correspondence, accepted alternative eight-chore baseline, and the separately recorded exact local/formula audits.",
+  "release_index": "continuation/verification/release_certificate_index.json",
+  "release_certificate_replay": "continuation/verification/release_replay_final_certificates/release_replay.json",
+  "release_zero_formula_replay": "continuation/verification/release_replay_final_zero_formula/release_replay.json",
+  "prefix_evidence": {
+    "regions": 1956,
+    "unrestricted_regions": 300,
+    "restricted_regions": 1656,
+    "assertions": 2008,
+    "domain_assertions": 52,
+    "audit": "continuation/verification/release_replay_final_certificates/bounded_prefix_snapshot_audit.json",
+    "audit_sha256": "8efa65326ca6b5a23b6d9ae8971ff91d7cd8641b14ef3673b34b27b22cfa303c",
+    "formula": "continuation/verification/prefix_bounded1_final/formula.smt2",
+    "formula_sha256": "143c753bccaa2a5aca123ed0beb26fc97436b3862cf6ca2b23991a830581f8ac"
+  },
+  "row_evidence": {
+    "assertions": 6309,
+    "learned_exclusions": 6291,
+    "cores": 2005,
+    "singletons": 3238,
+    "static_pairs": 1048,
+    "domain_assertions": 18,
+    "audit": "continuation/verification/release_replay_final_certificates/row_snapshot_audit.json",
+    "audit_sha256": "1fd7c7ccd8c8bbe08083f4b31f22dcdbcb1522e769a406f7fbe9c4931331b8d1",
+    "formula": "continuation/structural_nine/row_elimination_batch1/outer_final.smt2",
+    "formula_sha256": "1fc2bec83744678c33126d36e26ea535ff31bab494e8a6c4f9ad662d46214ec4",
+    "coverage": "not_complete_for_this_frozen_family",
+    "noncoverage_witness": "continuation/verification/positive_outer_noncoverage_witness.json",
+    "noncoverage_witness_sha256": "fa987582dd2f70d84eed836b76c7f40e065d4b981a6978266828520ff611ddd8"
+  },
+  "zero_full_formula_evidence": {
+    "assertions": 18177,
+    "free_real_variables": 21,
+    "domain_assertions": 27,
+    "allocation_clauses": 18150,
+    "literal_positions": 191104,
+    "audit": "continuation/verification/release_replay_final_zero_formula/zero_minimum9_formula_audit.json",
+    "audit_sha256": "59df642e11ec99d2c29d929245af1add0623c88e5824faeed485357d7d9d126c",
+    "formula": "continuation/exact_search/zero_minimum9_reference_strict.smt2",
+    "formula_sha256": "65b0e3d6b2f234a6391db058771b8597a7bdd6feb003813ddc88630843ceab5b"
+  },
+  "zero_outer_evidence": {
+    "assertions": 6305,
+    "free_real_variables": 14,
+    "domain_assertions": 14,
+    "learned_exclusions": 6291,
+    "status": "SAT_outer_candidate_verified",
+    "audit": "continuation/verification/zero_outer_audit.json",
+    "audit_sha256": "85443bf19d52cb2f99de9b27f02d8886b2c95dbc1dfc7b123e4892820e4a32d5",
+    "formula": "continuation/structural_nine/zero_outer/zero_minimum_final_outer.smt2",
+    "formula_sha256": "7652b9e62a367ac0ee3e09ef8bbb5882831f1292af372e5ae425ff58141a7331",
+    "model": "continuation/structural_nine/zero_outer/run1_model.json",
+    "model_verification": "continuation/structural_nine/zero_outer/run1_model_verification.json",
+    "scope": "The model satisfies a necessary-condition relaxation and supplies no first row; no three-agent counterexample follows."
+  },
+  "strongest_finite_bound": {
+    "one_zero_per_row_positive_integer_bound": 2566,
+    "positive_common_minimum": 1,
+    "positive_nonminimum_costs_even": true,
+    "positive_integer_bound": 5132,
+    "integer_domain_exhausted": false,
+    "proof": "continuation/verification/primitive_cramer_bound.md",
+    "independent_review": "continuation/verification/primitive_cramer_bound.md",
+    "arithmetic_receipt": "continuation/verification/primitive_cramer_bound_audit.json",
+    "primitive_common_divisor_refinement": true,
+    "prior_frozen_formulas_unchanged": true
+  },
+  "final_runs": [
+    [
+      "Bounded full nine-chore search",
+      "UNKNOWN; timeout after 600.32 s",
+      "The complete bounded allocation formula remains undecided."
+    ],
+    [
+      "Bounded prefix search",
+      "UNKNOWN; wall-clock deadline at 601.15 s",
+      "1,956 certified local regions; complete coverage remains unresolved."
+    ],
+    [
+      "Two-row short continuation",
+      "Deadline; child returned normally at 608.88 s",
+      "326 new regions preserved; no global verdict."
+    ],
+    [
+      "Two-row batched continuation",
+      "UNKNOWN; child returned normally at 605.87 s",
+      "623 new regions; final 6,309-assertion input independently bound."
+    ],
+    [
+      "Zero-minimum eight-chore calibration",
+      "UNSAT in 9.50 s; proof extraction exhausted memory",
+      "A solver result for the eight-chore calibration; no independent proof object."
+    ],
+    [
+      "Zero-minimum full nine-chore search, attempt 2",
+      "UNKNOWN; out of memory after 349.11 s",
+      "Proof-enabled search ended without a decisive mathematical result."
+    ],
+    [
+      "Positive lifted eight-chore calibration",
+      "UNKNOWN; timeout after 27.04 s",
+      "Unit-margin calibration only; no lifted nine-chore solve."
+    ],
+    [
+      "Zero-minimum two-row outer search",
+      "SAT in 3.70 s; exact outer model checked",
+      "The current finite row-region family is incomplete; no full counterexample."
+    ],
+    [
+      "Full nine-chore zero-minimum formula, no-proof run",
+      "UNSAT in 591.67 s; normal exit",
+      "The independently reconstructed complete canonical counterexample formula is UNSAT according to Z3. End-to-end target reduction passed; independent UNSAT certificate pending."
+    ],
+    [
+      "Zero-minimum eight-chore CPC attempt",
+      "Native allocation failure; SIGABRT after 58.63 s",
+      "No durable solver verdict, proof object, or Ethos replay."
+    ],
+    [
+      "Zero-minimum eight-chore Yices calibration",
+      "UNKNOWN after 45.14 s",
+      "No independent solver corroboration of UNSAT and no proof object."
+    ],
+    [
+      "Full nine-chore memory-reduced CPC attempt",
+      "Native allocation failure; SIGABRT after 278.67 s",
+      "No durable solver verdict or proof object; no Ethos replay. The earlier Z3 UNSAT remains preserved."
+    ],
+    [
+      "Eight-chore theory capture, version 2",
+      "UNSAT in 45.37 s; normal exit",
+      "5,746 affine atoms and 248,984 theory clauses captured. Original-input binding and a 100-clause arithmetic precheck passed; no complete independent refutation yet."
+    ],
+    [
+      "Eight-chore Boolean CPC calibration",
+      "Native allocation failure; SIGABRT after 77.20 s",
+      "No solver verdict, selected core, or Boolean proof."
+    ],
+    [
+      "Eight-chore ordered theory/RUP capture, version 3",
+      "UNSAT in 51.51 s; normal exit",
+      "Captured theory and ordered RUP streams; original atom/input streams are truncated in the terminal artifact and require separately documented reconstruction before independent replay."
+    ],
+    [
+      "Full nine-chore arithmetic and ordered RUP capture",
+      "UNSAT in 1,327.74 s; normal exit",
+      "Same frozen full input; 18,066 atoms, 3,234,215 theory clauses, and 2,480,762 RUP records preserved. Full original-input/atom binding passed. Boolean and arithmetic refutation stages remain pending."
+    ],
+    [
+      "Full nine-chore sequential RUP extraction",
+      "Authorized early stop at 23:06:22 UTC; exec exit 130",
+      "Repeated propagation was too slow. This was neither a timeout nor a solver verdict; no refutation was obtained. Receipt: continuation/exact_search/zero9_rup_trim1_supervisor/early_stop_receipt.json."
+    ],
+    [
+      "Full nine-chore cached-closure RUP observation",
+      "Authorized early stop at 23:09:39 UTC; exec exit 130",
+      "10,000 recorded RUP clauses processed at the last observation; no refutation. Receipt: continuation/exact_search/zero9_rup_cached_observation1_supervisor/early_stop_receipt.json."
+    ],
+    [
+      "Full nine-chore backward RUP extraction, version 4",
+      "Observed hard wall timeout after 900.063 s; exit \u22129",
+      "No completed refutation. Last log: 43,000 justified records with 522 pending; bound input files unchanged. Receipt: continuation/exact_search/zero9_rup_backward_run1_supervisor/terminal.json."
+    ],
+    [
+      "Full nine-chore checkpointed RUP extraction, version 6",
+      "Authorized early stop at 23:50:21 UTC; exec exit 130",
+      "49,312 complete candidate justification records were sealed for resumption. This was neither a timeout nor a verdict; no refutation. Receipt: continuation/exact_search/zero9_rup_checkpoint_run1_supervisor/early_stop_receipt.json."
+    ],
+    [
+      "Nine-chore arithmetic candidate batch 1",
+      "Normal producer completion; 46,943 candidate records in 101.088 s",
+      "Clause-local candidate production only; final selection and independent full arithmetic replay remain required. Receipt: continuation/exact_search/zero9_farkas_pipeline_run1/terminal.json"
+    ],
+    [
+      "Nine-chore arithmetic candidate batch 2",
+      "Normal producer completion; 26,875 candidate records in 64.346 s",
+      "Clause-local candidate production only; final selection and independent full arithmetic replay remain required. Receipt: continuation/exact_search/zero9_farkas_pipeline_run2/terminal.json"
+    ],
+    [
+      "Nine-chore arithmetic candidate batch 3",
+      "Normal producer completion; 24,121 candidate records in 63.342 s",
+      "Clause-local candidate production only; final selection and independent full arithmetic replay remain required. Receipt: continuation/exact_search/zero9_farkas_pipeline_run3/terminal.json"
+    ],
+    [
+      "Nine-chore arithmetic candidate batch 4",
+      "Normal producer completion; 23,064 candidate records in 65.276 s",
+      "Clause-local candidate production only; final selection and independent full arithmetic replay remain required. Receipt: continuation/exact_search/zero9_farkas_pipeline_run4/terminal.json"
+    ],
+    [
+      "Nine-chore arithmetic candidate batch 5",
+      "Normal producer completion; 22,344 candidate records in 62.893 s",
+      "Clause-local candidate production only; final selection and independent full arithmetic replay remain required. Receipt: continuation/exact_search/zero9_farkas_pipeline_run5/terminal.json"
+    ],
+    [
+      "Nine-chore arithmetic candidate batch 6",
+      "Normal producer completion; 17,445 candidate records in 53.728 s",
+      "Clause-local candidate production only; final selection and independent full arithmetic replay remain required. Receipt: continuation/exact_search/zero9_farkas_pipeline_run6/terminal.json"
+    ],
+    [
+      "Nine-chore arithmetic candidate batch 7",
+      "Normal producer completion; 34,999 candidate records in 88.516 s",
+      "Clause-local candidate production only; final selection and independent full arithmetic replay remain required. Receipt: continuation/exact_search/zero9_farkas_pipeline_run7/terminal.json"
+    ],
+    [
+      "Nine-chore arithmetic candidate batch 8",
+      "Normal producer completion; 78,994 candidate records in 216.788 s",
+      "Clause-local candidate production only; final selection and independent full arithmetic replay remain required. Receipt: continuation/exact_search/zero9_farkas_pipeline_run8/terminal.json"
+    ],
+    [
+      "Full nine-chore source-closure RUP extraction",
+      "Normal exit 0 after 1124.329 s",
+      "Untrusted complete candidate, separately checked below. Receipt: continuation/exact_search/zero9_rup_source_cache_run1_supervisor/terminal.json"
+    ],
+    [
+      "Full nine-chore RUP replay with original 700 MiB cap",
+      "MemoryError; process exit 1",
+      "Resource failure only; no mathematical verdict. Receipt: continuation/verification/zero9_rup_700m_attempt1.json"
+    ],
+    [
+      "Full nine-chore independent Boolean refutation",
+      "PASS in 30.267 s under 1,600 MiB cap",
+      "All 172,146 derivations and 8,088,323 reasons checked; final selected arithmetic still required. Receipt: continuation/verification/zero9_rup_source_cache_independent.json"
+    ],
+    [
+      "Final missing arithmetic candidate generation",
+      "Normal exit 0 after 138.215 s",
+      "Producer/composition completion only. Independent full exact arithmetic replay still required. Receipt: continuation/exact_search/zero9_final_farkas_gap_run1/terminal.json"
+    ],
+    [
+      "Final selected arithmetic composition",
+      "Normal exit 0 after 8.126 s",
+      "Producer/composition completion only. Independent full exact arithmetic replay still required. Receipt: continuation/exact_search/zero9_selected_farkas_final1_supervisor/terminal.json"
+    ],
+    [
+      "Nine-chore arithmetic candidate batch 9",
+      "Normal producer completion; 51,340 candidate records in 138.869 s",
+      "Clause-local candidate production only. Receipt: continuation/exact_search/zero9_farkas_pipeline_run9/terminal.json"
+    ],
+    [
+      "Full nine-chore independent exact arithmetic certificate",
+      "PASS: all 370,780 selected theory clauses in 82.486 s",
+      "Exact Fraction arithmetic on all 1,317,350 multiplier positions; no floating-point arithmetic or solver verdict trusted. Receipt: continuation/verification/zero9_selected_farkas_independent.json"
+    ]
+  ],
+  "final_run_receipts": [
+    {
+      "label": "Bounded full nine-chore search",
+      "receipt": "continuation/exact_search/bounded9_fixed_min_fractional_run1.json",
+      "sha256": "3fc8892b1ad11d5abe0e82192ae3c8b681ce7a0e483efc847254e56ebf52a604"
+    },
+    {
+      "label": "Bounded prefix search",
+      "receipt": "continuation/verification/prefix_bounded1_final/result.json",
+      "sha256": "c6d016742924316eb44292382e18a0c4d2dc40c8b53d9ebcd213c1dc8d3dee83"
+    },
+    {
+      "label": "Two-row short continuation",
+      "receipt": "continuation/structural_nine/row_elimination_short1/terminal_receipt.json",
+      "sha256": "3096818bf7faee891d71472ee046a9ff6a9506697182aeed60720c0219cd70b6"
+    },
+    {
+      "label": "Two-row batched continuation",
+      "receipt": "continuation/structural_nine/row_elimination_batch1/terminal_receipt.json",
+      "sha256": "736421b9d9ef738fc891dfee297fe95bf5f8836e31dfcc58f2ca7929245248e4"
+    },
+    {
+      "label": "Zero-minimum eight-chore calibration",
+      "receipt": "continuation/exact_search/zero_minimum8_reference_calibration.json",
+      "sha256": "87b7417e3e85f18617168817aaa7ed492f46ae1698c3813e09b7e6028cad2228"
+    },
+    {
+      "label": "Zero-minimum full nine-chore search, attempt 2",
+      "receipt": "continuation/exact_search/zero_minimum9_reference_run2.json",
+      "sha256": "db6dd5120169530fb838a88265390ac759ffe628a49fce6494220ef01aeba6c8"
+    },
+    {
+      "label": "Positive lifted eight-chore calibration",
+      "receipt": "continuation/exact_search/lifted8_common_minimum_calibration.json",
+      "sha256": "ae83a0eff6c083b4ace7e5ee394d47a9f78113ecd67c07db84bc7cf7214117fd"
+    },
+    {
+      "label": "Zero-minimum two-row outer search",
+      "receipt": "continuation/structural_nine/zero_outer/run1_verdict.json",
+      "sha256": "fdb199ec8b05fd94dce600928f2d71560207016cd07d7db24de2ede636376c4a"
+    },
+    {
+      "label": "Full nine-chore zero-minimum formula, no-proof run",
+      "receipt": "continuation/exact_search/zero_minimum9_reference_noproof_run1.json",
+      "sha256": "5fb968e194abd79ac582bc0bb29d2cac066253559bc093b6dc88147abf315acb"
+    },
+    {
+      "label": "Zero-minimum eight-chore CPC attempt",
+      "receipt": "continuation/exact_search/zero_minimum8_cvc5_calibration90/producer_terminal.json",
+      "sha256": "dd0a703b2bd4e5d966a83e68f7028bc314baac9d47a3c9ba4f7fdb4a8a1cc9b1"
+    },
+    {
+      "label": "Zero-minimum eight-chore Yices calibration",
+      "receipt": "continuation/exact_search/zero_minimum8_yices_reference_run1/terminal.json",
+      "sha256": "b100f3f5234ddc2ba7e1ee1fa021151267d7780df818556a0aaa810e968e8d14"
+    },
+    {
+      "label": "Full nine-chore memory-reduced CPC attempt",
+      "receipt": "continuation/exact_search/zero_minimum9_cvc5_memory_reduced_attempt1/producer_terminal.json",
+      "sha256": "e91624b1274c5c3b6c3281d51c1af87fcbd9db674cb9f9b27d42ca2613908ef1"
+    },
+    {
+      "label": "Eight-chore theory capture, version 2",
+      "receipt": "continuation/exact_search/zero8_clause_capture_run2/capture/receipt.json",
+      "sha256": "cedb08565021c31809738137ada5334e89386747bd1c1f795ef0921b170b075c"
+    },
+    {
+      "label": "Eight-chore Boolean CPC calibration",
+      "receipt": "continuation/exact_search/zero8_clause_capture_run2/boolean/producer_terminal.json",
+      "sha256": "e65f04941036b76c01c739b33c1e293dedf217027dbaf3ed83e223d4037d9731"
+    },
+    {
+      "label": "Eight-chore ordered theory/RUP capture, version 3",
+      "receipt": "continuation/exact_search/zero8_clause_capture_run3/capture/receipt.json",
+      "sha256": "88237c8e500a1e7e8a477d7505ad28b39c7565a49d98bcb7f0979d52b54a55a4"
+    },
+    {
+      "label": "Full nine-chore arithmetic and ordered RUP capture",
+      "receipt": "continuation/exact_search/zero9_clause_capture_run1_durable_snapshot/capture/receipt.json",
+      "sha256": "53cb13091ced3b9799c7a88a67f457e373697340150e254f3bef98a8fa2b3ff8"
+    }
+  ],
+  "active_runs": [],
+  "interruption_policy": "A missing process or stale heartbeat without a terminal receipt remains an interrupted attempt with no solver verdict. Such attempts are not reported as observed timeouts.",
+  "prepared_artifacts_policy": "Prepared inputs and CPC configurations, including synthetic I/O controls, are distinct from actual solver results and independently checked mathematical proof objects.",
+  "positive_lifted_formula_evidence": {
+    "8": {
+      "audit": "continuation/verification/lifted8_formula_audit.json",
+      "audit_sha256": "c54ca25a24f740c0f717d14039dc925908abe13ef246acef2f46fbc3b0ebaa82",
+      "formula": "continuation/exact_search/lifted8_common_minimum_unit_margin.smt2",
+      "formula_sha256": "51c67bdca332dd676c9292b4f01e61c3be360ada9b6383f8adae53fec06daab8",
+      "assertions": 5843,
+      "domain_assertions": 47,
+      "allocation_clauses": 5796,
+      "free_real_variables": 21,
+      "literal_positions": 54360
+    },
+    "9": {
+      "audit": "continuation/verification/lifted9_formula_audit.json",
+      "audit_sha256": "74cc9d007539f6c2b5f021e5fbf81b5692c09ec1e186a7a051ed8c5cfdaf1a7d",
+      "formula": "continuation/exact_search/lifted9_common_minimum_unit_margin.smt2",
+      "formula_sha256": "602315074381fc17d061a3312454b25e7c6f0119e4a8f976d25e513f87472592",
+      "assertions": 18204,
+      "domain_assertions": 54,
+      "allocation_clauses": 18150,
+      "free_real_variables": 24,
+      "literal_positions": 191104
+    }
+  },
+  "release_completion_binding": "continuation/verification/release_completion_audit.json",
+  "release_completion_binding_sha256": "c54e744942b5e0120a0f5656518a19c3a6aa9996021964debbba6fe44edea469",
+  "main_solver_status": "UNSAT_for_the_full_equivalent_nine_chore_formula",
+  "main_proof_status": "PASS_complete_independent_exact_certificate_and_full_target_binding",
+  "main_status_scope": "Every three-agent nine-chore instance with arbitrary nonnegative additive real costs admits a complete literal EFX allocation, including owned zero-cost deletions and allowing empty bundles. Computer-assisted proof with explicit handwritten reductions and cited smaller-case premises; no proof-assistant formalization is claimed.",
+  "end_to_end_evidence": {
+    "audit": "continuation/verification/zero9_end_to_end_audit.md",
+    "binding": "continuation/verification/zero9_end_to_end_binding.json",
+    "binding_sha256": "4a672120db0a2a9ea92b3f795a20e5851350bdce6ec287126dab0fac846ac7ba",
+    "omitted_allocation_witnesses": "continuation/verification/zero9_omitted_empty_allocation_witnesses.csv",
+    "surjective_allocations": 18150,
+    "omitted_empty_bundle_allocations_independently_witnessed": 1533,
+    "complete_allocations_accounted_for": 19683,
+    "gap_identified": false,
+    "prior_baseline": "Ordinary eight-chore EFX existence; no D8 or P8 premise",
+    "solver_verdict_trust_still_required": true,
+    "alternative_checked_eight_baseline": "continuation/verification/zero8_full_target_binding.json"
+  },
+  "lra_certificate_prechecks": {
+    "input_binding": "continuation/verification/zero8_capture_v2_input_binding.json",
+    "spread_farkas": "continuation/verification/zero8_capture_v2_spread_farkas.json",
+    "spread_checked_clauses": 100,
+    "checker_controls": "continuation/verification/lra_checker_negative_controls.json",
+    "controls": 41,
+    "portable_complete_replay": "continuation/verification/check_lra_certificate.py",
+    "complete_eight_chore_certificate_passed": true,
+    "complete_nine_chore_certificate_passed": false
+  },
+  "previous_main_status": "solver_unsat_certificate_pending",
+  "historical_finite_bound_before_primitive_refinement": {
+    "one_zero_per_row_positive_integer_bound": 3831,
+    "positive_common_minimum": 1,
+    "positive_nonminimum_costs_even": true,
+    "positive_integer_bound": 7662,
+    "integer_domain_exhausted": false,
+    "proof": "continuation/exact_search/zero_minimum_reduction.md",
+    "independent_review": "continuation/verification/zero_minimum_independent_review.md"
+  },
+  "completed_independent_certificates": {
+    "zero_minimum_eight": {
+      "status": "PASS_INDEPENDENT_EXACT_LRA_UNSAT_CERTIFICATE",
+      "receipt": "continuation/verification/zero8_complete_lra_certificate.json",
+      "receipt_sha256": "56bf13ec58d04c9f4441d0409242b7314d6e15f0d54ef0e101ad0543828f9f29",
+      "full_target_binding": "continuation/verification/zero8_full_target_binding.json",
+      "full_target_binding_sha256": "336efb92cf99830882c6e534c72b7c1363a79a8ec630f7744c979a25ba5e8ff6",
+      "input_sha256": "20d56e8ecd4bfad40ad5c7786c7865442c9961569dabb9e1a8dfe415b584c08f",
+      "selected_original_clauses": 898,
+      "selected_theory_clauses": 27637,
+      "derived_rup_clauses": 10845,
+      "ordered_reason_positions": 405499,
+      "portable_replay": "continuation/verification/check_lra_certificate.py",
+      "relocation_control": "continuation/verification/lra_relocation_control.json",
+      "scope": "Ordinary eight-chore residual plus written reductions, unchanged checked seven residual, and cited KMS six-chore theorem. No nine-chore certificate inferred."
+    },
+    "zero_minimum_nine": {
+      "receipt": "continuation/verification/zero9_complete_lra_certificate.json",
+      "sha256": "2c5752801e050ed5fcf8f5b3fd9294d25589542a618eb3076e06a041519769d7",
+      "status": "PASS_INDEPENDENT_EXACT_LRA_UNSAT_CERTIFICATE",
+      "input_sha256": "65b0e3d6b2f234a6391db058771b8597a7bdd6feb003813ddc88630843ceab5b",
+      "selected_original_clauses": 4550,
+      "selected_theory_clauses": 370780,
+      "derived_rup_clauses": 172146,
+      "ordered_reason_positions": 8088323,
+      "full_target_binding": "continuation/verification/zero9_full_target_binding.json"
+    }
+  },
+  "zero9_capture_evidence": {
+    "capture": "continuation/exact_search/zero9_clause_capture_run1_durable_snapshot/capture",
+    "audit": "continuation/verification/zero9_capture_snapshot_input_binding.json",
+    "audit_sha256": "a31b46824ef77a3806527e24da35572775df4d405f4296823744b5a2e2ced8c0",
+    "original_assertions": 18177,
+    "atoms": 18066,
+    "theory_clause_records": 3234215,
+    "ordered_rup_records": 2480762,
+    "static_stream_integrity": "PASS_complete_original_assertions_and_atoms",
+    "boolean_refutation_independently_checked": true,
+    "all_selected_arithmetic_axioms_checked": true,
+    "accepted_replay_capture": "continuation/exact_search/zero9_minimal_replay_capture1/capture",
+    "minimal_capture_audit": "continuation/verification/zero9_minimal_capture_input_binding.json",
+    "minimal_capture_audit_sha256": "d325bd86d805a9d6a4ad46a701128b63c024a013326f8285606b69ba46926e8f",
+    "minimal_capture_provenance": "continuation/exact_search/zero9_minimal_replay_capture1/provenance_manifest.json",
+    "minimal_capture_provenance_sha256": "253dd5c1b5755a68846b81157e11760a8b297529157b83bac5e5b00afaf747d6",
+    "source_indices_unchanged": true,
+    "omitted_nonpremise_raw_stream_bytes": 138584363,
+    "minimal_capture_scope": "Exact original atoms, input clauses, theory clauses, and metadata; raw callback RUP/assumption logs omitted. Complete Boolean and arithmetic certificate now independently accepted against these unchanged source indices.",
+    "boolean_audit": "continuation/verification/zero9_rup_source_cache_independent.json",
+    "boolean_audit_sha256": "cf829cbabf9a364cbd7e70b23527ae54d2821b0f3d222567ca096353a5df8170",
+    "arithmetic_audit": "continuation/verification/zero9_selected_farkas_independent.json",
+    "arithmetic_audit_sha256": "6783706568374d7217351965c4ec613b0b548b80b0e748552bb5fc435a11debf",
+    "complete_certificate": "continuation/verification/zero9_complete_lra_certificate.json",
+    "complete_certificate_sha256": "2c5752801e050ed5fcf8f5b3fd9294d25589542a618eb3076e06a041519769d7"
+  },
+  "additional_boolean_producer_calibrations": {
+    "cached_closure_eight": {
+      "receipt": "continuation/verification/zero8_rup_cached_calibration1_independent.json",
+      "selected_theory_axioms": 27488,
+      "derived_clauses": 9696,
+      "scope": "Independent Boolean-only RUP calibration relative to selected theory axioms; no new arithmetic certificate."
+    },
+    "backward_eight": {
+      "receipt": "continuation/verification/zero8_rup_backward_calibration1_independent.json",
+      "selected_theory_axioms": 28037,
+      "derived_clauses": 12811,
+      "scope": "Independent Boolean-only RUP calibration relative to selected theory axioms; no new arithmetic certificate."
+    },
+    "monotone_eight": {
+      "receipt": "continuation/verification/zero8_rup_monotone_calibration1_independent.json",
+      "selected_theory_axioms": 27938,
+      "derived_clauses": 12916,
+      "scope": "Independent Boolean-only RUP calibration relative to selected theory axioms; no new arithmetic certificate."
+    },
+    "source_cache_eight": {
+      "receipt": "continuation/verification/zero8_rup_source_cache_calibration1_independent.json",
+      "selected_theory_axioms": 27622,
+      "derived_clauses": 11320,
+      "scope": "Independent Boolean-only RUP calibration relative to selected theory axioms; no new arithmetic certificate."
+    },
+    "source_cache_old_hint_resume_eight": {
+      "receipt": "continuation/verification/zero8_rup_source_cache_resume1_independent.json",
+      "selected_theory_axioms": 27938,
+      "derived_clauses": 12926,
+      "scope": "Independent Boolean-only RUP calibration relative to selected theory axioms; no new arithmetic certificate."
+    }
+  },
+  "latest_status_update_utc": "2026-10-08T00:21:50.928385+00:00",
+  "pipelined_arithmetic_candidates": {
+    "batches": [
+      {
+        "directory": "continuation/exact_search/zero9_farkas_pipeline_run1",
+        "terminal_receipt": "continuation/exact_search/zero9_farkas_pipeline_run1/terminal.json",
+        "status": "child_completed",
+        "returncode": 0,
+        "producer_reported_records": 46943,
+        "certificate_sha256": "5036c410be8b37aa4c30cf883d528526dd0416f4660a83feacca9f4f7eeb9778",
+        "closed_file_read_back_count": 46943,
+        "independent_mathematical_acceptance": false
+      },
+      {
+        "directory": "continuation/exact_search/zero9_farkas_pipeline_run2",
+        "terminal_receipt": "continuation/exact_search/zero9_farkas_pipeline_run2/terminal.json",
+        "status": "child_completed",
+        "returncode": 0,
+        "producer_reported_records": 26875,
+        "certificate_sha256": "02a2ff672e4a9b9e816af470a6c17a6fdc855b3228b94e581e61149c538ad148",
+        "closed_file_read_back_count": 26875,
+        "independent_mathematical_acceptance": false
+      },
+      {
+        "directory": "continuation/exact_search/zero9_farkas_pipeline_run3",
+        "terminal_receipt": "continuation/exact_search/zero9_farkas_pipeline_run3/terminal.json",
+        "status": "child_completed",
+        "returncode": 0,
+        "producer_reported_records": 24121,
+        "certificate_sha256": "7ea98143b59f5d7af1c1c8879c2cae671cb7ae327660257e0beb82c51804b3a0",
+        "closed_file_read_back_count": 24121,
+        "independent_mathematical_acceptance": false
+      },
+      {
+        "directory": "continuation/exact_search/zero9_farkas_pipeline_run4",
+        "terminal_receipt": "continuation/exact_search/zero9_farkas_pipeline_run4/terminal.json",
+        "status": "child_completed",
+        "returncode": 0,
+        "producer_reported_records": 23064,
+        "certificate_sha256": "69f11001ad1b80396303886f8c2eaa3511e4cba9f769a716f6e582cb4534b854",
+        "closed_file_read_back_count": 23064,
+        "independent_mathematical_acceptance": false
+      },
+      {
+        "directory": "continuation/exact_search/zero9_farkas_pipeline_run5",
+        "terminal_receipt": "continuation/exact_search/zero9_farkas_pipeline_run5/terminal.json",
+        "status": "child_completed",
+        "returncode": 0,
+        "producer_reported_records": 22344,
+        "certificate_sha256": "e6aa35956b2181b668e1e4713fc8f474c8044e5138e3dd1dc7a34f74a934ee3e",
+        "closed_file_read_back_count": 22344,
+        "independent_mathematical_acceptance": false
+      },
+      {
+        "directory": "continuation/exact_search/zero9_farkas_pipeline_run6",
+        "terminal_receipt": "continuation/exact_search/zero9_farkas_pipeline_run6/terminal.json",
+        "status": "child_completed",
+        "returncode": 0,
+        "producer_reported_records": 17445,
+        "certificate_sha256": "156cf6d4bbcb690c1fbf13702e6d57a088da3bfcd48927c2e8d9ae9f422a6321",
+        "closed_file_read_back_count": 17445,
+        "independent_mathematical_acceptance": false
+      },
+      {
+        "directory": "continuation/exact_search/zero9_farkas_pipeline_run7",
+        "terminal_receipt": "continuation/exact_search/zero9_farkas_pipeline_run7/terminal.json",
+        "status": "child_completed",
+        "returncode": 0,
+        "producer_reported_records": 34999,
+        "certificate_sha256": "b7f2217640401c2136ab3c7f2e9afc30d425f03fbe1c20aefae9d9353566666a",
+        "closed_file_read_back_count": 34999,
+        "independent_mathematical_acceptance": false
+      },
+      {
+        "directory": "continuation/exact_search/zero9_farkas_pipeline_run8",
+        "terminal_receipt": "continuation/exact_search/zero9_farkas_pipeline_run8/terminal.json",
+        "status": "child_completed",
+        "returncode": 0,
+        "producer_reported_records": 78994,
+        "certificate_sha256": "36e1fdee1247fa8f8543ee5b58817dc013af3414a5ed4c4045504b1e97be5431",
+        "closed_file_read_back_count": 78994,
+        "independent_mathematical_acceptance": false
+      },
+      {
+        "directory": "continuation/exact_search/zero9_farkas_pipeline_run9",
+        "terminal_receipt": "continuation/exact_search/zero9_farkas_pipeline_run9/terminal.json",
+        "status": "child_completed",
+        "returncode": 0,
+        "producer_reported_records": 51340,
+        "certificate_sha256": "e16f6e1b85864da816c26f5adad92fb9df23965d634af378e7f7b77e040f5d0e",
+        "closed_file_read_back_count": 51340,
+        "independent_mathematical_acceptance": false
+      }
+    ],
+    "sum_of_reported_candidate_records": 326125,
+    "independently_verified_main_arithmetic_stream": true,
+    "final_selected_set_pending": false,
+    "scope": "Earlier batches remain untrusted production artifacts. The single final exact-coverage stream, containing precisely the 370,780 admitted theory axioms, has separately passed the unchanged exact checker in full.",
+    "final_selected_theory_count": 370780,
+    "final_exact_stream": "continuation/exact_search/zero9_selected_farkas_final1/arithmetic_certificates.jsonl",
+    "final_exact_stream_sha256": "1158d4059ecb2ea0a0fce97a492e662a9b151b26f03fa33b6d839732d4d0e356"
+  },
+  "main_status_history": [
+    "unresolved_no_verdict",
+    "solver_unsat_certificate_pending",
+    "proved_with_independent_exact_certificate"
+  ],
+  "main_certificate": "continuation/verification/zero9_complete_lra_certificate.json",
+  "main_certificate_sha256": "2c5752801e050ed5fcf8f5b3fd9294d25589542a618eb3076e06a041519769d7",
+  "main_release_index": "continuation/verification/nine_release_index.json",
+  "main_release_index_sha256": "fe5874329dab1719ed5a089dce3d01eef1c89b6be6ccad13ee5ebe62bfff49e3",
+  "main_full_target_binding": "continuation/verification/zero9_full_target_binding.json",
+  "main_full_target_binding_sha256": "1b48db477eebc3c17a35a5c117f05027fb9918c2b79e7fbff9c66fbf4762d232",
+  "main_replay_command": "docs/zero9_replay_command.txt",
+  "main_replay_memory_mib": 1600
+}

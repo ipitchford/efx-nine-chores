@@ -1,0 +1,191 @@
+{
+  "status": "PASS",
+  "created_at_utc": "2026-10-07T21:48:35.094329+00:00",
+  "allocation_inclusion": "EFX(lowered) is a subset of EFX(original)",
+  "matrix_allocation_pairs": 262440,
+  "subset_residual_pairs": 23040,
+  "residual_mismatches": 0,
+  "inclusion_violations": 0,
+  "zero_deletion_mutation_detected": true,
+  "mutation_control": {
+    "costs": [
+      [
+        5,
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "assignment": [
+      0,
+      0,
+      1,
+      2
+    ],
+    "literal_efx": false,
+    "positive_cost_deletions_only": true
+  },
+  "determinant_arithmetic": {
+    "8": {
+      "dimension": 7,
+      "radicand": 705894,
+      "bound": 840,
+      "lower_square": 705600,
+      "upper_square": 707281,
+      "positive_private_integer_variables": 21,
+      "normalized_free_real_variables": 18,
+      "cost_bits": 10,
+      "maximum_row_sum": 5880,
+      "sum_bits": 13
+    },
+    "9": {
+      "dimension": 8,
+      "radicand": 14680064,
+      "bound": 3831,
+      "lower_square": 14676561,
+      "upper_square": 14684224,
+      "positive_private_integer_variables": 24,
+      "normalized_free_real_variables": 21,
+      "cost_bits": 12,
+      "maximum_row_sum": 30648,
+      "sum_bits": 15
+    }
+  },
+  "samples": [
+    {
+      "m": 8,
+      "sample": 0,
+      "efx_before": 1680,
+      "efx_after": 1260
+    },
+    {
+      "m": 8,
+      "sample": 1,
+      "efx_before": 6561,
+      "efx_after": 6561
+    },
+    {
+      "m": 8,
+      "sample": 2,
+      "efx_before": 114,
+      "efx_after": 103
+    },
+    {
+      "m": 8,
+      "sample": 3,
+      "efx_before": 149,
+      "efx_after": 122
+    },
+    {
+      "m": 8,
+      "sample": 4,
+      "efx_before": 117,
+      "efx_after": 113
+    },
+    {
+      "m": 8,
+      "sample": 5,
+      "efx_before": 109,
+      "efx_after": 85
+    },
+    {
+      "m": 8,
+      "sample": 6,
+      "efx_before": 133,
+      "efx_after": 108
+    },
+    {
+      "m": 8,
+      "sample": 7,
+      "efx_before": 91,
+      "efx_after": 89
+    },
+    {
+      "m": 8,
+      "sample": 8,
+      "efx_before": 140,
+      "efx_after": 127
+    },
+    {
+      "m": 8,
+      "sample": 9,
+      "efx_before": 98,
+      "efx_after": 90
+    },
+    {
+      "m": 9,
+      "sample": 0,
+      "efx_before": 1680,
+      "efx_after": 1680
+    },
+    {
+      "m": 9,
+      "sample": 1,
+      "efx_before": 19683,
+      "efx_after": 19683
+    },
+    {
+      "m": 9,
+      "sample": 2,
+      "efx_before": 361,
+      "efx_after": 339
+    },
+    {
+      "m": 9,
+      "sample": 3,
+      "efx_before": 409,
+      "efx_after": 394
+    },
+    {
+      "m": 9,
+      "sample": 4,
+      "efx_before": 360,
+      "efx_after": 319
+    },
+    {
+      "m": 9,
+      "sample": 5,
+      "efx_before": 326,
+      "efx_after": 269
+    },
+    {
+      "m": 9,
+      "sample": 6,
+      "efx_before": 316,
+      "efx_after": 290
+    },
+    {
+      "m": 9,
+      "sample": 7,
+      "efx_before": 343,
+      "efx_after": 295
+    },
+    {
+      "m": 9,
+      "sample": 8,
+      "efx_before": 392,
+      "efx_after": 295
+    },
+    {
+      "m": 9,
+      "sample": 9,
+      "efx_before": 326,
+      "efx_after": 296
+    }
+  ],
+  "script_sha256": "5464689ff70d136aab134b60f49fd0c62e7ba790765d1ac0a81179009b574a96",
+  "elapsed_seconds": 2.2330550879996736,
+  "scope": "Finite literal controls and exact arithmetic supplement the mathematical proof; no solver call."
+}

@@ -1,0 +1,1718 @@
+{
+  "status": "PASS_AFTER_EXACT_TYPE_REPAIR_NOT_GLOBAL_COVERAGE",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "checker_sha256": "288607fc42e9027e53d36b2634df9e7e8cbd9270b18efabb18628b3ad1eda1e2",
+  "elapsed_seconds": 7.504245509999237,
+  "peak_rss_kib": 60656,
+  "certificates_verified": 169,
+  "format_counts": {
+    "1": 60,
+    "2": 109
+  },
+  "failure_branches_verified": 24416,
+  "max_failure_branches": 8192,
+  "source_binding": "Every allocation, ID, other-row predicate list, and source core hash matched the original seeded record.",
+  "mutations_rejected": {
+    "previously_accepted_float_underflow_certificate": "AssertionError: coefficients must be exact integers",
+    "missing_failure_branch": "AssertionError: ",
+    "negative_alternative_weight": "AssertionError: ",
+    "zero_alternative_vector": "AssertionError: ",
+    "wrong_allocation_id": "AssertionError: ",
+    "changed_other_agent_literal": "AssertionError: ",
+    "float_failure_coefficients": "AssertionError: coefficients must be exact integers",
+    "float_alternative_weights": "AssertionError: ",
+    "omit_potential_minimum_trim": "AssertionError: "
+  },
+  "receipts": [
+    {
+      "file": "continuation/row_core_certificates/00000.json",
+      "sha256": "385835227acaf4d95faa4245ab303b9767d8cb68ba366fc23959731a51d7d195",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 6,
+      "exhaustive_failure_branches": 8192,
+      "other_region_inequalities": 75,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00001.json",
+      "sha256": "8737a736937419ee479260b39e0c31556d72360c416ab28a0fb6e4188ef52e4a",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 24,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00002.json",
+      "sha256": "f764e2225a8d19e2a18012edf7f887c45410bfcfac2d2a9bed93812a48476e7d",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 24,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00003.json",
+      "sha256": "29ba1a8d3ab0605d4a5d596837ba71dc1f1eb999b6ad41aaae50fb6bab3d7668",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 24,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00004.json",
+      "sha256": "96e0fe83527b61351804fff73148139470d669fbbb63b8c752275ace439ee593",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 4,
+      "exhaustive_failure_branches": 1440,
+      "other_region_inequalities": 46,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00005.json",
+      "sha256": "357578372cdf1b6226f6b5d4f4bf00333fdb7e69b20034b047778573818bb823",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 5,
+      "exhaustive_failure_branches": 6912,
+      "other_region_inequalities": 56,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00006.json",
+      "sha256": "fa50538f011d068d3a742dbcdfca7456f7aa30c1eb445cfff2fe3dd91df5c421",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 24,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00007.json",
+      "sha256": "a74278d8d72ea256a6f61495951d286306c2095f3c635a180f2903cc157357a1",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 3,
+      "exhaustive_failure_branches": 144,
+      "other_region_inequalities": 38,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00008.json",
+      "sha256": "51da20dc931aeeaea04eecea18be864d3a52fa3b636d805d13f2b72ed2fbfce8",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 24,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00009.json",
+      "sha256": "3f910717f7b9b434b0c336a72946598f8a6e7fdb9aca0a33d58e830f9aa23c17",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 24,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00010.json",
+      "sha256": "e317dadc72a3b9c694c49034b971b496c3eee4e4fa096f7aabda5665b52948b4",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 4,
+      "exhaustive_failure_branches": 864,
+      "other_region_inequalities": 49,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00011.json",
+      "sha256": "a4c0b37ffa7caf7c3c83eaf3f1e234f9e384171b917ea463bf03e28fce18af57",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 24,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00012.json",
+      "sha256": "0a654fce227a75a38620989e9578986f4bfa75d5445ac724e32302b8adfc3fdf",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 60,
+      "other_region_inequalities": 20,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00013.json",
+      "sha256": "c975c885237b6354a509485143b6322758afdc9cf35da72560abaf4c0e4c73f1",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 3,
+      "exhaustive_failure_branches": 192,
+      "other_region_inequalities": 36,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00014.json",
+      "sha256": "12121d2dce2b3c919a1288102ff43ba4c131296df878092475c566c8a8bdbc1d",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 60,
+      "other_region_inequalities": 20,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00015.json",
+      "sha256": "3435c4b7d47d14a477680cfa3ee5bceee88b1519f9628ef4dfbaea0f23844202",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 24,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00016.json",
+      "sha256": "876713a84cd1d680fe39181477611418dcec522f0c9629e81a9c00c6ac3bf9ba",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 3,
+      "exhaustive_failure_branches": 96,
+      "other_region_inequalities": 40,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00017.json",
+      "sha256": "cf4a3a1872b7b73ff68bae089136a08041ad1e80a57b13999d53bd6403fc1f88",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 3,
+      "exhaustive_failure_branches": 144,
+      "other_region_inequalities": 38,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00018.json",
+      "sha256": "9edc58ef30c4fcd4afb32624ad0efc59afa233090dd21984e0be434ba3704ce0",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 24,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00019.json",
+      "sha256": "ae08e1b1b634b6b2a8aad354b288d5762c50b0527d950dd408a76c294041efda",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 24,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00020.json",
+      "sha256": "62762b71c3ecf29866e4ffd39c1b993b024364624c76772a0bbf040a9aecc1fa",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 24,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00021.json",
+      "sha256": "7569bea375ae65327c6b743b6752eb1168a1e04248f277d43df52cf686fd931e",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 24,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00022.json",
+      "sha256": "ba099284cad8a6e80de143902909c02080408111e7041cc61fa47f87ade53553",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 32,
+      "other_region_inequalities": 24,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00023.json",
+      "sha256": "37f2fb64f46da4a41ce9d7091256db6f9f6bf1dfb8f7b0b15a4645a0c50d464d",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 24,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00024.json",
+      "sha256": "938698a18e21eab623cc4b5cdd579824ead705ba44d481bccc9ad2d3c61ef158",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 24,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00025.json",
+      "sha256": "ce38a98ab98ca5fb6e3bfeab693ef1d28f866bde6cc57248a2249163dba0129f",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 24,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00026.json",
+      "sha256": "57f347fb0664b918dbc4d33bce9fc6d0aad59c5520de5c7e395907f54e4ff685",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 24,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00027.json",
+      "sha256": "c14141fe6f8972cebd6fca2c43844a8ceb8a0632d830f52c4ae37336153f0390",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 24,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00028.json",
+      "sha256": "4251f563ade3b9c8b82673e6138012c662f3c7d13ee57012677d792dd955fbaf",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 24,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00029.json",
+      "sha256": "b014ba5b2ebd88d13ceff2f5761d54d143f9ed7fb3a14d5a4cb80e78dbcbdd03",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 16,
+      "other_region_inequalities": 28,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00030.json",
+      "sha256": "e684d12465fa3635d98342231a7e24cc527ded9abc1e7b94cd620adc10873b24",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 16,
+      "other_region_inequalities": 28,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00031.json",
+      "sha256": "91ec05a739c08bac8ab8200cf9c270ddc0e7e71bd58aced7579831f1a7047328",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 5,
+      "exhaustive_failure_branches": 3072,
+      "other_region_inequalities": 54,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00032.json",
+      "sha256": "123002453cab9f8bdb6d37dd0bbbad7f9078c5272ca8a4f8956c99dfddd79e37",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 48,
+      "other_region_inequalities": 22,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00033.json",
+      "sha256": "5606d84b60d6b4d0b69c9101b78aa9d828c9a334d799c094218835aef14dc4b5",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 24,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00034.json",
+      "sha256": "4f03b03c3ea2c5446baa6f66719bda0c635004ea6bcdf9423b4699457c4e1bbb",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 24,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00035.json",
+      "sha256": "5e480fb4487d3ef3f4a5ea7d24a417fd994a8f1ee6e47c16c2d14669849a0ca4",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 24,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00036.json",
+      "sha256": "d401128ad1dce7f129ce2573899b68560bd727340bcafcf23b8b36c39b14bac9",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 24,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00037.json",
+      "sha256": "0e403690289ef41f78008250ec897b6fbe532046912747245cb15639f37989df",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 24,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00038.json",
+      "sha256": "53281baa372599e1e42baae64e10d663f801ba8f3d248aaf6219b4500abd2031",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 3,
+      "exhaustive_failure_branches": 96,
+      "other_region_inequalities": 40,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00039.json",
+      "sha256": "0802b6db4c5bd9331683453bdf85dffaabfc1d0407aa7446d375bf69ed6e0d5a",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 24,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00040.json",
+      "sha256": "fecb4f80d95dab11ecae72253c40363feeb08331fb28a83e0b26e10454ce3e81",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 24,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00041.json",
+      "sha256": "ee511b7d3b1ace8ce05645f48ce9429290d98cdf377cc98c017be4927c662f48",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 24,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00042.json",
+      "sha256": "b80a8b43c1345962ed9bc59f899f24347b1195d7a2ab156b4b2fd4b3ee9b0663",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 24,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00043.json",
+      "sha256": "860d3858987dd7c6d9fe0983c92be026836910235bd41b021fedd3f5a95d83f7",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 3,
+      "exhaustive_failure_branches": 288,
+      "other_region_inequalities": 30,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00044.json",
+      "sha256": "6010a7a62ef90353e9a022272e8eb0e0ed2357bd32f33ef9ce5b428a0b2dc19d",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 3,
+      "exhaustive_failure_branches": 192,
+      "other_region_inequalities": 32,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00045.json",
+      "sha256": "efb80ecc958a961822d14f78f5e05f9a5fdbbacfe90e6e0956fc5216ac81d11e",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 24,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00046.json",
+      "sha256": "511f204a19e929ffe471c3cd2688eeb429b49a6d746a9f0a51a932ea23546f46",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 24,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00047.json",
+      "sha256": "20aeba55b929ddfe1eca3068408b64e862768a3b729934fed3addea8c501910d",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 24,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00048.json",
+      "sha256": "1cd3aa03efbb6cb1488d31c68847ab40c5e1363953d1eea52ec6e7a57798c9d0",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 40,
+      "other_region_inequalities": 22,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00049.json",
+      "sha256": "54236484b5deacc619fef07c3d1169fc8e8e55b246000515682f532943ebdc0f",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 24,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00050.json",
+      "sha256": "c4ea108f89ae6889282d293ededa0199534c15aa31ac1e9b4c8795cd2c0af39b",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 24,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00051.json",
+      "sha256": "0a5c6c214e7877209b6deb8e913c845389fe95ade983154a8954efa66edc1b18",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 40,
+      "other_region_inequalities": 22,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00052.json",
+      "sha256": "4e126366b8c6ff3d2dec1078080a8cabc206ea23f21703b465a55de4108fb031",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 40,
+      "other_region_inequalities": 22,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00053.json",
+      "sha256": "dd01ecf05429223d3db097e0b7aeb90389db5d2cf51e387915694d2d5d3c85ae",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 24,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00054.json",
+      "sha256": "efe8609f1fd9bf538239353d1258118cc6f9beb4aa3dfa259be5c78e5b21b270",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 24,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00055.json",
+      "sha256": "6e1ebe8566779fc140e9d49c563e90fa19b29395bf117daf982d8fe3e2baea29",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 24,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00056.json",
+      "sha256": "0c2e30ee83dbbdf638ef778424e9b4b1156ee26503c27ffdb7b72073af1bdf24",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 24,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00057.json",
+      "sha256": "092bc2193ca430880adcfb9748339db122ae9d847aea7cf3b2ad17657759dddf",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 24,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00058.json",
+      "sha256": "12c845d5a6eb380a1222ece8b7dffee202fa533834475f530df66ac40af975a8",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 24,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates/00059.json",
+      "sha256": "a650b8e32f04127e77ade4e16e396969eb0b89005ce694381597af9222b81ed4",
+      "format_version": 1,
+      "status": "PASS",
+      "core_allocations": 4,
+      "exhaustive_failure_branches": 384,
+      "other_region_inequalities": 54,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00000.json",
+      "sha256": "26e6c4562f4db2a222cd9f389073d2ea47a33e9b1b244e457f13cd2bd786414a",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 6,
+      "exhaustive_failure_branches": 128,
+      "other_region_inequalities": 75,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00001.json",
+      "sha256": "4ae361ee45f06655c7bf17630997a217f4e953a7a509e102437307f140c7ceca",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00002.json",
+      "sha256": "4fec7bda2d6ff5c45d5d5fdf81ec0053f2568ca86236fba73726329273be1a50",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00003.json",
+      "sha256": "837c40f13f819a6089a57e3b0cb1dfa1539ff74742ce5b0671fd35dda93ede39",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00004.json",
+      "sha256": "38179681001ea42c899c81847985e490570deca15d61679b43d164ca209bfa1b",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 4,
+      "exhaustive_failure_branches": 16,
+      "other_region_inequalities": 46,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00005.json",
+      "sha256": "47358ef0cf562ab4c27d8d850db89f5ae1f80a3002cc404810d781ef297e6052",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 5,
+      "exhaustive_failure_branches": 32,
+      "other_region_inequalities": 56,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00006.json",
+      "sha256": "1b28a9a9748e5b1700f865dee6f72c8df89384279ad2eee0825c53ce79391b57",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00007.json",
+      "sha256": "06f8a8a84de02ad27f906278bb8ff585703232d7b0ee2f9f85a009bd9d070320",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 3,
+      "exhaustive_failure_branches": 8,
+      "other_region_inequalities": 38,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00008.json",
+      "sha256": "1937937363cf866ef3ac2663b82e46de8cca35ffa5be7293fc502fbf47385a4c",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00009.json",
+      "sha256": "95c949b0e3421696b0dd47680a5908a398515b5b0ae6d9047df908f0b5c361fe",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00010.json",
+      "sha256": "c21a8a55dacaf1aa8cf2a9698ecc0bb6d6ba110c5cd1eff9e77700b506194272",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 4,
+      "exhaustive_failure_branches": 16,
+      "other_region_inequalities": 49,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00011.json",
+      "sha256": "a4c3c5bda60d1762e9ffadc820eda1bd0637f6d95ed3a3d5b2688185dc8d54ee",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00012.json",
+      "sha256": "e1caa9ea8e08e79ddb9e9366209cf8c942c68450a273dfc5f00d29b75ab15a86",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 20,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00013.json",
+      "sha256": "86ed897913e643248d281935162e53a4223f674dfe8174591a14d7bfb78af15e",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 3,
+      "exhaustive_failure_branches": 8,
+      "other_region_inequalities": 36,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00014.json",
+      "sha256": "42ac051dfed8d0cfb98fc5b5b1aad02e63c6564fa159bc3b89939bee82e1f9ec",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 20,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00015.json",
+      "sha256": "4099e4f85d6d37f5a351a773f4cddbd187b8941d15274f5bd90923de99895824",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00016.json",
+      "sha256": "0d3b9fc2c166b3d3bb2be37074b382617e828c5ddf5c0862a1d181b426d8b085",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 3,
+      "exhaustive_failure_branches": 16,
+      "other_region_inequalities": 40,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00017.json",
+      "sha256": "7cc01ba80f58a5a6765a66ab181d3a2a42aa6a9a8c91d50f696d39af52603806",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 3,
+      "exhaustive_failure_branches": 8,
+      "other_region_inequalities": 38,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00018.json",
+      "sha256": "f17b6cc265b5238074133b087641eaca47ec8bec53425308ca55ab3b62b2d281",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00019.json",
+      "sha256": "b31f36586bb8b59910b5c1d0a65ff09605279d8c688d443d7c2697f3020577e5",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00020.json",
+      "sha256": "310c978e84f80f51c86972b4db5c92d8270a4067dc8a66c76421150cebf8e6af",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00021.json",
+      "sha256": "73c571a40a209af37ada19146d23b1df0029b2eee97a0fd72be54893556b9fcf",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00022.json",
+      "sha256": "3ab1a49d08dacc3aceb42fa5947c27978a5165ab51dcdff5ede4ed24fccf7cc8",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 24,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00023.json",
+      "sha256": "8efe3ce386e7d6a4528b533baeb1cc38cd50a4b387d0515102ddf6f05b035d1a",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00024.json",
+      "sha256": "9bab41cebb0ca8f9fe35b75b803bcddb93df82b0175e8c4d3dd607c8a827590d",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00025.json",
+      "sha256": "ed5acdd80b08c9c2a322ca4ed39b5a230e80dbe252e396dc807b86cca41fe42b",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00026.json",
+      "sha256": "a5136f5186f529f7eb6fe874c153bb6ed1647e5dc8f7bca811daba5fc6c75977",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00027.json",
+      "sha256": "615016594347d1436fe3b3e944477ec22b5caec681dcb20a2eb3c0543d96326d",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00028.json",
+      "sha256": "9faaa0bcf2ebde1a4bfd3733cca324ec98332d3f7981833df3be94c1cd423976",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00029.json",
+      "sha256": "70c35b62e41e9efebe73c3a320e087446d23c4a527f0500a56b974a16acdb837",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 28,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00030.json",
+      "sha256": "ddb6190c9ab380913d0fb7b908183fc15780c7cadfda2c777e99baf88e91de11",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 8,
+      "other_region_inequalities": 28,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00031.json",
+      "sha256": "06f1b6a624a43d0f3354318e6ec4fca6ba504869e1b7e2adc1d42d5e4af55949",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 5,
+      "exhaustive_failure_branches": 32,
+      "other_region_inequalities": 54,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00032.json",
+      "sha256": "64b7af9948b412769b46d3d47b7d69f3f1e7c02fb806d7a3c9d62b8f8303f5d0",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 22,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00033.json",
+      "sha256": "476ba50dc8afb6f8184b95ea975772598943f718b43357ec8b089bb8301c14ae",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00034.json",
+      "sha256": "5b7b2fee24f2549dfb74aa9dd6573bc13457611c66c830be1988de87bd011ab5",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00035.json",
+      "sha256": "7cf1698e2a7c0d0176f754d4c49790c81200582138818cd5347e640c57caa33b",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00036.json",
+      "sha256": "77dfe1b2e85dee310debf676ae44c78c5faf76b026ed0da12ce7b3e2b0656365",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00037.json",
+      "sha256": "02a3eded306e7e18501d0a0dd33df887d52105106461308ec3fd4d67833b18a0",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00038.json",
+      "sha256": "8cf2eb695d8083b06e5a93529768cb258f65f7bca39bca78cb13d7f3316d09d4",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 3,
+      "exhaustive_failure_branches": 16,
+      "other_region_inequalities": 40,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00039.json",
+      "sha256": "6269690def81360437023130b452901ca9736595b73130cf2d23a0d8b90d48f4",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00040.json",
+      "sha256": "2c49ab2333e66a5015645c4b9b390b51e0485400fddcebc3aa1297e3233467eb",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00041.json",
+      "sha256": "2aa010f0eed1e2155126fc2f103e18427b2d2dbd5b28b2aa904c8fb43736fba3",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00042.json",
+      "sha256": "d4a84a567309bfeef855c2023492566450e785e089745f8b352199cb5425aca9",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00043.json",
+      "sha256": "03f3ac52e4ac25af7a281b6ff8e5e488b9f77c0b83fbe256391c9b2822b7f0f2",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 3,
+      "exhaustive_failure_branches": 8,
+      "other_region_inequalities": 30,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00044.json",
+      "sha256": "14327a65bc67d0fc9803346139ea38db387a771ed6e4a4209456b034da866cd7",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 3,
+      "exhaustive_failure_branches": 8,
+      "other_region_inequalities": 32,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00045.json",
+      "sha256": "5e7479c3bd9a4e4c203319a65cd92c7115e02f73edabf80ababa10c7c35af681",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00046.json",
+      "sha256": "3006d49966e98aba4068137b4a53b5f0847ebcb7a230eaed3a9e99d05184d39d",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00047.json",
+      "sha256": "d59bbab942589fe05c6febb808a547f7684a3e288890f94fceb976cd353d7a37",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00048.json",
+      "sha256": "037fe088841ac411645bacc1029db70a147d60ae1f280d40b28c0e457ce02462",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 22,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00049.json",
+      "sha256": "d02d0e967004f84aed1a06b109bd50a846b62da26f82d20f78e1b93fd68ebed5",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00050.json",
+      "sha256": "46cfea54c14c0064bb323b7ab56883552b66cfe6f583a397f34284a68b556435",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00051.json",
+      "sha256": "7ed0cb3201bc444de877c9aa596223bb0ad61196903b377aeab9fa192bbc9947",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 22,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00052.json",
+      "sha256": "2b3560a5f3782a04ce8d94703ceb81cc53707d6580882bb8d7d336e59cec6be5",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 22,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00053.json",
+      "sha256": "203faafc3a96340a69c412d346bf7e12089a574cee183ea04a722b8e9a7e7cde",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00054.json",
+      "sha256": "22cec70b7801f3e915f52699fcc5726e505aef96e886492ab6e77593fa361820",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00055.json",
+      "sha256": "ab7c7fe211f97f353475870d2e3a6e2822f85766b18781241505334cbd59ca4b",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00056.json",
+      "sha256": "6bede210f825c92729c5217cd40b6bc9594d85363f5426a32cab4e302bb8066a",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00057.json",
+      "sha256": "0052a7b746b7e3d1ef9bdb9db7c922f31d8b30c5828e847da03461c6d4658a6a",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00058.json",
+      "sha256": "19a0d0d4d1a51e1e8e98b9d2c06af0e23758b60c19d94580a1ed4110590b1ca7",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00059.json",
+      "sha256": "78fc4b41699b45b3e86082afee80ea137c1ebe8d902441dae498f32e3d109743",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 4,
+      "exhaustive_failure_branches": 16,
+      "other_region_inequalities": 54,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00060.json",
+      "sha256": "9c9cf856d0cc650e8e32631350c680d126cc9a12c5349daac34dd031ffb4ec0d",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 4,
+      "exhaustive_failure_branches": 16,
+      "other_region_inequalities": 54,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00061.json",
+      "sha256": "2791123f74310c0babc096f327b57f380a14fd2d10648338b8b94c4bcc9f72f3",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00062.json",
+      "sha256": "6a9376756a7e4c3d2b1cfd9498614b9816295e34567d02b93580233513c7d04d",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 4,
+      "exhaustive_failure_branches": 16,
+      "other_region_inequalities": 54,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00063.json",
+      "sha256": "f62b77dc39008e97e55ea2a778bfab48f83f465c5a1b1829ca091a5f2e80c00b",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00064.json",
+      "sha256": "6ad34efc3ab3b01d5b9ab5c91cd94318d229d17d6ba3942eb5a25c941b800c13",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00065.json",
+      "sha256": "31d5e2955c959bde01f820ccb42f981458b822cccd1cbf1ed6050e62b02b1294",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00066.json",
+      "sha256": "373052243546a2097c44dc534bfe884148650ff4c2833bd740a0884bebf660c1",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00067.json",
+      "sha256": "aab1023e8ade44b38afbcfdfc4892f978ac631e7b1d3d63194b97678f39fc993",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00068.json",
+      "sha256": "72eacf2037c868ebd22255c446fa730d95dc0160229717ea4a05ad86b43b2872",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00069.json",
+      "sha256": "b22d11305c1f822b5f6150801ff992c69b16779e6d67734a06c6606f64c467a7",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00070.json",
+      "sha256": "4606c27ad7c97f3b829f2790fb5c0b8d067b5cc8518489de123d24fbb922792c",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00071.json",
+      "sha256": "cbfba9f65b298a410136af776a913938444318bdad0a1ffee0860b00ede9487a",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00072.json",
+      "sha256": "fa8541d89ac2afbf37642632cdad76040c9112ee5971262dd6f0cdf677d53534",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00073.json",
+      "sha256": "25a2124a1d6ed89d3e7a56ea224707c0ae6dbaa34b81c2699fb691f956da5f11",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00074.json",
+      "sha256": "487336a680fc8e5786b0c7851f3685efbbcacba5b318e944bda4c10577dec8c6",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 28,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00075.json",
+      "sha256": "e2526f260177e84bbb4a47fb94bc188f5fff2e070138950fe4ad995cc40a9469",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 5,
+      "exhaustive_failure_branches": 32,
+      "other_region_inequalities": 56,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00076.json",
+      "sha256": "71f4120d0655f9e4417422e2f8f4643e51cac180b648fe7c1471893b35cef54b",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 3,
+      "exhaustive_failure_branches": 8,
+      "other_region_inequalities": 30,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00077.json",
+      "sha256": "7e5065ce726a824a0abbd04d1a5f3330b73c0589de055c422306fb87bbcf601a",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 3,
+      "exhaustive_failure_branches": 8,
+      "other_region_inequalities": 36,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00078.json",
+      "sha256": "ab2a86aed0367db00d63bada78604c6e26a541d267883158f01f524aa1a61317",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 24,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00079.json",
+      "sha256": "ed41d5f6ab9e39997b528a36b74eb170c1a992facea41b41cbca58ffa2b22d27",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 3,
+      "exhaustive_failure_branches": 8,
+      "other_region_inequalities": 36,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00080.json",
+      "sha256": "d456a430e493fcc7f435cf013a027c6863805b232a7e876454c058da6e7d027c",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 7,
+      "exhaustive_failure_branches": 256,
+      "other_region_inequalities": 81,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00081.json",
+      "sha256": "09e37768d5e76e0c0cf7d248c920fa8704b837dac2658dfc6226bca6ffac9c37",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00082.json",
+      "sha256": "bba355dae9ad375b464e07b158ca20ae885303dccedb42bb01e395ff748d9a41",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00083.json",
+      "sha256": "7e60ab1ec7a7853a2d0646d9c30c384ac692df8ac942767a756fe9ecc105c656",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00084.json",
+      "sha256": "0c87928e917fe665fbfeaaff78a09e7b7895a8896b8f6d8197f56445e1128fc2",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 5,
+      "exhaustive_failure_branches": 32,
+      "other_region_inequalities": 64,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00085.json",
+      "sha256": "a6b543cfc97b22831e7913a0c575bdc96823651ccb744c5175fd5272f17dfcd2",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 4,
+      "exhaustive_failure_branches": 16,
+      "other_region_inequalities": 50,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00086.json",
+      "sha256": "8ca16d7e32bb1e51362fb6fd6c046c1dda9e49c242c349089916d4f21d8fad0f",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00087.json",
+      "sha256": "196fd8d7755e01213335f05e084a59c509b1ee6c624046d2b66a2ee7dd005b5c",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 5,
+      "exhaustive_failure_branches": 32,
+      "other_region_inequalities": 64,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00088.json",
+      "sha256": "0abae53486d73c7254631b667bc3e79fb368f8950769584bec561c6bfcf7e157",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 4,
+      "exhaustive_failure_branches": 16,
+      "other_region_inequalities": 52,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00089.json",
+      "sha256": "affe90379b6a140d6e77bb18055631c11f5b44a0dd92721429f6e86f4f59a0b4",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00090.json",
+      "sha256": "ee26ea511b964b8394f2ff7e3e6a5dcf7d96f47d99aca5f98e2b3a4eb95d8cb9",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 3,
+      "exhaustive_failure_branches": 8,
+      "other_region_inequalities": 36,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00091.json",
+      "sha256": "67b280a81588fa2645d8944c63de2700014454a9d6181fcf387f54d82070c585",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 24,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00092.json",
+      "sha256": "923db7318e5ce2a998f9944cdf7c434d6596355ccd246e0e57a500b1c45d884d",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 3,
+      "exhaustive_failure_branches": 8,
+      "other_region_inequalities": 38,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00093.json",
+      "sha256": "e899f352d97d3f7479b3949f93ee88c3c240db748b2ecf0fffc74de00fe68fcd",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00094.json",
+      "sha256": "7c2113c39aa5b6dcf8daf75096d1efb8249b042d2516a130c00bca91915eb470",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00095.json",
+      "sha256": "14f48232bf0839a4eaf934a541dc437936fc79ae5d5e5a72f98e7384063cfec6",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00096.json",
+      "sha256": "2e10e2c6716a6ca8c7dd5f1e13c78934d665f2ec5980396c78e65b3f5341bc64",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 3,
+      "exhaustive_failure_branches": 8,
+      "other_region_inequalities": 38,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00097.json",
+      "sha256": "0dfc163cf64f149a33325bbbad077466b3c37d1cefb9f07b478218602c918383",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00098.json",
+      "sha256": "f416d293efb022b37c8c36ca529b24919897e57c9b1affcd5e222ebfd477b6f3",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 3,
+      "exhaustive_failure_branches": 16,
+      "other_region_inequalities": 40,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00099.json",
+      "sha256": "8f51c748f09e611f4dc28775f3ce65412444aced7bc57b1fa6b19ef580c2de1f",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 8,
+      "other_region_inequalities": 28,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00100.json",
+      "sha256": "b5a2fa1954321a96ef5eb0ae18cbb92a8f9e6a304f85ff0112f8b1e661dc846c",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00101.json",
+      "sha256": "15a04b51aa5348f05fb0662f1a0fa01c3bf4e8e9037830a3dc602e24146cd5c3",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 8,
+      "other_region_inequalities": 28,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00102.json",
+      "sha256": "713d355375fa361f554ab6f5f8eea70b9fa9a4745febe2d587a494171a1f1c17",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 8,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00103.json",
+      "sha256": "2c52a1165a12ebece2c901b4f3b2aeb715a6187832c9efcc50e07bbc996d0835",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 3,
+      "exhaustive_failure_branches": 8,
+      "other_region_inequalities": 34,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00104.json",
+      "sha256": "fe8b747fd1fa8caf75073b507eeeab6f6cadf62af549ed03f758bac5f19a74c7",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00105.json",
+      "sha256": "1ccba3db5401759ecaf794405a376eff592cc2fa7a818c5f10c53103f85b83e7",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 24,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00106.json",
+      "sha256": "0e19266a37e2d7e51628b98d5340e681ade15c331a4c612838782f88768f4224",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 24,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00107.json",
+      "sha256": "46df2c9d0752135fcdf68025fbbe8e458ee23c0568fc169aa125c0e64b0f571b",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    },
+    {
+      "file": "continuation/row_core_certificates_v2/00108.json",
+      "sha256": "e68eb8ecf376c2895bfecd5982df5191bbee091799a4b1ac1ce5ef6761880407",
+      "format_version": 2,
+      "status": "PASS",
+      "core_allocations": 2,
+      "exhaustive_failure_branches": 4,
+      "other_region_inequalities": 26,
+      "verification": "Literal deletion coefficients, exhaustive branch coverage, exact rational nonnegative linear identities; standard library only"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "trials": [
+    {
+      "B": 10,
+      "target_count": 55
+    },
+    {
+      "B": 15,
+      "target_count": 30
+    },
+    {
+      "B": 20,
+      "target_count": 25
+    },
+    {
+      "B": 25,
+      "target_count": 23
+    },
+    {
+      "B": 30,
+      "target_count": 21
+    },
+    {
+      "B": 40,
+      "target_count": 19
+    },
+    {
+      "B": 50,
+      "target_count": 10
+    },
+    {
+      "B": 60,
+      "target_count": 8
+    },
+    {
+      "B": 75,
+      "target_count": 8
+    },
+    {
+      "B": 100,
+      "target_count": 4
+    },
+    {
+      "B": 125,
+      "target_count": 4
+    },
+    {
+      "B": 150,
+      "target_count": 4
+    },
+    {
+      "B": 200,
+      "target_count": 3
+    },
+    {
+      "B": 300,
+      "target_count": 4
+    },
+    {
+      "B": 500,
+      "target_count": 0
+    },
+    {
+      "B": 1000,
+      "target_count": 0
+    }
+  ],
+  "best": {
+    "B": 500,
+    "rows": [
+      [
+        35,
+        48,
+        55,
+        239,
+        247,
+        304,
+        332,
+        500
+      ],
+      [
+        3,
+        15,
+        24,
+        136,
+        358,
+        171,
+        500,
+        294
+      ],
+      [
+        20,
+        4,
+        7,
+        235,
+        166,
+        500,
+        56,
+        203
+      ]
+    ]
+  }
+}

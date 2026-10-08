@@ -1,0 +1,13 @@
+{
+  "status": "COMPLETE_FRESH_REPLAY_THEN_UNCHANGED_IMMUTABLE_STAGE_BINDING",
+  "complete_verification_sha256": "bda1a55cc071f192e8a68285c0eae0fa7616ce7b7cab60fbb1e67c1b0e90c260",
+  "orchestration_driver_sha256": "a6e3333fd5d82f120ace5de9a1d13bfe14c3aaaf24518b59a5a51dea77ed19c9",
+  "address_space_cap_mib": null,
+  "requested_address_space_cap_mib": 1600,
+  "address_space_cap_enforced": false,
+  "platform": "darwin",
+  "mathematical_checking_functions_unchanged": true,
+  "all_three_mathematical_stages_executed_in_this_process": true,
+  "elapsed_seconds": 218.94301316596102,
+  "completed_at_utc": "2026-10-08T08:42:49.584939+00:00"
+}

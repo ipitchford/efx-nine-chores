@@ -1,0 +1,8 @@
+{
+  "exec_session_id": 3793,
+  "termination_exit_code": 130,
+  "control": "write_stdin Ctrl-C",
+  "reason": "preserve all archived regions and restart with exact homogeneous coefficient-dominance compression",
+  "regions_preserved": 109,
+  "requested_at_unix": 1791404833.7248142
+}

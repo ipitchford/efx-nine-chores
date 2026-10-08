@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "m": 8,
+  "search_bound": 2401,
+  "matrices": 9,
+  "cp_proto_vs_literal_comparisons": 52164,
+  "empty_bundle_allocations_verified_bad": 6885,
+  "complete_allocation_pairs": 59049,
+  "mismatches": 0,
+  "old_common_minimum_cp_comparisons": 28980,
+  "old_common_minimum_cp_model": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/cpsat8_complete_no_lp.pbtxt",
+  "old_common_minimum_cp_sha256": "8fd1ac942e80e82ac2176182b2ec060678c8dd6416246c6f77d6df77677fb885",
+  "counts": [
+    {
+      "sample": "uniform",
+      "efx_allocations": 1680
+    },
+    {
+      "sample": "common_minimum_0",
+      "efx_allocations": 109
+    },
+    {
+      "sample": "common_minimum_1",
+      "efx_allocations": 104
+    },
+    {
+      "sample": "common_minimum_2",
+      "efx_allocations": 157
+    },
+    {
+      "sample": "common_minimum_3",
+      "efx_allocations": 118
+    },
+    {
+      "sample": "independent_minima_0",
+      "efx_allocations": 104
+    },
+    {
+      "sample": "independent_minima_1",
+      "efx_allocations": 146
+    },
+    {
+      "sample": "independent_minima_2",
+      "efx_allocations": 118
+    },
+    {
+      "sample": "independent_minima_3",
+      "efx_allocations": 118
+    }
+  ],
+  "scope": "Finite independent audit of actual CP proto allocation predicates; no proof of UNSAT."
+}

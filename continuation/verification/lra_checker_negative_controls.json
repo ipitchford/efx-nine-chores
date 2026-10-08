@@ -1,0 +1,221 @@
+{
+  "status": "PASS_NEW_LRA_CHECKER_POSITIVE_AND_NEGATIVE_CONTROLS",
+  "control_count": 41,
+  "controls": [
+    {
+      "name": "comparison_<=",
+      "expected": "accept",
+      "observed": "accept"
+    },
+    {
+      "name": "comparison_>=",
+      "expected": "accept",
+      "observed": "accept"
+    },
+    {
+      "name": "comparison_>",
+      "expected": "accept",
+      "observed": "accept"
+    },
+    {
+      "name": "comparison_<",
+      "expected": "accept",
+      "observed": "accept"
+    },
+    {
+      "name": "positive_scale",
+      "expected": "accept",
+      "observed": "accept"
+    },
+    {
+      "name": "negative_scale_preserves_orientation",
+      "expected": "accept",
+      "observed": "accept"
+    },
+    {
+      "name": "exact_fraction_scale",
+      "expected": "accept",
+      "observed": "accept"
+    },
+    {
+      "name": "strict_zero_is_false",
+      "expected": "accept",
+      "observed": "accept"
+    },
+    {
+      "name": "weak_zero_is_true",
+      "expected": "accept",
+      "observed": "accept"
+    },
+    {
+      "name": "complementary_clause_is_true",
+      "expected": "accept",
+      "observed": "accept"
+    },
+    {
+      "name": "false_clause_is_empty",
+      "expected": "accept",
+      "observed": "accept"
+    },
+    {
+      "name": "equality_fail_closed",
+      "expected": "reject",
+      "observed": "reject"
+    },
+    {
+      "name": "nonlinear_fail_closed",
+      "expected": "reject",
+      "observed": "reject"
+    },
+    {
+      "name": "variable_denominator_fail_closed",
+      "expected": "reject",
+      "observed": "reject"
+    },
+    {
+      "name": "duplicate_json_key",
+      "expected": "reject",
+      "observed": "reject"
+    },
+    {
+      "name": "strict_zero_constant_farkas",
+      "expected": "accept",
+      "observed": "accept"
+    },
+    {
+      "name": "weak_positive_constant_farkas",
+      "expected": "accept",
+      "observed": "accept"
+    },
+    {
+      "name": "strict_positive_constant_farkas",
+      "expected": "accept",
+      "observed": "accept"
+    },
+    {
+      "name": "arbitrarily_small_exact_positive_strict_weight",
+      "expected": "accept",
+      "observed": "accept"
+    },
+    {
+      "name": "weak_zero_constant_not_a_contradiction",
+      "expected": "reject",
+      "observed": "reject"
+    },
+    {
+      "name": "negative_constant_not_a_contradiction",
+      "expected": "reject",
+      "observed": "reject"
+    },
+    {
+      "name": "zero_weights_not_a_contradiction",
+      "expected": "reject",
+      "observed": "reject"
+    },
+    {
+      "name": "noncancelling_coefficients",
+      "expected": "reject",
+      "observed": "reject"
+    },
+    {
+      "name": "negative_multiplier",
+      "expected": "reject",
+      "observed": "reject"
+    },
+    {
+      "name": "floating_underflow_weight",
+      "expected": "reject",
+      "observed": "reject"
+    },
+    {
+      "name": "boolean_weight",
+      "expected": "reject",
+      "observed": "reject"
+    },
+    {
+      "name": "duplicate_weight_position",
+      "expected": "reject",
+      "observed": "reject"
+    },
+    {
+      "name": "invalid_weight_position",
+      "expected": "reject",
+      "observed": "reject"
+    },
+    {
+      "name": "empty_clause_rup",
+      "expected": "accept",
+      "observed": "accept"
+    },
+    {
+      "name": "negated_goal_rup",
+      "expected": "accept",
+      "observed": "accept"
+    },
+    {
+      "name": "nonunit_reason",
+      "expected": "reject",
+      "observed": "reject"
+    },
+    {
+      "name": "satisfied_reason",
+      "expected": "reject",
+      "observed": "reject"
+    },
+    {
+      "name": "unknown_reason",
+      "expected": "reject",
+      "observed": "reject"
+    },
+    {
+      "name": "nonconflicting_last_reason",
+      "expected": "reject",
+      "observed": "reject"
+    },
+    {
+      "name": "reason_after_conflict",
+      "expected": "reject",
+      "observed": "reject"
+    },
+    {
+      "name": "boolean_reason_id",
+      "expected": "reject",
+      "observed": "reject"
+    },
+    {
+      "name": "input_bound_refutation_fixture",
+      "expected": "accept",
+      "observed": "accept"
+    },
+    {
+      "name": "wrong_axiom_provenance",
+      "expected": "reject",
+      "observed": "reject"
+    },
+    {
+      "name": "callback_assumption_injection",
+      "expected": "reject",
+      "observed": "reject"
+    },
+    {
+      "name": "circular_reason_injection",
+      "expected": "reject",
+      "observed": "reject"
+    },
+    {
+      "name": "floating_atom_coefficient",
+      "expected": "reject",
+      "observed": "reject"
+    }
+  ],
+  "completed_at_utc": "2026-10-07T22:53:30.658049+00:00",
+  "sources_sha256": {
+    "lra_certificate_common.py": "7f490f5ba6ba51d8c363566124100d90de91523fd2777686915ad1ece19d8bf4",
+    "check_lra_capture.py": "cb30ac1c4ea59bea092f0141073cf685899389033867098ae1205198b98d9308",
+    "check_lra_farkas.py": "5a7b69a284a7bceef7a00236fe7d868e8da29d70a7964ba4044e0109cd97b840",
+    "check_lra_rup.py": "7ece388b1466370bef950df80a2fe042611d2482b85d254360fbe25270c8041c",
+    "test_lra_certificate_checkers.py": "23b74242bc1781131e02a1780791e99162bffdcb9a321b618ea420992e94f97c"
+  },
+  "real_solver_invoked": false,
+  "main_target_proved": false
+}

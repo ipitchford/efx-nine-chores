@@ -1,0 +1,102 @@
+{
+  "status": "PASS_SOURCE_WIDTH_AND_TARGETED_CONTROLS_NOT_SOLVER_VERDICT",
+  "time_utc": "2026-10-07T21:11:38.181198+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "z3": "5.1.0",
+  "source_sha256": "70a02d9c6f4ae44749068735efba3b628b62223469b1b05a367fa2d43fa81ac0",
+  "elapsed_seconds": 0.04899028299951169,
+  "peak_rss_kib": 53828,
+  "widths": {
+    "8": {
+      "bound": 2401,
+      "cost_width": 12,
+      "sum_width": 15,
+      "largest_possible_subset_sum": 19208,
+      "largest_representable_sum": 32767
+    },
+    "9": {
+      "bound": 11585,
+      "cost_width": 14,
+      "sum_width": 17,
+      "largest_possible_subset_sum": 104265,
+      "largest_representable_sum": 131071
+    }
+  },
+  "domain_source_review": "Positive integer entries <= derived B; distinct prescribed minimum columns; private row minima; canonical row-0 order only; no cross-row totals or common-minimum equalities.",
+  "minimum_trim_source_review": "Pinned owned minimum suffices; otherwise all owned items are retained in rows 1 and 2; row 0 retains the least item of each of its two ordered chains.",
+  "unsigned_boundary_control": {
+    "residual": 69510,
+    "comparison": 11585,
+    "correct_unsigned_result": true,
+    "signed_comparison_mutant_result": false,
+    "unwidened_sum_mutant_result": false
+  },
+  "free_chain_trim_control": {
+    "rows": [
+      [
+        1,
+        2,
+        6,
+        10,
+        9,
+        8,
+        7,
+        5,
+        4
+      ],
+      [
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        2,
+        3,
+        1,
+        12,
+        4,
+        10,
+        11,
+        5,
+        13
+      ]
+    ],
+    "allocation": [
+      2,
+      2,
+      0,
+      0,
+      2,
+      1,
+      1,
+      2,
+      0
+    ],
+    "unique_literal_failure": [
+      0,
+      1,
+      8,
+      1
+    ],
+    "wrong_free_chain_endpoint_would_miss_failure": true
+  },
+  "prior_calibration": {
+    "receipt_sha256": "54245b065f73bca47ecbc5689bc0bfc37829e3fa62393ab0de7579d38bf7b7cf",
+    "audit_sha256": "ee2fadde1fb891c78ec8d8a74a9459622b27c165ef986f834e235e5dd8e82dc6",
+    "input_sha256": "5dbe02a08fe26a9ea041c8766588e7d3f802852cdd4224b22dec6a629c243b53",
+    "verdict": "unknown",
+    "reason": "out of memory",
+    "check_seconds": 4.608091707999847,
+    "peak_rss_kib": 795580,
+    "audit_fixtures": 6,
+    "actual_bv_atoms_checked": 57822,
+    "allocation_clauses_checked": 34776
+  },
+  "scope": "Full encoder source inspected; only tiny bit-vector arithmetic controls and one minimum-trim mutation fixture executed here. Existing eight-chore calibration was not rerun. No complete nine-chore BV formula was built and no solver.check call was made."
+}

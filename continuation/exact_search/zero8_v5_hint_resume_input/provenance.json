@@ -1,0 +1,8 @@
+{
+  "status": "DERIVED_UNTRUSTED_RESUME_FIXTURE_FROM_CHECKED_V5_TRACE",
+  "records": 12915,
+  "excluded_synthetic_final_id": 443989,
+  "source_trace_sha256": "05c621245604f98840542057b778b5e5538fbd782833134d94886ddbe9a4ce0f",
+  "candidate_sha256": "357109665ed71b19ffc71902ea0151aa636dce74a862558a077da3da17a5d233",
+  "input_sha256": "20d56e8ecd4bfad40ad5c7786c7865442c9961569dabb9e1a8dfe415b584c08f"
+}

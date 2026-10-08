@@ -1,0 +1,26 @@
+{
+  "status": "PASS_ORDINARY_EIGHT_CHORE_INPUT_AND_COMPLETED_CERTIFICATE_BINDING",
+  "input_sha256": "20d56e8ecd4bfad40ad5c7786c7865442c9961569dabb9e1a8dfe415b584c08f",
+  "surjective_allocations_checked": 5796,
+  "omitted_allocations_independently_witnessed": 765,
+  "complete_allocations_accounted_for": 6561,
+  "independent_residual_unsat_certificate_complete": true,
+  "prior_seven_certificate_carried_by_hash": true,
+  "baseline_six_theorem": "Kobayashi\u2013Mahara\u2013Sakamoto Theorem 3.1, cited",
+  "handwritten_reductions_remain_explicit_premises": true,
+  "P8_or_D8_required": false,
+  "nine_chore_certificate_inferred": false,
+  "files_sha256": {
+    "continuation/exact_search/zero_minimum8_reference_strict.smt2": "20d56e8ecd4bfad40ad5c7786c7865442c9961569dabb9e1a8dfe415b584c08f",
+    "continuation/verification/zero8_complete_lra_certificate.json": "56bf13ec58d04c9f4441d0409242b7314d6e15f0d54ef0e101ad0543828f9f29",
+    "continuation/verification/zero_minimum8_formula_audit.json": "f22ff93d7421202d739684f3e6419670b2b7093b5ce29cedb70e1c2ab3fcbade",
+    "continuation/verification/zero8_full_target_completion.md": "c0868eff6170a603b4a7a2b7e6b43a258cc9ea3360a6608dd6dde2c7332a2001",
+    "continuation/verification/zero8_omitted_empty_allocation_witnesses.csv": "3edff4ecfae8bd3c9d63ecc788f002909bc9f76ed37c61b162ff43d127a78470",
+    "continuation/verification/baseline_dependency_inventory.json": "ca3c5806468a4bf35b7e82565785b8fb1d4f1e00f8c530c688ca636e44465f04",
+    "continuation/verification/zero8_capture_composed1_provenance.json": "fcebef913c342e744bb747d05c6a4096af9562cd4d1527f049b9d8f548ebc379",
+    "continuation/verification/zero8_capture_v3_rejection.json": "6600b742d2c571316f1ddbd9a6b079fb7c213c36ecc13bd76ff7ca46eb77e67e",
+    "continuation/verification/zero8_selected_farkas_rejection.json": "8013392417af1fa8f857f2abf917713e966d6cdf6a1cce34bd0c0c3fae35874c"
+  },
+  "script_sha256": "d4d7d0297adc4c91dbe694c6c6f9f161d0e38290ddda2dd087324d0a7b316d55",
+  "completed_at_utc": "2026-10-07T22:54:12.675550+00:00"
+}

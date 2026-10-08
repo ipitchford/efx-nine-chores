@@ -1,0 +1,27 @@
+{
+  "input": "/workspace/scratch/5abf44ff3fd9/economics_problem2/continuation/exact_search/fixed9_strict_totalleast.smt2",
+  "input_sha256": "b836efb65f1fc503dfc81632d0e573cdab4a670f159848fd0e03683af90620a4",
+  "clauses": 18150,
+  "domain_assertions": 59,
+  "matrices": 12,
+  "canonical_generic_matrices": 11,
+  "allocation_comparisons": 217800,
+  "mismatches": 0,
+  "efx_counts": [
+    1680,
+    295,
+    387,
+    358,
+    315,
+    367,
+    323,
+    333,
+    270,
+    284,
+    151,
+    334
+  ],
+  "all_domain_assertions_verified_on_generic_samples": true,
+  "elapsed_seconds": 5.973286057998848,
+  "scope": "finite encoding audit; not an UNSAT proof"
+}

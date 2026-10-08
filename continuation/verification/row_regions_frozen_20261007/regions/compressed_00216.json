@@ -1,0 +1,327 @@
+{
+  "iteration": 216,
+  "outer_seconds": 1.177937168000426,
+  "inner_seconds": 0.14029921099972853,
+  "compatible_allocations": 1367,
+  "status": "unsat",
+  "other_rows": [
+    [
+      7438,
+      222,
+      2203,
+      7290,
+      8350,
+      2659,
+      758,
+      1673,
+      379
+    ],
+    [
+      345,
+      92,
+      74,
+      906,
+      676,
+      139,
+      276,
+      182,
+      191
+    ]
+  ],
+  "core_size": 2,
+  "core_allocation_ids": [
+    405,
+    6155
+  ],
+  "core_allocations": [
+    [
+      0,
+      0,
+      0,
+      1,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      2,
+      1,
+      0,
+      2,
+      2,
+      2,
+      2
+    ]
+  ],
+  "core_sha256": "58cf9ba9b158beeb5e9c95fa83f3998926eff49a46e516c8b793225e5b91bd93",
+  "region_atoms": [
+    {
+      "agent": 2,
+      "coefficients": [
+        -1,
+        0,
+        1,
+        0,
+        -1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "agent": 2,
+      "coefficients": [
+        -1,
+        1,
+        0,
+        0,
+        -1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "agent": 2,
+      "coefficients": [
+        -1,
+        1,
+        1,
+        0,
+        -1,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "agent": 2,
+      "coefficients": [
+        -1,
+        1,
+        1,
+        0,
+        -1,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "agent": 2,
+      "coefficients": [
+        -1,
+        1,
+        1,
+        0,
+        -1,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "agent": 2,
+      "coefficients": [
+        -1,
+        1,
+        1,
+        0,
+        -1,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "agent": 2,
+      "coefficients": [
+        0,
+        0,
+        1,
+        -1,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "agent": 2,
+      "coefficients": [
+        0,
+        1,
+        0,
+        -1,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "agent": 2,
+      "coefficients": [
+        0,
+        1,
+        1,
+        -1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "agent": 2,
+      "coefficients": [
+        0,
+        1,
+        1,
+        -1,
+        0,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "agent": 2,
+      "coefficients": [
+        0,
+        1,
+        1,
+        -1,
+        0,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "agent": 2,
+      "coefficients": [
+        0,
+        1,
+        1,
+        -1,
+        0,
+        1,
+        1,
+        1,
+        0
+      ]
+    }
+  ],
+  "compressed_region_atoms": [
+    {
+      "agent": 2,
+      "coefficients": [
+        -1,
+        1,
+        0,
+        0,
+        -1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "agent": 2,
+      "coefficients": [
+        0,
+        1,
+        0,
+        -1,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "dominance_certificate": [
+    {
+      "raw_index": 0,
+      "retained_index": 0,
+      "zero": false
+    },
+    {
+      "raw_index": 1,
+      "retained_index": 0,
+      "zero": false
+    },
+    {
+      "raw_index": 2,
+      "retained_index": 0,
+      "zero": false
+    },
+    {
+      "raw_index": 3,
+      "retained_index": 0,
+      "zero": false
+    },
+    {
+      "raw_index": 4,
+      "retained_index": 0,
+      "zero": false
+    },
+    {
+      "raw_index": 5,
+      "retained_index": 0,
+      "zero": false
+    },
+    {
+      "raw_index": 6,
+      "retained_index": 1,
+      "zero": false
+    },
+    {
+      "raw_index": 7,
+      "retained_index": 1,
+      "zero": false
+    },
+    {
+      "raw_index": 8,
+      "retained_index": 1,
+      "zero": false
+    },
+    {
+      "raw_index": 9,
+      "retained_index": 1,
+      "zero": false
+    },
+    {
+      "raw_index": 10,
+      "retained_index": 1,
+      "zero": false
+    },
+    {
+      "raw_index": 11,
+      "retained_index": 1,
+      "zero": false
+    }
+  ],
+  "compression_counts": {
+    "raw": 12,
+    "kept": 2
+  }
+}
