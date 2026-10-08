@@ -82,6 +82,11 @@
       "bytes": 1239
     },
     {
+      "path": "RESEARCH_GATES.json",
+      "sha256": "38c014e870c7f1da6f7fdd53fca97043bcfe194417212c81182fb6dd4aca9cc3",
+      "bytes": 7465
+    },
+    {
       "path": "REVIEW_RESPONSE.md",
       "sha256": "58ed88cb59afc132fc052c88aa4c331c3f3a053cb8a84e437c9038900e1e78cc",
       "bytes": 3115
